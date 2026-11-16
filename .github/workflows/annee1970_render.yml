@@ -1,6 +1,6 @@
-name: render
+name: annee1970-render
 # Année 1970: 30 episodes (ep01..ep30) rendered in parallel on GitHub's own ubuntu-latest runners.
-# Run: Actions > render > Run workflow   (episodes: "all" or e.g. "ep01,ep02")
+# Run: Actions > annee1970-render > Run workflow   (episodes: "all" or e.g. "ep01,ep02")
 on:
   workflow_dispatch:
     inputs:
@@ -17,6 +17,9 @@ permissions:
 jobs:
   prep:
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ANNEE_1970
     timeout-minutes: 15
     outputs:
       matrix: ${{ steps.m.outputs.matrix }}
@@ -44,11 +47,14 @@ jobs:
       - uses: actions/upload-artifact@v4
         with:
           name: music-catalog
-          path: series/build/music_catalog.json
+          path: ANNEE_1970/series/build/music_catalog.json
 
   render:
     needs: prep
     runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: ANNEE_1970
     timeout-minutes: 60
     strategy:
       fail-fast: false
@@ -57,7 +63,7 @@ jobs:
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v4
-        with: { node-version: '22', cache: npm }
+        with: { node-version: '22', cache: npm, cache-dependency-path: ANNEE_1970/package-lock.json }
       - uses: actions/setup-python@v5
         with: { python-version: '3.12' }
       - name: Tools (ffmpeg 7 static, edge-tts, headless Chromium)
@@ -71,7 +77,7 @@ jobs:
       - uses: actions/download-artifact@v4
         with:
           name: music-catalog
-          path: series/build
+          path: ANNEE_1970/series/build
       - name: Build ${{ matrix.ep }} (voice, music, ambience, render, mux, 14 languages)
         run: sh scripts/build_episode.sh ${{ matrix.ep }}
       - name: Publish GitHub Release ${{ matrix.ep }}
@@ -86,5 +92,5 @@ jobs:
         if: always()
         with:
           name: ${{ matrix.ep }}-dist
-          path: dist/${{ matrix.ep }}
+          path: ANNEE_1970/dist/${{ matrix.ep }}
           retention-days: 3

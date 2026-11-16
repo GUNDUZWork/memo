@@ -1,0 +1,27 @@
+1
+00:00:03,600 --> 00:00:13,112
+22 Ocak 1970'de, Boeing 747, Pan Am ile birlikte New York ve Londra arasında ilk ticari uçuşunu gerçekleştirdi.
+
+2
+00:00:13,362 --> 00:00:20,810
+Onu jumbo jet olarak adlandırıyor: 300'den fazla yolcuyu taşıyabilir, o dönemin yolcu uçaklarından çok daha fazla.
+
+3
+00:00:21,060 --> 00:00:27,044
+Özellikli kabarıklığı üst katı barındırıyor, bu kat yolcular için bir salonu barındırıyordu.
+
+4
+00:00:27,294 --> 00:00:33,374
+Yine de kalkış gecikti: bir motor sorunu şirketi uçağı değiştirmeye zorladı.
+
+5
+00:00:33,624 --> 00:00:40,376
+Bu yanlış kalkışa rağmen, 747 uzun mesafe hava yolculuğunu çok daha fazla insan için açacak.
+
+6
+00:00:40,626 --> 00:00:46,562
+50 yıldan fazla bir süre uçacak: son teslimat 2023 tarihli.
+
+7
+00:00:46,812 --> 00:00:50,996
+Dosya sınıflandırıldı. Uzaya doğru.
