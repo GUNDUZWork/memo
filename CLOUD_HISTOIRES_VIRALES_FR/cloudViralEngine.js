@@ -650,7 +650,7 @@ function readBeats(id, mode) {
 }
 
 // Étalonnage commun (LUT 3D + vignette) appliqué à TOUTES les images : IA, réutilisées, dessinées -> transitions homogènes.
-const GRADE_VF = `lut3d=file=${path.join(__dirname, 'lemo', 'grade.cube')},vignette=angle=PI/5:mode=backward:eval=init,noise=alls=6:allf=t`;
+const GRADE_VF = `lut3d=file=${path.join(__dirname, 'lemo', 'grade.cube')},vignette=angle=PI/5:mode=backward:eval=init,noise=alls=2:allf=t`;
 
 async function render(id, mode, preview) {
   const ep = loadEpisode(id); const tl = readTimeline(id, mode); const beats = readBeats(id, mode);
@@ -746,7 +746,7 @@ Formule : \`${ep.formula}\` · Voix : ${tlMain.voice} · Durée film : ${fmtCloc
 
 **Titre**
 
-${yt.title || ep.title}
+${String(yt.title || ep.title).slice(0, 100)}
 
 **Description**
 
@@ -782,7 +782,8 @@ ${ep.short && ep.short.cta ? ep.short.cta : ''} → « ${yt.title || ep.title} �
 - \`ep${pad2(id)}_short_1080x1920.mp4\` — Short${ls ? ` · ${ls.i} LUFS, crête ${ls.tp} dBFS` : ''}
 - \`ep${pad2(id)}_fr.srt\` — sous-titres français du film (à importer dans YouTube Studio)
 - \`ep${pad2(id)}_short_fr.srt\` — sous-titres du Short
-- \`ep${pad2(id)}_thumbnail.png\` — miniature 1280x720
+- \`ep${pad2(id)}_thumbnail.jpg\` — miniature 1280x720
+- \`ep${pad2(id)}_metadata.json\` — titre (100 car. max), description, tags (langue : fr)
 `;
   const out = path.join(buildDir(id), 'youtube_metadata.md');
   fs.writeFileSync(out, md);
@@ -831,13 +832,17 @@ async function all(id, opts) {
   const d = distDir(id);
   fs.mkdirSync(d, { recursive: true });
   const P = `ep${pad2(id)}`;
+  // Une seule langue (celle du projet : fr) — aucune traduction. Miniature en JPEG, métadonnées en JSON.
+  const thumbJpg = path.join(b, 'thumbnail.jpg'); { const ti = await loadImage(thumb); const tc = createCanvas(ti.width, ti.height); tc.getContext('2d').drawImage(ti, 0, 0); fs.writeFileSync(thumbJpg, tc.toBuffer('image/jpeg', { quality: 0.92 })); }
+  const metaJson = path.join(b, 'metadata.json'); { const yj = ep.youtube || {}; fs.writeFileSync(metaJson, JSON.stringify({ language: 'fr', episode: ep.id, title: String(yj.title || ep.title).slice(0, 100), description: yj.description || '', tags: yj.tags || [], pinned_comment: yj.pinned_comment || '' }, null, 1)); }
   const copies = [
     [main, `${P}_main_1920x1080.mp4`],
     [short, `${P}_short_1080x1920.mp4`],
     [path.join(b, 'main', 'subtitles.srt'), `${P}_fr.srt`],
     [path.join(b, 'short', 'subtitles.srt'), `${P}_short_fr.srt`],
     [meta, `${P}_youtube_metadata.md`],
-    [thumb, `${P}_thumbnail.png`],
+    [thumbJpg, `${P}_thumbnail.jpg`],
+    [metaJson, `${P}_metadata.json`],
     [path.join(b, 'main_contact_sheet.jpg'), `${P}_ai_frames_main.jpg`],
     [path.join(b, 'short_contact_sheet.jpg'), `${P}_ai_frames_short.jpg`],
   ];

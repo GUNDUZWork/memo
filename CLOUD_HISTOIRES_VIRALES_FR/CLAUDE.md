@@ -19,11 +19,11 @@ Tout visuel et toute scène sont produits par le moteur Lemo-Opuscar adapté (`l
 ## 3. Marionnette dynamique et caméra
 Toujours actifs dans `lemo/cast.js` + `cloudViralEngine.js` : rebond vertical selon l'enveloppe de la voix, inclinaison rythmique (~2,5 %), respiration, entrée en marchant au début d'une scène, réaction (secousse + pulsation d'échelle) sur `shocked` / `angry` / `sad`, retournement automatique vers celui qui parle, caméra Ken Burns + flash/tremblement à chaque coupe.
 
-## 4. Son, 14 langues, publication
+## 4. Son, langue unique, publication
 - Tous les textes à l'écran, HUD et plaques de nom sont en français et ne débordent pas des cadres.
 - Voix `edge-tts` fr-FR-RemyMultilingualNeural au premier plan ; musique libre de droits générée + ambiances FFmpeg à 12 % ; sortie normalisée **-14 LUFS** (loudnorm 2 passes).
-- Traduction en 14 langues (en, es, de, pt, it, nl, pl, ru, tr, ar, hi, id, ja, ko) via MyMemory, puis Pollinations Text en secours, sans bloquer le rendu ; titres YouTube coupés à 100 caractères (`scripts/translate.py`).
-- Chaque épisode terminé est rangé dans `YAYIN/epXX/` (`scripts/package.py`) et les fichiers temporaires (`build/`, `dist/`) sont supprimés.
+- **UNE SEULE LANGUE** : aucune traduction (ni 14 langues, ni MyMemory/Pollinations, ni SRT multiples) — l'étape a été supprimée (trop lente : ~26 min par épisode). Chaque projet produit sa propre langue uniquement (projet français → `fr`, turc → `tr`, anglais → `en`) : sous-titres `.srt`, titre (100 caractères max), description, tags (`epXX_metadata.json` + `epXX_youtube_metadata.md`) et miniature (`epXX_thumbnail.jpg`).
+- Dès la fin du rendu : mp4 + srt + jpg + metadata sont publiés (Release / Artifact) puis rangés dans `YAYIN/epXX/` (`scripts/package.py`) et les fichiers temporaires (`build/`, `dist/`) sont supprimés.
 
 ## 5. Protocole autonome
 - Ne jamais demander d'approbation ni « dois-je continuer ? » : produire `masterpiece_showcase.jpg` (planche de personnages + image de scène d'information) puis rendre et empaqueter les épisodes 1 à 30 dans l'ordre.

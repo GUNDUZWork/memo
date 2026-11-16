@@ -28,8 +28,8 @@ permissions:
   contents: write # création de la Release + upload des assets
 
 concurrency:
-  group: cloud-render-${{ github.ref }}
-  cancel-in-progress: true
+  group: cloud-render-${{ github.run_id }}   # un groupe par exécution : un nouveau lancement n'interrompt plus un rendu en cours
+  cancel-in-progress: false
 
 defaults:
   run:
@@ -145,7 +145,7 @@ jobs:
     timeout-minutes: 150
     strategy:
       fail-fast: false
-      max-parallel: 5
+      max-parallel: 10
       matrix:
         episode: ${{ fromJSON(needs.plan.outputs.rest) }} # [3..30]
     steps:

@@ -1,5 +1,5 @@
 name: Render episode
-description: Installe ffmpeg/node-canvas/edge-tts, rend un épisode (film 16:9 + Short 9:16), publie Artifact + Release
+description: Installe ffmpeg/node-canvas/edge-tts, rend un épisode (film 16:9 + Short 9:16) dans la langue du projet (aucune traduction), publie Artifact + Release
 inputs:
   episode:
     description: Numéro d'épisode (1-30)
@@ -62,12 +62,6 @@ runs:
         ARGS="--episode ${{ inputs.episode }}"
         [ "$PREVIEW" != "0" ] && ARGS="$ARGS --preview $PREVIEW"
         node cloudViralEngine.js all $ARGS
-
-    - name: Traductions (14 langues, MyMemory puis Pollinations Text ; ne bloque jamais)
-      continue-on-error: true
-      shell: bash
-      working-directory: CLOUD_HISTOIRES_VIRALES_FR
-      run: python3 scripts/translate.py dist/${{ steps.ep.outputs.id }} --budget-min 15
 
     - name: Rapport de rendu conservé avant nettoyage
       shell: bash
