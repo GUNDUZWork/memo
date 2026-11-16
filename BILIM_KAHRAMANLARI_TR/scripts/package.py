@@ -27,7 +27,9 @@ def main():
     subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(d / "thumb_0.jpg"), "-vf", "scale=1280:720", "-q:v", "3", str(rel / f"{eid}_thumb.jpg")], check=True)
     (rel / f"{eid}.{LANG}.srt").write_text(srt(tl["lines"]), encoding="utf-8")
     mj = json.loads((d / "music.json").read_text(encoding="utf-8")) if (d / "music.json").exists() else {}
-    credit = "\n".join(tl["credit"])
+    cr = list(tl["credit"])
+    if mj.get("credit") and cr and cr[0].startswith("Müzik"): cr[0] = mj["credit"]      # mix.py müziği değiştirmiş olabilir
+    tl["credit"] = cr; credit = "\n".join(cr)
     meta = dict(language=LANG, episode=ep["n"], id=eid, series=data["series"], duration_sec=tl["dur"], year=ep["year"], subject=ep["tag"], style=ep.get("style"), info_style=ep.get("info"),
                 title=f"{ep['title']} — {ep['tag']} | {data['series']} {ep['n']}/30",
                 description=f"{data['series']} · {ep['n']}/30\n{ep['title']} — {ep['tag']} ({ep['year']})\n\n{credit}",

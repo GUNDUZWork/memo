@@ -39,15 +39,31 @@ def main():
     tl = json.loads((d / "timeline.json").read_text(encoding="utf-8")); D = tl["dur"]
     ep = json.loads((ROOT / "series/episodes.json").read_text(encoding="utf-8"))["episodes"][int(eid[2:]) - 1]
     mj = json.loads((d / "music.json").read_text(encoding="utf-8")) if (d / "music.json").exists() else dict(synth=True)
-    if mj.get("synth") or not mj.get("file"):
+    music = None
+    if not (mj.get("synth") or not mj.get("file")):
+        # gerçek CC0 parçayı önce temiz 48 kHz stereo WAV'a çevir (kapak resmi/video akışı/garip kodek sorunlarına karşı); olmazsa sentez fon
+        wav = d / "music_clean.wav"
+        r = subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(d / mj["file"]), "-vn", "-map", "0:a:0", "-ac", "2", "-ar", str(SR), "-t", "600", str(wav)], capture_output=True, text=True)
+        if r.returncode == 0 and wav.exists() and wav.stat().st_size > 100000: music = wav
+        else:
+            print("MUSIC DECODE FAILED -> synth fallback:", r.stderr[-300:], file=sys.stderr)
+            mj = dict(synth=True, credit="Müzik: sentezlenmiş fon (CC0 parça çözülemedi)"); (d / "music.json").write_text(json.dumps(mj, ensure_ascii=False), encoding="utf-8")
+    if music is None:
         music = d / "music_synth.wav"; synth_pad(music, D)
-    else: music = d / mj["file"]
     g = (f"[0:a]aformat=sample_rates={SR}:channel_layouts=stereo,asplit=2[v1][v2];"
          f"[1:a]aresample={SR},aformat=channel_layouts=stereo,aloop=loop=-1:size=2000000000,atrim=0:{D:.3f},asetpts=PTS-STARTPTS,loudnorm=I=-25:TP=-3:LRA=7,afade=t=in:d=2.5,afade=t=out:st={D-3.5:.3f}:d=3.5[m];"
          f"[m][v2]sidechaincompress=threshold=0.015:ratio=10:attack=15:release=500:makeup=1[md];"
          f"{amb_graph(ep.get('amb', 'wind'), D)},aformat=channel_layouts=stereo,volume=0.045,afade=t=in:d=1.5,afade=t=out:st={D-2:.3f}:d=2[am];"
          f"[v1][md][am]amix=inputs=3:normalize=0:duration=first,alimiter=limit=0.92[out]")
-    subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(d / "voice.wav"), "-i", str(music), "-filter_complex", g, "-map", "[out]", "-ar", str(SR), "-ac", "2", "-t", f"{D:.3f}", str(d / "mix.wav")], check=True)
+    def run(m):
+        return subprocess.run(["ffmpeg", "-y", "-v", "error", "-i", str(d / "voice.wav"), "-i", str(m), "-filter_complex", g, "-map", "[out]", "-ar", str(SR), "-ac", "2", "-t", f"{D:.3f}", str(d / "mix.wav")], capture_output=True, text=True)
+    r = run(music)
+    if r.returncode != 0:
+        print("MIX FAILED:", r.stderr[-800:], file=sys.stderr)
+        music = d / "music_synth.wav"; synth_pad(music, D); mj = dict(synth=True, credit="Müzik: sentezlenmiş fon (CC0 parça karıştırılamadı)")
+        (d / "music.json").write_text(json.dumps(mj, ensure_ascii=False), encoding="utf-8")
+        r = run(music)
+        if r.returncode != 0: raise SystemExit("mix failed even with synth: " + r.stderr[-800:])
     print(eid, "mix ->", d / "mix.wav", "| ambience:", ep.get("amb"), "| music:", mj.get("title", "synth"))
 
 main()
