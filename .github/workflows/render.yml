@@ -1,0 +1,134 @@
+name: Render — Bilimin Unutulan Kahramanları
+
+# 30 bölüm (ep01-ep30) GitHub'ın ubuntu-latest sunucularında paralel matris olarak render edilir.
+# Görüntü: yalnızca kodla çizim (Lemo-Opuscar mid-century-toon + rubber-hose fiziği). Harici görsel AI / GPU yok.
+# Ses: edge-tts seslendirme · Wikimedia Commons CC0 enstrümantal müzik · ambiyans FFmpeg anoisesrc · -14 LUFS.
+# Çıktı: her bölüm için ayrı GitHub Release (bilim-epNN): mp4 + 15 srt (tr + 14 dil) + thumbnail + metadata.json.
+#
+# Tetikleme: Actions > "Render — Bilimin Unutulan Kahramanları" > Run workflow  (episodes: all | 1,4,12 | 1-10)
+#            veya BILIM_KAHRAMANLARI_TR/RUN_REQUEST.txt dosyasını değiştirip bu dala push'lamak (ör. "episodes=all").
+
+on:
+  workflow_dispatch:
+    inputs:
+      episodes:
+        description: "Bölümler: all | 1,4,12 | 1-10"
+        required: false
+        default: "all"
+  push:
+    branches: ["claude/**"]
+    paths:
+      - "BILIM_KAHRAMANLARI_TR/RUN_REQUEST.txt"
+
+permissions:
+  contents: write   # Release oluşturma + dosya yükleme
+
+concurrency:
+  group: bilim-render-${{ github.ref }}
+  cancel-in-progress: false
+
+defaults:
+  run:
+    working-directory: BILIM_KAHRAMANLARI_TR
+
+jobs:
+  plan:
+    name: Plan + müzik listesi
+    runs-on: ubuntu-latest
+    outputs:
+      eps: ${{ steps.plan.outputs.eps }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Bölüm listesi
+        id: plan
+        env:
+          INPUT: ${{ github.event.inputs.episodes }}
+        run: |
+          python3 - <<'PY'
+          import json, os, re
+          spec = (os.environ.get("INPUT") or "").strip()
+          if not spec and os.path.exists("RUN_REQUEST.txt"):
+              m = re.search(r"episodes\s*=\s*(\S+)", open("RUN_REQUEST.txt").read()); spec = m.group(1) if m else "all"
+          spec = spec or "all"
+          n = len(json.load(open("series/episodes.json", encoding="utf-8"))["episodes"])
+          ids = set()
+          if spec == "all": ids = set(range(1, n + 1))
+          else:
+              for part in spec.split(","):
+                  part = part.strip()
+                  if "-" in part: a, b = part.split("-"); ids |= set(range(int(a), int(b) + 1))
+                  elif part: ids.add(int(part))
+          ids = sorted(i for i in ids if 1 <= i <= n)
+          eps = [f"ep{i:02d}" for i in ids]
+          print("episodes:", eps)
+          open(os.environ["GITHUB_OUTPUT"], "a").write("eps=" + json.dumps(eps) + "\n")
+          PY
+      - name: Wikimedia Commons CC0 enstrümantal parça listesi
+        run: python3 scripts/music.py resolve
+      - uses: actions/upload-artifact@v4
+        with:
+          name: music-tracks
+          path: BILIM_KAHRAMANLARI_TR/out/music/tracks.json
+          retention-days: 3
+
+  render:
+    name: ${{ matrix.ep }}
+    needs: plan
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    strategy:
+      fail-fast: false
+      max-parallel: 10
+      matrix:
+        ep: ${{ fromJSON(needs.plan.outputs.eps) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: "22" }
+      - uses: actions/setup-python@v5
+        with: { python-version: "3.12" }
+      - name: Araçlar (ffmpeg, edge-tts, Chromium headless)
+        run: |
+          sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg
+          pip install -q numpy edge-tts
+          npm install --silent --no-audit --no-fund
+          npx playwright-core install --with-deps chromium-headless-shell
+          sh scripts/fonts.sh
+      - uses: actions/download-artifact@v4
+        with:
+          name: music-tracks
+          path: BILIM_KAHRAMANLARI_TR/out/music
+      - name: Müzik (CC0) seç
+        run: python3 scripts/music.py pick ${{ matrix.ep }}
+      - name: Seslendirme (edge-tts) + zaman çizelgesi
+        run: python3 scripts/tts.py ${{ matrix.ep }}
+      - name: Ses karışımı (müzik + anoisesrc ambiyans)
+        run: python3 scripts/mix.py ${{ matrix.ep }}
+      - name: Kare kare render
+        run: node core/render/video.mjs film --fps 24 --workers 4 --q 'ep=${{ matrix.ep }}' --out out/${{ matrix.ep }}/video.mp4
+      - name: Mux (-14 LUFS) + thumbnail
+        run: |
+          python3 scripts/mux.py ${{ matrix.ep }} out/${{ matrix.ep }}/video.mp4
+          node core/render/still.mjs film 0 --q 'ep=${{ matrix.ep }}&thumb=1' --out out/${{ matrix.ep }} --prefix thumb_
+      - name: 14 dil çeviri + SRT
+        run: python3 scripts/translate.py ${{ matrix.ep }}
+      - name: Paketle
+        run: python3 scripts/package.py ${{ matrix.ep }}
+      - name: GitHub Release (mp4 + srt + thumbnail + metadata)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          EP=${{ matrix.ep }}; TAG=bilim-$EP
+          TITLE=$(python3 -c "import json;e=json.load(open('series/episodes.json',encoding='utf-8'))['episodes'][int('$EP'[2:])-1];print(f\"{e['n']:02d} · {e['title']} ({e['tag']})\")")
+          gh release delete "$TAG" --yes --cleanup-tag 2>/dev/null || true
+          gh release create "$TAG" out/$EP/release/* --title "$TITLE" --notes-file out/$EP/release/notes.md --target "$GITHUB_SHA"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: ${{ matrix.ep }}
+          path: |
+            BILIM_KAHRAMANLARI_TR/out/${{ matrix.ep }}/release
+            BILIM_KAHRAMANLARI_TR/out/${{ matrix.ep }}/timeline.json
+          retention-days: 7

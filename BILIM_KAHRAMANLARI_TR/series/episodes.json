@@ -1,0 +1,1536 @@
+{
+ "series": "Bilimin Unutulan Kahramanları",
+ "lang": "tr",
+ "episodes": [
+  {
+   "n": 1,
+   "title": "Dünyanın İlk Programcısı",
+   "year": "1843",
+   "tag": "Ada Lovelace",
+   "icon": "bulb",
+   "amb": "wind",
+   "pal": 0,
+   "lines": [
+    {
+     "who": "B",
+     "text": "Usta, dünyanın ilk programcısı kimdi?",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Ada Lovelace. İngiliz bir matematikçiydi.",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "1843'te, Charles Babbage'ın Analitik Makine'si için bir algoritma yazdı.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Makine o zaman çalışıyor muydu?",
+     "fx": "shock"
+    },
+    {
+     "who": "A",
+     "text": "Hayır, hiç tamamlanmadı. Ama Ada'nın notları programlamanın temeli sayılır.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Ada makineler hakkında ne düşünüyordu?",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Makinelerin sadece sayıları değil, müziği bile işleyebileceğini öngördü.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Bilgisayarı bir asır önceden hayal etmiş!",
+     "fx": ""
+    }
+   ]
+  },
+  {
+   "n": 2,
+   "title": "Telefonsuz Kablosuz Fikir",
+   "year": "1942",
+   "tag": "Hedy Lamarr",
+   "icon": "wifi",
+   "amb": "nature",
+   "pal": 1,
+   "lines": [
+    {
+     "who": "B",
+     "text": "Usta, ünlü bir film yıldızı mucit olabilir mi?",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Olur! Hedy Lamarr hem oyuncuydu hem mucit.",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "1942'de besteci George Antheil ile frekans atlama sistemi için patent aldı.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Bu ne işe yarıyordu?",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Torpidoların radyo sinyalinin karıştırılmasını önlemek için tasarlanmıştı.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Donanma bunu hemen kullandı mı?",
+     "fx": "shock"
+    },
+    {
+     "who": "A",
+     "text": "Hayır, yıllarca rafta kaldı. Ama benzer fikirler bugün Wi-Fi ve Bluetooth gibi teknolojilerde yaşıyor.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Demek ki fikirler zamanını bekliyor!",
+     "fx": ""
+    }
+   ]
+  },
+  {
+   "n": 3,
+   "title": "Ellerini Yıka, Doktor!",
+   "year": "1847",
+   "tag": "Ignaz Semmelweis",
+   "icon": "water",
+   "amb": "wind",
+   "pal": 2,
+   "lines": [
+    {
+     "who": "B",
+     "text": "Usta, doktorlar eskiden ellerini yıkamaz mıydı?",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Pek yıkamazdı. Macar doktor Semmelweis, Viyana'da bir hastanede çalışıyordu.",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Doktorların baktığı serviste lohusa ölümleri çok fazlaydı.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Neden böyle oluyordu?",
+     "fx": "shock"
+    },
+    {
+     "who": "A",
+     "text": "Doktorlar otopsiden sonra ellerini yıkamadan doğuma giriyordu. 1847'de klorlu suyla el yıkamayı zorunlu kıldı.",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Ölümler çok belirgin biçimde azaldı.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "O zaman herkes ona teşekkür etmiştir!",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Ne yazık ki hayır. Meslektaşları fikrini yıllarca reddetti.",
+     "fx": "anger"
+    }
+   ]
+  },
+  {
+   "n": 4,
+   "title": "Alternatif Akımın Hikâyesi",
+   "year": "1888",
+   "tag": "Nikola Tesla",
+   "icon": "plug",
+   "amb": "fire",
+   "pal": 3,
+   "lines": [
+    {
+     "who": "B",
+     "text": "Usta, evimizdeki elektrik nasıl geliyor?",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Alternatif akımla. Yönü saniyede onlarca kez değişen bir akım.",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Nikola Tesla 1888'de alternatif akımla çalışan motoru patentledi.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Peki neden alternatif akım tercih edildi?",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Çünkü transformatörle gerilimi yükseltip uzak mesafelere az kayıpla taşımak mümkündü.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Yani elektrik şehirlere böyle yayıldı!",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Evet. Westinghouse ile birlikte 1893 Chicago Fuarı'nı alternatif akımla aydınlattılar.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Bir fikir tüm dünyayı aydınlattı!",
+     "fx": ""
+    }
+   ]
+  },
+  {
+   "n": 5,
+   "title": "Depremi Haber Veren Ejderha",
+   "year": "132",
+   "tag": "Zhang Heng",
+   "icon": "gear",
+   "amb": "wind",
+   "pal": 4,
+   "lines": [
+    {
+     "who": "B",
+     "text": "Usta, depremleri eskiden nasıl anlıyorlardı?",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Çin'de Zhang Heng, milattan sonra 132'de bir sismoskop yaptı.",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Bronzdan bir vazoydu. Etrafında sekiz ejderha başı vardı.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Ejderhalar ne yapıyordu?",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Deprem olunca, yönündeki ejderhanın ağzından bir bronz top aşağıdaki kurbağanın ağzına düşerdi.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Yani depremin yönünü gösteriyordu!",
+     "fx": "shock"
+    },
+    {
+     "who": "A",
+     "text": "Evet. Uzaktaki bir depremi bile haber verdiği anlatılır.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Modern sismografın atası bir ejderha!",
+     "fx": ""
+    }
+   ]
+  },
+  {
+   "n": 6,
+   "title": "Robot Kuyumcusu Cezeri",
+   "year": "1206",
+   "tag": "El-Cezeri",
+   "icon": "gear",
+   "amb": "fire",
+   "pal": 5,
+   "lines": [
+    {
+     "who": "B",
+     "text": "Usta, robotları kim icat etti?",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Tam öyle demek zor. Ama Cizreli El-Cezeri 1206'da otomatlarla dolu bir kitap yazdı.",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Kitabın adı, Zekice Mekanik Aygıtlar Bilgisi'ydi.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "İçinde neler vardı?",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Su saatleri, el yıkama otomatları, müzisyen figürleri ve krank mili gibi mekanizmalar.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Krank mili mi? Motorlarda kullanılan!",
+     "fx": "shock"
+    },
+    {
+     "who": "A",
+     "text": "Aynen. Bugünkü makinelerin birçok fikri o kitapta çizilmişti.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Demek ki mühendislik çok eski bir sanat!",
+     "fx": ""
+    }
+   ]
+  },
+  {
+   "n": 7,
+   "title": "Yörüngeyi Hesaplayan Zihin",
+   "year": "1962",
+   "tag": "Katherine Johnson",
+   "icon": "clock",
+   "amb": "wind",
+   "pal": 3,
+   "lines": [
+    {
+     "who": "B",
+     "text": "Usta, astronotlar bilgisayara güvenir miydi?",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Katherine Johnson'ın olduğu yerde, önce onun hesabına güvenirlerdi.",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "1962'de John Glenn dünyanın yörüngesine çıkacaktı.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Bilgisayar hesap yapmıyor muydu?",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Yapıyordu. Ama Glenn, hesapların Katherine tarafından kontrol edilmesini istedi.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Yani uçuştan önce son söz onda mıydı?",
+     "fx": "shock"
+    },
+    {
+     "who": "A",
+     "text": "Evet. Hesapları elle yaptı ve doğrulandığında uçuş yapıldı.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Bazen insan aklı en güvenilir bilgisayar!",
+     "fx": ""
+    }
+   ]
+  },
+  {
+   "n": 8,
+   "title": "Küfün Tesadüfü",
+   "year": "1928",
+   "tag": "Alexander Fleming",
+   "icon": "leaf",
+   "amb": "nature",
+   "pal": 4,
+   "lines": [
+    {
+     "who": "B",
+     "text": "Usta, penisilin nasıl bulundu?",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Biraz tesadüf, biraz dikkat. Alexander Fleming 1928'de laboratuvarına tatilden döndü.",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Bir petri kabında küf oluşmuştu ve çevresindeki bakteriler ölmüştü.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Çoğu kişi kabı atardı!",
+     "fx": "shock"
+    },
+    {
+     "who": "A",
+     "text": "Fleming atmadı, incelemeye karar verdi. Küf, penisilin üretiyordu.",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Sonra Florey ve Chain onu ilaç haline getirdi. Üçü 1945'te Nobel aldı.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Milyonlarca hayat bir küften kurtuldu!",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Bilim, merakla başlar.",
+     "fx": ""
+    }
+   ]
+  },
+  {
+   "n": 9,
+   "title": "İki Nobelli Kadın",
+   "year": "1911",
+   "tag": "Marie Curie",
+   "icon": "spark",
+   "amb": "fire",
+   "pal": 0,
+   "lines": [
+    {
+     "who": "B",
+     "text": "Usta, iki Nobel ödülü alan var mı?",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Var! Marie Curie. 1903'te fizikte, 1911'de kimyada aldı.",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Eşi Pierre ile 1898'de polonyum ve radyumu keşfetti.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Bu çok nadir bir başarı mı?",
+     "fx": "shock"
+    },
+    {
+     "who": "A",
+     "text": "İki farklı bilim dalında Nobel alan ilk kişi oldu.",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Savaşta, taşınabilir röntgen araçlarıyla yaralıların tedavisine de yardım etti.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Hem bilim insanı hem kahraman!",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Doğru. Merak ve cesaret, birlikte yürür.",
+     "fx": ""
+    }
+   ]
+  },
+  {
+   "n": 10,
+   "title": "Gözün Işık Sırrı",
+   "year": "1011",
+   "tag": "İbn el-Heysem",
+   "icon": "bulb",
+   "amb": "wind",
+   "pal": 1,
+   "lines": [
+    {
+     "who": "B",
+     "text": "Usta, görmek nasıl oluyor?",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Bin yıl önce bu soruyu İbn el-Heysem cevapladı.",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Eski düşünürler gözden ışık çıktığını sanıyordu.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Peki o ne dedi?",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Işık nesnelerden göze gelir. Deneylerle bunu gösterdi.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Deney mi? O dönemde bu yenilikti!",
+     "fx": "shock"
+    },
+    {
+     "who": "A",
+     "text": "Evet. Kitabı, Optik Kitabı, deneysel bilimin öncülerinden sayılır. Karanlık oda düzeneğini de inceledi.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Yani fotoğraf makinesinin dedesi!",
+     "fx": ""
+    }
+   ]
+  },
+  {
+   "n": 11,
+   "title": "Fotoğraf 51",
+   "year": "1952",
+   "tag": "Rosalind Franklin",
+   "icon": "spark",
+   "amb": "wind",
+   "pal": 5,
+   "lines": [
+    {
+     "who": "B",
+     "text": "Usta, DNA'nın şeklini kim buldu?",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Watson ve Crick 1953'te modeli yayımladı. Ama büyük bir ipucu Rosalind Franklin'den geldi.",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "1952'de çektiği Fotoğraf 51, DNA'nın sarmal yapısını gösteriyordu.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Fotoğrafı onun izni olmadan mı gösterdiler?",
+     "fx": "anger"
+    },
+    {
+     "who": "A",
+     "text": "Fotoğraf, Franklin'in bilgisi dışında Watson'a gösterildi.",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Franklin 1958'de genç yaşta öldü. Nobel ise 1962'de verildi.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Ne büyük haksızlık!",
+     "fx": "anger"
+    },
+    {
+     "who": "A",
+     "text": "Bugün onun emeği bilim tarihinde hak ettiği yeri alıyor.",
+     "fx": ""
+    }
+   ]
+  },
+  {
+   "n": 12,
+   "title": "Fosil Avcısı Mary",
+   "year": "1811",
+   "tag": "Mary Anning",
+   "icon": "gear",
+   "amb": "nature",
+   "pal": 2,
+   "lines": [
+    {
+     "who": "B",
+     "text": "Usta, fosil bulmak için profesör olmak gerekir mi?",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Hayır. Mary Anning, 12 yaşında fosil topluyordu.",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "İngiltere'nin Lyme Regis kıyısında bir ihtiyozor iskeleti buldu.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Kızlar o zaman bilim yapabiliyor muydu?",
+     "fx": "shock"
+    },
+    {
+     "who": "A",
+     "text": "Zor. Mary, Jeoloji Cemiyeti'ne kadın olduğu için giremedi.",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Ama 1823'te bir plesiyozor iskeleti de buldu.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Bilimde fırsat eşitliği önemli!",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Bugün dünyanın en ünlü fosil avcılarından biri olarak anılıyor.",
+     "fx": ""
+    }
+   ]
+  },
+  {
+   "n": 13,
+   "title": "Yıldızların Metresi",
+   "year": "1912",
+   "tag": "Henrietta Leavitt",
+   "icon": "spark",
+   "amb": "wind",
+   "pal": 3,
+   "lines": [
+    {
+     "who": "B",
+     "text": "Usta, yıldızların uzaklığı nasıl ölçülür?",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Henrietta Leavitt bir yöntem buldu. Harvard Gözlemevi'nde çalışan bir astronomdu.",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "1912'de Sefeid değişen yıldızlarda parlaklık ile periyot arasında bir ilişki fark etti.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Bu ne işe yarıyor?",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Yıldız ne kadar yavaş parlıyorsa o kadar gerçekten parlak. Bu sayede uzaklık hesaplanır.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Evrenin ölçüsü bir hesapla belli oldu!",
+     "fx": "shock"
+    },
+    {
+     "who": "A",
+     "text": "Hubble, galaksilerin uzaklığını bu yöntemle ölçtü.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Bu işin Nobel'i ona gitmeliydi!",
+     "fx": ""
+    }
+   ]
+  },
+  {
+   "n": 14,
+   "title": "İlk Aşı",
+   "year": "1796",
+   "tag": "Edward Jenner",
+   "icon": "leaf",
+   "amb": "nature",
+   "pal": 4,
+   "lines": [
+    {
+     "who": "B",
+     "text": "Usta, ilk aşı ne zaman yapıldı?",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "1796'da Edward Jenner, çiçek hastalığına karşı ilk aşıyı denedi.",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "İnek çiçeği geçiren sağıcıların çiçek hastalığına yakalanmadığını fark etmişti.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Ne yaptı peki?",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Sekiz yaşındaki James Phipps'e inek çiçeği bulaştırdı.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Çocuk hasta oldu mu?",
+     "fx": "shock"
+    },
+    {
+     "who": "A",
+     "text": "Hafif bir hastalık geçirdi ve sonra çiçeğe karşı bağışık kaldı.",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Çiçek hastalığı 1980'de resmen yok edildi. İnsanlığın en büyük başarılarından biri.",
+     "fx": ""
+    }
+   ]
+  },
+  {
+   "n": 15,
+   "title": "Sıfırın Kuralları",
+   "year": "628",
+   "tag": "Brahmagupta",
+   "icon": "gear",
+   "amb": "fire",
+   "pal": 1,
+   "lines": [
+    {
+     "who": "B",
+     "text": "Usta, sıfır nereden çıktı?",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Hint matematikçi Brahmagupta, 628'de sıfırla işlem kurallarını yazdı.",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Sıfır bir sayıydı. Toplanır, çıkarılır, çarpılırdı.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Negatif sayılar da var mıydı?",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Evet. Borçları ve varlıkları ifade eden negatif sayıların kurallarını da anlattı.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Bu kurallar olmasaydı bilgisayar olmazdı!",
+     "fx": "shock"
+    },
+    {
+     "who": "A",
+     "text": "Sıfır ve ikilik sistem, bugünkü dijital dünyanın temelidir.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Hiçlik bile büyük iş görmüş!",
+     "fx": ""
+    }
+   ]
+  },
+  {
+   "n": 16,
+   "title": "Algoritmanın Adı",
+   "year": "820",
+   "tag": "El-Harezmi",
+   "icon": "gear",
+   "amb": "wind",
+   "pal": 5,
+   "lines": [
+    {
+     "who": "B",
+     "text": "Usta, algoritma kelimesi nereden geliyor?",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "El-Harezmi'nin adından. Bağdat'ta yaşayan bir matematikçiydi.",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Latinceye çevrilince adı Algoritmi oldu.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Cebir kelimesi de ondan mı?",
+     "fx": "shock"
+    },
+    {
+     "who": "A",
+     "text": "Evet. Kitabının adındaki el-cebir sözcüğünden geliyor.",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Denklemleri adım adım çözme yöntemini anlattı.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Yani bugünkü yapay zekanın atası o!",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Her program, onun fikrinin torunu.",
+     "fx": ""
+    }
+   ]
+  },
+  {
+   "n": 17,
+   "title": "Gazel Derisindeki Dünya",
+   "year": "1513",
+   "tag": "Piri Reis",
+   "icon": "leaf",
+   "amb": "wind",
+   "pal": 2,
+   "lines": [
+    {
+     "who": "B",
+     "text": "Usta, bir haritayı gazel derisine kim çizdi?",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Osmanlı denizcisi Piri Reis. 1513'te bir dünya haritası çizdi.",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Harita, 1929'da İstanbul'da Topkapı Sarayı'nda bulundu.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Harita çok mu doğruydu?",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Kıyı çizgileri ve rüzgâr yönleri için dönemin en iyi kaynaklarını kullandı.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Kaç haritadan yararlanmış?",
+     "fx": "shock"
+    },
+    {
+     "who": "A",
+     "text": "Kendisi yaklaşık yirmi kaynak haritadan söz eder.",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Bu eser, denizcilik tarihinin en değerli belgelerinden biri.",
+     "fx": ""
+    }
+   ]
+  },
+  {
+   "n": 18,
+   "title": "Semerkant'ın Yıldız Sultanı",
+   "year": "1437",
+   "tag": "Uluğ Bey",
+   "icon": "spark",
+   "amb": "wind",
+   "pal": 3,
+   "lines": [
+    {
+     "who": "B",
+     "text": "Usta, bir sultan aynı zamanda astronom olabilir mi?",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Olur! Uluğ Bey, Timur'un torunuydu ve Semerkant'ta gözlemevi kurdu.",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Gözlemevinin dev bir sekstantı vardı.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Orada ne yaptılar?",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Yıldızları tek tek gözlediler. 1437'de bin yirmi yıldızlık bir katalog tamamladı.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Teleskop olmadan mı?",
+     "fx": "shock"
+    },
+    {
+     "who": "A",
+     "text": "Evet, çıplak gözle ve çok hassas aletlerle.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Yıldızları saymak sultanlara yakışır!",
+     "fx": ""
+    }
+   ]
+  },
+  {
+   "n": 19,
+   "title": "Enigma'yı Çözen Adam",
+   "year": "1940",
+   "tag": "Alan Turing",
+   "icon": "gear",
+   "amb": "fire",
+   "pal": 5,
+   "lines": [
+    {
+     "who": "B",
+     "text": "Usta, savaşı bir matematikçi kazandırabilir mi?",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Alan Turing'in katkısı büyüktü. Bletchley Park'ta Enigma şifresini kırmaya çalıştı.",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "1940'ta Bombe adlı makineyi geliştirmeye yardım etti.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Makine ne yapıyordu?",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Almanların günlük şifre ayarlarını hızla deniyordu.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Bu savaşı etkiledi mi?",
+     "fx": "shock"
+    },
+    {
+     "who": "A",
+     "text": "Tarihçiler savaşı yaklaşık iki yıl kısalttığını tahmin ediyor.",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Turing aynı zamanda bilgisayar biliminin kurucularından biri sayılır.",
+     "fx": ""
+    }
+   ]
+  },
+  {
+   "n": 20,
+   "title": "Hareketli Harfler",
+   "year": "1450",
+   "tag": "Johannes Gutenberg",
+   "icon": "box",
+   "amb": "fire",
+   "pal": 1,
+   "lines": [
+    {
+     "who": "B",
+     "text": "Usta, kitaplar eskiden nasıl çoğaltılırdı?",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Elle kopyalanırdı. Bir kitap aylar sürerdi.",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "1450 civarında Johannes Gutenberg, Almanya'da hareketli harflerle baskı makinesi geliştirdi.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Harfler tek tek mi dizilirdi?",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Evet. Metal harfler dizilir, mürekkeplenir ve preste basılırdı.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "İlk büyük kitap hangisiydi?",
+     "fx": "shock"
+    },
+    {
+     "who": "A",
+     "text": "Gutenberg İncili, yaklaşık 1455'te basıldı.",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Bilgi artık herkese ulaşabilirdi.",
+     "fx": ""
+    }
+   ]
+  },
+  {
+   "n": 21,
+   "title": "Zıplayan Genler",
+   "year": "1948",
+   "tag": "Barbara McClintock",
+   "icon": "leaf",
+   "amb": "nature",
+   "pal": 4,
+   "lines": [
+    {
+     "who": "B",
+     "text": "Usta, genler yerinde mi durur?",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Barbara McClintock, mısır bitkisinde genlerin yer değiştirebildiğini gösterdi.",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Buna zıplayan genler, yani transpozon denir.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Bilim dünyası inandı mı?",
+     "fx": "shock"
+    },
+    {
+     "who": "A",
+     "text": "Başta kimse onu ciddiye almadı.",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Yıllar sonra haklı çıktı ve 1983'te tek başına Nobel aldı.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Sabretmenin ödülü!",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Doğru. Kendi gözlemine inanmak bazen yıllar sürer.",
+     "fx": ""
+    }
+   ]
+  },
+  {
+   "n": 22,
+   "title": "Çürümeyen Süt",
+   "year": "1864",
+   "tag": "Louis Pasteur",
+   "icon": "water",
+   "amb": "nature",
+   "pal": 2,
+   "lines": [
+    {
+     "who": "B",
+     "text": "Usta, süt neden uzun süre bozulmuyor?",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Pastörizasyon sayesinde. Louis Pasteur 1864'te bu yöntemi geliştirdi.",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Önce şarap ve biranın bozulmasını inceliyordu.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Yöntem neydi?",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Sıvıyı belirli bir sıcaklığa kadar ısıtıp zararlı mikroorganizmaları azaltmak.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Tadı da bozulmuyor mu?",
+     "fx": "shock"
+    },
+    {
+     "who": "A",
+     "text": "Hayır. Üstelik 1885'te kuduz aşısını da geliştirdi.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Mikroplara karşı büyük bir kahraman!",
+     "fx": ""
+    }
+   ]
+  },
+  {
+   "n": 23,
+   "title": "Arf Değişmezi",
+   "year": "1941",
+   "tag": "Cahit Arf",
+   "icon": "gear",
+   "amb": "wind",
+   "pal": 3,
+   "lines": [
+    {
+     "who": "B",
+     "text": "Usta, Türkiye'den ünlü matematikçi var mı?",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Var. Cahit Arf, dünyaca tanınan bir matematikçiydi.",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "1941'de Arf değişmezi olarak bilinen sonucu yayımladı.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Bu ne işe yarıyor?",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Topolojide bazı yüzeyleri ve yapıları ayırt etmeye yarar.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Banknotta yüzü var mıydı?",
+     "fx": "shock"
+    },
+    {
+     "who": "A",
+     "text": "Evet, 10 liralık banknotta resmi yer aldı.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Matematik de ülkeyi gururlandırıyor!",
+     "fx": ""
+    }
+   ]
+  },
+  {
+   "n": 24,
+   "title": "DNA'nın Tamircisi",
+   "year": "2015",
+   "tag": "Aziz Sancar",
+   "icon": "gear",
+   "amb": "nature",
+   "pal": 0,
+   "lines": [
+    {
+     "who": "B",
+     "text": "Usta, DNA hasar görünce ne olur?",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Hücreler onu onarır. Bu mekanizmayı Aziz Sancar anlattı.",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Mardin'in Savur ilçesinde doğan Sancar, 2015'te Nobel Kimya Ödülü'nü aldı.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Nasıl bir onarım?",
+     "fx": "shock"
+    },
+    {
+     "who": "A",
+     "text": "Mesela güneş ışığının DNA'da yaptığı hasarı hücrenin nasıl onardığını gösterdi.",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Bu çalışmalar kanser araştırmalarına ışık tutuyor.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Köyden Nobel'e uzanan bir yol!",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Merak ve emek, sınır tanımaz.",
+     "fx": ""
+    }
+   ]
+  },
+  {
+   "n": 25,
+   "title": "Tıbbın Kanunu",
+   "year": "1025",
+   "tag": "İbn Sina",
+   "icon": "leaf",
+   "amb": "fire",
+   "pal": 1,
+   "lines": [
+    {
+     "who": "B",
+     "text": "Usta, tıp kitabı asırlarca nasıl okutuldu?",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "İbn Sina'nın El-Kanun fi't-Tıb'ı sayesinde.",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Eser yaklaşık 1025'te tamamlandı. Beş ciltlik bir tıp ansiklopedisiydi.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Latinceye çevrildi mi?",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Evet. Avrupa üniversitelerinde yüzyıllarca ders kitabı olarak okutuldu.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Neler anlatıyordu?",
+     "fx": "shock"
+    },
+    {
+     "who": "A",
+     "text": "Hastalıkları, ilaçları ve bulaşıcı hastalıkların yayılmasını.",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Bilgi, kuşaktan kuşağa taşınır.",
+     "fx": ""
+    }
+   ]
+  },
+  {
+   "n": 26,
+   "title": "Jüpiter'in Dört Uydusu",
+   "year": "1610",
+   "tag": "Galileo Galilei",
+   "icon": "spark",
+   "amb": "wind",
+   "pal": 5,
+   "lines": [
+    {
+     "who": "B",
+     "text": "Usta, başka bir gezegenin uydusunu ilk kim gördü?",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Galileo. 1610'da teleskopunu Jüpiter'e çevirdi.",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Gezegenin yanında dört küçük ışık noktası gördü.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Bunlar yıldız mıydı?",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Hayır. Geceler boyunca yerlerini değiştirdiler. Jüpiter'in uydularıydı.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Demek her şey Dünya'nın çevresinde dönmüyor!",
+     "fx": "shock"
+    },
+    {
+     "who": "A",
+     "text": "Evet. Bu keşif, Dünya merkezli evren görüşüne ağır bir darbe vurdu.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Bir teleskop, bir devrim!",
+     "fx": ""
+    }
+   ]
+  },
+  {
+   "n": 27,
+   "title": "Gölgeden Dünyayı Ölçmek",
+   "year": "-240",
+   "tag": "Eratosthenes",
+   "icon": "clock",
+   "amb": "nature",
+   "pal": 2,
+   "lines": [
+    {
+     "who": "B",
+     "text": "Usta, Dünya'nın çevresi nasıl ölçüldü?",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Eratosthenes milattan önce 240 civarında bir gölgeyle ölçtü.",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Syene'de öğle güneşi kuyunun dibini aydınlatıyordu.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "İskenderiye'de de öyle miydi?",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Hayır. İskenderiye'de bir çubuğun gölgesi, yaklaşık yedi derecelik açı yapıyordu.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Bu farktan çevre nasıl çıktı?",
+     "fx": "shock"
+    },
+    {
+     "who": "A",
+     "text": "Açı, tam dairenin elli de biri. Mesafeyi elli ile çarptı.",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Sonuç gerçeğe şaşırtıcı derecede yakındı.",
+     "fx": ""
+    }
+   ]
+  },
+  {
+   "n": 28,
+   "title": "On İki Saniyelik Uçuş",
+   "year": "1903",
+   "tag": "Wright Kardeşler",
+   "icon": "gear",
+   "amb": "wind",
+   "pal": 0,
+   "lines": [
+    {
+     "who": "B",
+     "text": "Usta, ilk uçak ne kadar uçtu?",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "17 Aralık 1903'te Wright kardeşlerin uçağı, yaklaşık on iki saniye havada kaldı.",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Kitty Hawk'ta, Kuzey Karolina'da.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Bu kadar kısa mı?",
+     "fx": "shock"
+    },
+    {
+     "who": "A",
+     "text": "Evet, ama kontrollü ve motorlu bir uçuştu. Bir ilkti.",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Önce rüzgâr tüneli kurup yüzlerce kanat modeli denediler.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Yani şans değil, deneydi!",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Bilim, deneme yanılmayı disipline eder.",
+     "fx": ""
+    }
+   ]
+  },
+  {
+   "n": 29,
+   "title": "Pelin Otunun Armağanı",
+   "year": "1972",
+   "tag": "Tu Youyou",
+   "icon": "leaf",
+   "amb": "nature",
+   "pal": 4,
+   "lines": [
+    {
+     "who": "B",
+     "text": "Usta, sıtmaya çare nasıl bulundu?",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Çinli bilim insanı Tu Youyou, 1972'de tatlı pelin bitkisinden artemisinin elde etti.",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Eski Çin tıp kitaplarını taradı.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Bitki işe yaradı mı?",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Evet. Sıtma parazitlerine karşı çok etkili çıktı.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Bu ilacı kendi üzerinde de denedi mi?",
+     "fx": "shock"
+    },
+    {
+     "who": "A",
+     "text": "Ekibiyle birlikte kendilerini de gönüllü olarak denedikleri anlatılır.",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "2015'te Tıp Nobel Ödülü'nü aldı.",
+     "fx": ""
+    }
+   ]
+  },
+  {
+   "n": 30,
+   "title": "Radyodan Gelen Ritim",
+   "year": "1967",
+   "tag": "Jocelyn Bell",
+   "icon": "spark",
+   "amb": "wind",
+   "pal": 3,
+   "lines": [
+    {
+     "who": "B",
+     "text": "Usta, atarcaları kim keşfetti?",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Jocelyn Bell, 1967'de öğrenciyken fark etti.",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Radyo teleskop verilerinde düzenli aralıkla tekrarlanan bir sinyal buldu.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Uzaylılar mıydı?",
+     "fx": "shock"
+    },
+    {
+     "who": "A",
+     "text": "Önce şaka olarak yeşil adamlar dendi. Sonra hızla dönen nötron yıldızları olduğu anlaşıldı.",
+     "fx": ""
+    },
+    {
+     "who": "A",
+     "text": "Nobel 1974'te danışmanı Antony Hewish'e verildi.",
+     "fx": ""
+    },
+    {
+     "who": "B",
+     "text": "Peki Bell'e ne oldu?",
+     "fx": "anger"
+    },
+    {
+     "who": "A",
+     "text": "Bell ödül almadı ama bilim camiası emeğini tanıyor.",
+     "fx": ""
+    }
+   ]
+  }
+ ]
+}
