@@ -1,0 +1,287 @@
+{
+  "id": 8,
+  "slug": "rajeunir-a-chaque-mensonge",
+  "formula": "etsilab",
+  "title": "Et si tu rajeunissais d'un an à chaque fois que tu mens ?",
+  "thumbnail": {
+    "line1": "1 MENSONGE = -1 AN",
+    "line2": "jusqu’où tu irais ?",
+    "accent": "#B45CFF",
+    "visual": "Close-up of Sacha, a 35-year-old French man with short chestnut hair, light stubble and a teal shirt on the right, half his face aged and half teenage, wide shocked eyes, glowing purple age counter with a minus sign and a lie speech bubble, bold purple and yellow lighting"
+  },
+  "youtube": {
+    "title": "Et si tu rajeunissais d'un an à chaque fois que tu mens ?",
+    "description": "Un soir, tu dis à ton amie que son gratin est délicieux. Il ne l’est pas. Le lendemain matin, tu as un an de moins. Chaque mensonge, petit ou grand, te fait rajeunir d’une année entière.\n\nDans ce scénario « Et si », on calcule combien de temps il te faudrait pour redevenir un bébé, quel est le rythme parfait pour ne jamais vieillir, et ce qui se passe quand tes papiers d’identité ne correspondent plus à ton visage. Et la phase 2 change complètement les règles du jeu.\n\nAbonne-toi pour d’autres scénarios, et dis-nous en commentaire : tu t’arrêterais à quel âge ?",
+    "tags": [
+      "et si",
+      "scénario",
+      "mensonge",
+      "rajeunir",
+      "jeunesse éternelle",
+      "expérience de pensée",
+      "histoire",
+      "maths",
+      "vérité",
+      "honnêteté",
+      "what if",
+      "imagination",
+      "fiction",
+      "histoires virales",
+      "âge"
+    ],
+    "pinned_comment": "Si chaque mensonge te faisait rajeunir d’un an, tu t’arrêterais à quel âge ? Et sois honnête… ou pas."
+  },
+  "counter": {
+    "label": "TON ÂGE",
+    "start": 35,
+    "rate": -0.02,
+    "unit": " ans",
+    "decimals": 1
+  },
+  "scenes": [
+    {
+      "type": "hook",
+      "title": "Le gratin",
+      "narration": "Imagine. Tu as trente-cinq ans. Un soir, chez ton amie Nadia, tu goûtes son gratin de courgettes. Il est trop salé, un peu brûlé, et franchement, il est raté. Elle te regarde avec espoir. Alors tu dis ce que tout le monde dirait : « Il est délicieux. » Elle sourit. Le lendemain matin, en te brossant les dents, tu remarques quelque chose. Ta petite ride au coin de l’œil a disparu. Ton premier cheveu blanc aussi. Tu as trente-quatre ans. Et tu ne sais pas encore pourquoi.",
+      "onscreen": [
+        "« il est délicieux »",
+        "35 → 34 ans"
+      ],
+      "visual": "Sacha, a 35-year-old French man with short chestnut hair, light stubble and a teal shirt, in Nadia's cozy kitchen biting into a burnt over-salted courgette gratin while Nadia, a 34-year-old French woman with long wavy black hair, warm brown eyes and an orange knit sweater watches him with hopeful eyes, warm kitchen light, comic polite smile, a floating glowing number slightly decreasing near his head",
+      "overlay": {
+        "kind": "chip",
+        "text": "35 → 34 ANS",
+        "beat": 1
+      }
+    },
+    {
+      "type": "narration",
+      "title": "La découverte",
+      "narration": "Pendant quelques jours, tu crois à une coïncidence, ou à une très bonne crème de nuit. Puis ton collègue te demande si tu as lu son rapport. Tu réponds oui. Tu ne l’as pas lu. Une sensation bizarre, comme un picotement dans tout le corps. Tu cours aux toilettes, tu te regardes dans le miroir. Trente-trois ans. Tes joues sont légèrement plus pleines, ta peau plus lisse. Tu comprends la règle. Chaque mensonge te fait rajeunir d’un an. Pile un an. Pas plus, pas moins.",
+      "onscreen": [
+        "1 mensonge = −1 an",
+        "33 ans"
+      ],
+      "visual": "Sacha, a 35-year-old French man with short chestnut hair, light stubble and a teal shirt, in his bathroom looking at his reflection and touching a vanished wrinkle at the eye corner, shocked delighted face, a toothbrush in hand, soft morning light, his face looks a little younger"
+    },
+    {
+      "type": "math",
+      "title": "Le compte à rebours",
+      "narration": "Et là, tu fais le calcul qui fait peur. Disons que tu dis seulement deux petits mensonges par jour. Rien de grave. « Je suis en route. » « Super, merci pour le cadeau. » Deux mensonges par jour, c’est deux ans de moins par jour. Tu as trente-trois ans. Trente-trois divisé par deux, ça fait seize jours et demi. Dans seize jours et demi, au rythme normal d’un être humain normal, tu redeviens un nouveau-né. Tu poses ton téléphone. Tu arrêtes de répondre aux messages.",
+      "equation": "33 ans ÷ 2 mensonges par jour",
+      "result": "16,5 jours avant le berceau",
+      "onscreen": [
+        "2 mensonges / jour",
+        "16,5 jours"
+      ],
+      "visual": "Sacha, a 35-year-old French man with short chestnut hair, light stubble and a teal shirt, in a modern office looking at a calculator with a worried frown, a whiteboard behind him covered with glowing arrows and age numbers going down, a phone turned off on the desk, bright cool light, comedic panic"
+    },
+    {
+      "type": "counter_focus",
+      "title": "Une journée sans mentir",
+      "narration": "Le lendemain, tu tentes une journée sans aucun mensonge. C’est l’enfer. Ta voisine te demande comment tu vas, et tu dois réfléchir avant de répondre. Ta mère t’appelle pour savoir si tu as aimé le pull qu’elle t’a offert. Tu cherches une phrase vraie. « J’aime beaucoup que tu aies pensé à moi. » Elle est ravie. Toi, tu es épuisé. Tu découvres que ne pas mentir, ce n’est pas dire n’importe quoi. C’est chercher, à chaque fois, la vérité qui ne blesse pas.",
+      "onscreen": [
+        "0 mensonge",
+        "épuisant"
+      ],
+      "visual": "Sacha, a 35-year-old French man with short chestnut hair, light stubble and a teal shirt, talking to his smiling mother on a video call at his kitchen table, a hideous knitted sweater on the table, a glowing pure white light around him, relaxed honest smile, warm morning light"
+    },
+    {
+      "type": "math",
+      "title": "L’équation de l’éternité",
+      "narration": "Mais pendant la nuit, une autre idée te tient éveillé. Une idée beaucoup plus dangereuse. Normalement, chaque année, tu vieillis d’un an. Et chaque mensonge te rajeunit d’un an. Donc si tu mens exactement une fois par an, tu restes au même âge. Pour toujours. Un seul petit mensonge, chaque année, le jour de ton anniversaire. Plus de rides, plus de dos qui craque, plus de maladie liée à l’âge. Tu viens de découvrir la formule de l’immortalité. Et elle tient sur un post-it.",
+      "equation": "+1 an − 1 mensonge = 0",
+      "result": "âge figé pour toujours",
+      "onscreen": [
+        "1 mensonge par an",
+        "immortel ?"
+      ],
+      "visual": "Sacha, a 35-year-old French man with short chestnut hair, light stubble and a teal shirt, standing at night in front of a chalkboard with a calendar and glowing sticky notes, a huge infinity symbol shining, wide eyes of revelation, dark blue room with golden light"
+    },
+    {
+      "type": "narration",
+      "title": "La tentation",
+      "narration": "Mais avant de te figer, il faut choisir ton âge idéal. Trente-trois, c’est bien. Mais vingt-cinq, ce serait mieux, non ? L’énergie, les nuits courtes, le genou en bon état. Alors un samedi, seul dans ta cuisine, tu mens. Huit fois d’affilée. « Je suis astronaute. » « J’aime le chou de Bruxelles. » « Je range toujours mes chaussettes. » À chaque phrase, un picotement. À la huitième, tu te regardes dans la vitre du four. Tu as vingt-cinq ans. Et tu éclates de rire.",
+      "onscreen": [
+        "8 mensonges",
+        "25 ans"
+      ],
+      "visual": "Sacha, a 35-year-old French man with short chestnut hair, light stubble and a teal shirt, alone in his kitchen holding up his hands in a dramatic liar's pose, reflecting in the glass of an oven door showing a younger face, playful sparkling effect around him, warm light, mischievous laugh"
+    },
+    {
+      "type": "counter_focus",
+      "title": "Vingt-cinq ans, encore",
+      "narration": "Les premiers jours sont incroyables. Tu montes les escaliers quatre à quatre. Tu dors cinq heures et tu te réveilles en pleine forme. Tu manges une pizza entière à vingt-trois heures sans aucun regret. Le compteur affiche vingt-cinq ans, et tu te sens invincible. Mais au bureau, ton chef te regarde bizarrement. Il te demande si tu es le stagiaire. Tu réponds non, que tu travailles ici depuis huit ans. Il hoche la tête. Il ne te croit pas.",
+      "onscreen": [
+        "25 ans",
+        "« le stagiaire ? »"
+      ],
+      "visual": "Sacha, a 35-year-old French man with short chestnut hair, light stubble and a teal shirt, looking energetic and youthful, running up a flight of stairs four steps at a time, then in a night kitchen eating a whole pizza, Monsieur Lambert, a 55-year-old boss with grey hair and a navy suit watching him with a frown in the background, bright light, comic mood"
+    },
+    {
+      "type": "narration",
+      "title": "Les papiers",
+      "narration": "C’est là que les problèmes concrets commencent. À la banque, la conseillère compare ta carte d’identité avec ton visage, trois fois, puis appelle sa responsable. À la pharmacie, on refuse de te donner les médicaments de ta mère parce que tu ne ressembles pas à la personne autorisée. Tes amis te trouvent étrange. Certains pensent que tu as fait de la chirurgie. D’autres, que tu es malade. Et tu ne peux rien expliquer. Parce que pour expliquer sans révéler ton secret, il faudrait mentir.",
+      "onscreen": [
+        "carte d’identité ≠ visage",
+        "impossible d’expliquer"
+      ],
+      "visual": "Sacha, a 35-year-old French man with short chestnut hair, light stubble and a teal shirt, at a bank counter with a suspicious banker comparing his ID to his face, a pharmacist shaking her head in the background, friends whispering, confused and annoyed expression, bright comedic light"
+    },
+    {
+      "type": "narration",
+      "title": "Nadia",
+      "narration": "Un soir, Nadia vient chez toi. Elle te regarde longtemps, sans rien dire. Puis elle te demande, très calmement, ce qui t’arrive. Tu as deux options. Mentir, et perdre encore un an. Ou dire la vérité, et passer pour un fou. Tu choisis la vérité. Tu lui racontes tout. Le gratin, le rapport, l’astronaute, les chaussettes. Elle ne rit pas. Elle réfléchit. Puis elle te pose une seule question : « Le gratin, il était vraiment si raté que ça ? »",
+      "onscreen": [
+        "la vérité",
+        "« le gratin ? »"
+      ],
+      "visual": "Sacha, a 35-year-old French man with short chestnut hair, light stubble and a teal shirt and Nadia, a 34-year-old French woman with long wavy black hair, warm brown eyes and an orange knit sweater, sitting in his living room, she looks at him calmly and attentively, he looks nervous with open hands, a plate of gratin on the table, warm lamp light, intimate confessional mood"
+    },
+    {
+      "type": "counter_focus",
+      "title": "Le test",
+      "narration": "Nadia veut une preuve. Elle te demande de mentir, une seule fois, devant elle. Tu prends une grande inspiration et tu dis : « Je déteste le chocolat. » Elle te fixe. Rien. Puis, lentement, une fine cicatrice que tu avais au menton depuis tes vingt-quatre ans s’efface sous ses yeux. Le compteur affiche vingt-quatre. Nadia s’assoit. Elle te prend la main. Et elle te dit quelque chose que tu n’avais pas envisagé : « Si tu continues, un jour, tu seras plus jeune que nos souvenirs. »",
+      "onscreen": [
+        "24 ans",
+        "« plus jeune que nos souvenirs »"
+      ],
+      "visual": "Sacha, a 35-year-old French man with short chestnut hair, light stubble and a teal shirt, in front of Nadia, a 34-year-old French woman with long wavy black hair, warm brown eyes and an orange knit sweater, saying a lie with a wincing smile, a faint scar on his chin disappearing in a sparkle, Nadia, a 34-year-old French woman with long wavy black hair, warm brown eyes and an orange knit sweater watching in amazement, warm kitchen light",
+      "overlay": {
+        "kind": "chip",
+        "text": "24 ANS",
+        "beat": 0
+      }
+    },
+    {
+      "type": "narration",
+      "title": "Ce qu’on perd",
+      "narration": "Cette phrase te hante. Parce qu’elle a raison. À vingt-quatre ans, tu ne savais pas encore cuisiner. Tu n’avais pas rencontré la moitié de tes amis. Et si ton corps rajeunit, est-ce que ta tête suit ? Tu commences à remarquer de petites choses. Tu oublies le prénom d’un collègue arrivé il y a trois ans. Tu ne retrouves plus la recette de ta grand-mère, que tu connaissais par cœur. Chaque mensonge ne t’enlève pas seulement une ride. Il t’enlève peut-être aussi un souvenir.",
+      "onscreen": [
+        "−1 an",
+        "−1 souvenir ?"
+      ],
+      "visual": "Sacha, a 35-year-old French man with short chestnut hair, light stubble and a teal shirt, standing in a kitchen forgetting a recipe, a book of his grandmother's recipes open and blurred, thought bubbles fading into soft mist behind him, confused expression, warm but melancholic light"
+    },
+    {
+      "type": "narration",
+      "title": "La décision",
+      "narration": "Alors tu prends une décision radicale. Plus aucun mensonge. Jamais. Pas pour rajeunir, pas pour être poli, pas pour éviter un conflit. Tu deviens la personne la plus honnête de ton entourage. Au début, ça crée quelques tensions. Ton chef apprend enfin ce que tu penses de son organisation. Ta mère apprend que tu détestes les pulls à col roulé. Mais petit à petit, les gens te font confiance comme jamais. Quand tu dis que c’est bien, ils savent que c’est vrai. Et ça vaut de l’or.",
+      "onscreen": [
+        "0 mensonge",
+        "confiance totale"
+      ],
+      "visual": "Sacha, a 35-year-old French man with short chestnut hair, light stubble and a teal shirt, in a modern office calmly speaking with Monsieur Lambert, a 55-year-old boss with grey hair and a navy suit and colleagues, who are listening with astonished respect, honest relaxed smile, bright daylight, a feeling of trust"
+    },
+    {
+      "type": "narration",
+      "title": "Un an plus tard",
+      "narration": "Un an passe. Tu as vingt-cinq ans à nouveau, parce que le temps a repris son cours normal. Ta cicatrice au menton est revenue, et bizarrement, tu en es content. Tu as appris à dire les choses avec douceur. Tu as appris que la plupart des mensonges qu’on dit chaque jour sont inutiles. Ils servent à éviter un petit inconfort. Nadia et toi, vous vous voyez presque tous les jours. Elle te dit souvent que tu es la seule personne dont elle croit tous les compliments. Tout semble enfin stable.",
+      "onscreen": [
+        "1 an plus tard",
+        "25 ans, stable"
+      ],
+      "visual": "Sacha, a 35-year-old French man with short chestnut hair, light stubble and a teal shirt and Nadia, a 34-year-old French woman with long wavy black hair, warm brown eyes and an orange knit sweater, laughing together at a sunny park terrace, a scar on his chin visible again, easy joy, golden afternoon light, a lively Paris street behind them"
+    },
+    {
+      "type": "phase2",
+      "title": "PHASE 2",
+      "narration": "Et puis, le jour de ton anniversaire, à minuit pile, ton téléphone s’allume tout seul. Un écran noir. Une ligne blanche. Phase deux. Les mensonges ne comptent plus. Désormais, ce sont les vérités qui font vieillir. Les vérités difficiles. Celles qui coûtent quelque chose à dire. Chacune te prendra un an. Tu restes figé devant l’écran. Toute cette année, tu as appris à dire la vérité. Et maintenant, chaque vérité importante va te coûter une année de ta vie.",
+      "alert": "PHASE 2 — CE SONT LES VÉRITÉS QUI FONT VIEILLIR",
+      "onscreen": [
+        "1 vérité = +1 an",
+        "à toi de choisir"
+      ],
+      "visual": "A dark apartment at midnight, Sacha, a 35-year-old French man with short chestnut hair, light stubble and a teal shirt frozen in front of a black phone screen with a single white line glowing, balloons and a birthday cake on the table, dramatic cold blue light, tense expression",
+      "overlay": {
+        "kind": "phase2",
+        "text": "PHASE 2",
+        "beat": 0
+      }
+    },
+    {
+      "type": "narration",
+      "title": "La vérité qui vaut un an",
+      "narration": "Pendant des semaines, tu choisis tes mots avec une précision de chirurgien. Tu ne dis plus que les vérités qui en valent vraiment la peine. Et un soir, sur un banc, Nadia te demande pourquoi tu as l’air si sérieux. Tu sais qu’il y a une vérité que tu repousses depuis des années. Une vérité qui te coûtera un an. Tu la regardes, et tu dis : « Je suis amoureux de toi depuis le gratin. » Picotement. Vingt-six ans. Elle sourit. « Moi aussi. Même s’il était raté. »",
+      "onscreen": [
+        "+1 an",
+        "ça valait le coup"
+      ],
+      "visual": "Sacha, a 35-year-old French man with short chestnut hair, light stubble and a teal shirt and Nadia, a 34-year-old French woman with long wavy black hair, warm brown eyes and an orange knit sweater on a bench at sunset beside a river, he is speaking sincerely, a soft golden glow, she is smiling with tears of joy, a floating number going down by one near his head, romantic warm pink sky"
+    },
+    {
+      "type": "outro",
+      "title": "La leçon",
+      "narration": "Voilà la leçon de ce scénario. Mentir, ça peut sembler gratuit. Ça évite un malaise, ça fait plaisir, ça fait gagner du temps. Mais chaque mensonge t’éloigne un peu de ta propre histoire. Et dire la vérité, ça coûte quelque chose, c’est vrai. Mais certaines vérités valent largement une année de ta vie. Alors maintenant, à toi. Si chaque mensonge te faisait rajeunir d’un an, tu t’arrêterais à quel âge ? Et quelle vérité accepterais-tu de payer d’une année entière ?",
+      "onscreen": [
+        "quelle vérité vaut un an ?",
+        "dis-le en commentaire"
+      ],
+      "visual": "Sacha, a 35-year-old French man with short chestnut hair, light stubble and a teal shirt, smiling gently on a rooftop terrace at sunset, a soft glowing age counter shape above his head and a thoughtful look, warm orange and purple sky, empty space above for text, reflective mood"
+    }
+  ],
+  "short": {
+    "hook_text": "1 MENSONGE = 1 AN DE MOINS",
+    "narration": "Imagine que chaque mensonge te fasse rajeunir d’un an. Tu dis à ton amie que son gratin raté est délicieux, et le lendemain, ta première ride a disparu. Trente-quatre ans. Tu fais le calcul. À deux petits mensonges par jour, tu redeviens un nouveau-né en un peu plus de deux semaines. Mais il y a une faille. Tu vieillis d’un an chaque année. Donc si tu mens exactement une fois par an, tu ne vieillis plus jamais. Alors tu choisis ton âge idéal. Huit mensonges d’affilée, seul dans ta cuisine, et te revoilà à vingt-cinq ans. Sauf que ta banque ne te reconnaît plus. Et le jour de ton anniversaire, à minuit pile, une notification noire s’affiche. Phase deux.",
+    "cta": "Le film complet est sur la chaîne",
+    "visuals": [
+      {
+        "p": "Sacha, a 35-year-old French man with short chestnut hair, light stubble and a teal shirt, in a cozy kitchen biting into a burnt over-salted gratin while Nadia, a 34-year-old French woman with long wavy black hair, warm brown eyes and an orange knit sweater watches hopefully, warm kitchen light, polite forced smile"
+      },
+      {
+        "p": "Sacha, a 35-year-old French man with short chestnut hair, light stubble and a teal shirt, in his bathroom mirror touching a vanished wrinkle, shocked delighted face, soft morning light, younger-looking face",
+        "at": "Tu dis à ton amie",
+        "overlay": {
+          "kind": "chip",
+          "text": "34 ANS"
+        }
+      },
+      {
+        "p": "Sacha, a 35-year-old French man with short chestnut hair, light stubble and a teal shirt, at a desk with a calculator and a whiteboard of glowing arrows going down, a baby bottle drawn on the board, worried comic face, bright cool light",
+        "at": "Tu fais le calcul"
+      },
+      {
+        "p": "Sacha, a 35-year-old French man with short chestnut hair, light stubble and a teal shirt, standing at night in front of a chalkboard with a huge glowing infinity symbol and sticky notes, eyes wide of revelation, dark blue room with golden light",
+        "at": "Mais il y a une faille"
+      },
+      {
+        "p": "Sacha, a 35-year-old French man with short chestnut hair, light stubble and a teal shirt, holding a tiny sticky note with a calendar page showing a birthday, a mischievous grin, golden glow, warm night light",
+        "at": "Donc si tu mens"
+      },
+      {
+        "p": "Sacha, a 35-year-old French man with short chestnut hair, light stubble and a teal shirt, in a kitchen choosing a poster of an ideal age with a playful grin, glowing numbers floating around his head, warm light",
+        "at": "Alors tu choisis"
+      },
+      {
+        "p": "Sacha, a 35-year-old French man with short chestnut hair, light stubble and a teal shirt, alone in his kitchen with arms wide, reflecting in the glass of an oven door showing a younger face, sparkles around him, mischievous laugh",
+        "at": "Huit mensonges d’affilée",
+        "overlay": {
+          "kind": "chip",
+          "text": "25 ANS"
+        }
+      },
+      {
+        "p": "Sacha, a 35-year-old French man with short chestnut hair, light stubble and a teal shirt, at a bank counter with a suspicious banker holding his ID card and looking at his face, annoyed confused expression, bright comedic light",
+        "at": "Sauf que ta banque"
+      },
+      {
+        "p": "A dark apartment at midnight, a birthday cake with candles on the table and a phone screen black with a single white line, cold blue light, tense atmosphere",
+        "at": "Et le jour de ton anniversaire"
+      },
+      {
+        "p": "A black phone screen glowing in the dark with a single white line, Sacha, a 35-year-old French man with short chestnut hair, light stubble and a teal shirt staring at it in shock, dramatic cold blue light",
+        "at": "Phase deux",
+        "overlay": {
+          "kind": "phase2",
+          "text": "PHASE 2"
+        }
+      }
+    ],
+    "counter_speed": 9
+  },
+  "visual_bible": {
+    "hero": "Sacha, a 35-year-old French man with short chestnut hair, light stubble and a teal shirt",
+    "nadia": "Nadia, a 34-year-old French woman with long wavy black hair, warm brown eyes and an orange knit sweater",
+    "boss": "Monsieur Lambert, a 55-year-old boss with grey hair and a navy suit"
+  }
+}

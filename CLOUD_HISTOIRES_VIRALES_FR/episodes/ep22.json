@@ -1,0 +1,298 @@
+{
+  "id": 22,
+  "slug": "ta-mere-t-appelle-depuis-la-cave",
+  "formula": "izranoff",
+  "title": "Si tu entends ta mère t'appeler depuis la cave alors qu'elle est au travail... suis ces 7 règles",
+  "thumbnail": {
+    "line1": "MAMAN EST AU TRAVAIL",
+    "line2": "alors qui est à la cave ?",
+    "accent": "#FF3B3B",
+    "visual": "Lucas, a 15-year-old French boy with messy light-brown hair, glasses and a red hoodie in extreme close-up, terrified face, looking sideways at a half-open dark cellar door with a warm glow and softly glowing white eyes inside, red and black tones, subject on the right"
+  },
+  "youtube": {
+    "title": "Ta mère t'appelle depuis la cave… alors qu'elle est au travail. Suis ces 7 règles",
+    "description": "Seize heures. Tu es seul à la maison. Depuis la cave, la voix de ta mère t'appelle. Le problème, c'est que ta mère est au travail jusqu'à vingt heures. Tu l'appelles. Elle décroche. Et elle chuchote sept règles.\n\nUne histoire de tension à vivre à la deuxième personne, sans gore, dans une maison qui devient étrangère heure après heure. Chaque règle a une raison, et aucune ne rassure.\n\nÉcoute-la jusqu'au bout. La dernière règle n'est pas celle que tu crois.",
+    "tags": [
+      "histoire qui fait peur",
+      "creepypasta",
+      "horreur",
+      "7 règles",
+      "la cave",
+      "voix de ma mère",
+      "histoire nocturne",
+      "suspense",
+      "frisson",
+      "règles étranges",
+      "histoire en français",
+      "tension",
+      "mystère",
+      "paranormal",
+      "maison"
+    ],
+    "pinned_comment": "À partir de quelle règle tu as commencé à douter ? Dis-le-moi sans spoiler la fin."
+  },
+  "scenes": [
+    {
+      "type": "hook",
+      "title": "Seize heures quatre",
+      "narration": "Il est seize heures quatre. Tu es seul à la maison, assis dans la cuisine avec tes devoirs. Le chien dort sous la table. Et soudain, une voix monte de la cave. Chéri ? Tu peux descendre m'aider ? C'est la voix de ta mère. Exactement sa voix. Le même petit ton fatigué de fin de journée. Tu te lèves pour y aller. Puis tu t'arrêtes, la main sur la poignée. Ta mère est infirmière. Elle travaille à l'hôpital jusqu'à vingt heures. Sa voiture n'est pas dans l'allée.",
+      "onscreen": [
+        "16:04",
+        "Maman est au travail"
+      ],
+      "visual": "Lucas, a 15-year-old French boy with messy light-brown hair, glasses and a red hoodie sitting in a suburban kitchen with homework, Biscotte, a small fluffy golden-brown mutt dog with floppy ears asleep under the table, late afternoon light, then the open cellar door at the end of the hallway behind him with darkness and a faint glow, uneasy mood",
+      "overlay": {
+        "kind": "chip",
+        "text": "16H04",
+        "beat": 0
+      }
+    },
+    {
+      "type": "tension",
+      "title": "L'appel",
+      "narration": "Tu recules jusqu'au comptoir et tu attrapes ton téléphone. Tu appelles ta mère. Une sonnerie. Deux sonneries. Depuis la cave, la voix reprend, plus doucement. Chéri ? Je t'entends, tu sais. Troisième sonnerie. Et enfin, quelqu'un décroche. C'est ta mère. Elle chuchote, comme si elle se cachait dans un couloir de l'hôpital. Écoute-moi bien et ne dis rien. Je sais ce que tu entends. Je ne peux pas t'expliquer maintenant. Mais il y a des règles. Tu vas les suivre, toutes, jusqu'à ce que je rentre.",
+      "onscreen": [
+        "Appel en cours",
+        "« Ne dis rien »"
+      ],
+      "visual": "Lucas, a 15-year-old French boy with messy light-brown hair, glasses and a red hoodie backing against the kitchen counter holding a phone to his ear, wide frightened eyes, the cellar door open in the dim hallway behind him, Biscotte, a small fluffy golden-brown mutt dog with floppy ears awake and alert, cool afternoon light and shadows"
+    },
+    {
+      "type": "rule",
+      "number": 1,
+      "rule": "Ne descends jamais à la cave, même si je pleure",
+      "title": "Règle 1",
+      "narration": "Règle numéro un. Ne descends jamais à la cave. Même si tu m'entends pleurer. Même si je te supplie. Surtout si je te supplie. La raison, ta mère la souffle très vite : ce qui est en bas ne peut pas monter tout seul. Il a besoin que quelqu'un vienne le chercher. Tu regardes la porte de la cave, au bout du couloir. Une porte en bois blanc, avec un vieux verrou que personne n'utilise jamais. Elle est entrouverte d'un doigt.",
+      "onscreen": [
+        "RÈGLE 1",
+        "Ne descends pas"
+      ],
+      "visual": "A narrow suburban hallway with a heavy wooden door at the end, a bolt lock and a faint cold light under it, Lucas, a 15-year-old French boy with messy light-brown hair, glasses and a red hoodie staring at it from afar with Biscotte, a small fluffy golden-brown mutt dog with floppy ears at his legs, tense and moody"
+    },
+    {
+      "type": "rule",
+      "number": 2,
+      "rule": "Ne réponds jamais à la voix",
+      "title": "Règle 2",
+      "narration": "Règle numéro deux. Ne réponds jamais à la voix. Pas un mot, pas un oui, pas un chut. La raison : chaque fois que tu lui parles, elle apprend un peu mieux ta voix à toi. Et elle n'a pas toujours besoin de ma voix pour te faire descendre. Elle peut aussi utiliser la tienne avec d'autres. Tu serres le téléphone. Dans la cave, la voix fredonne. Tu reconnais l'air. C'est la chanson que ta mère chante en étendant le linge.",
+      "onscreen": [
+        "RÈGLE 2",
+        "Ne réponds pas"
+      ],
+      "visual": "Lucas, a 15-year-old French boy with messy light-brown hair, glasses and a red hoodie with a finger over his lips in the hallway, whispering at his phone, a dark slit of the cellar door behind him, Biscotte, a small fluffy golden-brown mutt dog with floppy ears growling quietly, dim light, tense mood"
+    },
+    {
+      "type": "tension",
+      "title": "Le verrou",
+      "narration": "Tu avances dans le couloir sur la pointe des pieds. Chaque latte du parquet a un grincement que tu connais par cœur. Tu évites la troisième, la cinquième, la septième. La porte de la cave est là. L'odeur qui en sort est celle de toujours, humidité et vieux cartons. Rien de surnaturel. C'est presque pire. Tu tends la main vers la porte pour la fermer. Et depuis le bas de l'escalier, tout près, la voix dit : merci mon cœur.",
+      "onscreen": [
+        "« Merci mon cœur »"
+      ],
+      "visual": "Lucas, a 15-year-old French boy with messy light-brown hair, glasses and a red hoodie tiptoeing on creaky floorboards in a hallway toward a cellar door, avoiding some boards, damp old cardboard boxes visible in the dark beyond, dim yellow light, tense mood"
+    },
+    {
+      "type": "rule",
+      "number": 3,
+      "rule": "Ferme la porte de la cave à clé et pose une chaise contre",
+      "title": "Règle 3",
+      "narration": "Règle numéro trois. Ferme la porte de la cave avec le verrou, puis cale une chaise sous la poignée. La raison : vers dix-sept heures, la poignée va bouger. Pas beaucoup. Juste assez pour vérifier si la porte est bien fermée. Tu claques la porte, tu tires le verrou, et tu traînes une chaise de la cuisine. Tu la cales en tremblant. Puis tu restes là, essoufflé, à fixer la poignée dorée. Il est seize heures quarante.",
+      "onscreen": [
+        "RÈGLE 3",
+        "Verrou + chaise"
+      ],
+      "visual": "Lucas, a 15-year-old French boy with messy light-brown hair, glasses and a red hoodie dragging a kitchen chair under the cellar door handle and sliding the bolt, strain on his face, Biscotte, a small fluffy golden-brown mutt dog with floppy ears watching, dim hallway light, urgent mood",
+      "overlay": {
+        "kind": "chip",
+        "text": "VERROU + CHAISE",
+        "beat": 0
+      }
+    },
+    {
+      "type": "tension",
+      "title": "Ce que tu ne dis pas",
+      "narration": "Tu ouvres la bouche pour demander à ta mère ce qui se passe. Elle t'arrête aussitôt. Ne pose pas de questions à voix haute. Écris-moi si tu dois. Je t'enverrai le reste par message. Puis elle raccroche. Le silence revient dans la maison. Un silence trop épais, comme si la maison retenait son souffle avec toi. En bas, la voix ne t'appelle plus. Mais tu entends des pas sur les marches de bois. Lents. Ils montent une marche, puis redescendent. Comme quelqu'un qui hésite.",
+      "onscreen": [
+        "« Écris-moi »"
+      ],
+      "visual": "Lucas, a 15-year-old French boy with messy light-brown hair, glasses and a red hoodie sitting by the phone in a quiet dim kitchen with the house seeming to hold its breath, thick shadows in the corners, the cellar door closed behind, a clock on the wall, eerie stillness"
+    },
+    {
+      "type": "tension",
+      "title": "Dix-sept heures",
+      "narration": "Tu t'assois par terre dans le couloir, dos au mur, le chien collé contre toi. Il ne dort plus. Il fixe la porte en grondant tout bas, un son que tu ne lui as jamais entendu. Dix-sept heures. Rien. Dix-sept heures une. Rien. Tu souffles enfin. Et la poignée s'abaisse. Lentement. Jusqu'en bas. Le verrou cogne. La chaise grince sur le carrelage. Puis la poignée remonte, tout doucement, comme quelqu'un qui ne voudrait réveiller personne.",
+      "onscreen": [
+        "17:01",
+        "La poignée bouge"
+      ],
+      "visual": "Lucas, a 15-year-old French boy with messy light-brown hair, glasses and a red hoodie sitting on the hallway floor with Biscotte, a small fluffy golden-brown mutt dog with floppy ears pressed against him, the cellar door handle slowly turning down, the chair shaking and a thin strip of dark light under the door, fear",
+      "overlay": {
+        "kind": "chip",
+        "text": "17H00",
+        "beat": 0
+      }
+    },
+    {
+      "type": "rule",
+      "number": 4,
+      "rule": "Ne regarde pas par le soupirail du jardin",
+      "title": "Règle 4",
+      "narration": "Ton téléphone vibre. Un message de ta mère. Règle numéro quatre. Ne va pas dans le jardin, et surtout ne regarde pas par le soupirail de la cave, la petite fenêtre au ras du sol. La raison : de l'intérieur, on voit le jardin. Mais de l'extérieur, on ne voit pas la cave. On voit ce qu'elle veut te montrer. Tu jettes un œil vers la baie vitrée. Dehors, le soleil se couche. Et dans l'herbe, près du mur, le soupirail est allumé.",
+      "onscreen": [
+        "RÈGLE 4",
+        "Le soupirail"
+      ],
+      "visual": "Lucas, a 15-year-old French boy with messy light-brown hair, glasses and a red hoodie reading a glowing text message on his phone near a glass door, a small dark basement window at ground level visible in the garden behind, dusk light, creepy mood"
+    },
+    {
+      "type": "tension",
+      "title": "La lumière du soupirail",
+      "narration": "Tu ne vas pas dans le jardin. Mais depuis la baie vitrée, tu ne peux pas t'empêcher de regarder la petite fenêtre au ras du sol. La lumière qui en sort est chaude, orangée, comme celle d'une lampe de chevet. Puis une ombre passe devant. Elle s'arrête. Elle se penche, comme pour regarder dehors. Tu tires le rideau d'un coup sec. Ton cœur cogne si fort que tu l'entends dans tes oreilles. Il n'y a pas d'ampoule dans la cave. Ton père ne l'a jamais remplacée.",
+      "onscreen": [
+        "Pas d'ampoule",
+        "dans la cave"
+      ],
+      "visual": "Through the sliding glass door at dusk, a small ground-level cellar window glows warm orange in the dark garden, a dark vague silhouette with softly glowing white eyes silhouetted in it leaning to look out, Lucas, a 15-year-old French boy with messy light-brown hair, glasses and a red hoodie grabbing the curtain, uneasy mood"
+    },
+    {
+      "type": "rule",
+      "number": 5,
+      "rule": "Si le chien refuse de passer, ne le force jamais",
+      "title": "Règle 5",
+      "narration": "Règle numéro cinq. Si le chien refuse de passer quelque part, ne le force jamais, et ne passe pas non plus. La raison : il sent ce que tu ne vois pas. Il a toujours été le premier à savoir. Tu veux aller chercher un verre d'eau dans la cuisine. Le chien se plante au milieu du couloir et refuse d'avancer. Ses pattes tremblent. Il regarde un point précis, juste devant le frigo, là où il n'y a rien. Tu fais demi-tour. Tu n'as plus soif.",
+      "onscreen": [
+        "RÈGLE 5",
+        "Écoute le chien"
+      ],
+      "visual": "Lucas, a 15-year-old French boy with messy light-brown hair, glasses and a red hoodie stopped in a hallway by Biscotte, a small fluffy golden-brown mutt dog with floppy ears who refuses to move forward, legs trembling, ears flat, a dim kitchen beyond, warm yellow lamps looking weak, suspense mood"
+    },
+    {
+      "type": "tension",
+      "title": "La berceuse",
+      "narration": "Dix-huit heures trente. La maison est plongée dans la pénombre. Tu as allumé toutes les lampes du salon, mais la lumière semble plus jaune que d'habitude, plus faible. Depuis la cave, la voix s'est mise à chanter. Pas la chanson du linge. La berceuse. Celle que ta mère te chantait quand tu avais quatre ans, avec un couplet qu'elle avait inventé rien que pour toi. Personne d'autre ne connaît ce couplet. Tu sens tes yeux se remplir de larmes. Tu as envie de descendre.",
+      "onscreen": [
+        "18:30",
+        "La berceuse"
+      ],
+      "visual": "The living room dim at dusk with every lamp on but the light yellow and weak, Lucas, a 15-year-old French boy with messy light-brown hair, glasses and a red hoodie huddled on the sofa with Biscotte, a small fluffy golden-brown mutt dog with floppy ears, the cellar door in the background, a faint musical note glowing in the air, eerie mood"
+    },
+    {
+      "type": "rule",
+      "number": 6,
+      "rule": "Si elle chante notre berceuse, mets tes écouteurs",
+      "title": "Règle 6",
+      "narration": "Le téléphone vibre encore. Règle numéro six. Si elle chante notre berceuse, mets tes écouteurs, et mets le volume au maximum. N'importe quelle musique. La raison : la berceuse n'est pas pour toi. C'est pour la porte. Une porte qu'on ouvre en chantant ne se referme jamais vraiment. Tu enfonces tes écouteurs, tu lances la première playlist venue. De la musique beaucoup trop joyeuse. Tu fermes les yeux. Et à travers la musique, tu sens la chaise vibrer contre le carrelage.",
+      "onscreen": [
+        "RÈGLE 6",
+        "Volume maximum"
+      ],
+      "visual": "Lucas, a 15-year-old French boy with messy light-brown hair, glasses and a red hoodie on the sofa wearing headphones and holding a phone, eyes closed and tense, Biscotte, a small fluffy golden-brown mutt dog with floppy ears curled beside him, the distant cellar door ajar with a thin glow behind, warm dim light",
+      "overlay": {
+        "kind": "chip",
+        "text": "VOLUME AU MAX",
+        "beat": 0
+      }
+    },
+    {
+      "type": "tension",
+      "title": "Le silence",
+      "narration": "Quand tu retires enfin tes écouteurs, il est dix-neuf heures cinquante. Plus de chant. Plus de grincement. La maison est complètement silencieuse. Même le frigo s'est tu. Le chien s'est endormi d'un coup, à plat ventre, épuisé. Tu oses te lever. Tu jettes un œil vers la porte de la cave. Elle est toujours fermée. Le verrou est en place. La chaise est toujours calée. Tu as tenu. Il ne reste que dix minutes. Ton téléphone vibre une dernière fois.",
+      "onscreen": [
+        "19:50",
+        "Silence total"
+      ],
+      "visual": "A silent dim house at night, Lucas, a 15-year-old French boy with messy light-brown hair, glasses and a red hoodie slowly standing up in the living room with Biscotte, a small fluffy golden-brown mutt dog with floppy ears fast asleep on the floor, the cellar door closed with the bolt in place, soft cold light, quiet suspense"
+    },
+    {
+      "type": "rule",
+      "number": 7,
+      "rule": "À 20h, n'ouvre qu'à la personne qui dit notre mot secret",
+      "title": "Règle 7",
+      "narration": "Règle numéro sept. À vingt heures, je rentrerai par la porte d'entrée. Si quelqu'un frappe, n'ouvre que s'il dit notre mot secret, celui de quand tu étais petit. Citronnelle. Si la personne ne le dit pas, n'ouvre pas, même si elle a mon visage. La raison : ce qui est en bas connaît ma voix, mais pas nos secrets. Vingt heures pile. Des pas dans l'allée. Trois coups à la porte d'entrée. Et la voix de ta mère, essoufflée, qui dit : citronnelle.",
+      "onscreen": [
+        "RÈGLE 7",
+        "Citronnelle"
+      ],
+      "visual": "Lucas, a 15-year-old French boy with messy light-brown hair, glasses and a red hoodie standing at the front door holding it ajar, a hand on the handle, soft warm hallway light, a tense face, waiting at the doorway at night with Biscotte, a small fluffy golden-brown mutt dog with floppy ears beside him, a small paper with a word on it, suspense",
+      "overlay": {
+        "kind": "chip",
+        "text": "20H00",
+        "beat": 0
+      }
+    },
+    {
+      "type": "twist",
+      "title": "L'appel de seize heures quatre",
+      "narration": "Tu ouvres. Ta mère te serre dans ses bras, très fort, beaucoup trop longtemps. Elle sent le froid et l'humidité. Tu fermes les yeux, soulagé. Puis tu remarques son téléphone, posé sur le comptoir de la cuisine. Il était là depuis ce matin. L'écran affiche un seul appel reçu : toi, seize heures quatre. Décroché. Trente-huit minutes. Alors, tout bas, depuis la cave fermée à clé, une voix épuisée murmure : chéri, ouvre-moi, je suis descendue chercher des bocaux à midi, et la porte s'est refermée. Dans tes bras, ta mère sourit contre ton épaule. Tu as très bien suivi les règles, mon cœur.",
+      "onscreen": [
+        "Appel décroché",
+        "à la maison"
+      ],
+      "visual": "Lucas's mother, a 42-year-old woman with a dark ponytail wearing blue nurse scrubs hugging Lucas, a 15-year-old French boy with messy light-brown hair, glasses and a red hoodie tightly in the hallway, her eyes closed, a damp cold smell shown by faint mist around her, her phone on the kitchen counter glowing with an old missed-call screen, creepy twist mood",
+      "overlay": {
+        "kind": "banner",
+        "text": "APPEL DE 16H04",
+        "beat": 0
+      }
+    }
+  ],
+  "short": {
+    "hook_text": "MAMAN EST AU TRAVAIL…",
+    "narration": "Il est seize heures quatre. Tu es seul à la maison. Et depuis la cave, la voix de ta mère t'appelle. Chéri, tu peux descendre m'aider ? Sauf que ta mère est infirmière, et qu'elle travaille à l'hôpital jusqu'à vingt heures. Tu l'appelles. Elle décroche, et elle chuchote. Écoute-moi bien. Ne dis rien. Il y a sept règles. Règle numéro un : ne descends jamais à la cave, même si tu m'entends pleurer. Ce qui est en bas a besoin que quelqu'un vienne le chercher. Règle numéro deux : ne réponds jamais à la voix. Chaque mot que tu lui dis, elle l'apprend. Tu regardes la porte de la cave. Elle est entrouverte. Et en bas, quelqu'un fredonne la chanson de ta mère. Le film complet est sur la chaîne.",
+    "cta": "Le film complet est sur la chaîne",
+    "visuals": [
+      {
+        "p": "Lucas, a 15-year-old French boy with messy light-brown hair, glasses and a red hoodie at the kitchen table with homework, Biscotte, a small fluffy golden-brown mutt dog with floppy ears asleep under it, dim afternoon light, a hallway with an open cellar door behind him"
+      },
+      {
+        "p": "A dark open cellar door at the end of a hallway with a warm faint glow and a soft silhouette's hand on the wall, voice-like glowing waves in the air, eerie",
+        "at": "Chéri, tu peux descendre"
+      },
+      {
+        "p": "Lucas's mother, a 42-year-old woman with a dark ponytail wearing blue nurse scrubs in blue nurse scrubs in a hospital corridor with a name badge, tired but calm, a clock on the wall, cool white light",
+        "at": "Sauf que ta mère est infirmière"
+      },
+      {
+        "p": "Lucas, a 15-year-old French boy with messy light-brown hair, glasses and a red hoodie holding a phone to his ear in the kitchen, wide terrified eyes, the cellar door open behind him, cold light",
+        "at": "Tu l'appelles"
+      },
+      {
+        "p": "A glowing phone call screen in a dim hallway, seven tiny glowing candle flames hovering above it, ominous mood, subject low in the frame with empty space above, dramatic cinematic depth and rich color contrast",
+        "at": "Il y a sept règles"
+      },
+      {
+        "p": "A heavy cellar door at the end of a hallway with an X made of light across it, Lucas, a 15-year-old French boy with messy light-brown hair, glasses and a red hoodie stepping back, Biscotte, a small fluffy golden-brown mutt dog with floppy ears growling, dim cold light",
+        "at": "Règle numéro un",
+        "overlay": {
+          "kind": "chip",
+          "text": "RÈGLE 1"
+        }
+      },
+      {
+        "p": "Lucas, a 15-year-old French boy with messy light-brown hair, glasses and a red hoodie with a hand over his mouth in the kitchen, a glowing sound wave coming from the cellar and twisting into his own face shape in the air, creepy",
+        "at": "Règle numéro deux",
+        "overlay": {
+          "kind": "chip",
+          "text": "RÈGLE 2"
+        }
+      },
+      {
+        "p": "Lucas, a 15-year-old French boy with messy light-brown hair, glasses and a red hoodie staring at a cellar door that is slightly ajar, a glowing thin line of orange light, Biscotte, a small fluffy golden-brown mutt dog with floppy ears behind his legs, suspense",
+        "at": "Tu regardes la porte"
+      },
+      {
+        "p": "A dim cellar below, an old lantern glowing on a table, a dark vague silhouette with softly glowing white eyes with softly glowing eyes humming near stacked boxes, cold blue and orange light",
+        "at": "Et en bas, quelqu'un fredonne"
+      },
+      {
+        "p": "Lucas, a 15-year-old French boy with messy light-brown hair, glasses and a red hoodie standing in the dark house with Biscotte, a small fluffy golden-brown mutt dog with floppy ears, the whole screen lit by an eerie orange light from the cellar door behind, cinematic horror mood",
+        "at": "Le film complet"
+      }
+    ]
+  },
+  "visual_bible": {
+    "hero": "Lucas, a 15-year-old French boy with messy light-brown hair, glasses and a red hoodie",
+    "dog": "Biscotte, a small fluffy golden-brown mutt dog with floppy ears",
+    "mom": "Lucas's mother, a 42-year-old woman with a dark ponytail wearing blue nurse scrubs",
+    "voice": "a dark vague silhouette with softly glowing white eyes"
+  }
+}

@@ -1,0 +1,306 @@
+{
+  "id": 21,
+  "slug": "3-regles-attention-pourquoi-tu-ne-finis-rien",
+  "formula": "homodeus",
+  "title": "Les 3 règles de l'attention : pourquoi tu ne finis jamais rien",
+  "thumbnail": {
+    "line1": "TU NE FINIS JAMAIS RIEN",
+    "line2": "voici pourquoi",
+    "accent": "#FFD400",
+    "visual": "Yanis, a 22-year-old student with curly black hair and an olive hoodie, extreme close-up with an overwhelmed face, dozens of glowing red notification bubbles swirling around him, yellow and deep blue lighting"
+  },
+  "youtube": {
+    "title": "Les 3 règles de l'attention : pourquoi tu ne finis jamais rien",
+    "description": "Tu commences dix projets et tu n'en finis aucun ? Ce n'est pas forcément de la paresse. Ton attention obéit à des règles que personne ne t'a jamais expliquées.\n\nDans cet essai, on décortique trois règles, avec des recherches réelles : le temps de retour après une interruption mesuré par Gloria Mark à l'université de Californie à Irvine, le résidu attentionnel de Sophie Leroy, et l'étude de Lally et ses collègues à University College London sur le temps qu'il faut vraiment pour installer une habitude. Avec les chiffres exacts, et leurs limites.\n\nRegarde jusqu'au bout sans changer d'onglet. Ce sera déjà un premier entraînement.",
+    "tags": [
+      "attention",
+      "concentration",
+      "procrastination",
+      "productivité",
+      "psychologie",
+      "habitudes",
+      "Gloria Mark",
+      "résidu attentionnel",
+      "Sophie Leroy",
+      "66 jours",
+      "focus",
+      "développement personnel",
+      "études scientifiques",
+      "cerveau",
+      "homo deus"
+    ],
+    "pinned_comment": "Sois honnête : combien de fois tu as regardé ton téléphone pendant cette vidéo ?"
+  },
+  "scenes": [
+    {
+      "type": "hook",
+      "title": "Le cimetière des projets",
+      "narration": "Ouvre ton téléphone. Va dans tes notes. Combien de projets commencés et jamais terminés ? Un roman de trois pages. Un programme de sport abandonné au jour quatre. Une langue étrangère, oubliée après dix leçons. Tu n'es pas seul. Et surtout, ce n'est pas forcément un manque de volonté. Ton attention fonctionne selon des règles précises. Des règles que les chercheurs ont mesurées, chronométrées, décortiquées. Aujourd'hui, je t'en donne trois. Et si tu arrives à regarder cette vidéo jusqu'au bout sans changer d'onglet, tu as déjà gagné la première manche.",
+      "onscreen": [
+        "Projets commencés : 14",
+        "Projets finis : 0"
+      ],
+      "visual": "A dark bedroom at night, Yanis, a 22-year-old French student with short curly black hair, an olive green hoodie and headphones around the neck lying in bed scrolling his phone, glowing icons of unfinished projects floating around him like ghosts, a half-written notebook, a tennis racket, a guitar in the corner, warm lamp and cool phone light"
+    },
+    {
+      "type": "narration",
+      "title": "L'attention est une ressource",
+      "narration": "On parle souvent de l'attention comme d'un muscle qu'il suffirait de muscler. C'est en partie vrai. Mais c'est surtout une ressource rare, que des milliers d'entreprises essaient de capter chaque jour. Chaque notification, chaque pastille rouge, chaque vidéo qui s'enchaîne automatiquement a été conçue pour attirer ton regard. Ce n'est pas un complot, c'est un modèle économique. Le problème, c'est qu'un projet, lui, ne t'envoie jamais de notification. Ton roman ne vibre pas. Ta langue étrangère ne clignote pas. Alors c'est toujours autre chose qui gagne.",
+      "onscreen": [
+        "Ton projet",
+        "ne vibre jamais"
+      ],
+      "visual": "A busy city street at dusk with giant glowing red notification dots and autoplay screens floating around passersby who stare at their phones, warm sunset orange and cold neon blue contrast, thoughtful mood"
+    },
+    {
+      "type": "rule",
+      "number": 1,
+      "rule": "Chaque interruption coûte bien plus que sa durée",
+      "title": "Règle 1 : le vrai prix d'une interruption",
+      "narration": "Règle numéro un. Chaque interruption coûte beaucoup plus que sa durée. Quand tu jettes un œil à un message, tu as l'impression que ça t'a pris dix secondes. En réalité, la facture est bien plus lourde. Parce que le temps de l'interruption, ce n'est pas le problème. Le problème, c'est le temps qu'il te faut ensuite pour revenir exactement là où tu en étais, avec la même profondeur.",
+      "onscreen": [
+        "RÈGLE 1",
+        "10 secondes ?",
+        "Non."
+      ],
+      "visual": "Yanis, a 22-year-old French student with short curly black hair, an olive green hoodie and headphones around the neck at his desk in a bright room suddenly looking away at three buzzing phones and notifications flying out of his laptop, a hand reaching toward a glowing red dot, warm contrast with cold blue lights"
+    },
+    {
+      "type": "narration",
+      "title": "Yanis et son mémoire",
+      "narration": "Imagine Yanis, vingt-deux ans. Il doit rendre son mémoire dans un mois. Il s'installe à neuf heures, plein de bonne volonté. À neuf heures douze, un message du groupe de classe. Il répond. À neuf heures vingt, une notification de colis. Il vérifie. À neuf heures trente-cinq, une vidéo recommandée. Juste une. À midi, Yanis a écrit quatre lignes. Il se sent nul, épuisé, et il ne comprend pas pourquoi. Il n'a pas perdu trois heures à cause de ces petites pauses. Il les a perdues entre elles.",
+      "onscreen": [
+        "9h00 → 12h00",
+        "4 lignes écrites"
+      ],
+      "visual": "Yanis, a 22-year-old French student with short curly black hair, an olive green hoodie and headphones around the neck at his desk at nine o'clock with a laptop, then a message bubble and a package icon and a video thumbnail floating in the air pulling him away, clock hands spinning above, a dark lamp and tired face, warm and cold light",
+      "overlay": {
+        "kind": "chip",
+        "text": "4 LIGNES EN 3 H",
+        "beat": 0
+      }
+    },
+    {
+      "type": "study",
+      "title": "23 minutes pour revenir",
+      "institution": "Université de Californie à Irvine",
+      "year": 2008,
+      "authors": "Gloria Mark et ses collègues",
+      "finding": "Après une interruption, il faut en moyenne environ 23 minutes pour revenir pleinement à la tâche initiale.",
+      "stat": {
+        "label": "Minutes pour revenir pleinement à la tâche",
+        "values": [
+          {
+            "name": "Un coup d'œil (ressenti)",
+            "value": 0
+          },
+          {
+            "name": "Temps pour revenir pleinement",
+            "value": 23
+          }
+        ]
+      },
+      "caveat": "C'est une moyenne observée en milieu de bureau : le chiffre varie beaucoup selon la tâche et la personne, et on ne perd pas forcément tout ce temps.",
+      "narration": "La chercheuse Gloria Mark, de l'université de Californie à Irvine, a passé des années à observer des gens au travail, minute par minute. Elle a mesuré combien de temps il faut pour revenir pleinement à une tâche après une interruption. Réponse : environ vingt-trois minutes. Pas vingt-trois secondes. Vingt-trois minutes. Souvent, entre-temps, on passe par une ou deux autres tâches avant de revenir. Nuance honnête : c'est une moyenne, observée dans des bureaux. Selon la tâche et la personne, ce chiffre peut être bien plus court ou plus long. Mais l'ordre de grandeur est clair. Un coup d'œil ne coûte jamais un coup d'œil.",
+      "onscreen": [
+        "≈ 23 minutes",
+        "par interruption"
+      ],
+      "visual": "University of California Irvine office, Gloria Mark, a 55-year-old researcher with a silver bob haircut, a navy blazer and a clipboard observing a worker at a computer with a stopwatch, a giant glowing clock with a long arc looping back, bright modern office, scientific mood",
+      "overlay": {
+        "kind": "chip",
+        "text": "23 MINUTES",
+        "beat": 0
+      }
+    },
+    {
+      "type": "narration",
+      "title": "Ce que Yanis change",
+      "narration": "Yanis découvre ce chiffre et fait un calcul simple. Trois interruptions dans une matinée, c'est potentiellement plus d'une heure de concentration partie en fumée. Alors il teste. Le lendemain, il met son téléphone dans une autre pièce. Pas en silencieux sur le bureau. Dans une autre pièce. Il ferme tous les onglets sauf un. Et il se donne une seule règle : quarante-cinq minutes, une seule tâche. Le premier jour, c'est insupportable. Il a l'impression que le monde entier est en train de lui écrire. À midi, il a pourtant écrit deux pages.",
+      "onscreen": [
+        "Téléphone : autre pièce",
+        "2 pages"
+      ],
+      "visual": "Yanis, a 22-year-old French student with short curly black hair, an olive green hoodie and headphones around the neck putting his phone in another room on a shelf and closing browser tabs on his laptop, a timer glowing on the desk, calm focused face, sunlit desk, morning golden light"
+    },
+    {
+      "type": "rule",
+      "number": 2,
+      "rule": "Une tâche inachevée continue de te voler de l'attention",
+      "title": "Règle 2 : le résidu attentionnel",
+      "narration": "Règle numéro deux. Une tâche que tu laisses en plan continue de te voler de l'attention, même quand tu es passé à autre chose. Tu crois avoir changé de tâche. En réalité, ton cerveau traîne encore une partie de lui-même dans la précédente. Comme un navigateur avec trente onglets ouverts, qui ralentit sans que tu saches pourquoi.",
+      "onscreen": [
+        "RÈGLE 2",
+        "30 onglets ouverts"
+      ],
+      "visual": "A laptop screen with dozens of glowing browser tabs stacked like windows and a tiny brain behind them struggling, a person's head with open windows inside, warm and cool contrast, symbolic mood"
+    },
+    {
+      "type": "narration",
+      "title": "Le résidu de Sophie Leroy",
+      "narration": "En deux mille neuf, la chercheuse Sophie Leroy, de l'université de Washington, a donné un nom à ce phénomène : le résidu attentionnel. Dans ses expériences, quand des participants passaient d'une tâche à une autre sans avoir terminé la première, une partie de leur attention restait accrochée à ce qu'ils venaient de quitter. Et ils étaient moins performants sur la nouvelle tâche. Changer de tâche n'est donc jamais gratuit. Chaque projet commencé et jamais fini reste là, quelque part, comme un petit bruit de fond qui grignote ta concentration.",
+      "onscreen": [
+        "Leroy, 2009",
+        "Résidu attentionnel"
+      ],
+      "visual": "University of Washington lab, Sophie Leroy, a 40-year-old researcher with a brown ponytail, a white blouse and a lab badge running an experiment with volunteers switching between papers on desks, glowing threads of attention stuck to the first task, bright clinical light, curious mood"
+    },
+    {
+      "type": "narration",
+      "title": "Clémence et ses dix projets",
+      "narration": "Imagine Clémence, trente ans. Elle a dix projets en cours. Une boutique en ligne, une chaîne de cuisine, un potager, un cours de guitare, un livre pour enfants. Elle passe de l'un à l'autre selon son humeur. Et chaque soir, elle a la sensation d'avoir couru toute la journée sans avancer d'un mètre. Un dimanche, elle prend une feuille et écrit ses dix projets. Elle en barre sept. Pas pour toujours. Juste pour trois mois. Elle range le matériel dans un carton, avec une étiquette : plus tard. Et le lundi, pour la première fois depuis des années, sa tête est silencieuse.",
+      "onscreen": [
+        "10 projets",
+        "→ 3 projets"
+      ],
+      "visual": "Clémence, a 30-year-old French woman with wavy red hair, a mustard cardigan and paint on her fingers in a cozy messy studio surrounded by ten projects: an online shop box, cooking pans, a garden pot, a guitar, a children's book, looking overwhelmed and dizzy, warm sunlight"
+    },
+    {
+      "type": "quote",
+      "title": "La phrase de Clémence",
+      "quote": "Je n'avais pas trop de projets. J'avais trop de portes ouvertes.",
+      "author": "Clémence, personnage de cette histoire",
+      "narration": "Quelques mois plus tard, Clémence a terminé son livre pour enfants. Le premier projet qu'elle termine depuis l'université. Quand on lui demande ce qui a changé, elle répond par une phrase simple. Je n'avais pas trop de projets. J'avais trop de portes ouvertes. Et c'est exactement ça, le résidu attentionnel. Ce n'est pas le nombre de tes idées le problème. C'est le nombre de choses qui restent en suspens dans ta tête au même moment. Fermer une porte, même provisoirement, c'est récupérer de l'attention.",
+      "onscreen": [
+        "Trop de portes",
+        "ouvertes"
+      ],
+      "visual": "Clémence, a 30-year-old French woman with wavy red hair, a mustard cardigan and paint on her fingers at a dining table at sunset happily finishing a children's picture book, closing the cover with a big smile, a cleaner tidy table with a single project, warm golden light, hopeful mood"
+    },
+    {
+      "type": "rule",
+      "number": 3,
+      "rule": "Finir est une habitude, et une habitude prend du temps",
+      "title": "Règle 3 : finir s'apprend",
+      "narration": "Règle numéro trois. Finir n'est pas un talent. C'est une habitude. Et comme toute habitude, elle met du temps à s'installer. Le problème, c'est qu'on nous a vendu un chiffre magique : il suffirait de vingt et un jours pour qu'une habitude devienne automatique. Alors on tient trois semaines, on constate que c'est toujours difficile, et on abandonne en pensant qu'on n'est pas fait pour ça. Sauf que ce chiffre ne correspond pas à ce qu'ont mesuré les chercheurs.",
+      "onscreen": [
+        "RÈGLE 3",
+        "21 jours ?",
+        "Faux."
+      ],
+      "visual": "A person standing before a long corridor of open doors with glowing light spilling out, then calmly closing most of the doors one by one, calm focused mood, cinematic contrast of blue and orange"
+    },
+    {
+      "type": "study",
+      "title": "66 jours, pas 21",
+      "institution": "University College London",
+      "year": 2010,
+      "authors": "Phillippa Lally et ses collègues",
+      "finding": "Il faut en médiane 66 jours pour qu'un nouveau comportement devienne automatique, avec une fourchette allant de 18 à 254 jours.",
+      "stat": {
+        "label": "Jours pour qu'une habitude devienne automatique",
+        "values": [
+          {
+            "name": "Le mythe",
+            "value": 21
+          },
+          {
+            "name": "Le plus rapide",
+            "value": 18
+          },
+          {
+            "name": "Médiane réelle",
+            "value": 66
+          }
+        ]
+      },
+      "caveat": "L'étude portait sur moins d'une centaine de volontaires et des comportements simples. La fourchette allait jusqu'à 254 jours : il n'existe pas de durée universelle.",
+      "narration": "En deux mille dix, Phillippa Lally et ses collègues, à University College London, ont suivi des volontaires qui essayaient d'installer une nouvelle habitude. Boire un verre d'eau au déjeuner, faire quelques exercices, manger un fruit. Résultat : en médiane, il a fallu soixante-six jours pour que le comportement devienne automatique. Pas vingt et un. Et selon les personnes, ça allait de dix-huit jours à deux cent cinquante-quatre jours. Nuance importante : c'était un petit groupe, avec des habitudes simples. Mais une autre découverte est rassurante. Rater un jour de temps en temps ne ruinait pas la progression.",
+      "onscreen": [
+        "Médiane : 66 jours",
+        "De 18 à 254"
+      ],
+      "visual": "University College London, Phillippa Lally, a 45-year-old researcher with a blond bob and a grey sweater analyzing a big glowing calendar in an office, small habit icons like a glass of water and an apple floating above it, the calendar turning slowly, scientific warm mood",
+      "overlay": {
+        "kind": "chip",
+        "text": "66 JOURS",
+        "beat": 0
+      }
+    },
+    {
+      "type": "narration",
+      "title": "La méthode des petites fins",
+      "narration": "Alors comment on s'entraîne à finir ? En commençant par des fins minuscules. Pas finir un roman. Finir un paragraphe. Pas finir un programme de sport. Finir une séance de dix minutes. Chaque fois que tu termines quelque chose, même petit, tu fermes une porte, tu supprimes un résidu, et tu renforces une habitude. Yanis s'y est mis comme ça. Un paragraphe par session. Puis deux. Au bout de deux mois, à peu près soixante jours, il ne se forçait plus. Il s'asseyait, et il écrivait. Il a rendu son mémoire avec trois jours d'avance.",
+      "onscreen": [
+        "Finir petit",
+        "Finir souvent"
+      ],
+      "visual": "Yanis, a 22-year-old French student with short curly black hair, an olive green hoodie and headphones around the neck at his desk writing a single paragraph with a timer on the desk, a tiny trophy and a closed door in the background glowing, satisfied small smile, soft warm light, morning mood"
+    },
+    {
+      "type": "narration",
+      "title": "Ton plan pour demain",
+      "narration": "Concrètement, voilà ce que tu peux tester dès demain matin. Choisis un seul projet, celui qui compte vraiment. Mets ton téléphone dans une autre pièce, pas juste face cachée. Règle un minuteur sur quarante-cinq minutes et accepte de t'ennuyer un peu au début, c'est normal. Avant de t'arrêter, écris en une phrase où tu en es et quelle sera la prochaine étape. Cette petite phrase aide à refermer la porte, et elle te permettra de repartir plus vite la fois suivante. Puis recommence le lendemain. Pas parfaitement. Juste régulièrement. Pendant au moins deux mois.",
+      "onscreen": [
+        "1 projet",
+        "45 minutes",
+        "1 phrase pour finir"
+      ],
+      "visual": "Yanis, a 22-year-old French student with short curly black hair, an olive green hoodie and headphones around the neck at a clean desk at morning with a phone in another room, a timer set for forty-five minutes, a notebook with a single short sentence, calm and focused mood, soft warm light"
+    },
+    {
+      "type": "outro",
+      "title": "Ferme cet onglet",
+      "narration": "Récapitulons. Règle un : une interruption coûte bien plus que sa durée, parfois une vingtaine de minutes de concentration. Règle deux : une tâche inachevée continue de te voler de l'attention. Règle trois : finir est une habitude, et elle prend plus de temps que ce qu'on t'a promis. Tu ne finis jamais rien ? Peut-être que tu n'es pas paresseux. Peut-être que ton attention est simplement éparpillée sur trop de portes ouvertes. Alors choisis un seul projet ce soir. Un seul. Et dis-moi en commentaire lequel tu vas enfin terminer.",
+      "onscreen": [
+        "1 projet",
+        "1 porte",
+        "1 fin"
+      ],
+      "visual": "Yanis, a 22-year-old French student with short curly black hair, an olive green hoodie and headphones around the neck and Clémence, a 30-year-old French woman with wavy red hair, a mustard cardigan and paint on her fingers sitting side by side in a cozy café each calmly working on a laptop with phones left far away, a single glowing open window in each screen, warm golden light, hopeful mood"
+    }
+  ],
+  "short": {
+    "hook_text": "TU NE FINIS JAMAIS RIEN ?",
+    "narration": "Tu commences plein de projets et tu n'en finis aucun ? Ce n'est peut-être pas de la paresse. À l'université de Californie à Irvine, la chercheuse Gloria Mark a chronométré des gens au travail. Après une simple interruption, il leur fallait en moyenne environ vingt-trois minutes pour revenir pleinement à leur tâche. Vingt-trois minutes. Pour un message. Pour une notification. Pour un petit coup d'œil. Fais le calcul sur une matinée : trois interruptions, et c'est plus d'une heure de concentration qui disparaît. Mais ce n'est que la première règle. La deuxième explique pourquoi tes projets abandonnés continuent de te voler de l'énergie, même quand tu n'y penses plus. Et la troisième va détruire un mythe que tout le monde croit. Le film complet est sur la chaîne.",
+    "cta": "Le film complet est sur la chaîne",
+    "visuals": [
+      {
+        "p": "Yanis, a 22-year-old French student with short curly black hair, an olive green hoodie and headphones around the neck lying in bed with a phone and floating ghosts of unfinished projects, warm lamp and cool phone light, thoughtful mood"
+      },
+      {
+        "p": "University of California Irvine office, Gloria Mark, a 55-year-old researcher with a silver bob haircut, a navy blazer and a clipboard observing a worker at a computer with a stopwatch, bright modern office, scientific mood",
+        "at": "À l'université de Californie"
+      },
+      {
+        "p": "A worker at a computer interrupted by a giant glowing notification bubble, a clock on the wall, the person looking away, cold office light, subject low in the frame with empty space above, dramatic cinematic depth and rich color contrast",
+        "at": "Après une simple interruption"
+      },
+      {
+        "p": "A giant glowing clock with a long arc looping back toward a desk, a person staring blankly at it, symbolic mood, warm and cold contrast, subject low in the frame with empty space above, dramatic cinematic depth and rich color contrast",
+        "at": "Vingt-trois minutes. Pour un message",
+        "overlay": {
+          "kind": "chip",
+          "text": "23 MIN"
+        }
+      },
+      {
+        "p": "Yanis, a 22-year-old French student with short curly black hair, an olive green hoodie and headphones around the neck at his desk with three notifications flying out of his laptop, a calculator and a rising clock in the air, warm contrast",
+        "at": "Fais le calcul"
+      },
+      {
+        "p": "A big glowing doorway leading to an unlit corridor of locked doors, a single golden key floating near the first door, mysterious cinematic mood, subject low in the frame with empty space above, dramatic cinematic depth and rich color contrast",
+        "at": "Mais ce n'est que la première règle"
+      },
+      {
+        "p": "A brain shaped like a web browser with dozens of tabs glowing, heavy vapor leaking from the open tabs, symbolic mood, cold light, subject low in the frame with empty space above, dramatic cinematic depth and rich color contrast",
+        "at": "La deuxième explique"
+      },
+      {
+        "p": "A giant crumbling glowing calendar with a large glowing myth-bubble cracking and dissolving into dust, dramatic mood, subject low in the frame with empty space above, dramatic cinematic depth and rich color contrast",
+        "at": "Et la troisième"
+      },
+      {
+        "p": "Clémence, a 30-year-old French woman with wavy red hair, a mustard cardigan and paint on her fingers and Yanis, a 22-year-old French student with short curly black hair, an olive green hoodie and headphones around the neck walking into a golden door of light together, phones left behind on a table, hopeful cinematic mood",
+        "at": "Le film complet"
+      }
+    ]
+  },
+  "visual_bible": {
+    "yanis": "Yanis, a 22-year-old French student with short curly black hair, an olive green hoodie and headphones around the neck",
+    "clemence": "Clémence, a 30-year-old French woman with wavy red hair, a mustard cardigan and paint on her fingers",
+    "mark": "Gloria Mark, a 55-year-old researcher with a silver bob haircut, a navy blazer and a clipboard",
+    "leroy": "Sophie Leroy, a 40-year-old researcher with a brown ponytail, a white blouse and a lab badge",
+    "lally": "Phillippa Lally, a 45-year-old researcher with a blond bob and a grey sweater"
+  }
+}

@@ -1,0 +1,331 @@
+{
+  "id": 29,
+  "slug": "3-regles-charisme-7-secondes",
+  "formula": "homodeus",
+  "title": "Les 3 règles du charisme : ce que les gens jugent en 7 secondes",
+  "thumbnail": {
+    "line1": "JUGÉ EN 7 SECONDES ?",
+    "line2": "en vrai, c'est pire",
+    "accent": "#FFD400",
+    "visual": "Léa, a 29-year-old French woman with a brown ponytail, a mustard yellow cardigan and a notebook in her bag, shocked wide-eyed close-up face on the right with a giant glowing stopwatch and a tiny sliver of time next to her, bold yellow and deep blue lighting"
+  },
+  "youtube": {
+    "title": "Les 3 règles du charisme : ce que les gens jugent en 7 secondes",
+    "description": "On dit que les gens te jugent en sept secondes. La science dit que c'est encore plus rapide. Mais elle dit aussi que le charisme, le vrai, se joue après cette première impression, et qu'il s'apprend.\n\nTrois règles, trois histoires, et deux études réelles : le Bon Samaritain de Darley et Batson à Princeton en 1973, et l'expérience de la photocopieuse de Langer, Blank et Chanowitz à Harvard en 1978. Avec leurs chiffres exacts et leurs limites.\n\nQui est la personne la plus charismatique que tu connaisses ? Dis-nous pourquoi en commentaire.",
+    "tags": [
+      "charisme",
+      "psychologie",
+      "première impression",
+      "7 secondes",
+      "langer",
+      "darley batson",
+      "bon samaritain",
+      "communication",
+      "influence",
+      "présence",
+      "les 3 règles",
+      "étude",
+      "confiance",
+      "histoire virale",
+      "français"
+    ],
+    "pinned_comment": "Pense à la personne la plus charismatique que tu connais. C'est plutôt sa présence, ses raisons, ou sa façon de te faire briller ?"
+  },
+  "scenes": [
+    {
+      "type": "hook",
+      "title": "Sept secondes",
+      "narration": "On te l'a sûrement déjà dit. Les gens te jugent en sept secondes. Ta poignée de main, ton regard, ta façon d'entrer dans une pièce. Mauvaise nouvelle. C'est encore plus rapide. En deux mille six, à l'Université de Princeton, Janine Willis et Alexander Todorov ont montré qu'un jugement de confiance sur un visage se forme en cent millisecondes. Un dixième de seconde. Bonne nouvelle, en revanche. Ce n'est pas là que se joue le charisme. Il se joue juste après. Et il obéit à trois règles.",
+      "onscreen": [
+        "7 secondes ?",
+        "100 millisecondes"
+      ],
+      "visual": "Léa, a 29-year-old French woman with a brown ponytail, a mustard yellow cardigan and a notebook in her bag, entering a bright meeting room full of strangers who all turn to look at her, a clock-shaped glowing halo of a fraction of a second behind her, nervous smile, warm office light, empty space above"
+    },
+    {
+      "type": "narration",
+      "title": "Le malentendu du charisme",
+      "narration": "Quand on pense au charisme, on imagine souvent une star. Quelqu'un qui parle fort, qui raconte des histoires brillantes, qui attire tous les regards. Mais demande autour de toi qui est la personne la plus charismatique que les gens connaissent. Très souvent, ils te parleront de quelqu'un de calme. Une grand-mère, un prof, un collègue. Quelqu'un auprès de qui ils se sont sentis importants. Le charisme ne consiste pas à briller. Il consiste à laisser une trace. Et cette trace suit des règles assez précises.",
+      "onscreen": [
+        "pas briller",
+        "laisser une trace"
+      ],
+      "visual": "A split scene, left a loud flashy man on a stage with arms spread and dramatic lights, right Clémence, a 40-year-old calm French woman with long dark hair, a cream blouse and a warm attentive smile calmly listening to a small group who lean toward her, warm light on her side, cool light on the other"
+    },
+    {
+      "type": "rule",
+      "title": "Règle 1",
+      "number": 1,
+      "rule": "Ralentis : la présence passe avant la performance.",
+      "narration": "Première règle. Ralentis. La présence passe avant la performance. Les gens ne se souviennent pas de ce que tu as dit d'intelligent. Ils se souviennent de la sensation que tu leur as laissée. Et rien ne détruit cette sensation plus vite que l'impression que tu es déjà ailleurs.",
+      "onscreen": [
+        "RÈGLE 1",
+        "ralentis"
+      ],
+      "visual": "Léa, a 29-year-old French woman with a brown ponytail, a mustard yellow cardigan and a notebook in her bag, sitting in a quiet cafe slowly putting her phone face down on the table, relaxed present smile toward a friend across the table, warm afternoon light, calm mood",
+      "overlay": {
+        "kind": "banner",
+        "text": "RÈGLE 1",
+        "beat": 1
+      }
+    },
+    {
+      "type": "study",
+      "title": "Le Bon Samaritain de Princeton",
+      "institution": "Université de Princeton",
+      "year": 1973,
+      "authors": "John Darley et Daniel Batson",
+      "finding": "Face à un homme en détresse sur leur chemin, ont aidé 63 % des participants pas pressés, 45 % des moyennement pressés et 10 % des très pressés.",
+      "stat": {
+        "label": "Participants qui ont aidé (%)",
+        "values": [
+          {
+            "name": "Pas pressés",
+            "value": 63
+          },
+          {
+            "name": "Moyennement pressés",
+            "value": 45
+          },
+          {
+            "name": "Très pressés",
+            "value": 10
+          }
+        ]
+      },
+      "caveat": "Petit échantillon d'étudiants en théologie, dans une seule situation. L'étude montre la force du contexte, pas que les gens pressés sont mauvais.",
+      "narration": "En mille neuf cent soixante-treize, à l'Université de Princeton, John Darley et Daniel Batson demandent à des étudiants en théologie d'aller faire un exposé dans un autre bâtiment. Certains sur la parabole du Bon Samaritain. Sur le chemin, un homme est affalé dans une entrée, et il gémit. Qui s'arrête ? Parmi ceux qui n'étaient pas pressés, soixante-trois pour cent. Moyennement pressés, quarante-cinq pour cent. Très pressés, dix pour cent. Nuance honnête, l'échantillon était petit, dans une seule situation. Mais la leçon est frappante. La hâte ne nous rend pas méchants. Elle nous rend aveugles.",
+      "onscreen": [
+        "pas pressés : 63 %",
+        "très pressés : 10 %"
+      ],
+      "visual": "A campus alley at dusk where a hurried theology student in a coat with a folder rushes past a man slumped in a doorway, a clock ticking on a distant tower, 1973 style, cold evening light"
+    },
+    {
+      "type": "narration",
+      "title": "Joséphine s'assoit",
+      "narration": "Joséphine est infirmière de nuit. Elle a trente patients, et jamais assez de temps. Ses collègues entrent dans les chambres debout, la main sur la poignée, déjà tournées vers la suivante. Joséphine, elle, a une habitude. Elle s'assoit. Trente secondes, parfois une minute. Sur le bord d'une chaise, à hauteur des yeux. Elle ne reste pas plus longtemps que les autres. Mais les patients sont persuadés du contraire. Ils la réclament, ils retiennent son prénom, ils lui écrivent des lettres. Elle n'est pas plus brillante que ses collègues. Elle est simplement là, entièrement, pendant le temps qu'elle a.",
+      "onscreen": [
+        "elle s'assoit",
+        "30 secondes"
+      ],
+      "visual": "Joséphine, a 38-year-old night nurse with a short auburn bob, teal scrubs and a stethoscope around her neck, sitting on the edge of a hospital bed beside an elderly patient holding his hand, night hospital room, soft warm lamp, calm smile, other nurses rushing in the corridor behind"
+    },
+    {
+      "type": "narration",
+      "title": "Le téléphone sur la table",
+      "narration": "Toi aussi, tu as déjà vécu l'inverse. Tu parles à quelqu'un qui hoche la tête, mais dont les yeux glissent toutes les dix secondes vers son téléphone posé sur la table. Il ne fait rien de mal. Il ne te coupe pas. Pourtant, tu te sens petit. Tu raccourcis ton histoire. Tu finis par te taire. La présence, c'est exactement l'opposé de ça. C'est donner à quelqu'un l'impression que, pendant une minute, rien d'autre au monde ne compte. Ça ne coûte presque rien. Retourne ton téléphone, tourne tes épaules vers la personne, laisse un silence avant de répondre. Et observe comme les gens se mettent à te parler différemment.",
+      "onscreen": [
+        "téléphone retourné",
+        "épaules tournées vers l'autre"
+      ],
+      "visual": "A cafe table with a smartphone lying in the middle, a person with downcast eyes talking, and the listener glancing at the phone, cold light on the speaker, warm light on the phone, subtle sad mood"
+    },
+    {
+      "type": "rule",
+      "title": "Règle 2",
+      "number": 2,
+      "rule": "Donne une raison : on suit ceux qui expliquent.",
+      "narration": "Deuxième règle. Donne une raison. On suit plus facilement ceux qui expliquent. Le charisme, ce n'est pas seulement plaire. C'est aussi entraîner les autres. Et le cerveau humain a un faible étonnant pour un petit mot. Parce que.",
+      "onscreen": [
+        "RÈGLE 2",
+        "parce que"
+      ],
+      "visual": "Léa, a 29-year-old French woman with a brown ponytail, a mustard yellow cardigan and a notebook in her bag, standing in a lively photocopy room with a long line of people, politely asking a man at the copier machine, who smiles as he steps aside, 1978 office style, warm fluorescent light",
+      "overlay": {
+        "kind": "banner",
+        "text": "RÈGLE 2",
+        "beat": 1
+      }
+    },
+    {
+      "type": "study",
+      "title": "La photocopieuse de Harvard",
+      "institution": "Université Harvard",
+      "year": 1978,
+      "authors": "Ellen Langer, Arthur Blank et Benzion Chanowitz",
+      "finding": "Pour passer devant à la photocopieuse : 60 % acceptent sans raison, 94 % avec une vraie raison, 93 % avec une fausse raison (« parce que je dois faire des copies »).",
+      "stat": {
+        "label": "Personnes qui acceptent (%)",
+        "values": [
+          {
+            "name": "Sans raison",
+            "value": 60
+          },
+          {
+            "name": "Vraie raison",
+            "value": 94
+          },
+          {
+            "name": "Fausse raison",
+            "value": 93
+          }
+        ]
+      },
+      "caveat": "Cela vaut pour une petite demande. Pour une demande plus coûteuse, la fausse raison perdait son effet : les gens écoutent vraiment quand l'enjeu monte.",
+      "narration": "En mille neuf cent soixante-dix-huit, à l'Université Harvard, Ellen Langer, Arthur Blank et Benzion Chanowitz demandent à des inconnus de les laisser passer devant à la photocopieuse. Sans raison, soixante pour cent acceptent. Avec une vraie raison, parce que je suis pressé, quatre-vingt-quatorze pour cent. Et avec une fausse raison, parce que je dois faire des copies, quatre-vingt-treize pour cent. Une raison vide marche presque aussi bien qu'une vraie. La nuance, et elle est importante, c'est que ça vaut pour une petite demande. Quand l'enjeu monte, les gens écoutent vraiment ta raison. Alors donne-en une bonne.",
+      "onscreen": [
+        "sans raison : 60 %",
+        "avec raison : 94 %"
+      ],
+      "visual": "A 1978 university library photocopy machine with a queue of students and a man letting another go first, warm bright light, subtle mood of cooperation",
+      "overlay": {
+        "kind": "chip",
+        "text": "94 % AVEC UNE RAISON",
+        "beat": 1
+      }
+    },
+    {
+      "type": "narration",
+      "title": "Yanis et le vestiaire",
+      "narration": "Yanis est capitaine d'une équipe de handball amateur. Avant, il donnait des ordres. Tout le monde en défense. On presse haut. Les joueurs obéissaient à moitié. Puis un entraîneur lui a donné un conseil simple. Chaque consigne, une raison. On presse haut, parce que leur gardien relance mal. On défend serré, parce que leur numéro sept tire de loin. En un mois, l'ambiance a changé. Les joueurs ne le suivaient plus parce qu'il était capitaine. Ils le suivaient parce qu'ils comprenaient où il les emmenait.",
+      "onscreen": [
+        "une consigne",
+        "une raison"
+      ],
+      "visual": "Yanis, a 27-year-old handball team captain with short black hair and a red team jersey, in a handball team locker room speaking with a calm smile to his teammates who listen attentively around him, sports bags and lockers, warm lamp light"
+    },
+    {
+      "type": "rule",
+      "title": "Règle 3",
+      "number": 3,
+      "rule": "Fais briller l'autre : on aime qui nous rend meilleur.",
+      "narration": "Troisième règle. Fais briller l'autre. On ne se souvient pas des gens qui nous ont impressionnés. On se souvient de ceux qui nous ont fait nous sentir intéressants. C'est peut-être la règle la plus simple, et la plus rare.",
+      "onscreen": [
+        "RÈGLE 3",
+        "fais briller l'autre"
+      ],
+      "visual": "Augustin, a 45-year-old French restaurateur with a gentle round face, a salt and pepper beard and a green apron over a shirt, at a long festive dinner table full of guests, glowing across the table as Clémence, a 40-year-old calm French woman with long dark hair, a cream blouse and a warm attentive smile smiles at him, string lights, warm candlelight, friendly mood",
+      "overlay": {
+        "kind": "banner",
+        "text": "RÈGLE 3",
+        "beat": 1
+      }
+    },
+    {
+      "type": "narration",
+      "title": "Le dîner d'Augustin",
+      "narration": "Augustin est invité à un dîner où il ne connaît personne. À sa gauche, un homme brillant qui enchaîne les anecdotes de voyage, les chiffres, les noms célèbres. À sa droite, une femme discrète, Clémence, qui pose une question. Tu fais quoi, toi, dans la vie ? Augustin parle de son métier de restaurateur de meubles anciens. Elle s'intéresse vraiment. Elle demande quel est le meuble le plus beau qu'il ait sauvé. Il raconte. Elle se souvient d'un détail et y revient plus tard. En rentrant, Augustin ne se souvient d'aucune anecdote de l'homme brillant. Mais il dit à sa femme qu'il a rencontré une personne extraordinaire.",
+      "onscreen": [
+        "une question",
+        "un détail retenu"
+      ],
+      "visual": "Augustin, a 45-year-old French restaurateur with a gentle round face, a salt and pepper beard and a green apron over a shirt, talking happily with hands gesturing to Clémence, a 40-year-old calm French woman with long dark hair, a cream blouse and a warm attentive smile who listens with warm attentive eyes, a flashy man with anecdotes fading blurred on the other side, warm candlelit dinner"
+    },
+    {
+      "type": "narration",
+      "title": "Pourquoi ça marche",
+      "narration": "Ce que Clémence a fait est presque invisible. Une question ouverte. Une écoute réelle. Un détail repris plus tard, qui prouve qu'elle avait vraiment écouté. Elle n'a rien dit d'impressionnant sur elle-même. Et pourtant, c'est elle qu'Augustin trouve charismatique. Parce que le charisme n'est pas une lumière que tu projettes. C'est un miroir que tu tends. Les gens ne repartent pas en pensant que tu es fascinant. Ils repartent en se sentant fascinants. Et ils associent ce sentiment à toi.",
+      "onscreen": [
+        "pas une lumière",
+        "un miroir"
+      ],
+      "visual": "Clémence, a 40-year-old calm French woman with long dark hair, a cream blouse and a warm attentive smile, leaning slightly forward with attentive eyes asking a question across a dinner table, a small glowing speech bubble without text, a warm candlelit scene, gentle smile"
+    },
+    {
+      "type": "narration",
+      "title": "Les trois gestes de Clémence",
+      "narration": "Tu peux décomposer ce qu'elle a fait en trois gestes. Le premier, c'est la question ouverte. Pas tu travailles dans quoi, mais qu'est-ce qui te plaît dans ce que tu fais. Le deuxième, c'est la relance. Au lieu de raconter sa propre histoire dès que l'autre s'arrête, elle demande et ensuite, ou comment tu as fait. Le troisième, c'est le rappel. Une heure plus tard, au dessert, elle a dit : au fait, ta commode, tu l'as finalement vendue ? Ces trois gestes prennent quelques secondes chacun. Mais ensemble, ils disent quelque chose de très puissant. Je t'ai vu. Je t'ai écouté. Tu comptes.",
+      "onscreen": [
+        "question ouverte",
+        "relance",
+        "rappel"
+      ],
+      "visual": "Léa, a 29-year-old French woman with a brown ponytail, a mustard yellow cardigan and a notebook in her bag, Joséphine, a 38-year-old night nurse with a short auburn bob, teal scrubs and a stethoscope around her neck and Yanis, a 27-year-old handball team captain with short black hair and a red team jersey standing in a row against a soft sunrise sky, making gestures of sitting, explaining and asking, confident warm smiles, golden light"
+    },
+    {
+      "type": "narration",
+      "title": "Ce qu'on juge vraiment",
+      "narration": "Revenons aux cent millisecondes du début. Oui, ton visage est jugé en un éclair. Tu ne contrôles pas tout. Mais cette première impression n'est qu'un brouillon. Ce qui l'écrase ou la confirme, ce sont les minutes qui suivent. Est-ce que tu es pressé ou présent ? Est-ce que tu imposes ou est-ce que tu expliques ? Est-ce que tu cherches à briller ou est-ce que tu fais briller ? Joséphine, Yanis et Clémence n'ont pas des visages extraordinaires. Ils ont des habitudes extraordinaires.",
+      "onscreen": [
+        "présent",
+        "explique",
+        "fait briller"
+      ],
+      "visual": "Léa, a 29-year-old French woman with a brown ponytail, a mustard yellow cardigan and a notebook in her bag, at a crossroads of a busy street looking at a floating glowing face portrait that is becoming a rough sketch then a finished painting, soft morning light, thoughtful"
+    },
+    {
+      "type": "narration",
+      "title": "Le piège à éviter",
+      "narration": "Un mot quand même sur la tentation de tricher. Tu peux t'asseoir sans écouter. Tu peux dire parce que sans avoir de vraie raison. Tu peux poser des questions juste pour paraître intéressé. Ça marche un temps, sur les petites choses, comme la photocopieuse. Mais les gens finissent toujours par sentir la différence entre une technique et une attention réelle. Le charisme qui dure n'est pas une méthode pour obtenir quelque chose des autres. C'est une façon de les traiter. Et curieusement, c'est justement pour ça qu'il fonctionne.",
+      "onscreen": [
+        "technique",
+        "ou attention réelle ?"
+      ],
+      "visual": "Léa, a 29-year-old French woman with a brown ponytail, a mustard yellow cardigan and a notebook in her bag, in a dim cafe with a fake smile holding a phone, a mask-like painted face behind her cracking slightly, cool light on her, subtle uncomfortable mood"
+    },
+    {
+      "type": "outro",
+      "title": "Ta prochaine conversation",
+      "narration": "Alors voici ton exercice pour cette semaine. Dans ta prochaine conversation, ralentis. Pose ton téléphone, assieds-toi si tu peux. Quand tu demandes quelque chose, donne une vraie raison. Et avant de partir, reviens sur un détail que l'autre t'a confié. Rien de spectaculaire. Mais observe bien ce qui change dans son regard. Et dis-moi en commentaire. Qui est la personne la plus charismatique que tu connaisses, et laquelle de ces trois règles elle applique sans le savoir ?",
+      "onscreen": [
+        "ralentis",
+        "explique",
+        "fais briller"
+      ],
+      "visual": "Léa, a 29-year-old French woman with a brown ponytail, a mustard yellow cardigan and a notebook in her bag, in a sunny cafe putting her phone in her bag, leaning forward and smiling at a friend while listening, golden warm light, a notebook open on the table with a tiny check mark"
+    }
+  ],
+  "short": {
+    "hook_text": "TU ES JUGÉ EN 0,1 S",
+    "narration": "On dit que les gens te jugent en sept secondes. C'est faux. C'est bien plus rapide. À Princeton, Willis et Todorov ont montré qu'un jugement de confiance sur un visage se forme en cent millisecondes. Un dixième de seconde. Mais voilà le secret. Le charisme ne se joue pas là. Il se joue juste après. Une autre étude de Princeton, en mille neuf cent soixante-treize, a montré que parmi des étudiants très pressés, seulement dix pour cent se sont arrêtés pour aider un homme en détresse. Contre soixante-trois pour cent quand ils n'étaient pas pressés. La première règle du charisme est là. Et la deuxième tient en deux mots que ton cerveau ne sait pas refuser. Le film complet est sur la chaîne.",
+    "cta": "Le film complet est sur la chaîne",
+    "visuals": [
+      {
+        "p": "Léa, a 29-year-old French woman with a brown ponytail, a mustard yellow cardigan and a notebook in her bag, entering a bright room full of strangers who look at her, a glowing clock halo of a fraction of a second behind her, nervous smile, warm office light"
+      },
+      {
+        "p": "Léa, a 29-year-old French woman with a brown ponytail, a mustard yellow cardigan and a notebook in her bag, with a stunned expression in front of a giant glowing stopwatch showing a tiny sliver of time, a face portrait glowing beside it, soft cool light",
+        "at": "Willis et Todorov",
+        "overlay": {
+          "kind": "chip",
+          "text": "100 MILLISECONDES"
+        }
+      },
+      {
+        "p": "A split scene, a loud flashy man on a stage on the left and Clémence, a 40-year-old calm French woman with long dark hair, a cream blouse and a warm attentive smile calmly listening to a small group on the right, warm and cool light",
+        "at": "Mais voilà le secret"
+      },
+      {
+        "p": "A campus alley at dusk, a hurried theology student with a folder rushing past a slumped man in a doorway, 1973 style, cold light, cinematic dramatic lighting, expressive faces, rich colors",
+        "at": "Une autre étude de Princeton",
+        "overlay": {
+          "kind": "chip",
+          "text": "10 % S'ARRÊTENT"
+        }
+      },
+      {
+        "p": "The same campus alley at warm dusk where a relaxed student stops and bends to help a slumped man in a doorway, warm golden light, kind mood, cinematic dramatic lighting, expressive faces, rich colors",
+        "at": "Contre soixante-trois",
+        "overlay": {
+          "kind": "chip",
+          "text": "63 % SANS PRESSE"
+        }
+      },
+      {
+        "p": "Léa, a 29-year-old French woman with a brown ponytail, a mustard yellow cardigan and a notebook in her bag, sitting calmly in a cafe, putting her phone face down on the table and smiling at a friend, warm afternoon light",
+        "at": "La première règle"
+      },
+      {
+        "p": "A 1978 university photocopier with a queue of students and one letting another go first with a smile, warm fluorescent light, cooperative mood, cinematic dramatic lighting, expressive faces, rich colors",
+        "at": "Et la deuxième tient"
+      },
+      {
+        "p": "Clémence, a 40-year-old calm French woman with long dark hair, a cream blouse and a warm attentive smile, smiling warmly, with two large glowing speech bubbles without text floating beside her head, warm light",
+        "at": "deux mots que ton cerveau"
+      },
+      {
+        "p": "Léa, a 29-year-old French woman with a brown ponytail, a mustard yellow cardigan and a notebook in her bag, at a crowded dinner table, looking at the camera with a knowing smile, candlelight",
+        "at": "Le film complet"
+      }
+    ]
+  },
+  "visual_bible": {
+    "narrator": "Léa, a 29-year-old French woman with a brown ponytail, a mustard yellow cardigan and a notebook in her bag",
+    "josephine": "Joséphine, a 38-year-old night nurse with a short auburn bob, teal scrubs and a stethoscope around her neck",
+    "yanis": "Yanis, a 27-year-old handball team captain with short black hair and a red team jersey",
+    "augustin": "Augustin, a 45-year-old French restaurateur with a gentle round face, a salt and pepper beard and a green apron over a shirt",
+    "clemence": "Clémence, a 40-year-old calm French woman with long dark hair, a cream blouse and a warm attentive smile",
+    "prof": "Professor Darley, a 50-year-old man with grey hair, glasses and a brown tweed jacket"
+  }
+}

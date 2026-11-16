@@ -1,0 +1,357 @@
+{
+  "id": 10,
+  "slug": "trois-coups-chalet-minuit",
+  "formula": "izranoff",
+  "title": "Si quelqu'un frappe trois fois à la porte de ton chalet après minuit... suis ces 7 règles",
+  "thumbnail": {
+    "line1": "TROIS COUPS. N'OUVRE PAS.",
+    "line2": "chalet, minuit passé",
+    "accent": "#E63946",
+    "visual": "extreme close-up of the narrator, a 24-year-old French man with short dark hair, dark circles under his eyes, a grey wool sweater and jeans with wide terrified eyes, on the right a heavy chalet door with a thin line of cold light under it and glowing pale eyes behind frosted glass, deep red and black shadows"
+  },
+  "youtube": {
+    "title": "Si quelqu'un frappe trois fois à ton chalet après minuit... suis ces 7 règles",
+    "description": "Tu as loué un chalet isolé pour un week-end au calme. Sur la table de la cuisine, le propriétaire a laissé une note plastifiée avec sept règles. Tu la trouves bizarre. Puis, à minuit passé, quelqu'un frappe trois fois à la porte.\n\nUne histoire de tension nocturne racontée à la deuxième personne, 100 % originale, sans gore. Écoute-la au casque, lumières éteintes, si tu l'oses.\n\nEt fais bien attention à la règle numéro sept.",
+    "tags": [
+      "histoire qui fait peur",
+      "creepypasta",
+      "règles",
+      "horreur",
+      "chalet",
+      "minuit",
+      "histoire d'horreur",
+      "suspense",
+      "frisson",
+      "histoire courte",
+      "nuit",
+      "forêt",
+      "mystère",
+      "plot twist",
+      "histoire audio"
+    ],
+    "pinned_comment": "À quelle règle tu aurais craqué en premier ? Moi, la deuxième, sans hésiter."
+  },
+  "scenes": [
+    {
+      "type": "hook",
+      "title": "Trois coups",
+      "narration": "Il est minuit vingt. Le feu de cheminée craque doucement. Dehors, la neige étouffe tout. Pas une voiture, pas un voisin à moins de six kilomètres. Et soudain, trois coups à la porte. Toc. Toc. Toc. Lents. Réguliers. Tu te figes. Ton regard tombe sur la note plastifiée posée sur la table de la cuisine. Celle que tu as trouvée ridicule en arrivant. Maintenant, tu la relis. Et tu comprends qu'elle n'était pas là pour décorer.",
+      "onscreen": [
+        "00:20",
+        "TOC. TOC. TOC."
+      ],
+      "visual": "cozy wooden mountain chalet at night, the narrator, a 24-year-old French man with short dark hair, dark circles under his eyes, a grey wool sweater and jeans frozen in the kitchen next to a crackling fireplace, staring at a laminated paper on the table, snowy forest through the window, warm fire against cold blue shadows",
+      "overlay": {
+        "kind": "banner",
+        "text": "MINUIT VINGT",
+        "beat": 0
+      }
+    },
+    {
+      "type": "tension",
+      "title": "La note du propriétaire",
+      "narration": "Le propriétaire s'appelle Armand. Un homme sec, poli, qui t'a remis les clés sans presque te regarder. En partant, il a dit une seule chose : lisez la note, et respectez-la. Toutes les règles. Même si ça vous paraît idiot. Tu as souri. Tu as pensé à un vieux monsieur un peu superstitieux. La note commence par une phrase écrite à la main, en lettres serrées : si quelqu'un frappe trois fois après minuit, voici ce que vous devez faire.",
+      "onscreen": [
+        "\"Respectez-la.\"",
+        "Toutes les règles."
+      ],
+      "visual": "wooden chalet living room, Armand, a thin 65-year-old French man with a grey beard, a pulled-down black wool beanie and a heavy dark green parka handing over keys at the doorway in daylight with a serious polite face, snowy mountains behind him, a laminated paper on the table, cold pale light, uneasy mood"
+    },
+    {
+      "type": "rule",
+      "number": 1,
+      "rule": "N'ouvre pas. Ne réponds pas. Personne ne vient ici la nuit.",
+      "title": "Règle 1 : n'ouvre pas",
+      "narration": "Règle numéro un. N'ouvrez pas. Ne répondez pas. Personne ne vient ici la nuit. La route est fermée par la neige dès vingt-deux heures, et le premier village est à six kilomètres de forêt. Si quelqu'un frappe, c'est qu'il n'est pas venu par la route. Tu regardes la porte. Le loquet est mis. La clé est sur la serrure. Tu ne bouges pas. Et tu remarques que tu retiens ta respiration depuis un long moment.",
+      "onscreen": [
+        "RÈGLE 1",
+        "N'ouvre pas.",
+        "Ne réponds pas."
+      ],
+      "visual": "close-up of the narrator, a 24-year-old French man with short dark hair, dark circles under his eyes, a grey wool sweater and jeans standing in the dark in front of a heavy wooden chalet door, bolt locked, key in the lock, holding his breath, faint cold blue light under the door, tense silence",
+      "overlay": {
+        "kind": "stamp",
+        "text": "N'OUVRE PAS",
+        "beat": 1
+      }
+    },
+    {
+      "type": "tension",
+      "title": "Le silence après",
+      "narration": "Rien. Pendant une minute, il n'y a plus rien. Juste le feu, et le tic-tac de l'horloge au-dessus de l'évier. Tu commences à te dire que tu as rêvé. Une branche, peut-être. Un paquet de neige tombé du toit. Puis tu entends des pas sur le perron. Lents. Le bois grince sous un poids. Les pas font le tour du chalet, et s'arrêtent juste sous la fenêtre de la chambre. Celle où dort ton petit frère.",
+      "onscreen": [
+        "Des pas",
+        "sur le perron"
+      ],
+      "visual": "night view of a snowy chalet from outside, footprints in deep snow circling the building toward a lit bedroom window, a dark shape at the corner, cold blue moonlight, creeping horror suggested"
+    },
+    {
+      "type": "rule",
+      "number": 2,
+      "rule": "Si on t'appelle par ton prénom, ne réponds surtout pas.",
+      "title": "Règle 2 : ton prénom",
+      "narration": "Règle numéro deux. Si on vous appelle par votre prénom, ne répondez surtout pas. Il l'aura appris en vous écoutant parler pendant la journée. Tu relis la phrase deux fois. Et c'est là que ça arrive. Une voix, douce, juste derrière la porte. Elle dit ton prénom. Calmement. Comme quelqu'un qui te connaît depuis toujours. Tu repenses à l'après-midi, quand vous avez joué dans la neige en criant vos prénoms à travers la forêt.",
+      "onscreen": [
+        "RÈGLE 2",
+        "Ne réponds pas",
+        "à ton prénom"
+      ],
+      "visual": "the narrator, a 24-year-old French man with short dark hair, dark circles under his eyes, a grey wool sweater and jeans standing rigid in the dark kitchen listening to a door, a soft warm glow of a lamp behind him, a faint shadow of a head visible through frosted glass of the front door, cold blue ambiance",
+      "overlay": {
+        "kind": "chip",
+        "text": "RÈGLE 2",
+        "beat": 0
+      }
+    },
+    {
+      "type": "rule",
+      "number": 3,
+      "rule": "Ne regarde jamais par le judas. Regarde dans le reflet de la vitre de la cuisine.",
+      "title": "Règle 3 : le reflet",
+      "narration": "Règle numéro trois. Ne regardez jamais par le judas. Si vous devez voir, regardez dans le reflet de la vitre de la cuisine. Il ne sait pas que cette vitre montre le perron. Tu t'approches sans bruit. Dans le reflet, sous la lampe extérieure, il y a une silhouette. Grande. Immobile. Face à la porte. Mais quelque chose cloche. Elle est trop près. Comme si son visage était collé contre le judas. Elle attend que tu y mettes ton œil.",
+      "onscreen": [
+        "RÈGLE 3",
+        "Jamais le judas",
+        "le reflet"
+      ],
+      "visual": "the narrator, a 24-year-old French man with short dark hair, dark circles under his eyes, a grey wool sweater and jeans creeping toward a dark kitchen window where the reflection shows the front porch, under the porch lamp a tall motionless black silhouette with faintly glowing pale eyes and no face details stands too close to the door, snow falling, eerie cold light",
+      "overlay": {
+        "kind": "chip",
+        "text": "RÈGLE 3",
+        "beat": 0
+      }
+    },
+    {
+      "type": "tension",
+      "title": "La silhouette",
+      "narration": "Tu restes là, figé devant la vitre. Tu n'arrives pas à détourner les yeux. La silhouette ne bouge pas d'un millimètre. Pas de buée qui sort de sa bouche, alors qu'il fait moins douze dehors. Pas de flocons sur ses épaules, alors que la neige tombe dru depuis le début de la soirée. Tu essaies de distinguer un visage, des vêtements, n'importe quoi de normal. Rien. Juste une forme, sombre et patiente. Puis, très lentement, sa tête pivote. Pas vers le judas. Vers la fenêtre de la cuisine. Vers toi. Tu t'accroupis derrière le plan de travail, le cœur au bord des lèvres.",
+      "onscreen": [
+        "-12 °C",
+        "Pas de buée"
+      ],
+      "visual": "close-up of the narrator, a 24-year-old French man with short dark hair, dark circles under his eyes, a grey wool sweater and jeans frozen staring at a dark window, the reflection of a porch lamp showing a motionless silhouette with no breath mist and no snowflakes on its shoulders, cold blue light, dread"
+    },
+    {
+      "type": "tension",
+      "title": "Ton petit frère",
+      "narration": "Une porte s'ouvre derrière toi. Tu sursautes si fort que tu renverses une chaise. C'est Noé, ton petit frère, en pyjama, les yeux plissés. Il demande pourquoi quelqu'un frappe. Tu poses un doigt sur ta bouche. Tu le prends contre toi. Il sent ton cœur qui tape. Il ne pose plus de questions. Tu reprends la note d'une main qui tremble, et tu lis la suite à voix basse, pour vous deux.",
+      "onscreen": [
+        "Noé",
+        "8 ans"
+      ],
+      "visual": "the narrator, a 24-year-old French man with short dark hair, dark circles under his eyes, a grey wool sweater and jeans hugging Noé, a 9-year-old French boy with fluffy light brown hair and blue striped pajamas in a dark kitchen, a toppled chair on the floor, Noé, a 9-year-old French boy with fluffy light brown hair and blue striped pajamas looking up with wide eyes, paper in a trembling hand, firelight flicker"
+    },
+    {
+      "type": "rule",
+      "number": 4,
+      "rule": "Garde le feu allumé jusqu'à l'aube. Il n'approche pas des fenêtres éclairées.",
+      "title": "Règle 4 : le feu",
+      "narration": "Règle numéro quatre. Gardez le feu allumé jusqu'à l'aube. Il n'aime pas la lumière qui bouge. Il ne s'approche pas des fenêtres éclairées. Tu jettes un œil à la cheminée. Les flammes sont basses. Il reste trois bûches dans le panier. Trois bûches pour tenir cinq heures. Tu en poses une, doucement, pour ne pas faire de bruit. Le feu reprend. Et dehors, les pas reculent un peu. Comme si quelqu'un plissait les yeux.",
+      "onscreen": [
+        "RÈGLE 4",
+        "Garde le feu",
+        "jusqu'à l'aube"
+      ],
+      "visual": "the narrator, a 24-year-old French man with short dark hair, dark circles under his eyes, a grey wool sweater and jeans kneeling at a low fireplace carefully placing a log on weak flames, a nearly empty log basket beside him, flames growing and warm light filling the room, pale glowing eyes outside the window pulling back",
+      "overlay": {
+        "kind": "chip",
+        "text": "RÈGLE 4",
+        "beat": 0
+      }
+    },
+    {
+      "type": "tension",
+      "title": "Trois bûches",
+      "narration": "Tu fais le calcul dans ta tête. Une bûche tient à peu près une heure et demie, si tu ne touches pas au feu. Trois bûches, ça fait quatre heures et demie. Le soleil se lève vers six heures. Il va manquer une demi-heure. Tu te souviens du tas de bois sous l'auvent, dehors, à côté de la porte d'entrée. Juste à côté. Tu te dis qu'il faudra trouver autre chose. Une chaise. Des magazines. N'importe quoi qui brûle. Noé te regarde fixer les flammes, et il demande tout bas : si le feu s'éteint, il se passe quoi ? Tu ne réponds pas.",
+      "onscreen": [
+        "3 bûches",
+        "4 h 30 de feu"
+      ],
+      "visual": "the narrator, a 24-year-old French man with short dark hair, dark circles under his eyes, a grey wool sweater and jeans counting logs in a basket by the fire, thinking hard, Noé, a 9-year-old French boy with fluffy light brown hair and blue striped pajamas beside him, window showing a woodpile outside under the porch roof right next to the door, tense warm and cold light contrast"
+    },
+    {
+      "type": "rule",
+      "number": 5,
+      "rule": "S'il frappe à la porte de derrière, c'est qu'il a perdu patience. Va dans la salle de bain et ferme à clé.",
+      "title": "Règle 5 : la porte de derrière",
+      "narration": "Règle numéro cinq. S'il frappe à la porte de derrière, c'est qu'il commence à perdre patience. Allez dans la salle de bain, la seule pièce sans fenêtre, et fermez à clé. Tu n'as pas fini de lire que les coups reprennent. Plus de l'entrée. De l'arrière. Trois coups, plus rapides cette fois. Tu attrapes Noé par la main. Vous courez sur la pointe des pieds. Tu tournes le verrou. Le petit clic résonne comme un coup de feu.",
+      "onscreen": [
+        "RÈGLE 5",
+        "Porte de derrière",
+        "→ salle de bain"
+      ],
+      "visual": "the narrator, a 24-year-old French man with short dark hair, dark circles under his eyes, a grey wool sweater and jeans pulling Noé, a 9-year-old French boy with fluffy light brown hair and blue striped pajamas by the hand tiptoeing down a dark hallway toward a bathroom door, a back door at the end shaking with three knocks, cold blue shadows, tense dramatic motion",
+      "overlay": {
+        "kind": "chip",
+        "text": "RÈGLE 5",
+        "beat": 0
+      }
+    },
+    {
+      "type": "tension",
+      "title": "Dans le noir",
+      "narration": "La salle de bain est minuscule. Une ampoule nue, un lavabo, une baignoire en émail froid. Noé s'assoit dans la baignoire, enroulé dans une serviette. Toi, tu restes debout, dos contre la porte. Tu entends les coups faire le tour du chalet. Porte de derrière. Fenêtre du salon. Fenêtre de la chambre. Puis plus rien. Ton téléphone n'a pas de réseau. Il affiche une heure quarante-huit. Tu reprends la note. Il reste deux règles.",
+      "onscreen": [
+        "01:48",
+        "Pas de réseau"
+      ],
+      "visual": "tiny windowless bathroom with a bare bulb, Noé, a 9-year-old French boy with fluffy light brown hair and blue striped pajamas sitting wrapped in a towel in an enamel bathtub, the narrator, a 24-year-old French man with short dark hair, dark circles under his eyes, a grey wool sweater and jeans standing with his back against the locked door, listening, harsh yellow light, claustrophobic"
+    },
+    {
+      "type": "rule",
+      "number": 6,
+      "rule": "S'il imite une voix que tu connais, compte jusqu'à cent. Il ne tient pas plus longtemps.",
+      "title": "Règle 6 : la voix",
+      "narration": "Règle numéro six. S'il imite une voix que vous connaissez, comptez jusqu'à cent. Il ne tient pas une voix plus longtemps que ça. Et comme si elle t'avait entendu lire, une voix arrive à travers la porte de la salle de bain. C'est la voix de ta mère. Elle dit : ouvre, mon chéri, j'ai fait la route pour vous. Ta mère est à quatre cents kilomètres. Tu commences à compter. Un. Deux. Trois. Noé compte avec toi, tout bas.",
+      "onscreen": [
+        "RÈGLE 6",
+        "Compte",
+        "jusqu'à 100"
+      ],
+      "visual": "the narrator, a 24-year-old French man with short dark hair, dark circles under his eyes, a grey wool sweater and jeans and Noé, a 9-year-old French boy with fluffy light brown hair and blue striped pajamas pressed against a bathroom door in a dim bare bulb light, Noé, a 9-year-old French boy with fluffy light brown hair and blue striped pajamas whispering counting with fingers, a soft mother-like shadow of a woman under the door gap, creepy but gentle glow",
+      "overlay": {
+        "kind": "chip",
+        "text": "RÈGLE 6",
+        "beat": 0
+      }
+    },
+    {
+      "type": "tension",
+      "title": "Quatre-vingt-dix-neuf",
+      "narration": "Quarante. La voix pleure, maintenant. Soixante. Elle t'appelle par ton surnom d'enfant, celui que personne n'utilise plus. Quatre-vingts. La voix se met à trembler, à se tordre, comme une radio mal réglée. Quatre-vingt-dix-neuf. Cent. Et la voix s'arrête net. Au milieu d'un mot. Le silence qui suit est pire que tout ce que tu as entendu cette nuit. Noé te serre la main si fort que tes doigts deviennent blancs.",
+      "onscreen": [
+        "98",
+        "99",
+        "100"
+      ],
+      "visual": "close-up of the narrator, a 24-year-old French man with short dark hair, dark circles under his eyes, a grey wool sweater and jeans gripping Noé, a 9-year-old French boy with fluffy light brown hair and blue striped pajamas's hand tightly, white knuckles, eyes squeezed shut counting, a distorted wavy glow seeping under the door like a badly tuned radio, cold light, tense dread"
+    },
+    {
+      "type": "rule",
+      "number": 7,
+      "rule": "Si on frappe quatre fois, c'est moi, Armand. Tu peux ouvrir.",
+      "title": "Règle 7 : quatre coups",
+      "narration": "Règle numéro sept. La dernière. L'écriture est un peu différente, plus penchée, comme ajoutée plus tard. Si on frappe quatre fois, c'est moi, Armand. Vous pouvez ouvrir. Tu relis la ligne. Ça te soulage, presque. Il y a donc un signal. Quelqu'un qui sait. Quelqu'un qui viendra. Tu regardes ton téléphone. Cinq heures cinquante-deux. Dehors, à travers la petite grille d'aération, tu vois le ciel devenir gris.",
+      "onscreen": [
+        "RÈGLE 7",
+        "Quatre coups",
+        "= Armand"
+      ],
+      "visual": "the narrator, a 24-year-old French man with short dark hair, dark circles under his eyes, a grey wool sweater and jeans reading the last handwritten slanted line of a paper by the grey light of a small ventilation grille high on the bathroom wall, a hint of dawn in the sky, uneasy relief, soft pale light",
+      "overlay": {
+        "kind": "chip",
+        "text": "RÈGLE 7",
+        "beat": 0
+      }
+    },
+    {
+      "type": "tension",
+      "title": "L'aube",
+      "narration": "Six heures pile. Un moteur. Des pneus qui crissent sur la neige. Une portière qui claque. Des pas lourds sur le perron, des pas pressés, humains. Puis quatre coups à la porte d'entrée. Toc. Toc. Toc. Toc. Tu sors de la salle de bain en tenant Noé. Tu traverses le salon. Le feu n'est plus que des braises. Tu tournes la clé, tu ouvres, et l'air glacé te frappe le visage.",
+      "onscreen": [
+        "06:00",
+        "TOC ×4"
+      ],
+      "visual": "snowy dawn outside a chalet, a pickup truck pulling up with headlights, the narrator, a 24-year-old French man with short dark hair, dark circles under his eyes, a grey wool sweater and jeans opening the door holding Noé, a 9-year-old French boy with fluffy light brown hair and blue striped pajamas's hand, glowing embers in the fireplace behind them, freezing air, pale blue sunrise"
+    },
+    {
+      "type": "twist",
+      "title": "Ce qu'Armand n'a jamais écrit",
+      "narration": "C'est Armand. Bonnet enfoncé, visage gris de fatigue. Il vous regarde tous les deux, et il souffle de soulagement. Vous avez tenu, dit-il. Vous avez suivi les six règles. Tu lui tends la note, en tremblant. Six ? Et la septième, celle des quatre coups ? Armand prend la feuille. Il lit la dernière ligne. Il ne dit rien pendant longtemps. Puis il murmure : je n'ai jamais écrit de règle sept. Et je n'ai pas frappé. J'allais le faire. Tu te retournes vers Noé. Il n'est plus à côté de toi. Il est au fond du salon, face au mur. Et il frappe. Trois fois.",
+      "onscreen": [
+        "\"Je n'ai jamais écrit",
+        "de règle sept.\""
+      ],
+      "visual": "chalet living room at dawn, Armand, a thin 65-year-old French man with a grey beard, a pulled-down black wool beanie and a heavy dark green parka holding the paper with a stunned pale face, the narrator, a 24-year-old French man with short dark hair, dark circles under his eyes, a grey wool sweater and jeans behind him, far back Noé, a 9-year-old French boy with fluffy light brown hair and blue striped pajamas facing the wall with his small fist raised to knock, eerie cold light",
+      "overlay": {
+        "kind": "stamp",
+        "text": "JE N'AI JAMAIS ÉCRIT RÈGLE 7",
+        "beat": 3
+      }
+    }
+  ],
+  "short": {
+    "hook_text": "N'OUVRE PAS. MÊME À TA MÈRE.",
+    "narration": "Minuit vingt. Tu es dans un chalet isolé, perdu dans la neige, avec ton petit frère. Et quelqu'un frappe trois fois à la porte. Sur la table, le propriétaire a laissé une note avec sept règles. Règle un : n'ouvre pas, ne réponds pas, personne ne vient ici la nuit. Règle deux : si on t'appelle par ton prénom, ne réponds surtout pas. Et derrière la porte, une voix douce prononce ton prénom. Puis, plus tard, c'est la voix de ta mère qui supplie qu'on lui ouvre. Ta mère qui est à quatre cents kilomètres. Il te reste une seule règle à lire. La septième. Celle qui dit enfin à qui tu peux ouvrir. Le film complet est sur la chaîne.",
+    "cta": "Le film complet est sur la chaîne",
+    "visuals": [
+      {
+        "p": "cozy wooden mountain chalet at night buried in snow, the narrator, a 24-year-old French man with short dark hair, dark circles under his eyes, a grey wool sweater and jeans sitting by a crackling fireplace with his little brother Noé, a 9-year-old French boy with fluffy light brown hair and blue striped pajamas, warm fire light against cold blue forest night outside the window",
+        "overlay": {
+          "kind": "banner",
+          "text": "MINUIT VINGT"
+        }
+      },
+      {
+        "p": "close-up of a heavy wooden chalet door in the dark, the narrator, a 24-year-old French man with short dark hair, dark circles under his eyes, a grey wool sweater and jeans standing in front of it frozen, three knocks implied by a faint vibration of dust, cold blue light under the door",
+        "at": "Et quelqu'un frappe trois fois",
+        "overlay": {
+          "kind": "stamp",
+          "text": "TOC TOC TOC"
+        }
+      },
+      {
+        "p": "a laminated paper with handwritten lines lying on a wooden kitchen table lit by a small lamp, the narrator, a 24-year-old French man with short dark hair, dark circles under his eyes, a grey wool sweater and jeans's trembling hand holding it, firelight, uneasy mood",
+        "at": "Sur la table, le propriétaire"
+      },
+      {
+        "p": "the narrator, a 24-year-old French man with short dark hair, dark circles under his eyes, a grey wool sweater and jeans standing in the dark in front of the locked chalet door, bolt on, key in the lock, holding his breath, cold blue light under the door",
+        "at": "Règle un",
+        "overlay": {
+          "kind": "chip",
+          "text": "RÈGLE 1"
+        }
+      },
+      {
+        "p": "the narrator, a 24-year-old French man with short dark hair, dark circles under his eyes, a grey wool sweater and jeans listening in the dark kitchen near the front door, a shadow of a head visible through the frosted glass, finger on his lips, cold blue light",
+        "at": "Règle deux",
+        "overlay": {
+          "kind": "chip",
+          "text": "RÈGLE 2"
+        }
+      },
+      {
+        "p": "a close-up of a wooden door at night with a soft eerie pale glow and a hint of a tall motionless black silhouette with faintly glowing pale eyes and no face details behind the frosted glass, calm creepy mood, cold blue light",
+        "at": "Et derrière la porte"
+      },
+      {
+        "p": "the narrator, a 24-year-old French man with short dark hair, dark circles under his eyes, a grey wool sweater and jeans and Noé, a 9-year-old French boy with fluffy light brown hair and blue striped pajamas pressed against a bathroom door under a bare bulb, a mother-like shadow of a woman visible under the door, Noé, a 9-year-old French boy with fluffy light brown hair and blue striped pajamas whispering with wide tearful eyes",
+        "at": "Puis, plus tard",
+        "overlay": {
+          "kind": "stamp",
+          "text": "LA VOIX DE MAMAN"
+        }
+      },
+      {
+        "p": "a long snowy road at night on a map-like aerial view, a tiny car far away, a faint phone with no signal in the narrator, a 24-year-old French man with short dark hair, dark circles under his eyes, a grey wool sweater and jeans's hand, cold moonlight, distance and dread",
+        "at": "Ta mère qui est",
+        "overlay": {
+          "kind": "chip",
+          "text": "400 KM"
+        }
+      },
+      {
+        "p": "the narrator, a 24-year-old French man with short dark hair, dark circles under his eyes, a grey wool sweater and jeans holding the laminated paper close to his face with a finger on the final line, eyes wide, bare bulb light, claustrophobic bathroom, suspense",
+        "at": "Il te reste une seule"
+      },
+      {
+        "p": "Armand, a thin 65-year-old French man with a grey beard, a pulled-down black wool beanie and a heavy dark green parka standing at the snowy chalet door at dawn with a grey tired face, a mysterious gleam, a tall motionless black silhouette with faintly glowing pale eyes and no face details reflected faintly in the window behind him, pale blue light",
+        "at": "La septième",
+        "overlay": {
+          "kind": "chip",
+          "text": "RÈGLE 7"
+        }
+      },
+      {
+        "p": "the narrator, a 24-year-old French man with short dark hair, dark circles under his eyes, a grey wool sweater and jeans reaching for the chalet door handle in the grey dawn light with Noé, a 9-year-old French boy with fluffy light brown hair and blue striped pajamas behind him, hesitating, embers glowing in the room, tense cold light",
+        "at": "Celle qui dit enfin"
+      }
+    ]
+  },
+  "visual_bible": {
+    "hero": "the narrator, a 24-year-old French man with short dark hair, dark circles under his eyes, a grey wool sweater and jeans",
+    "noe": "Noé, a 9-year-old French boy with fluffy light brown hair and blue striped pajamas",
+    "armand": "Armand, a thin 65-year-old French man with a grey beard, a pulled-down black wool beanie and a heavy dark green parka",
+    "shadow": "a tall motionless black silhouette with faintly glowing pale eyes and no face details"
+  }
+}

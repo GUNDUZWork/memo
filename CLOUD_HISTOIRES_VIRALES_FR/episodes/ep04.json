@@ -1,0 +1,306 @@
+{
+  "id": 4,
+  "slug": "30-jours-avant-de-revoir-lea",
+  "formula": "30jours",
+  "title": "Tu as 30 jours pour te transformer avant de revoir Léa (Le Film + Shorts)",
+  "thumbnail": {
+    "line1": "J-30 AVANT LÉA",
+    "line2": "mission transformation",
+    "accent": "#2BD67B",
+    "visual": "Stunned close-up of Gaspard, a 29-year-old French man with messy brown hair, a round friendly face, a slightly rounded belly and a faded grey sweatshirt on the right, a huge glowing calendar countdown behind him, bright green and yellow colors"
+  },
+  "youtube": {
+    "title": "Tu as 30 jours pour te transformer avant de revoir Léa (Le Film + Shorts)",
+    "description": "Gaspard, vingt-neuf ans, un canapé, une plante morte et un record personnel de quatorze épisodes d’affilée. Un soir, un message arrive de Montréal : Léa, son amie d’enfance, rentre en France dans trente jours et veut le revoir.\n\nTrente jours pour se remettre debout. Une carte bancaire qui refuse tout, un rameur qu’il ne pourra jamais s’offrir, et surtout le Docteur Vidal, médecin pince-sans-rire qui n’a aucune pitié. Une comédie de transformation… avec une fin à laquelle il ne s’attendait pas.\n\nAbonne-toi pour la suite des défis 30 jours, et dis-nous en commentaire ce que tu changerais, toi, en trente jours.",
+    "tags": [
+      "30 jours",
+      "transformation",
+      "défi 30 jours",
+      "comédie",
+      "histoire",
+      "Léa",
+      "Docteur Vidal",
+      "motivation",
+      "se remettre en forme",
+      "confiance en soi",
+      "histoire drôle",
+      "avant après",
+      "développement personnel",
+      "histoires virales",
+      "film"
+    ],
+    "pinned_comment": "Si tu avais 30 jours avant de revoir quelqu’un d’important, tu commencerais par quoi ?"
+  },
+  "scenes": [
+    {
+      "type": "hook",
+      "title": "Le message",
+      "narration": "Il est vingt-trois heures quarante. Gaspard, vingt-neuf ans, est allongé sur son canapé depuis tellement longtemps que le coussin a pris la forme exacte de son dos. Sur la table basse, trois boîtes de pizza, une plante morte et une télécommande collante. Son téléphone vibre. Un message de Léa. Léa, son amie d’enfance, partie vivre à Montréal il y a dix ans. « Je rentre en France dans trente jours. On se voit ? J’ai hâte de voir ce que tu es devenu. » Gaspard regarde autour de lui. Il a trente jours.",
+      "onscreen": [
+        "J-30",
+        "« ce que tu es devenu »"
+      ],
+      "visual": "Gaspard, a 29-year-old French man with messy brown hair, a round friendly face, a slightly rounded belly and a faded grey sweatshirt, lying on a worn sofa in a messy living room with three pizza boxes, a dead plant and a sticky remote, staring at his glowing phone, dim blue screen light and orange lamp light, shocked expression",
+      "overlay": {
+        "kind": "chip",
+        "text": "J-30",
+        "beat": 0
+      }
+    },
+    {
+      "type": "day",
+      "day": 1,
+      "level": 4,
+      "title": "J-30 : l’état des lieux",
+      "narration": "Jour un. Gaspard fait l’état des lieux. Il monte sur la balance, qui affiche un chiffre qu’il préfère arrondir vers le bas. Il essaie de toucher ses orteils et s’arrête aux genoux. Il ouvre son armoire : quatre sweats gris, un jean de 2016 et un costume de mariage qui ne ferme plus. Il ouvre son frigo : de la moutarde et un citron très fatigué. Il note tout dans un carnet, en grand, avec un titre souligné trois fois : « Opération Léa ». Puis il prend rendez-vous chez le médecin.",
+      "onscreen": [
+        "niveau : 4 %",
+        "Opération Léa"
+      ],
+      "visual": "Gaspard, a 29-year-old French man with messy brown hair, a round friendly face, a slightly rounded belly and a faded grey sweatshirt, standing on a bathroom scale with a sheepish face, a notebook titled with a big underlined heading on his knee, behind him an open wardrobe with four grey sweatshirts and an empty fridge showing one lemon, bright comedic light"
+    },
+    {
+      "type": "vidal",
+      "title": "Le Docteur Vidal",
+      "line": "Votre cœur bat. C’est déjà un bon début.",
+      "narration": "Le Docteur Vidal a soixante ans, des lunettes en demi-lune et l’enthousiasme d’un parcmètre. Il écoute le cœur de Gaspard pendant un long moment, en silence. Puis il range son stéthoscope, s’assoit, croise les mains et déclare : « Votre cœur bat. C’est déjà un bon début. » Gaspard lui explique son plan. Trente jours, une transformation totale, une amie d’enfance. Le docteur hoche la tête, très lentement. « Monsieur, on ne change pas une vie en un mois. Mais on peut changer d’habitudes. Commencez par marcher. »",
+      "onscreen": [
+        "Docteur Vidal",
+        "« commencez par marcher »"
+      ],
+      "visual": "Docteur Vidal, a 60-year-old French doctor with grey hair, half-moon glasses and a white coat, deadpan, listening to Gaspard, a 29-year-old French man with messy brown hair, a round friendly face, a slightly rounded belly and a faded grey sweatshirt's heart with a stethoscope in a tidy office, Gaspard, a 29-year-old French man with messy brown hair, a round friendly face, a slightly rounded belly and a faded grey sweatshirt hopeful on the exam table, soft white light"
+    },
+    {
+      "type": "card_refused",
+      "item": "Rameur connecté avec écran HD",
+      "price": "1 299,00 €",
+      "title": "Le rameur du destin",
+      "narration": "Mais Gaspard ne veut pas marcher. Marcher, c’est pour les gens qui ont le temps. Lui, il a une mission. Le soir même, il commande un rameur connecté, avec écran HD, programme personnalisé et coach virtuel qui t’encourage par ton prénom. Mille deux cent quatre-vingt-dix-neuf euros. Il tape ses coordonnées bancaires avec la ferveur d’un chevalier. Il appuie sur « Valider ». Un petit message rouge apparaît. Paiement refusé. Gaspard regarde son solde. Il rame déjà, mais pas dans le bon sens.",
+      "onscreen": [
+        "CARTE REFUSÉE",
+        "1 299 €"
+      ],
+      "visual": "Gaspard, a 29-year-old French man with messy brown hair, a round friendly face, a slightly rounded belly and a faded grey sweatshirt, at a desk typing his bank card at a laptop showing a big connected rowing machine, a red error window on the screen, his face falling, cluttered living room, dramatic red glow on his face",
+      "overlay": {
+        "kind": "stamp",
+        "text": "CARTE REFUSÉE",
+        "beat": 0
+      }
+    },
+    {
+      "type": "gag",
+      "caption": "Le rameur du pauvre : une chaise, deux torchons et beaucoup de dignité",
+      "title": "Plan B",
+      "narration": "Alors Gaspard improvise. Il s’assoit par terre dans son salon, les pieds calés contre le canapé, un torchon dans chaque main, et il mime les mouvements de l’aviron en regardant une vidéo de championnat du monde. Il souffle comme un bateau à vapeur. Au bout de quatre minutes, il est trempé. Au bout de six, sa voisine du dessous frappe au plafond avec un balai. Gaspard s’allonge sur le parquet, les bras en croix, et murmure : « Plus que vingt-neuf jours. »",
+      "onscreen": [
+        "aviron de salon",
+        "4 minutes"
+      ],
+      "visual": "Gaspard, a 29-year-old French man with messy brown hair, a round friendly face, a slightly rounded belly and a faded grey sweatshirt, sitting on a living room floor with feet against the sofa, miming rowing with a dish towel in each hand while watching a laptop, sweating heavily, a neighbour below depicted by a broom poking up through a hole shape, comedic mood"
+    },
+    {
+      "type": "day",
+      "day": 6,
+      "level": 15,
+      "title": "J-25 : la marche",
+      "narration": "Jour six. Gaspard a fini par écouter le docteur. Il marche. Le premier jour, il a fait le tour du pâté de maisons et s’est assis sur un banc pour souffler. Le troisième jour, il est allé jusqu’au parc. Aujourd’hui, il a marché quarante minutes sans s’arrêter, et pour la première fois depuis des années, il a remarqué que le boulanger du coin avait un chien. Un petit chien roux qui l’attend désormais chaque matin. Gaspard l’appelle Coach. Le chien, lui, s’appelle Biscotte.",
+      "onscreen": [
+        "niveau : 15 %",
+        "40 minutes"
+      ],
+      "visual": "Gaspard, a 29-year-old French man with messy brown hair, a round friendly face, a slightly rounded belly and a faded grey sweatshirt, walking in a sunny park on a path with Biscotte, a small fluffy ginger dog with floppy ears trotting at his side, a bakery in the background, fresh morning light, cheerful tired smile, trees and benches, hopeful mood"
+    },
+    {
+      "type": "narration",
+      "title": "La cuisine",
+      "narration": "Deuxième chantier : la nourriture. Gaspard décide d’apprendre à cuisiner. Il regarde un tutoriel de dix minutes intitulé « Le poulet parfait pour débutant ». Une heure et demie plus tard, l’alarme incendie sonne, la cuisine est pleine de fumée et le poulet a la couleur d’un vieux pneu. Mais il ne lâche pas. Le lendemain, il réussit une omelette. Le surlendemain, une soupe de légumes. Le cinquième jour, il mange une ratatouille faite maison et il a presque envie de pleurer. Elle est bonne.",
+      "onscreen": [
+        "poulet : échec",
+        "ratatouille : réussie"
+      ],
+      "visual": "Gaspard, a 29-year-old French man with messy brown hair, a round friendly face, a slightly rounded belly and a faded grey sweatshirt, in a small kitchen holding a pan of perfectly cooked ratatouille with tears in his eyes, a burnt black chicken on the counter and smoke drifting from a smoke detector, warm cozy light, comic mood"
+    },
+    {
+      "type": "vidal",
+      "title": "Deuxième consultation",
+      "line": "Vous avez perdu deux kilos et gagné un chien. C’est un bon échange.",
+      "narration": "Deuxième rendez-vous chez le Docteur Vidal. Gaspard arrive essoufflé, mais avec le sourire. Il raconte la marche, la ratatouille et le chien du boulanger qui le suit partout. Le docteur le pèse, note le résultat, relève ses lunettes et dit, sans la moindre expression : « Vous avez perdu deux kilos et gagné un chien. C’est un bon échange. » Puis il ajoute, presque gentiment : « Maintenant, dormez. Les gens fatigués prennent de mauvaises décisions. Comme acheter des rameurs. » Gaspard ne lui avait jamais parlé du rameur.",
+      "onscreen": [
+        "-2 kg",
+        "+1 chien"
+      ],
+      "visual": "Docteur Vidal, a 60-year-old French doctor with grey hair, half-moon glasses and a white coat, deadpan, noting results next to a weighing scale while Gaspard, a 29-year-old French man with messy brown hair, a round friendly face, a slightly rounded belly and a faded grey sweatshirt smiles proudly, Biscotte, a small fluffy ginger dog with floppy ears at his feet, soft clinical light"
+    },
+    {
+      "type": "day",
+      "day": 14,
+      "level": 37,
+      "title": "J-17 : le sommeil",
+      "narration": "Jour quatorze. Gaspard a fait quelque chose de révolutionnaire : il pose son téléphone à vingt-deux heures trente, dans la cuisine, loin du lit. Les trois premières nuits, il a eu l’impression de rater la fin du monde. La quatrième, il s’est endormi avant vingt-trois heures. Aujourd’hui, il se réveille avant son réveil. Il a de l’énergie. Il range son appartement. Il découvre que sa table basse est en bois clair. Il ne l’avait pas vue depuis l’hiver dernier.",
+      "onscreen": [
+        "niveau : 37 %",
+        "téléphone : cuisine"
+      ],
+      "visual": "Gaspard, a 29-year-old French man with messy brown hair, a round friendly face, a slightly rounded belly and a faded grey sweatshirt, waking up refreshed in a tidy bedroom with sunlight pouring in, smiling and stretching, his phone left far away on a kitchen counter in the background, light wooden coffee table visible, fresh bright morning colors"
+    },
+    {
+      "type": "card_refused",
+      "item": "Formation en ligne « Devenir irrésistible en 7 jours »",
+      "price": "49,99 €",
+      "title": "La formation miracle",
+      "narration": "Mais une nuit d’insomnie, Gaspard tombe sur une publicité. Un homme en chemise ouverte, devant une voiture de sport, promet de te rendre irrésistible en sept jours. Formation en ligne, quarante-neuf euros quatre-vingt-dix-neuf. Il clique. Il entre sa carte. Il valide. Paiement refusé. Gaspard soupire. Le lendemain, il découvre que sa banque a bloqué la transaction pour suspicion de fraude. Pour la première fois de sa vie, il trouve que sa banque a parfaitement raison.",
+      "onscreen": [
+        "CARTE REFUSÉE",
+        "49,99 €"
+      ],
+      "visual": "Gaspard, a 29-year-old French man with messy brown hair, a round friendly face, a slightly rounded belly and a faded grey sweatshirt, at night in the dark living room clicking on a flashy online ad at a laptop, a man in an open shirt posing in front of a sports car on the screen, a red error window, comic face",
+      "overlay": {
+        "kind": "stamp",
+        "text": "CARTE REFUSÉE",
+        "beat": 0
+      }
+    },
+    {
+      "type": "narration",
+      "title": "Les vieux amis",
+      "narration": "Alors Gaspard fait l’inverse de la formation miracle. Il rappelle des gens. Son copain Malik, qu’il n’avait pas vu depuis deux ans, l’emmène jouer au basket le dimanche matin. Sa sœur l’invite à dîner et s’étonne qu’il pose des questions au lieu de regarder son téléphone. Il retrouve même sa vieille guitare, sous le lit, avec une corde en moins. Il réapprend trois accords. Il réalise que ce qu’il avait perdu en dix ans, ce n’était pas sa forme. C’était sa curiosité.",
+      "onscreen": [
+        "basket le dimanche",
+        "3 accords"
+      ],
+      "visual": "Gaspard, a 29-year-old French man with messy brown hair, a round friendly face, a slightly rounded belly and a faded grey sweatshirt, playing basketball outdoors with a friend in the morning sun, a dusty guitar with a missing string leaning against a bench, his sister laughing nearby, bright cheerful colors, joyful atmosphere"
+    },
+    {
+      "type": "gag",
+      "caption": "Gaspard découvre l’existence des légumes verts (réaction en direct)",
+      "title": "Le marché",
+      "narration": "Samedi matin, Gaspard va au marché pour la première fois de sa vie d’adulte. Il tient un brocoli à bout de bras comme s’il venait de déterrer un trésor. Il demande à la maraîchère comment on mange un poireau. Elle le regarde avec beaucoup de compassion et lui offre une recette, une botte de radis et un conseil : « Mon garçon, souris un peu, ça ne coûte rien. » Il repart avec trois sacs, et Biscotte le chien qui porte fièrement une carotte dans la gueule.",
+      "onscreen": [
+        "un brocoli !",
+        "Biscotte approuve"
+      ],
+      "visual": "Gaspard, a 29-year-old French man with messy brown hair, a round friendly face, a slightly rounded belly and a faded grey sweatshirt, at a lively French outdoor market holding up a broccoli like a trophy, a kind market woman smiling and handing him radishes, Biscotte, a small fluffy ginger dog with floppy ears carrying a carrot proudly in its mouth, bright colorful stalls, sunny light"
+    },
+    {
+      "type": "day",
+      "day": 23,
+      "level": 66,
+      "title": "J-8 : le miroir",
+      "narration": "Jour vingt-trois. Gaspard se regarde dans le miroir et, pour une fois, il ne détourne pas les yeux. Il n’est pas devenu un acteur de cinéma. Il a toujours un ventre, toujours un épi sur la tête. Mais il se tient droit. Il a des couleurs. Il rit plus fort. Il est allé chez le coiffeur, il a donné quatre sweats gris à une association et il s’est acheté une chemise bleue, simple, à sa taille. Elle passe du premier coup.",
+      "onscreen": [
+        "niveau : 66 %",
+        "la chemise passe"
+      ],
+      "visual": "Gaspard, a 29-year-old French man with messy brown hair, a round friendly face, a slightly rounded belly and a faded grey sweatshirt, in a bright bedroom standing straight in front of a mirror wearing a simple blue shirt, a bag of donated grey sweatshirts at his feet, confident smile, warm golden light, hopeful mood"
+    },
+    {
+      "type": "vidal",
+      "title": "La dernière consultation",
+      "line": "On ne devient pas quelqu’un d’autre en trente jours. On redevient soi-même, si on a de la chance.",
+      "narration": "Dernière visite au Docteur Vidal. Cette fois, Gaspard monte les escaliers du cabinet sans s’arrêter. Le docteur prend sa tension, l’écoute, le pèse. Gaspard lui demande, un peu inquiet, s’il est enfin transformé. Le docteur enlève ses lunettes, ce qu’il ne fait jamais. « Monsieur, on ne devient pas quelqu’un d’autre en trente jours. On redevient soi-même, si on a de la chance. » Il remet ses lunettes. « Et vous avez eu de la chance. Ça fera vingt-six euros cinquante. »",
+      "onscreen": [
+        "« redevenir soi-même »",
+        "26,50 €"
+      ],
+      "visual": "Docteur Vidal, a 60-year-old French doctor with grey hair, half-moon glasses and a white coat, taking off his half-moon glasses with a gentle smile in his office, Gaspard, a 29-year-old French man with messy brown hair, a round friendly face, a slightly rounded belly and a faded grey sweatshirt standing straight and fit in front of him, warm soft light"
+    },
+    {
+      "type": "gag",
+      "caption": "Répétition générale : Gaspard s’entraîne à dire bonjour à une plante",
+      "title": "La répétition",
+      "narration": "La veille du rendez-vous, Gaspard panique. Il répète devant sa nouvelle plante, une vraie, vivante, achetée au marché. « Salut Léa. » Trop sec. « Coucou toi. » Trop bizarre. « Léa ! Quelle surprise ! » Mais ce n’est pas une surprise, c’est elle qui a proposé. Il essaie une poignée de main, puis une bise, puis une accolade, puis les trois en même temps. La plante ne réagit pas. Gaspard décide que c’est plutôt bon signe.",
+      "onscreen": [
+        "« Salut Léa »",
+        "la plante : neutre"
+      ],
+      "visual": "Gaspard, a 29-year-old French man with messy brown hair, a round friendly face, a slightly rounded belly and a faded grey sweatshirt, at home in front of a healthy green potted plant, rehearsing greetings with open arms, a big nervous smile, a blue shirt on, a shaving mirror and a messy bed behind, comic panic, bright warm light"
+    },
+    {
+      "type": "day",
+      "day": 30,
+      "level": 88,
+      "title": "J-0 : le café",
+      "narration": "Jour trente. Gaspard arrive au café avec vingt minutes d’avance, dans sa chemise bleue. Il a marché pour venir. Il commande un thé. Il ne regarde pas son téléphone. La porte s’ouvre. Léa entre, les joues rouges de froid, un bonnet de travers. Elle le cherche des yeux, le trouve, et s’arrête. Puis elle éclate de rire et se jette dans ses bras. Et la première chose qu’elle dit, la tête contre son épaule, c’est : « J’avais tellement peur que tu me trouves changée. »",
+      "onscreen": [
+        "niveau : 88 %",
+        "« j’avais peur »"
+      ],
+      "visual": "Gaspard, a 29-year-old French man with messy brown hair, a round friendly face, a slightly rounded belly and a faded grey sweatshirt in a blue shirt and Léa, a 29-year-old French woman with curly chestnut hair, rosy cheeks, a crooked red woolly beanie and a red winter coat in her red coat and beanie hugging in a cosy Parisian cafe, her cheeks red from the cold, a cup of tea on the table, warm golden light, joyful emotional mood",
+      "overlay": {
+        "kind": "chip",
+        "text": "J-0",
+        "beat": 0
+      }
+    },
+    {
+      "type": "outro",
+      "title": "Ce qui a vraiment changé",
+      "narration": "Ils parlent pendant quatre heures. De Montréal, de la neige, de leurs parents, de leurs échecs. Léa lui avoue qu’elle a passé le dernier mois à stresser, à faire du sport et à racheter des vêtements, juste pour ce café. Ils se regardent, et ils rient comme quand ils avaient douze ans. Gaspard comprend alors que les trente jours n’étaient pas pour Léa. Ils étaient pour lui. Et toi, si tu avais trente jours, tu les ferais pour qui ? Dis-le en commentaire. Le Docteur Vidal lira peut-être.",
+      "onscreen": [
+        "les 30 jours étaient pour lui",
+        "et toi ?"
+      ],
+      "visual": "Gaspard, a 29-year-old French man with messy brown hair, a round friendly face, a slightly rounded belly and a faded grey sweatshirt and Léa, a 29-year-old French woman with curly chestnut hair, rosy cheeks, a crooked red woolly beanie and a red winter coat laughing together at a cafe table, cups of tea, snow falling outside the window, warm friendly golden lighting, hearts shape in the steam of the tea, a nice calm joyful ending"
+    }
+  ],
+  "short": {
+    "hook_text": "30 JOURS AVANT DE REVOIR LÉA",
+    "narration": "Gaspard, vingt-neuf ans, vit sur son canapé, entre trois boîtes de pizza et une plante morte. Un soir, un message arrive. Léa, son amie d’enfance, rentre de Montréal dans trente jours. Elle a hâte de voir ce qu’il est devenu. Panique. Il commande un rameur connecté à mille trois cents euros. Carte refusée. Alors il rame dans son salon avec deux torchons, jusqu’à ce que la voisine tape au plafond. Le Docteur Vidal l’écoute, et lui dit seulement : « Votre cœur bat. C’est déjà un bon début. » Il apprend à marcher, à cuisiner, à dormir. Le jour trente, il entre dans le café. Léa est là. Et sa première phrase, il ne l’avait vraiment pas vue venir.",
+    "cta": "Le film complet est sur la chaîne",
+    "visuals": [
+      {
+        "p": "Gaspard, a 29-year-old French man with messy brown hair, a round friendly face, a slightly rounded belly and a faded grey sweatshirt, lying on a sofa surrounded by three pizza boxes and a dead plant, staring at a glowing phone, dim blue screen light, shocked face"
+      },
+      {
+        "p": "A glowing phone screen on a cluttered coffee table, Léa, a 29-year-old French woman with curly chestnut hair, rosy cheeks, a crooked red woolly beanie and a red winter coat smiling in a small profile picture with a red beanie, a pizza box and a wilted plant beside it, cozy dim light, excited feel",
+        "at": "Léa, son amie"
+      },
+      {
+        "p": "Gaspard, a 29-year-old French man with messy brown hair, a round friendly face, a slightly rounded belly and a faded grey sweatshirt, in a panic with hands in his messy hair, a wall calendar with a big circle and a tight deadline marker behind him, bright comic light, wide eyes",
+        "at": "Panique"
+      },
+      {
+        "p": "Gaspard, a 29-year-old French man with messy brown hair, a round friendly face, a slightly rounded belly and a faded grey sweatshirt, at a laptop buying a connected rowing machine, a red error window on the screen, his face falling, cluttered living room, red glow",
+        "at": "Il commande un rameur",
+        "overlay": {
+          "kind": "stamp",
+          "text": "CARTE REFUSÉE"
+        }
+      },
+      {
+        "p": "Gaspard, a 29-year-old French man with messy brown hair, a round friendly face, a slightly rounded belly and a faded grey sweatshirt, sitting on the floor rowing with two dish towels, sweating, a broom banging up through the ceiling from a neighbour below, comic light",
+        "at": "Alors il rame"
+      },
+      {
+        "p": "Docteur Vidal, a 60-year-old French doctor with grey hair, half-moon glasses and a white coat, deadpan, listening to Gaspard, a 29-year-old French man with messy brown hair, a round friendly face, a slightly rounded belly and a faded grey sweatshirt's heart with a stethoscope, Gaspard, a 29-year-old French man with messy brown hair, a round friendly face, a slightly rounded belly and a faded grey sweatshirt hopeful, soft clinical light, humorous mood",
+        "at": "Le Docteur Vidal"
+      },
+      {
+        "p": "Gaspard, a 29-year-old French man with messy brown hair, a round friendly face, a slightly rounded belly and a faded grey sweatshirt, walking in a park with Biscotte, a small fluffy ginger dog with floppy ears beside him, sunny morning, green trees, cheerful tired smile",
+        "at": "Il apprend à marcher"
+      },
+      {
+        "p": "Gaspard, a 29-year-old French man with messy brown hair, a round friendly face, a slightly rounded belly and a faded grey sweatshirt, cooking in a bright kitchen with a pan of ratatouille and a happy face, a bed with a sleeping mask and a phone left far away in the background, warm light",
+        "at": "à cuisiner"
+      },
+      {
+        "p": "Gaspard, a 29-year-old French man with messy brown hair, a round friendly face, a slightly rounded belly and a faded grey sweatshirt, in a blue shirt and a confident posture, walking into a cafe door in warm golden light, a nervous but happy smile, Parisian street behind",
+        "at": "Le jour trente",
+        "overlay": {
+          "kind": "chip",
+          "text": "J-30 → J-0"
+        }
+      },
+      {
+        "p": "Léa, a 29-year-old French woman with curly chestnut hair, rosy cheeks, a crooked red woolly beanie and a red winter coat, in her red coat and beanie, bursting into a cafe with red cheeks and open arms, Gaspard, a 29-year-old French man with messy brown hair, a round friendly face, a slightly rounded belly and a faded grey sweatshirt turning toward her stunned, warm golden light, emotional comic mood",
+        "at": "Léa est là"
+      }
+    ]
+  },
+  "visual_bible": {
+    "hero": "Gaspard, a 29-year-old French man with messy brown hair, a round friendly face, a slightly rounded belly and a faded grey sweatshirt",
+    "lea": "Léa, a 29-year-old French woman with curly chestnut hair, rosy cheeks, a crooked red woolly beanie and a red winter coat",
+    "vidal": "Docteur Vidal, a 60-year-old French doctor with grey hair, half-moon glasses and a white coat",
+    "dog": "Biscotte, a small fluffy ginger dog with floppy ears"
+  }
+}

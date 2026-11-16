@@ -1,0 +1,309 @@
+{
+  "id": 5,
+  "slug": "3-regles-pouvoir-gens-calmes",
+  "formula": "homodeus",
+  "title": "Les 3 règles du pouvoir que les gens calmes utilisent sans jamais le dire",
+  "thumbnail": {
+    "line1": "LE POUVOIR DES CALMES",
+    "line2": "3 règles secrètes",
+    "accent": "#4DA3FF",
+    "visual": "Close-up of a calm French woman in a navy blazer with a neat dark ponytail on the right with a serene confident smile while angry shouting faces blur behind her, warm orange and blue contrast lighting"
+  },
+  "youtube": {
+    "title": "Les 3 règles du pouvoir que les gens calmes utilisent sans jamais le dire",
+    "description": "Tu as sûrement déjà croisé quelqu’un comme ça. Une personne qui ne hausse jamais le ton, qui parle peu, et que tout le monde finit par écouter. Ce n’est pas de la magie, et ce n’est pas seulement du caractère. Ce sont trois règles, que les gens calmes appliquent souvent sans même s’en rendre compte.\n\nDans cet essai, on les illustre par des histoires, et on les confronte à deux expériences réelles de psychologie : le Bon Samaritain de Princeton (Darley et Batson, 1973) et la photocopieuse de Harvard (Langer, Blank et Chanowitz, 1978). Avec les vrais chiffres, et leurs limites.\n\nAbonne-toi pour d’autres essais, et dis-nous en commentaire quelle règle tu appliques déjà.",
+    "tags": [
+      "psychologie",
+      "pouvoir",
+      "calme",
+      "les 3 règles",
+      "influence",
+      "Darley et Batson",
+      "bon samaritain",
+      "Ellen Langer",
+      "photocopieuse",
+      "persuasion",
+      "confiance en soi",
+      "leadership",
+      "sciences humaines",
+      "développement personnel",
+      "histoires virales"
+    ],
+    "pinned_comment": "Laquelle de ces 3 règles est la plus difficile pour toi : ne pas te presser, donner une raison, ou laisser l’autre finir ?"
+  },
+  "scenes": [
+    {
+      "type": "hook",
+      "title": "La personne qui ne crie jamais",
+      "narration": "Pense à une réunion qui dérape. Tout le monde parle en même temps. Les voix montent, les phrases se coupent, quelqu’un tape sur la table. Et puis, au bout de la table, il y a une personne qui n’a encore rien dit. Elle attend. Quand enfin elle parle, doucement, la pièce entière se tait pour l’écouter. Tu t’es déjà demandé pourquoi ? Ce n’est pas de la chance. Ce n’est pas un don. Les gens calmes appliquent trois règles. Ils ne les disent jamais. Aujourd’hui, on va les dire.",
+      "onscreen": [
+        "elle n’a rien dit",
+        "tout le monde écoute"
+      ],
+      "visual": "A noisy meeting room where everyone shouts and waves arms around a table, papers flying, and at the far end of the table a calm French woman in a navy blazer with a neat dark ponytail sitting perfectly still and silent with a small smile, warm contrasted light, dramatic office"
+    },
+    {
+      "type": "narration",
+      "title": "Le malentendu sur le pouvoir",
+      "narration": "On imagine souvent le pouvoir comme quelque chose de bruyant. Le chef qui crie, le patron qui impose, le négociateur qui frappe du poing. Mais dans la vraie vie, le bruit est souvent un signe de faiblesse. Celui qui crie a déjà perdu le contrôle de quelque chose : de la situation, ou de lui-même. Le pouvoir calme fonctionne autrement. Il ne pousse pas. Il attire. Et il repose sur trois habitudes très simples, que presque personne n’applique, parce qu’elles demandent une chose rare : de la patience.",
+      "onscreen": [
+        "le bruit = faiblesse",
+        "le calme attire"
+      ],
+      "visual": "A noisy shouting boss with a red face pounding a desk in the foreground, tiny and stressed, while a calm French woman in a navy blazer with a neat dark ponytail stands behind him quiet and composed, a scale balance symbol glowing, warm and cool light split, empty space above"
+    },
+    {
+      "type": "rule",
+      "number": 1,
+      "title": "Règle 1",
+      "rule": "Ne te presse jamais.",
+      "narration": "Première règle. Ne te presse jamais. Les gens calmes marchent un peu plus lentement, répondent un peu plus tard, décident un peu après les autres. Ce n’est pas de la paresse. C’est de la place. Quand tu te presses, ton cerveau se rétrécit. Il ne voit plus que l’objectif devant lui. Il oublie les détails, les personnes, les signaux. La personne calme, elle, garde de l’espace dans sa tête. Et cet espace, c’est exactement là où se trouvent les bonnes décisions.",
+      "onscreen": [
+        "règle 1",
+        "ne te presse jamais"
+      ],
+      "visual": "a calm French woman in a navy blazer with a neat dark ponytail, walking slowly and confidently through a bright open-plan office while hurried colleagues run past her blurred with motion, calm expression, a spacious airy feeling, warm light, shallow depth"
+    },
+    {
+      "type": "narration",
+      "title": "Hélène et le camion",
+      "narration": "Hélène dirige un chantier de quarante ouvriers. Un matin, un camion de béton arrive avec deux heures de retard. Le chef d’équipe hurle, le chauffeur hurle, et tout le monde attend qu’Hélène hurle à son tour. Elle s’approche, elle regarde le camion, elle pose une seule question : « Il est à quelle température, ce béton ? » Silence. Personne n’avait vérifié. Le béton avait trop attendu, il aurait raté la dalle. En une question, sans élever la voix, elle a évité une catastrophe à quatre-vingt mille euros.",
+      "onscreen": [
+        "une seule question",
+        "80 000 € évités"
+      ],
+      "visual": "Hélène, a 45-year-old French construction manager with short brown hair, a white hard hat and an orange high-visibility vest, at a concrete construction site next to a cement mixer truck, holding a clipboard and asking a calm question, a shouting driver and a team leader behind her, dust in the air, morning sun, dramatic but comic"
+    },
+    {
+      "type": "study",
+      "title": "L’expérience du Bon Samaritain",
+      "institution": "Université de Princeton",
+      "year": 1973,
+      "authors": "John Darley & Daniel Batson",
+      "finding": "Plus les participants étaient pressés, moins ils remarquaient et aidaient une personne en détresse sur leur chemin.",
+      "stat": {
+        "label": "% de participants qui se sont arrêtés pour aider",
+        "values": [
+          {
+            "name": "Pas pressés",
+            "value": 63
+          },
+          {
+            "name": "Moyennement pressés",
+            "value": 45
+          },
+          {
+            "name": "Très pressés",
+            "value": 10
+          }
+        ]
+      },
+      "caveat": "Échantillon réduit d’étudiants en théologie, dans un seul lieu : l’effet est net, mais il faut rester prudent avant de le généraliser à tout le monde.",
+      "narration": "En 1973, à l’Université de Princeton, deux psychologues, John Darley et Daniel Batson, ont fait une expérience devenue célèbre. Ils demandaient à des étudiants en théologie d’aller faire un exposé dans un autre bâtiment. Sur le chemin, un homme était affalé dans une entrée, visiblement mal en point. Parmi ceux à qui on n’avait pas dit de se presser, soixante-trois pour cent se sont arrêtés pour aider. Chez ceux qui étaient moyennement pressés, quarante-cinq pour cent. Et chez ceux qui étaient très pressés, seulement dix pour cent. Certains ont même enjambé l’homme. Le plus troublant ? Une partie d’entre eux devait justement parler de la parabole du Bon Samaritain.",
+      "onscreen": [
+        "63 % → 10 %",
+        "la hâte rend aveugle"
+      ],
+      "visual": "A 1973 university campus with old brick buildings, a young student in a tweed jacket with a backpack hurrying along a path past a man slumped in a doorway, a clock above, warm vintage sepia tones, serious mood",
+      "overlay": {
+        "kind": "chip",
+        "text": "10 % S’ARRÊTENT",
+        "beat": 0
+      }
+    },
+    {
+      "type": "narration",
+      "title": "Ce que ça veut dire",
+      "narration": "Il faut rester honnête : c’était un petit groupe d’étudiants, dans un seul lieu, il y a cinquante ans. On ne peut pas en tirer une loi universelle. Mais l’idée est puissante. Ces étudiants n’étaient pas méchants. Ils étaient pressés. Et la hâte avait éteint quelque chose en eux. C’est exactement ce que les gens calmes protègent. En refusant de se presser, ils restent capables de voir ce que les autres ne voient plus. Et voir ce que les autres ne voient pas, c’est déjà une forme de pouvoir.",
+      "onscreen": [
+        "pas méchants",
+        "pressés"
+      ],
+      "visual": "Silhouette of a young student rushing past a person in distress, drawn in warm light, and next to it a student calmly stopping to help, split composition with warm and cold light, a university courtyard, soft thoughtful mood"
+    },
+    {
+      "type": "rule",
+      "number": 2,
+      "title": "Règle 2",
+      "rule": "Donne toujours une raison.",
+      "narration": "Deuxième règle. Donne toujours une raison. Les gens bruyants ordonnent. Les gens calmes expliquent. Ils ne disent pas « Fais ça. » Ils disent « Fais ça, parce que… » Ça paraît minuscule, presque ridicule. Pourtant, ce petit mot change tout. Une demande sans raison ressemble à un ordre. Et un ordre, on a envie de le contester. Une demande avec une raison ressemble à un accord entre deux personnes. Et un accord, on a envie de le respecter.",
+      "onscreen": [
+        "règle 2",
+        "« parce que… »"
+      ],
+      "visual": "A bright clean lab-like room, a desk with a clock and a calm woman saying a simple sentence while colleagues listen with open faces, the word because suggested by a big glowing speech bubble without text, warm light, friendly mood"
+    },
+    {
+      "type": "narration",
+      "title": "Samir et la file d’attente",
+      "narration": "Samir travaille dans une agence de voyage. Un jour de grève, l’agence est bondée, les clients sont furieux, et son collègue tente de calmer tout le monde en répétant : « Veuillez patienter. » Ça ne marche pas. Samir monte sur une chaise et dit simplement : « Je vais prendre les personnes dont le vol part aujourd’hui en premier, parce que pour elles, chaque minute compte. » La file se réorganise toute seule. Les gens se laissent passer. Personne n’a obéi à Samir. Tout le monde a compris sa raison.",
+      "onscreen": [
+        "« veuillez patienter » ✗",
+        "une raison ✓"
+      ],
+      "visual": "Samir, a 35-year-old French travel agent with short black hair, a trimmed beard and a teal shirt, standing on a chair in a crowded travel agency during a strike, calmly addressing a long line of furious customers, a colleague with a megaphone looking baffled, suitcases and posters, warm light, comedic"
+    },
+    {
+      "type": "study",
+      "title": "L’expérience de la photocopieuse",
+      "institution": "Université Harvard",
+      "year": 1978,
+      "authors": "Ellen Langer, Arthur Blank & Benzion Chanowitz",
+      "finding": "Ajouter une raison à une petite demande augmente fortement l’acceptation, même quand la raison est vide de sens.",
+      "stat": {
+        "label": "% de personnes qui acceptent de laisser passer",
+        "values": [
+          {
+            "name": "Sans raison",
+            "value": 60
+          },
+          {
+            "name": "Vraie raison",
+            "value": 94
+          },
+          {
+            "name": "Fausse raison",
+            "value": 93
+          }
+        ]
+      },
+      "caveat": "L’effet concerne une petite demande, peu coûteuse. Quand la demande devient plus lourde, une raison vide ne suffit plus : il faut une vraie raison.",
+      "narration": "En 1978, à l’Université Harvard, la psychologue Ellen Langer et ses collègues Arthur Blank et Benzion Chanowitz ont testé une idée toute simple, devant une photocopieuse. Quelqu’un demandait à passer devant les gens qui attendaient. Sans donner de raison, soixante pour cent acceptaient. Avec une vraie raison, « parce que je suis pressé », quatre-vingt-quatorze pour cent. Et avec une raison complètement vide, « parce que je dois faire des copies », quatre-vingt-treize pour cent. Presque pareil. Le simple fait d’entendre « parce que » suffisait à déclencher le oui.",
+      "onscreen": [
+        "60 % → 94 %",
+        "« parce que »"
+      ],
+      "visual": "A 1978 university building, a person at a photocopier while another person politely asks to go first, waiting people in line, retro office colours, slightly yellow light, curious mood",
+      "overlay": {
+        "kind": "chip",
+        "text": "94 % DISENT OUI",
+        "beat": 0
+      }
+    },
+    {
+      "type": "narration",
+      "title": "La limite honnête",
+      "narration": "Attention quand même. Cette expérience portait sur une toute petite demande : passer devant pour quelques copies. Quand la demande devient plus lourde, une fausse raison ne suffit plus. Les gens réfléchissent vraiment. Et c’est là que la deuxième règle devient intéressante. Les gens calmes ne s’en servent pas pour manipuler. Ils donnent de vraies raisons. Parce que sur le long terme, une raison sincère construit quelque chose de beaucoup plus solide qu’un oui obtenu par réflexe : la confiance.",
+      "onscreen": [
+        "petite demande",
+        "vraie raison = confiance"
+      ],
+      "visual": "A scientist with a clipboard sitting in an empty lab, two columns of tiny people icons, a light bulb and a slightly raised eyebrow, soft studio light, honest thoughtful atmosphere, honest limits concept, no text"
+    },
+    {
+      "type": "rule",
+      "number": 3,
+      "title": "Règle 3",
+      "rule": "Laisse toujours l’autre finir.",
+      "narration": "Troisième règle. Laisse toujours l’autre finir. C’est sans doute la plus difficile. Quand quelqu’un nous contredit, notre cerveau prépare déjà sa réponse pendant que l’autre parle. On n’écoute plus, on attend son tour. Les gens calmes font l’inverse. Ils laissent la phrase aller jusqu’au bout. Puis ils attendent encore deux secondes. Ces deux secondes de silence disent quelque chose de très fort à la personne en face : je t’ai vraiment entendu. Et quelqu’un qui se sent entendu baisse naturellement la garde.",
+      "onscreen": [
+        "règle 3",
+        "+ 2 secondes"
+      ],
+      "visual": "a calm French woman in a navy blazer with a neat dark ponytail, listening patiently at a table with a cup of tea while another person talks, a two-second pause visualised as a soft glowing ring around her head, warm cosy light, quiet atmosphere"
+    },
+    {
+      "type": "narration",
+      "title": "Odette et le voisin",
+      "narration": "Odette a soixante-dix-huit ans. Son voisin vient sonner chez elle, rouge de colère, parce que les branches de son cerisier dépassent sur son terrain. Il parle pendant cinq minutes. Il menace d’appeler la mairie, un avocat, la terre entière. Odette ne l’interrompt pas une seule fois. Quand il a fini, elle attend un peu, puis elle dit : « Vous avez raison pour les branches. Vous voulez des cerises, en juin ? » Le voisin reste bouche bée. En juin, c’est lui qui est venu tailler l’arbre.",
+      "onscreen": [
+        "5 minutes de colère",
+        "« des cerises ? »"
+      ],
+      "visual": "Odette, a 78-year-old French woman with short curly white hair, round glasses and a lilac cardigan in front of her cottage door listening calmly to an angry French neighbour with a bald head, a red face and a green polo shirt who is shouting angrily and waving his arms, a cherry tree with branches over the fence, sunny garden, comic warm light"
+    },
+    {
+      "type": "narration",
+      "title": "Pourquoi ça marche",
+      "narration": "Pourquoi laisser l’autre finir donne autant de pouvoir ? Parce que la colère a besoin de résistance pour grandir. Quand tu interromps quelqu’un, tu lui donnes un mur contre lequel taper. Quand tu le laisses finir, sa colère n’a plus rien à pousser. Elle s’épuise toute seule. Et au moment où il se tait, c’est toi qui as la parole, dans une pièce calme, devant quelqu’un qui a déjà vidé toutes ses munitions. Odette ne l’a pas appris dans un livre. Elle l’a appris en soixante-dix-huit ans.",
+      "onscreen": [
+        "pas de mur",
+        "la colère s’épuise"
+      ],
+      "visual": "an angry French neighbour with a bald head, a red face and a green polo shirt, red-faced and exhausted of anger, leaning forward with hands on his knees, Odette, a 78-year-old French woman with short curly white hair, round glasses and a lilac cardigan calmly smiling and holding out a basket of cherries, cherry tree behind them, soft afternoon light, funny gentle mood"
+    },
+    {
+      "type": "quote",
+      "title": "Ce que disait Odette",
+      "quote": "Celui qui parle en dernier n’a pas besoin de parler fort.",
+      "author": "Odette, 78 ans",
+      "narration": "Plus tard, quand sa petite-fille lui a demandé comment elle avait fait, Odette a haussé les épaules et a répondu une phrase qui résume tout cet épisode. « Celui qui parle en dernier n’a pas besoin de parler fort. » Ne pas se presser. Donner une raison. Laisser l’autre finir. Trois règles qui ne coûtent rien, qui ne demandent aucun talent particulier, et qui transforment pourtant la façon dont les autres te perçoivent.",
+      "onscreen": [
+        "parler en dernier",
+        "sans parler fort"
+      ],
+      "visual": "Odette, a 78-year-old French woman with short curly white hair, round glasses and a lilac cardigan, a cosy living room with a granddaughter listening to her, a cup of tea, a wall of family photos, a warm golden lamp, a wise smile, intimate peaceful light, empty space above"
+    },
+    {
+      "type": "outro",
+      "title": "À toi de jouer",
+      "narration": "Le pouvoir calme n’est pas un pouvoir sur les autres. C’est d’abord un pouvoir sur soi. Sur sa vitesse, sur ses mots, sur ses réactions. Et c’est justement pour ça qu’il impressionne autant : parce qu’il est rare. Cette semaine, essaie une seule règle. Une seule. Ralentis avant une décision, ajoute une vraie raison à une demande, ou laisse quelqu’un finir sa phrase, plus deux secondes. Puis reviens nous dire en commentaire ce qui s’est passé. Et si la vidéo t’a été utile, abonne-toi, calmement.",
+      "onscreen": [
+        "une règle cette semaine",
+        "raconte-nous"
+      ],
+      "visual": "a calm French woman in a navy blazer with a neat dark ponytail, standing at a window of a quiet office at sunset, three small glowing stones on the desk representing three rules, a deep breath, warm orange and blue gradient light, hopeful reflective mood"
+    }
+  ],
+  "short": {
+    "hook_text": "LES CALMES ONT LE POUVOIR",
+    "narration": "Pourquoi la personne la plus calme de la pièce finit toujours par être écoutée ? Ça tient en trois règles. La première : ne te presse jamais. En 1973, à Princeton, des chercheurs ont envoyé des étudiants faire un exposé. Sur le chemin, un homme en détresse. Parmi ceux qui n’étaient pas pressés, soixante-trois pour cent se sont arrêtés pour aider. Parmi ceux qui étaient très pressés ? Seulement dix pour cent. Certains l’ont même enjambé. La hâte rend aveugle, et les gens calmes le savent. La deuxième règle tient en deux mots, et une expérience de Harvard montre à quel point ils sont puissants. Quant à la troisième, c’est la plus difficile de toutes.",
+    "cta": "Le film complet est sur la chaîne",
+    "visuals": [
+      {
+        "p": "a calm French woman in a navy blazer with a neat dark ponytail sitting quietly at the end of a noisy meeting table while everyone argues, warm office light, calm smile, strong contrast"
+      },
+      {
+        "p": "a calm French woman in a navy blazer with a neat dark ponytail, walking slowly and calmly in a crowded busy corridor while people rush past blurred, soft golden light, relaxed composed face",
+        "at": "La première"
+      },
+      {
+        "p": "A 1973 university campus, a young man in a tweed jacket hurrying along a path past a man slumped in a doorway, vintage sepia tones, tense mood, subject in the lower third, soft cinematic depth, clear empty space above",
+        "at": "En 1973, à Princeton"
+      },
+      {
+        "p": "A calm student stopping to help the man in the doorway, warm golden light, a clock above showing plenty of time, university courtyard, kind mood, subject in the lower third, soft cinematic depth, clear empty space above",
+        "at": "Parmi ceux qui n’étaient pas pressés",
+        "overlay": {
+          "kind": "chip",
+          "text": "63 % AIDENT"
+        }
+      },
+      {
+        "p": "A student in a tweed jacket stepping over a man on the ground in a hurry, looking at his watch, cold shadows, vintage campus, dramatic mood, subject in the lower third, soft cinematic depth, clear empty space above",
+        "at": "Parmi ceux qui étaient très pressés",
+        "overlay": {
+          "kind": "chip",
+          "text": "10 % AIDENT"
+        }
+      },
+      {
+        "p": "A close-up of a hurried face with tunnel-vision, blurred sides, glowing goal ahead, a sense of speed lines, cold blue light, subject in the lower third, soft cinematic depth, clear empty space above",
+        "at": "La hâte rend aveugle"
+      },
+      {
+        "p": "A 1978 Harvard-style university hallway with a photocopier, a person politely pointing at it with a raised finger, waiting line, retro yellow light, subject in the lower third, soft cinematic depth, clear empty space above",
+        "at": "La deuxième règle"
+      },
+      {
+        "p": "Two glowing speech bubbles with abstract shapes facing each other on a university desk, a stopwatch and notes, soft warm light, curious mood, subject in the lower third, soft cinematic depth, clear empty space above",
+        "at": "deux mots"
+      },
+      {
+        "p": "A tall dark door with three glowing locks, silhouettes of two people walking toward it in warm light, mysterious inviting mood, subject in the lower third, soft cinematic depth, clear empty space above",
+        "at": "Quant à la troisième"
+      },
+      {
+        "p": "a calm French woman in a navy blazer with a neat dark ponytail, closing her eyes with a small smile as a crowd falls silent around her, warm golden light, powerful quiet mood, empty space above",
+        "at": "c’est la plus difficile"
+      }
+    ]
+  },
+  "visual_bible": {
+    "helene": "Hélène, a 45-year-old French construction manager with short brown hair, a white hard hat and an orange high-visibility vest",
+    "samir": "Samir, a 35-year-old French travel agent with short black hair, a trimmed beard and a teal shirt",
+    "odette": "Odette, a 78-year-old French woman with short curly white hair, round glasses and a lilac cardigan",
+    "voisin": "an angry French neighbour with a bald head, a red face and a green polo shirt",
+    "calm": "a calm French woman in a navy blazer with a neat dark ponytail"
+  }
+}

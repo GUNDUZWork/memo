@@ -1,0 +1,376 @@
+{
+  "id": 13,
+  "slug": "3-regles-manipulation-douce",
+  "formula": "homodeus",
+  "title": "Les 3 règles de la manipulation douce (et comment t'en protéger)",
+  "thumbnail": {
+    "line1": "ILS TE MANIPULENT",
+    "line2": "en douceur, chaque jour",
+    "accent": "#FFD400",
+    "visual": "a 28-year-old French woman with a brown ponytail, a white blouse and a tote bag in close-up with a hypnotized half-lidded smile, on the right a giant glowing golden word-shaped key with puppet strings attached to her hands, bold yellow and deep blue lighting"
+  },
+  "youtube": {
+    "title": "Les 3 règles de la manipulation douce (et comment t'en protéger)",
+    "description": "La manipulation la plus efficace ne crie pas, ne menace pas, et ne ment presque jamais. Elle glisse un simple « parce que », elle t'offre un petit cadeau, ou elle te presse juste un peu. Et tu dis oui sans savoir pourquoi.\n\nDans ce film, on décortique les 3 règles de la manipulation douce à travers des histoires du quotidien, et deux expériences célèbres : la photocopieuse de Harvard (Langer, Blank et Chanowitz, 1978) et le Bon Samaritain de Princeton (Darley et Batson, 1973). Avec leurs vrais chiffres et leurs limites.\n\nEt pour chaque règle, une parade simple pour t'en protéger.",
+    "tags": [
+      "manipulation",
+      "psychologie",
+      "influence",
+      "persuasion",
+      "se protéger",
+      "réciprocité",
+      "urgence",
+      "parce que",
+      "bon samaritain",
+      "langer",
+      "biais cognitifs",
+      "vente",
+      "arnaque",
+      "développement personnel",
+      "esprit critique"
+    ],
+    "pinned_comment": "Laquelle des 3 techniques t'a déjà eu ? Raconte-nous en commentaire."
+  },
+  "scenes": [
+    {
+      "type": "hook",
+      "title": "Tu as dit oui",
+      "narration": "La semaine dernière, tu as dit oui à quelque chose que tu ne voulais pas. Une carte de fidélité. Un abonnement. Un service rendu à quelqu'un que tu connais à peine. Sur le moment, tu n'as rien senti. Personne ne t'a menacé. Personne ne t'a menti, ou presque. Et pourtant, quelqu'un t'a guidé, en douceur, vers ce oui. Ça s'appelle la manipulation douce. Elle obéit à trois règles. Et une fois que tu les connais, tu les vois partout.",
+      "onscreen": [
+        "Tu as dit oui.",
+        "Pourquoi ?"
+      ],
+      "visual": "a 28-year-old French woman with a brown ponytail, a white blouse and a tote bag at a store counter signing a loyalty card form with a hesitant half-smile while a smooth salesman with slicked black hair, a shiny blue suit and a too-wide smile leans in with a pen, warm shop light and subtle puppet strings glowing above her hands, soft persuasive mood"
+    },
+    {
+      "type": "narration",
+      "title": "Ce n'est pas de la magie",
+      "narration": "Avant de commencer, une précision importante. Ces techniques ne sont pas réservées aux escrocs. Les vendeurs les utilisent, les publicitaires aussi, les collègues, les enfants, et toi aussi, sans t'en rendre compte. Elles marchent parce qu'elles s'appuient sur des raccourcis que notre cerveau prend pour aller vite. La plupart du temps, ces raccourcis nous rendent service. Mais quelqu'un qui les connaît peut les déclencher exprès. Le but de ce film, ce n'est pas de t'apprendre à manipuler. C'est de t'apprendre à voir.",
+      "onscreen": [
+        "Raccourcis",
+        "du cerveau"
+      ],
+      "visual": "a brain-shaped glowing shortcut path on a split background, on one side a happy crowd in a shop, on the other a hand pulling invisible strings, bold contrasted warm and cold light, psychology explainer mood"
+    },
+    {
+      "type": "rule",
+      "number": 1,
+      "rule": "Donne une raison, n'importe laquelle",
+      "title": "Règle 1 : le pouvoir du parce que",
+      "narration": "Règle numéro un. Donne une raison. N'importe laquelle. Notre cerveau adore les explications. Quand quelqu'un nous demande quelque chose, on vérifie d'abord, presque sans y penser, s'il y a un parce que. S'il y en a un, on se détend. La demande paraît légitime. Et le plus troublant, c'est que la qualité de la raison compte beaucoup moins qu'on ne le croit. Parfois, le simple mot parce que suffit à ouvrir la porte.",
+      "onscreen": [
+        "RÈGLE 1",
+        "Donne une raison",
+        "n'importe laquelle"
+      ],
+      "visual": "a 28-year-old French woman with a brown ponytail, a white blouse and a tote bag in a busy office hallway, a colleague giving a reason with a gesture and a glowing speech bubble with a gold key unlocking her door, warm light, symbolic but friendly mood",
+      "overlay": {
+        "kind": "chip",
+        "text": "RÈGLE 1 : DONNE UNE RAISON",
+        "beat": 0
+      }
+    },
+    {
+      "type": "study",
+      "title": "Harvard : la photocopieuse",
+      "institution": "Université Harvard",
+      "year": 1978,
+      "authors": "Ellen Langer, Arthur Blank & Benzion Chanowitz",
+      "finding": "Une raison vide (« parce que je dois faire des copies ») fonctionne presque aussi bien qu'une vraie raison pour passer devant à la photocopieuse.",
+      "stat": {
+        "label": "Pourcentage de personnes qui acceptent",
+        "values": [
+          {
+            "name": "Sans raison",
+            "value": 60
+          },
+          {
+            "name": "Avec une vraie raison",
+            "value": 94
+          },
+          {
+            "name": "Avec une fausse raison",
+            "value": 93
+          }
+        ]
+      },
+      "caveat": "L'effet concernait une petite demande, quelques pages à copier. Quand la demande devenait plus importante, la fausse raison ne marchait plus mieux que l'absence de raison.",
+      "narration": "En mille neuf cent soixante-dix-huit, à l'université Harvard, Ellen Langer et ses collègues font une expérience toute simple. Une personne demande à passer devant quelqu'un qui attend à la photocopieuse. Sans raison, soixante pour cent des gens acceptent. Avec une vraie raison, parce que je suis pressé, on monte à quatre-vingt-quatorze pour cent. Et avec une fausse raison, totalement vide, parce que je dois faire des copies, on atteint quatre-vingt-treize pour cent. Presque pareil. Le mot parce que a fait tout le travail.",
+      "onscreen": [
+        "Sans raison : 60 %",
+        "Vraie raison : 94 %",
+        "Fausse raison : 93 %"
+      ],
+      "visual": "1978 Harvard library with a photocopier, a student asking to cut in line, people waiting, researchers in lab coats noting on clipboards, warm vintage light, curious atmosphere",
+      "overlay": {
+        "kind": "banner",
+        "text": "HARVARD 1978",
+        "beat": 0
+      }
+    },
+    {
+      "type": "narration",
+      "title": "La limite et la parade",
+      "narration": "La nuance honnête, maintenant. Dans cette expérience, la demande était petite : quelques pages à photocopier. Quand les chercheurs ont testé une demande plus importante, beaucoup plus de pages, la fausse raison ne marchait plus mieux que pas de raison du tout. Autrement dit, ce réflexe fonctionne surtout quand l'enjeu est faible et qu'on ne fait pas attention. Et c'est justement ta parade. Quand quelqu'un te donne une raison, pose-toi une question : est-ce que cette raison explique vraiment quelque chose ? Ou est-ce qu'elle a juste la forme d'une explication ?",
+      "onscreen": [
+        "Parade :",
+        "la raison explique-t-elle",
+        "quelque chose ?"
+      ],
+      "visual": "close-up of a photocopier with two stacks of paper, a small stack and a huge stack, a researcher with a lab coat observing, a hesitant person in line with arms crossed, cool lab light"
+    },
+    {
+      "type": "narration",
+      "title": "Le vendeur de forfaits",
+      "narration": "Exemple. Un conseiller te propose de passer à l'offre supérieure de ton forfait téléphone. Prends-la, parce que c'est l'offre la plus choisie par nos clients. Ça sonne comme une raison. Mais ça ne dit rien sur toi, ni sur ton besoin. Tu utilises quatre gigas par mois. L'offre en propose cent. Le parce que t'a fait hocher la tête une demi-seconde. Et cette demi-seconde, c'est exactement là que la décision se joue. Apprends à la remarquer.",
+      "onscreen": [
+        "\"L'offre la plus choisie\"",
+        "≠ ton besoin"
+      ],
+      "visual": "a 28-year-old French woman with a brown ponytail, a white blouse and a tote bag at a phone shop counter with a smooth salesman with slicked black hair, a shiny blue suit and a too-wide smile presenting a giant shiny offer while she hesitates holding her phone, a tiny glass of water versus a huge swimming pool as a visual metaphor above them, bright shop light"
+    },
+    {
+      "type": "rule",
+      "number": 2,
+      "rule": "Offre d'abord, demande ensuite",
+      "title": "Règle 2 : le petit cadeau",
+      "narration": "Règle numéro deux. Offre d'abord, demande ensuite. On a tous en nous un sentiment très ancien : quand quelqu'un nous donne quelque chose, on se sent obligé de rendre. C'est ce qui permet aux sociétés humaines de fonctionner. Je t'aide, tu m'aides. Mais ce sentiment ne fait pas bien la différence entre un vrai cadeau et un cadeau stratégique. Un échantillon gratuit, un café offert, un petit service que tu n'as pas demandé. Et soudain, tu te sens redevable.",
+      "onscreen": [
+        "RÈGLE 2",
+        "Offre d'abord",
+        "demande ensuite"
+      ],
+      "visual": "a heart-shaped gift box with a glowing ribbon on a table and an invisible chain wrapped around the person looking at it, a 28-year-old French woman with a brown ponytail, a white blouse and a tote bag receiving a free sample from a smooth salesman with slicked black hair, a shiny blue suit and a too-wide smile, warm light, subtle tension",
+      "overlay": {
+        "kind": "chip",
+        "text": "RÈGLE 2 : OFFRE D'ABORD",
+        "beat": 0
+      }
+    },
+    {
+      "type": "narration",
+      "title": "La canette de Cornell",
+      "narration": "En mille neuf cent soixante et onze, à l'université Cornell, le chercheur Dennis Regan fait participer des étudiants à une fausse expérience d'art. Pendant une pause, un autre participant, en réalité un complice, sort et revient avec deux canettes de Coca. Une pour lui, une offerte, sans qu'on lui ait rien demandé. Plus tard, ce même complice propose des billets de tombola. Résultat : ceux qui avaient reçu la canette ont acheté environ deux fois plus de billets. Une canette de soda a suffi à créer une dette.",
+      "onscreen": [
+        "1 canette offerte",
+        "≈ 2 × plus de billets"
+      ],
+      "visual": "1971 Cornell university lab, a student accepting a can of soda from a smiling participant, an art-experiment room with paintings and a small table, warm vintage light, friendly mood",
+      "overlay": {
+        "kind": "banner",
+        "text": "CORNELL 1971",
+        "beat": 0
+      }
+    },
+    {
+      "type": "narration",
+      "title": "Le stand du marché",
+      "narration": "Tu te promènes au marché. Une femme souriante te tend un morceau de fromage à goûter. Puis un deuxième. Elle te parle de sa ferme, de ses chèvres. Tu n'avais pas prévu d'acheter de fromage. Tu repars avec un morceau à dix-huit euros. Elle ne t'a pas manipulé méchamment, et son fromage est sûrement délicieux. Mais réfléchis : est-ce que tu l'as acheté parce que tu le voulais, ou parce que partir les mains vides te semblait impoli ?",
+      "onscreen": [
+        "2 dégustations",
+        "= 18 € de fromage"
+      ],
+      "visual": "open-air market in Provence, a smiling 50-year-old French cheese seller with rosy cheeks, a blue apron and a straw hat offering a piece of cheese on a toothpick to a 28-year-old French woman with a brown ponytail, a white blouse and a tote bag with a big smile, wooden stalls with goat cheeses, sunny warm light, her hands full of cheeses"
+    },
+    {
+      "type": "narration",
+      "title": "La parade de la règle 2",
+      "narration": "La parade est simple, mais elle demande un peu de courage. Quand on t'offre quelque chose, accepte-le comme un cadeau, et rien de plus. Dis merci, sincèrement. Puis, quand la demande arrive, sépare les deux dans ta tête. Le cadeau, c'était hier. La demande, c'est maintenant. Est-ce que tu dirais oui à cette demande si on ne t'avait rien offert ? Si la réponse est non, alors la vraie réponse est non. Un cadeau qui t'oblige n'en était pas un.",
+      "onscreen": [
+        "Sépare",
+        "le cadeau",
+        "de la demande"
+      ],
+      "visual": "a 28-year-old French woman with a brown ponytail, a white blouse and a tote bag standing at a market stall, handing a gift cheese back and smiling firmly with a hand up, a smiling 50-year-old French cheese seller with rosy cheeks, a blue apron and a straw hat accepting politely, a glowing line separating the gift and the purchase, bright sunny market light"
+    },
+    {
+      "type": "rule",
+      "number": 3,
+      "rule": "Presse l'autre, il pensera moins",
+      "title": "Règle 3 : l'urgence",
+      "narration": "Règle numéro trois. Presse l'autre, il pensera moins. Offre valable jusqu'à minuit. Plus que deux places. Il faut me répondre tout de suite. L'urgence est l'outil le plus puissant de la manipulation douce, parce qu'elle ne te convainc pas. Elle t'empêche simplement de réfléchir. Quand on est pressé, le cerveau passe en mode automatique. On voit moins de choses, on pèse moins les conséquences, et parfois même, on oublie ses propres valeurs.",
+      "onscreen": [
+        "RÈGLE 3",
+        "Presse l'autre",
+        "il pensera moins"
+      ],
+      "visual": "a 28-year-old French woman with a brown ponytail, a white blouse and a tote bag rushing under a giant glowing red clock with frantic arms and a flashing countdown, a smooth salesman with slicked black hair, a shiny blue suit and a too-wide smile breathing down her neck, red warning light and dramatic shadows, tense atmosphere",
+      "overlay": {
+        "kind": "chip",
+        "text": "RÈGLE 3 : PRESSE L'AUTRE",
+        "beat": 0
+      }
+    },
+    {
+      "type": "study",
+      "title": "Princeton : le Bon Samaritain",
+      "institution": "Université de Princeton",
+      "year": 1973,
+      "authors": "John Darley & Daniel Batson",
+      "finding": "Des séminaristes pressés s'arrêtent beaucoup moins pour aider un homme en détresse, même en route pour parler de la parabole du Bon Samaritain.",
+      "stat": {
+        "label": "Pourcentage de participants qui ont aidé",
+        "values": [
+          {
+            "name": "Pas pressés",
+            "value": 63
+          },
+          {
+            "name": "Moyennement pressés",
+            "value": 45
+          },
+          {
+            "name": "Très pressés",
+            "value": 10
+          }
+        ]
+      },
+      "caveat": "L'étude ne portait que sur un petit groupe de séminaristes américains, et certains n'avaient peut-être pas compris que l'homme avait besoin d'aide. Le message : la situation pèse lourd, pas que les gens sont mauvais.",
+      "narration": "En mille neuf cent soixante-treize, à l'université de Princeton, John Darley et Daniel Batson demandent à des étudiants en théologie de se rendre dans un autre bâtiment pour faire un exposé. Certains sur la parabole du Bon Samaritain. Sur le chemin, un homme est affalé, il tousse, il a l'air mal. Parmi ceux qui n'étaient pas pressés, soixante-trois pour cent se sont arrêtés pour aider. Moyennement pressés : quarante-cinq pour cent. Très pressés : seulement dix pour cent. Certains ont même enjambé l'homme.",
+      "onscreen": [
+        "Pas pressés : 63 %",
+        "Moyennement : 45 %",
+        "Très pressés : 10 %"
+      ],
+      "visual": "1973 Princeton university campus, a theology student in a hurry running with notes past a man slumped on the pavement, a researcher with clipboard hiding in a doorway, autumn light, vintage tones",
+      "overlay": {
+        "kind": "banner",
+        "text": "PRINCETON 1973",
+        "beat": 0
+      }
+    },
+    {
+      "type": "narration",
+      "title": "Ce que ça veut dire",
+      "narration": "Attention à la nuance. L'échantillon était petit, quelques dizaines d'étudiants seulement. Et certains participants n'avaient peut-être même pas compris que l'homme avait besoin d'aide. Cette étude ne prouve pas que les gens sont mauvais. Elle montre quelque chose de plus inquiétant : que la situation compte énormément. Des gens qui allaient parler de bonté sont passés devant la détresse, simplement parce qu'on leur avait dit qu'ils étaient en retard. Imagine maintenant ce que l'urgence peut faire à ton portefeuille.",
+      "onscreen": [
+        "La situation",
+        "pèse lourd"
+      ],
+      "visual": "a split image of a hurried student running past a man in distress on a bench, the same student walking slowly and stopping to help, soft vintage colors, thoughtful and moral mood"
+    },
+    {
+      "type": "narration",
+      "title": "Le faux appel de la banque",
+      "narration": "Un après-midi, Julien reçoit un appel. Une voix calme, professionnelle. Bonjour, service des fraudes de votre banque. Une opération suspecte vient d'être détectée, il faut agir dans les cinq minutes, sinon votre compte sera vidé. Julien panique. On lui demande un code reçu par SMS. Il commence à le lire. Puis il se souvient d'une phrase qu'il a entendue un jour : quand on te presse, c'est qu'on ne veut pas que tu réfléchisses. Il raccroche. Il rappelle sa banque lui-même. Personne ne l'avait appelé.",
+      "onscreen": [
+        "\"5 minutes",
+        "pour agir\"",
+        "→ raccroche"
+      ],
+      "visual": "Julien, a 40-year-old French man with short brown hair, glasses and a beige jacket at home on a phone call, panicking at a kitchen table with a smartphone to his ear, a clock ticking and an ominous voice from the phone, then he lowers the phone with a calm realization, cool light",
+      "overlay": {
+        "kind": "stamp",
+        "text": "STOP",
+        "beat": 3
+      }
+    },
+    {
+      "type": "quote",
+      "title": "La phrase à retenir",
+      "quote": "Une décision qui ne peut pas attendre une nuit est rarement une bonne décision.",
+      "author": "Conseil de grand-mère",
+      "narration": "La parade contre l'urgence tient dans une phrase que beaucoup de grands-mères répètent : une décision qui ne peut pas attendre une nuit est rarement une bonne décision. Bien sûr, il y a de vraies urgences. Un incendie, un accident. Mais une promotion, une offre, un placement, un service à rendre ? Ça peut presque toujours attendre le lendemain. Et si la personne en face refuse que tu prennes ce temps, alors tu as ta réponse.",
+      "onscreen": [
+        "Ça peut attendre",
+        "demain ?"
+      ],
+      "visual": "an old grandmother knitting by a window at dusk with a calm smile and a bed with a pillow in the background, a glowing crescent moon and a closed clock, warm cozy lamp light, wise mood"
+    },
+    {
+      "type": "outro",
+      "title": "Ton bouclier",
+      "narration": "On récapitule. Règle un : une raison, même vide, ouvre les portes. Ta parade, vérifie si la raison explique vraiment quelque chose. Règle deux : un cadeau crée une dette. Ta parade, sépare le cadeau de la demande. Règle trois : l'urgence éteint la réflexion. Ta parade, dors dessus. Ces trois règles ne disparaîtront jamais, parce qu'elles sont gravées dans notre façon de fonctionner. Mais maintenant, tu les vois. Et toi, laquelle t'a déjà eu ? Dis-le en commentaire. Et abonne-toi, pour ne rien rater des prochains films.",
+      "onscreen": [
+        "1. Vérifie la raison",
+        "2. Sépare le cadeau",
+        "3. Dors dessus"
+      ],
+      "visual": "a 28-year-old French woman with a brown ponytail, a white blouse and a tote bag standing in a crossroad of three glowing paths shaped like a key, a gift and a clock, with calm confident eyes and a warm smile, golden light, empowering mood"
+    }
+  ],
+  "short": {
+    "hook_text": "UN SEUL MOT TE FAIT DIRE OUI",
+    "narration": "Il existe un mot qui te fait dire oui presque à chaque fois. Ce mot, c'est parce que. En mille neuf cent soixante-dix-huit, à Harvard, des chercheurs demandent à passer devant des gens à la photocopieuse. Sans raison, soixante pour cent acceptent. Avec une vraie raison, quatre-vingt-quatorze pour cent. Et avec une raison complètement vide, parce que je dois faire des copies, quatre-vingt-treize pour cent. Presque pareil. Le mot parce que a fait tout le travail. C'est la première règle de la manipulation douce. Il y en a deux autres. Et la troisième est la plus dangereuse, parce qu'elle a fait passer des futurs pasteurs à côté d'un homme en détresse. Le film complet est sur la chaîne.",
+    "cta": "Le film complet est sur la chaîne",
+    "visuals": [
+      {
+        "p": "a 28-year-old French woman with a brown ponytail, a white blouse and a tote bag standing before a glowing floating word like a golden key opening a door, a crowd waiting behind her in a bright office, warm cinematic light"
+      },
+      {
+        "p": "1978 Harvard library with a photocopier, a student asking to cut in line, researchers in lab coats with clipboards, warm vintage light",
+        "at": "En mille neuf cent soixante-dix-huit",
+        "overlay": {
+          "kind": "banner",
+          "text": "HARVARD 1978"
+        }
+      },
+      {
+        "p": "a person in a photocopy line shrugging politely and letting someone pass, warm vintage library light, a faint 60 percent pie chart glow beside them",
+        "at": "Sans raison",
+        "overlay": {
+          "kind": "chip",
+          "text": "60 %"
+        }
+      },
+      {
+        "p": "the same student cutting in line while showing a hurried gesture with a paper, a person in line nodding agreeably, warm vintage light",
+        "at": "Avec une vraie raison",
+        "overlay": {
+          "kind": "chip",
+          "text": "94 %"
+        }
+      },
+      {
+        "p": "the student cutting in line with a pile of blank copies and a smug grin, the person in line nodding along without thinking, vintage library light",
+        "at": "Et avec une raison complètement vide",
+        "overlay": {
+          "kind": "chip",
+          "text": "93 %"
+        }
+      },
+      {
+        "p": "a balance scale with two identical glowing orbs exactly level, one labeled by a heart and one by a blank gap, in a lab, cool blue lab light",
+        "at": "Presque pareil"
+      },
+      {
+        "p": "a glowing floating golden key shape opening a brain-shaped door, soft purple and gold light, symbolic and mysterious mood",
+        "at": "Le mot parce que",
+        "overlay": {
+          "kind": "stamp",
+          "text": "PARCE QUE"
+        }
+      },
+      {
+        "p": "a 28-year-old French woman with a brown ponytail, a white blouse and a tote bag nodding with half-closed eyes while a smooth salesman with slicked black hair, a shiny blue suit and a too-wide smile whispers something with a smile and invisible strings above her hands, warm shop light",
+        "at": "C'est la première règle",
+        "overlay": {
+          "kind": "chip",
+          "text": "RÈGLE 1"
+        }
+      },
+      {
+        "p": "two more glowing doors lined up next to a first open door, a crowd silhouette watching, warm and cold light contrast, curious mood",
+        "at": "Il y en a deux autres"
+      },
+      {
+        "p": "a hurried theology student in dark clothes rushing past a man slumped on the pavement under a giant glowing red clock, autumn evening light, dramatic mood",
+        "at": "la troisième est la plus dangereuse",
+        "overlay": {
+          "kind": "chip",
+          "text": "RÈGLE 3"
+        }
+      },
+      {
+        "p": "the man in distress on the pavement coughing with a lonely hand reaching out while the hurried student walks away in the background, soft vintage tones, sad mood",
+        "at": "à côté d'un homme en détresse"
+      }
+    ]
+  },
+  "visual_bible": {
+    "julien": "Julien, a 40-year-old French man with short brown hair, glasses and a beige jacket",
+    "seller": "a smiling 50-year-old French cheese seller with rosy cheeks, a blue apron and a straw hat",
+    "salesman": "a smooth salesman with slicked black hair, a shiny blue suit and a too-wide smile",
+    "woman": "a 28-year-old French woman with a brown ponytail, a white blouse and a tote bag"
+  }
+}

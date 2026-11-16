@@ -1,0 +1,301 @@
+{
+  "id": 7,
+  "slug": "30-jours-riche-mariage-ex",
+  "formula": "30jours",
+  "title": "Il te reste 30 jours pour devenir riche avant le mariage de ton ex",
+  "thumbnail": {
+    "line1": "RICHE EN 30 JOURS ?",
+    "line2": "le mariage de son ex",
+    "accent": "#FFB800",
+    "visual": "Close-up of Anatole, a 31-year-old French man with wavy light brown hair, a short beard, a faded green hoodie and oil-stained hands on the right, grinning in gold sunglasses and an apple-green satin shirt, a golden wedding envelope and a glowing money bag, bright yellow and orange light"
+  },
+  "youtube": {
+    "title": "Il te reste 30 jours pour devenir riche avant le mariage de ton ex",
+    "description": "Anatole, trente et un ans, reçoit une enveloppe dorée. Clara, son ex, se marie dans trente jours. Et elle l’invite. Problème : son compte en banque affiche quarante-trois euros, et il a décidé d’arriver au mariage en homme riche.\n\nTrente jours de plans foireux, de cartes refusées et de consultations chez le Docteur Vidal, médecin pince-sans-rire qui soigne surtout l’ego. Une comédie de transformation où la vraie richesse n’est pas forcément celle qu’on croit.\n\nAbonne-toi pour d’autres défis 30 jours, et dis-nous en commentaire : tu serais allé au mariage, toi ?",
+    "tags": [
+      "30 jours",
+      "défi 30 jours",
+      "devenir riche",
+      "mariage",
+      "ex",
+      "comédie",
+      "Docteur Vidal",
+      "transformation",
+      "argent",
+      "histoire drôle",
+      "motivation",
+      "rupture",
+      "entrepreneur",
+      "histoires virales",
+      "film"
+    ],
+    "pinned_comment": "Question sérieuse : si ton ex t’invitait à son mariage, tu y irais ? Et avec quoi comme cadeau ?"
+  },
+  "scenes": [
+    {
+      "type": "hook",
+      "title": "L’enveloppe dorée",
+      "narration": "Il y a des enveloppes qu’on reconnaît avant même de les ouvrir. Celle-ci est épaisse, crème, avec un liseré doré et un petit cœur en relief. Anatole, trente et un ans, la tient du bout des doigts dans l’entrée de son studio. Clara et Romain ont la joie de vous inviter à leur mariage. Clara. Son ex. Trois ans ensemble, une rupture en douceur, et maintenant ça. Le mariage a lieu dans trente jours. Anatole regarde son appli bancaire. Quarante-trois euros. Il prend une grande décision. Il arrivera riche.",
+      "onscreen": [
+        "J-30",
+        "solde : 43 €"
+      ],
+      "visual": "Anatole, a 31-year-old French man with wavy light brown hair, a short beard, a faded green hoodie and oil-stained hands, standing in the entrance of a tiny studio holding a thick cream envelope with a golden border and a small embossed heart, stunned face, a phone showing a nearly empty bank app, warm lamp light, comic mood",
+      "overlay": {
+        "kind": "chip",
+        "text": "43 € EN BANQUE",
+        "beat": 0
+      }
+    },
+    {
+      "type": "day",
+      "day": 1,
+      "level": 3,
+      "title": "J-30 : le plan",
+      "narration": "Jour un. Anatole sort une grande feuille et écrit en haut : « Plan Millionnaire ». En dessous, il liste ses atouts. Un vélo. Une console de 2013. Une collection de quatre cents capsules de bouteilles. Un diplôme de géographie. Et beaucoup de motivation. Il calcule qu’il lui faut environ un million en trente jours, soit trente-trois mille trois cent trente-trois euros par jour. Il arrondit à trente-quatre mille, par sécurité. Il est très fier de sa rigueur.",
+      "onscreen": [
+        "niveau richesse : 3 %",
+        "objectif : 1 M€"
+      ],
+      "visual": "Anatole, a 31-year-old French man with wavy light brown hair, a short beard, a faded green hoodie and oil-stained hands, at a cluttered desk writing on a huge sheet of paper, a rusty bike, an old console and a jar of bottle caps beside him, a world map on the wall, proud overconfident smile, bright cheerful comic light"
+    },
+    {
+      "type": "vidal",
+      "title": "Le Docteur Vidal",
+      "line": "Ce n’est pas une maladie, c’est un faire-part.",
+      "narration": "Le soir même, Anatole n’arrive pas à dormir. Le lendemain, il va voir le Docteur Vidal pour des palpitations. Le docteur l’écoute, prend sa tension, regarde ses yeux cernés. Anatole finit par sortir l’enveloppe dorée de sa poche et la poser sur le bureau, comme une pièce à conviction. Le docteur l’ouvre, la lit, la referme. « Ce n’est pas une maladie, c’est un faire-part. » Il lui prescrit trois choses : dormir, boire de l’eau et ne pas prendre de décision financière avant le café.",
+      "onscreen": [
+        "Docteur Vidal",
+        "diagnostic : faire-part"
+      ],
+      "visual": "Docteur Vidal, a 60-year-old French doctor with grey hair, half-moon glasses and a white coat, deadpan, sitting at his desk reading an opened golden wedding invitation, Anatole, a 31-year-old French man with wavy light brown hair, a short beard, a faded green hoodie and oil-stained hands anxious in front of him with dark circles under his eyes, soft clinical light, humorous mood"
+    },
+    {
+      "type": "card_refused",
+      "item": "Location d’une voiture de sport (1 journée)",
+      "price": "899,00 €",
+      "title": "La voiture de rêve",
+      "narration": "Mais Anatole a sauté le café. Première étape du plan : avoir l’air riche, pour attirer la richesse. Il réserve en ligne une voiture de sport rouge pour le jour du mariage. Huit cent quatre-vingt-dix-neuf euros la journée, assurance en option. Il imagine déjà le moteur qui gronde devant l’église, Clara qui se retourne, les invités qui chuchotent. Il clique sur « Réserver ». Paiement refusé. Il réessaie avec l’autre carte. Il n’a pas d’autre carte.",
+      "onscreen": [
+        "CARTE REFUSÉE",
+        "899 €"
+      ],
+      "visual": "Anatole, a 31-year-old French man with wavy light brown hair, a short beard, a faded green hoodie and oil-stained hands, at a laptop booking a red sports car online with a hopeful grin, the screen showing a red error window, his fingers frozen, cluttered studio, red glow on his face",
+      "overlay": {
+        "kind": "stamp",
+        "text": "CARTE REFUSÉE",
+        "beat": 0
+      }
+    },
+    {
+      "type": "gag",
+      "caption": "Opération « avoir l’air riche » : niveau débutant",
+      "title": "Les lunettes de soleil",
+      "narration": "Alors Anatole passe au plan B : l’apparence. Il ressort de son placard des lunettes de soleil dorées achetées à une fête foraine, une chemise satinée vert pomme et une chaîne en plastique doré. Il se regarde dans le miroir. Il prend des photos. Il descend acheter une baguette dans cette tenue. La boulangère lui demande, très gentiment, s’il va à un enterrement de vie de garçon. Il répond que non, qu’il est entrepreneur. Elle lui rend la monnaie avec un regard plein de pitié.",
+      "onscreen": [
+        "chemise vert pomme",
+        "« entrepreneur »"
+      ],
+      "visual": "Anatole, a 31-year-old French man with wavy light brown hair, a short beard, a faded green hoodie and oil-stained hands, wearing gold sunglasses, an apple-green satin shirt and a plastic gold chain, holding a baguette at a bakery counter, a baker lady looking at him with pity, bright comedic colors, warm light"
+    },
+    {
+      "type": "day",
+      "day": 5,
+      "level": 9,
+      "title": "J-26 : le vide-grenier",
+      "narration": "Jour cinq. Retour à la réalité. Anatole vend ce qu’il possède. La console part pour quatre-vingt-dix euros. Les capsules de bouteilles, contre toute attente, intéressent un collectionneur belge qui en offre cent vingt. Une vieille veste en cuir de son père, il refuse de la vendre. Au total, il gagne deux cent dix euros. Ce n’est pas un million, mais c’est cinq fois plus que son solde de départ. Pour la première fois, il voit un vrai chiffre monter.",
+      "onscreen": [
+        "niveau : 9 %",
+        "+210 €"
+      ],
+      "visual": "Anatole, a 31-year-old French man with wavy light brown hair, a short beard, a faded green hoodie and oil-stained hands, at a flea market selling his old game console and a jar of bottle caps to a Belgian collector with a funny hat, a few euro bills in his hand, sunny day, lively colourful stalls, hopeful smile"
+    },
+    {
+      "type": "narration",
+      "title": "La cave de Madame Rossi",
+      "narration": "C’est en aidant sa voisine, Madame Rossi, à vider sa cave qu’Anatole tombe sur la vraie idée. Au fond, sous une bâche, il y a trois vieux vélos rouillés. Des vélos de course des années soixante-dix, en acier, avec des guidons cintrés. Madame Rossi veut s’en débarrasser. Anatole les regarde longtemps. Quand il était petit, il passait ses samedis dans l’atelier de son grand-père, à démonter des dérailleurs. Il demande s’il peut les garder. Elle lui dit oui, à condition qu’il remonte les cartons.",
+      "onscreen": [
+        "3 vélos rouillés",
+        "souvenir d’enfance"
+      ],
+      "visual": "Anatole, a 31-year-old French man with wavy light brown hair, a short beard, a faded green hoodie and oil-stained hands, helping Madame Rossi, a 75-year-old neighbour with a grey bun, glasses and a flowered apron in a dusty basement, discovering three old rusty steel racing bikes under a tarp, nostalgic expression, dust in a shaft of warm light, a vintage workshop atmosphere"
+    },
+    {
+      "type": "day",
+      "day": 12,
+      "level": 24,
+      "title": "J-19 : l’atelier",
+      "narration": "Jour douze. Le studio d’Anatole est devenu un atelier. Il y a des chaînes dans l’évier, des roues sous le lit et une odeur de dégraissant dans la salle de bains. Il regarde des vidéos, il commande des pièces d’occasion, il se coupe deux fois et se tache tous ses vêtements. Mais le premier vélo est prêt. Bleu ciel, poli, silencieux. Il le met en vente en ligne avec une photo prise sur le quai. Il est vendu en trois heures. Quatre cent cinquante euros.",
+      "onscreen": [
+        "niveau : 24 %",
+        "vendu : 450 €"
+      ],
+      "visual": "Anatole, a 31-year-old French man with wavy light brown hair, a short beard, a faded green hoodie and oil-stained hands, in a studio turned into a bike workshop with chains in the sink and wheels under the bed, holding up a polished sky-blue bike proudly, oil stains on his hoodie, warm yellow light",
+      "overlay": {
+        "kind": "chip",
+        "text": "450 €",
+        "beat": 0
+      }
+    },
+    {
+      "type": "vidal",
+      "title": "Deuxième consultation",
+      "line": "Vos mains sont abîmées et votre tension est parfaite. Continuez à vous salir.",
+      "narration": "Deuxième visite chez le Docteur Vidal, pour une coupure au pouce qui s’est un peu infectée. Le docteur désinfecte, pose un pansement et prend sa tension par la même occasion. Il fronce les sourcils, vérifie deux fois. Puis il lâche, toujours aussi impassible : « Vos mains sont abîmées et votre tension est parfaite. Continuez à vous salir. » En partant, Anatole aperçoit dans le couloir du cabinet un vieux vélo de course, cadenassé contre le radiateur. Le docteur le rattrape. « Il ne roule plus. Vous pourriez y jeter un œil ? »",
+      "onscreen": [
+        "tension : parfaite",
+        "un client ?"
+      ],
+      "visual": "Docteur Vidal, a 60-year-old French doctor with grey hair, half-moon glasses and a white coat, deadpan, bandaging Anatole, a 31-year-old French man with wavy light brown hair, a short beard, a faded green hoodie and oil-stained hands's thumb in his office, a vintage racing bike locked to a radiator in the hallway behind them, soft clinical light, comedic mood"
+    },
+    {
+      "type": "card_refused",
+      "item": "Montre automatique « édition prestige »",
+      "price": "2 499,00 €",
+      "title": "La rechute",
+      "narration": "Mais avec l’argent qui rentre, la tentation revient. Un soir, Anatole fait défiler des publicités de montres de luxe. Il se voit déjà au mariage, levant son verre, avec un poignet qui brille. Montre automatique, édition prestige, deux mille quatre cent quatre-vingt-dix-neuf euros. Il a mille deux cents euros sur son compte. Il tente quand même un paiement en quatre fois. Paiement refusé. Il ferme l’ordinateur. Puis il retourne à l’atelier, un peu vexé, réparer le vélo du docteur.",
+      "onscreen": [
+        "CARTE REFUSÉE",
+        "2 499 €"
+      ],
+      "visual": "Anatole, a 31-year-old French man with wavy light brown hair, a short beard, a faded green hoodie and oil-stained hands, in front of a laptop displaying a luxury watch advert, his face disappointed, a red error window glowing on the screen, a half-repaired bike in the background, evening light",
+      "overlay": {
+        "kind": "stamp",
+        "text": "CARTE REFUSÉE",
+        "beat": 0
+      }
+    },
+    {
+      "type": "gag",
+      "caption": "Le nouveau quartier général d’Anatole Cycles (anciennement : sa salle de bains)",
+      "title": "Anatole Cycles",
+      "narration": "Le bouche-à-oreille fait son effet. Le docteur parle de lui à ses patients. Madame Rossi parle de lui à toute la résidence. Bientôt, des vélos arrivent de partout. Il y en a sur le balcon, dans le couloir, et même un tandem dans la baignoire. Anatole se douche désormais à la piscine municipale. Il imprime des cartes de visite sur l’imprimante de la bibliothèque : « Anatole Cycles, réparation et seconde vie ». Il a déjà une liste d’attente de onze personnes.",
+      "onscreen": [
+        "un tandem dans la baignoire",
+        "liste d’attente : 11"
+      ],
+      "visual": "Anatole, a 31-year-old French man with wavy light brown hair, a short beard, a faded green hoodie and oil-stained hands, in a cramped hallway full of bikes of all kinds, a tandem sitting in a bathtub seen through the bathroom door, printing business cards, bikes hanging on the balcony, cheerful chaos, warm light"
+    },
+    {
+      "type": "day",
+      "day": 22,
+      "level": 58,
+      "title": "J-9 : le tandem",
+      "narration": "Jour vingt-deux. Anatole fait ses comptes. Il a gagné mille huit cent quarante euros en trois semaines. Ce n’est pas une fortune. Mais c’est plus que ce qu’il gagnait dans son ancien job, et il ne s’est jamais levé aussi content. Il regarde le tandem rouillé qui dort dans sa baignoire. Et une idée lui vient. Une idée qui n’a rien à voir avec l’argent. Pour le cadeau de mariage, il ne va pas acheter quelque chose de cher. Il va fabriquer quelque chose de beau.",
+      "onscreen": [
+        "niveau : 58 %",
+        "1 840 € en 3 semaines"
+      ],
+      "visual": "Anatole, a 31-year-old French man with wavy light brown hair, a short beard, a faded green hoodie and oil-stained hands, in his workshop at night, calculating on a notebook with a small smile, a rusty red tandem in the foreground, tools on the wall, warm lamp light and a golden glow, thoughtful mood"
+    },
+    {
+      "type": "narration",
+      "title": "Les nuits blanches",
+      "narration": "Pendant une semaine, il travaille sur le tandem tous les soirs. Il le décape entièrement, le repeint en blanc crème, remplace les câbles, les pneus, les deux selles. Il ajoute deux petites sonnettes argentées, une pour chaque guidon. Sur le cadre, il peint à la main, en lettres fines : « Clara et Romain ». Il se surprend à sourire en traçant les noms. Il réalise qu’il n’a plus de colère. Plus de revanche à prendre. Juste l’envie que ce vélo les emmène loin, ensemble.",
+      "onscreen": [
+        "blanc crème",
+        "« Clara et Romain »"
+      ],
+      "visual": "Anatole, a 31-year-old French man with wavy light brown hair, a short beard, a faded green hoodie and oil-stained hands, repainting a tandem cream white by hand with a fine brush, writing names on the frame, sparkling silver bells on handlebars, nighttime workshop with warm lamp light, peaceful tender mood, empty space above"
+    },
+    {
+      "type": "vidal",
+      "title": "La dernière consultation",
+      "line": "Vous vouliez arriver riche. Vous allez arriver heureux. C’est plus rare, et ça ne se loue pas.",
+      "narration": "La veille du mariage, Anatole passe chez le Docteur Vidal, officiellement pour rapporter le vélo réparé. Le docteur fait un tour du parking, revient, et dit que ça roule mieux qu’en 1982. Anatole lui raconte le tandem, l’atelier, la liste d’attente. Le docteur l’écoute jusqu’au bout, puis il dit, pour la première fois avec une ombre de sourire : « Vous vouliez arriver riche. Vous allez arriver heureux. C’est plus rare, et ça ne se loue pas. » Il refuse de le faire payer.",
+      "onscreen": [
+        "« arriver heureux »",
+        "consultation offerte"
+      ],
+      "visual": "Docteur Vidal, a 60-year-old French doctor with grey hair, half-moon glasses and a white coat, with a faint smile, standing in a clinic parking lot next to a repaired old bike, Anatole, a 31-year-old French man with wavy light brown hair, a short beard, a faded green hoodie and oil-stained hands laughing beside him, golden evening light, warm touching comic mood"
+    },
+    {
+      "type": "day",
+      "day": 30,
+      "level": 85,
+      "title": "J-0 : le mariage",
+      "narration": "Jour trente. Anatole arrive au mariage sans voiture de sport, sans montre de luxe et sans chemise satinée. Il arrive à vélo, en costume emprunté à son cousin, en poussant derrière lui un tandem blanc crème avec un gros nœud doré. Les invités se retournent. Clara aussi. Elle pose les mains sur sa bouche. Romain, le marié, s’approche, lit les noms peints sur le cadre et serre Anatole dans ses bras comme s’ils se connaissaient depuis toujours.",
+      "onscreen": [
+        "niveau : 85 %",
+        "un tandem blanc"
+      ],
+      "visual": "Anatole, a 31-year-old French man with wavy light brown hair, a short beard, a faded green hoodie and oil-stained hands, in a borrowed suit pushing a cream-white tandem with a big golden bow toward a church wedding, guests turning, Clara, a 30-year-old French bride with long blond hair and a lace wedding dress covering her mouth in surprise, Romain, a 33-year-old groom with short dark hair and a navy suit smiling, sunny bright light",
+      "overlay": {
+        "kind": "chip",
+        "text": "J-0",
+        "beat": 0
+      }
+    },
+    {
+      "type": "outro",
+      "title": "La vraie richesse",
+      "narration": "À la fin de la soirée, Clara et Romain quittent la fête sur le tandem, sous les applaudissements, en faisant sonner les deux petites sonnettes. Clara se retourne et crie merci. Anatole lève son verre. Il ne possède pas un million. Il possède un atelier, onze clients qui l’attendent, un médecin qui l’aime bien et une voisine qui lui apporte des lasagnes. Il est venu pour prouver qu’il avait réussi. Il repart en sachant que c’est vrai. Et toi, ta vraie richesse, ce serait quoi ? Dis-le en commentaire.",
+      "onscreen": [
+        "ta vraie richesse ?",
+        "dis-le en commentaire"
+      ],
+      "visual": "Clara, a 30-year-old French bride with long blond hair and a lace wedding dress and Romain, a 33-year-old groom with short dark hair and a navy suit riding away on a cream-white tandem with two silver bells, a cheering wedding crowd throwing petals, Anatole, a 31-year-old French man with wavy light brown hair, a short beard, a faded green hoodie and oil-stained hands raising a glass and smiling in the background, golden sunset light, joyful ending"
+    }
+  ],
+  "short": {
+    "hook_text": "RICHE AVANT LE MARIAGE DE SON EX",
+    "narration": "Anatole, trente et un ans, reçoit une enveloppe dorée. Son ex, Clara, se marie dans trente jours. Et elle l’invite. Il regarde son compte : quarante-trois euros. Il décide qu’il arrivera riche. Il réserve une voiture de sport à huit cent quatre-vingt-dix-neuf euros la journée. Carte refusée. Il sort une chemise satinée vert pomme. La boulangère lui demande s’il va à un enterrement de vie de garçon. Le Docteur Vidal lit le faire-part et soupire : « Ce n’est pas une maladie, c’est un faire-part. » Et puis, dans la cave de sa voisine, sous une vieille bâche, Anatole trouve quelque chose qui va tout changer. Ce qu’il apporte au mariage, personne ne l’avait imaginé.",
+    "cta": "Le film complet est sur la chaîne",
+    "visuals": [
+      {
+        "p": "Anatole, a 31-year-old French man with wavy light brown hair, a short beard, a faded green hoodie and oil-stained hands, holding a thick cream envelope with a golden border in a tiny studio, stunned face, warm lamp light, comic mood"
+      },
+      {
+        "p": "Clara, a 30-year-old French bride with long blond hair and a lace wedding dress, in a lace wedding dress smiling on a phone screen, Anatole, a 31-year-old French man with wavy light brown hair, a short beard, a faded green hoodie and oil-stained hands staring at it, wide eyes, cream envelope on the table, comic mood",
+        "at": "Son ex, Clara"
+      },
+      {
+        "p": "Anatole, a 31-year-old French man with wavy light brown hair, a short beard, a faded green hoodie and oil-stained hands, checking a phone showing a nearly empty bank app, grim determined face, a big plan on the wall, warm lamp light",
+        "at": "Il regarde son compte",
+        "overlay": {
+          "kind": "chip",
+          "text": "43 €"
+        }
+      },
+      {
+        "p": "Anatole, a 31-year-old French man with wavy light brown hair, a short beard, a faded green hoodie and oil-stained hands, at a laptop booking a red sports car with a hopeful grin, a red error window glowing on the screen, red glow on his face",
+        "at": "Il réserve une voiture",
+        "overlay": {
+          "kind": "stamp",
+          "text": "CARTE REFUSÉE"
+        }
+      },
+      {
+        "p": "Anatole, a 31-year-old French man with wavy light brown hair, a short beard, a faded green hoodie and oil-stained hands, in front of a mirror wearing gold sunglasses, an apple-green satin shirt and a plastic gold chain, posing proudly, bright comedic colors",
+        "at": "Il sort une chemise"
+      },
+      {
+        "p": "A baker lady at a bakery counter looking at a man in a satin green shirt with kind pity, baguette on the counter, bright comedic colors, warm morning light",
+        "at": "La boulangère lui demande"
+      },
+      {
+        "p": "Docteur Vidal, a 60-year-old French doctor with grey hair, half-moon glasses and a white coat, deadpan, reading an opened golden wedding invitation in his office, Anatole, a 31-year-old French man with wavy light brown hair, a short beard, a faded green hoodie and oil-stained hands anxious in front of him, soft clinical light, humorous mood",
+        "at": "Le Docteur Vidal lit"
+      },
+      {
+        "p": "Anatole, a 31-year-old French man with wavy light brown hair, a short beard, a faded green hoodie and oil-stained hands, in a dusty basement discovering three old rusty steel racing bikes under a tarp, warm light shaft, nostalgic expression, Madame Rossi, a 75-year-old neighbour with a grey bun, glasses and a flowered apron smiling in the background",
+        "at": "Et puis, dans la cave"
+      },
+      {
+        "p": "Anatole, a 31-year-old French man with wavy light brown hair, a short beard, a faded green hoodie and oil-stained hands, in a borrowed suit pushing a cream-white tandem with a big golden bow toward a wedding, guests turning, Clara, a 30-year-old French bride with long blond hair and a lace wedding dress covering her mouth, sunny bright light",
+        "at": "Ce qu’il apporte",
+        "overlay": {
+          "kind": "chip",
+          "text": "J-0"
+        }
+      }
+    ]
+  },
+  "visual_bible": {
+    "hero": "Anatole, a 31-year-old French man with wavy light brown hair, a short beard, a faded green hoodie and oil-stained hands",
+    "vidal": "Docteur Vidal, a 60-year-old French doctor with grey hair, half-moon glasses and a white coat",
+    "clara": "Clara, a 30-year-old French bride with long blond hair and a lace wedding dress",
+    "romain": "Romain, a 33-year-old groom with short dark hair and a navy suit",
+    "rossi": "Madame Rossi, a 75-year-old neighbour with a grey bun, glasses and a flowered apron"
+  }
+}

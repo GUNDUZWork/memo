@@ -1,0 +1,119 @@
+name: Render episode
+description: Installe ffmpeg/node-canvas/edge-tts, rend un épisode (film 16:9 + Short 9:16), publie Artifact + Release
+inputs:
+  episode:
+    description: Numéro d'épisode (1-30)
+    required: true
+  preview:
+    description: "0 = durée complète, N = N premières secondes"
+    required: false
+    default: "0"
+  tag:
+    description: Tag de la Release où ajouter les fichiers
+    required: true
+  token:
+    description: GITHUB_TOKEN
+    required: true
+runs:
+  using: composite
+  steps:
+    - name: Installer ffmpeg + dépendances node-canvas + polices
+      shell: bash
+      run: |
+        sudo apt-get update -qq
+        sudo apt-get install -y -qq --no-install-recommends \
+          ffmpeg build-essential libcairo2-dev libpango1.0-dev libjpeg-dev libgif-dev librsvg2-dev \
+          fonts-dejavu-core fonts-liberation2
+        ffmpeg -version | head -1
+
+    - uses: actions/setup-node@v4
+      with:
+        node-version: 20
+        cache: npm
+        cache-dependency-path: CLOUD_HISTOIRES_VIRALES_FR/package-lock.json
+
+    - uses: actions/setup-python@v5
+      with:
+        python-version: "3.12"
+        cache: pip
+        cache-dependency-path: CLOUD_HISTOIRES_VIRALES_FR/requirements.txt
+
+    - name: Installer node-canvas et edge-tts
+      shell: bash
+      working-directory: CLOUD_HISTOIRES_VIRALES_FR
+      run: |
+        npm ci --no-audit --no-fund
+        python -m pip install -r requirements.txt
+        node -e "require('canvas'); console.log('node-canvas OK')"
+        edge-tts --list-voices > "$RUNNER_TEMP/voices.txt"
+        grep -q fr-FR-RemyMultilingualNeural "$RUNNER_TEMP/voices.txt" && echo "voix Remy OK"
+
+    - name: Nom d'épisode
+      id: ep
+      shell: bash
+      run: echo "id=ep$(printf %02d ${{ inputs.episode }})" >> "$GITHUB_OUTPUT"
+
+    - name: Rendu (voix edge-tts → décors + marionnettes Lemo-Opuscar → sfx → mix -14 LUFS → film → Short → miniature)
+      shell: bash
+      working-directory: CLOUD_HISTOIRES_VIRALES_FR
+      env:
+        PREVIEW: ${{ inputs.preview }}
+      run: |
+        ARGS="--episode ${{ inputs.episode }}"
+        [ "$PREVIEW" != "0" ] && ARGS="$ARGS --preview $PREVIEW"
+        node cloudViralEngine.js all $ARGS
+
+    - name: Traductions (14 langues, MyMemory puis Pollinations Text ; ne bloque jamais)
+      continue-on-error: true
+      shell: bash
+      working-directory: CLOUD_HISTOIRES_VIRALES_FR
+      run: python3 scripts/translate.py dist/${{ steps.ep.outputs.id }} --budget-min 15
+
+    - name: Rapport de rendu conservé avant nettoyage
+      shell: bash
+      working-directory: CLOUD_HISTOIRES_VIRALES_FR
+      run: |
+        mkdir -p "$RUNNER_TEMP/rep"
+        cp build/${{ steps.ep.outputs.id }}/sources.json "$RUNNER_TEMP/rep/" 2>/dev/null || true
+        cp build/${{ steps.ep.outputs.id }}/*_contact_sheet.jpg "$RUNNER_TEMP/rep/" 2>/dev/null || true
+
+    - name: Release (avant rangement)
+      if: inputs.tag != ''
+      continue-on-error: true
+      shell: bash
+      working-directory: CLOUD_HISTOIRES_VIRALES_FR
+      env:
+        GH_TOKEN: ${{ inputs.token }}
+      run: |
+        for i in 1 2 3 4; do
+          gh release upload "${{ inputs.tag }}" dist/${{ steps.ep.outputs.id }}/* --clobber && break
+          sleep $((i * 15))
+        done
+
+    - name: Rangement YAYIN/epXX + suppression des fichiers temporaires
+      shell: bash
+      working-directory: CLOUD_HISTOIRES_VIRALES_FR
+      run: python3 scripts/package.py ${{ inputs.episode }}
+
+    - name: Artifact YAYIN (téléchargement en un clic)
+      uses: actions/upload-artifact@v4
+      with:
+        name: ${{ steps.ep.outputs.id }}
+        path: CLOUD_HISTOIRES_VIRALES_FR/YAYIN/${{ steps.ep.outputs.id }}/
+        retention-days: 14
+        compression-level: 0
+
+    - name: Artifact — rapport (sources des images + planches-contact)
+      if: always()
+      uses: actions/upload-artifact@v4
+      with:
+        name: ${{ steps.ep.outputs.id }}-report
+        path: ${{ runner.temp }}/rep/
+        if-no-files-found: ignore
+        retention-days: 14
+
+    - name: Résumé
+      shell: bash
+      working-directory: CLOUD_HISTOIRES_VIRALES_FR
+      run: |
+        { echo "### ${{ steps.ep.outputs.id }} ✓"; python3 -c "import json;r=json.load(open('$RUNNER_TEMP/rep/sources.json'));print('Dessiné dans le style Lemo-Opuscar :',r['sources'],'— rendu',r['seconds'],'s')"; echo '```'; ls -lh YAYIN/${{ steps.ep.outputs.id }}/; echo '```'; } >> "$GITHUB_STEP_SUMMARY"

@@ -1,0 +1,350 @@
+{
+  "id": 15,
+  "slug": "30-jours-perdre-10-kg-retrouvailles",
+  "formula": "30jours",
+  "title": "Il te reste 30 jours pour perdre 10 kg avant les retrouvailles du lycée",
+  "thumbnail": {
+    "line1": "-10 KG EN 30 JOURS ?",
+    "line2": "les retrouvailles du lycée",
+    "accent": "#FF3B5C",
+    "visual": "Florian, a 34-year-old slightly chubby French accountant with short brown hair, a kind round face and a grey cardigan in close-up with a shocked sweaty face sucking in his belly, on the right a giant scale with ten glowing red weights and a disco ball, bold pink and red lighting"
+  },
+  "youtube": {
+    "title": "Il te reste 30 jours pour perdre 10 kg avant les retrouvailles du lycée",
+    "description": "Florian, trente-quatre ans, reçoit une invitation : les retrouvailles des quinze ans du bac. Dans trente jours. Il se regarde dans le miroir et prend une décision radicale : perdre dix kilos d'ici là. Ce qu'il ne sait pas encore, c'est que son médecin, le Docteur Vidal, a un avis très tranché sur la question.\n\nCeintures miracles, cartes refusées, jogging à cinq heures du matin et pizzas cachées dans le four : une comédie de transformation sur la pression du regard des autres, et ce qui change vraiment en trente jours.\n\nRappel : perdre du poids durablement se fait progressivement, avec l'avis d'un professionnel de santé.",
+    "tags": [
+      "30 jours",
+      "perdre du poids",
+      "défi",
+      "comédie",
+      "transformation",
+      "retrouvailles",
+      "lycée",
+      "sport",
+      "motivation",
+      "remise en forme",
+      "docteur vidal",
+      "histoire drôle",
+      "confiance en soi",
+      "challenge",
+      "santé"
+    ],
+    "pinned_comment": "Si tu recevais demain une invitation aux retrouvailles de ton lycée, tu changerais quoi en 30 jours ?"
+  },
+  "scenes": [
+    {
+      "type": "hook",
+      "title": "L'invitation",
+      "narration": "Florian a trente-quatre ans. Il est comptable, il adore les lasagnes de sa mère, et ce soir, il reçoit une invitation sur son téléphone. Les retrouvailles des quinze ans du bac. Dans un mois. Il y aura tout le monde. Kevin, l'ancien capitaine de l'équipe de foot. Sarah, la déléguée de classe. Et surtout Anaïs, à qui il n'a jamais osé parler. Florian se lève, va devant le miroir de la salle de bain, rentre le ventre, et annonce à voix haute : dix kilos. En trente jours. Facile.",
+      "onscreen": [
+        "J-30",
+        "Objectif : -10 kg"
+      ],
+      "visual": "Florian, a 34-year-old slightly chubby French accountant with short brown hair, a kind round face and a grey cardigan in a bright bathroom sucking in his belly in front of a mirror, a phone showing a high-school reunion invitation in his hand, hopeful then doubtful face, colorful comedic light",
+      "overlay": {
+        "kind": "banner",
+        "text": "RETROUVAILLES DANS 30 JOURS",
+        "beat": 0
+      }
+    },
+    {
+      "type": "day",
+      "day": 30,
+      "level": 3,
+      "title": "J-30 : le grand départ",
+      "narration": "Jour trente. Niveau forme : trois pour cent. Florian vide ses placards. Il jette les chips, les biscuits, et la pâte à tartiner, en pleurant un tout petit peu sur cette dernière. Il télécharge une application de sport qui lui promet un corps de rêve. Il fait sa première séance dans son salon. Dix pompes prévues. Il en fait deux et demie. Puis il reste allongé sur le tapis pendant vingt minutes, à regarder le plafond, en se demandant s'il est toujours vivant.",
+      "onscreen": [
+        "Niveau 3 %",
+        "2,5 pompes"
+      ],
+      "visual": "Florian, a 34-year-old slightly chubby French accountant with short brown hair, a kind round face and a grey cardigan lying exhausted on a living room carpet after trying push-ups, a yoga mat, empty cupboards and a bag of thrown-away snacks, a sports app glowing on a phone nearby, colorful comedic mood",
+      "overlay": {
+        "kind": "chip",
+        "text": "JOUR 30",
+        "beat": 0
+      }
+    },
+    {
+      "type": "card_refused",
+      "item": "Ceinture de sudation électrique Ultra Slim 3000",
+      "price": "79,99 €",
+      "title": "La ceinture miracle",
+      "narration": "Le soir même, une publicité attire son attention. Une ceinture électrique qui fait fondre le ventre pendant que tu regardes la télé. Moins cinq kilos en une semaine, garanti. Soixante-dix-neuf euros quatre-vingt-dix-neuf. Florian n'hésite pas une seconde. Il entre ses coordonnées bancaires avec la ferveur d'un homme qui croit aux miracles. Paiement refusé. Il réessaie. Refusé. Il découvre qu'il a dépassé son plafond le matin même, en achetant des chaussures de course fluo à cent cinquante euros.",
+      "onscreen": [
+        "CARTE REFUSÉE",
+        "\"-5 kg garantis\""
+      ],
+      "visual": "Florian, a 34-year-old slightly chubby French accountant with short brown hair, a kind round face and a grey cardigan on a sofa typing his bank card details with devout faith, an ad of a cartoon electric belt on a laptop, then a dismayed face as the phone glows red, colorful evening light",
+      "overlay": {
+        "kind": "stamp",
+        "text": "CARTE REFUSÉE",
+        "beat": 1
+      }
+    },
+    {
+      "type": "vidal",
+      "line": "Dix kilos en un mois, c'est possible. Chez un éléphant.",
+      "title": "La consultation",
+      "narration": "Le lendemain, Florian va voir le Docteur Vidal pour un certificat médical. Vidal, soixante ans, cheveux blancs, l'humour d'une porte de frigo, le pèse et l'écoute exposer son plan. Dix kilos en trente jours. Vidal ne dit rien pendant de longues secondes. Puis il répond : dix kilos en un mois, c'est possible. Chez un éléphant. Il explique ensuite, très sérieusement, que perdre du poids trop vite est mauvais pour la santé, et qu'un objectif raisonnable, c'est plutôt un demi-kilo à un kilo par semaine.",
+      "onscreen": [
+        "Docteur Vidal",
+        "\"Chez un éléphant.\""
+      ],
+      "visual": "doctor's office, Docteur Vidal, a 60-year-old deadpan French doctor with white-grey hair, rectangular glasses, a white coat and a stethoscope around his neck deadpan looking at Florian, a 34-year-old slightly chubby French accountant with short brown hair, a kind round face and a grey cardigan on a scale, an elephant poster on the wall, Florian, a 34-year-old slightly chubby French accountant with short brown hair, a kind round face and a grey cardigan hopeful then embarrassed, bright clinic light, comedic mood",
+      "overlay": {
+        "kind": "chip",
+        "text": "DOCTEUR VIDAL",
+        "beat": 0
+      }
+    },
+    {
+      "type": "narration",
+      "title": "Le nouveau plan",
+      "narration": "Florian sort du cabinet un peu vexé, mais avec un vrai plan. Marcher tous les jours. Manger plus de légumes, moins de plats préparés. Dormir avant minuit. Et surtout, arrêter de grignoter devant les séries. Vidal lui a dit : oubliez la balance, regardez plutôt vos escaliers. Le jour où vous montez au quatrième sans vous arrêter, vous aurez gagné. Florian habite au cinquième. Ce soir-là, il s'arrête deux fois. Au deuxième pour souffler. Au quatrième pour réfléchir à sa vie.",
+      "onscreen": [
+        "Nouveau plan :",
+        "marcher, dormir, légumes"
+      ],
+      "visual": "Florian, a 34-year-old slightly chubby French accountant with short brown hair, a kind round face and a grey cardigan walking out of a doctor's office determined holding a list, a cooked vegetable platter and a sleeping bed icon floating, bright morning light, wholesome comedic mood"
+    },
+    {
+      "type": "gag",
+      "caption": "Florian, 5 h 30 du matin, se fait doubler par une mamie avec un caddie",
+      "title": "Le premier jogging",
+      "narration": "Jour vingt-six. Premier vrai jogging. Florian se lève à cinq heures et demie, enfile ses chaussures fluo, et s'élance dans les rues désertes avec la détermination d'un héros de film. Au bout de quatre cents mètres, il a un point de côté. Au bout de six cents, il marche. Au bout de huit cents, une dame d'au moins quatre-vingts ans le double tranquillement, en tirant son caddie de courses. Elle lui lance au passage : courage, jeune homme. Florian rentre chez lui en évitant de croiser son regard.",
+      "onscreen": [
+        "800 mètres",
+        "doublé par un caddie"
+      ],
+      "visual": "Florian, a 34-year-old slightly chubby French accountant with short brown hair, a kind round face and a grey cardigan jogging in neon sneakers on an empty dawn street, out of breath, a spry 80-year-old French lady with white curly hair, a purple coat and a tartan shopping trolley calmly overtaking him, golden dawn light, comedic mood",
+      "overlay": {
+        "kind": "chip",
+        "text": "JOUR 26",
+        "beat": 0
+      }
+    },
+    {
+      "type": "day",
+      "day": 22,
+      "level": 18,
+      "title": "J-22 : le mur des légumes",
+      "narration": "Jour vingt-deux. Niveau forme : dix-huit pour cent. Florian découvre la cuisine. La vraie. Pas celle qui consiste à percer un film plastique et à attendre trois minutes. Il fait des soupes, des poêlées, des salades composées. Il apprend que le brocoli peut être bon, si on le cuit moins de quarante minutes. Il envoie une photo de son premier plat fait maison à sa mère. Elle répond : c'est joli, mais c'est quoi ? Il ne sait pas vraiment non plus. Mais il l'a fini.",
+      "onscreen": [
+        "Niveau 18 %",
+        "Brocoli : réhabilité"
+      ],
+      "visual": "Florian, a 34-year-old slightly chubby French accountant with short brown hair, a kind round face and a grey cardigan cooking in a bright kitchen with a pan of colorful vegetables, a steaming broccoli soup and a proud smile, a phone with a photo sent to his mother, warm cheerful light",
+      "overlay": {
+        "kind": "chip",
+        "text": "JOUR 22",
+        "beat": 0
+      }
+    },
+    {
+      "type": "gag",
+      "caption": "La pizza du vendredi, cachée dans le four. Découverte par le chat.",
+      "title": "La pizza cachée",
+      "narration": "Mais le vendredi soir, la tentation revient. Florian commande une pizza. Juste une. Une petite. Pour le moral. Rongé par la culpabilité, il la cache dans le four éteint, comme un criminel qui dissimule une preuve. Il va prendre une douche, pour se laisser le temps de changer d'avis. Quand il revient, la porte du four est ouverte. Son chat, Pistache, est assis dedans, sur le carton. Il a mangé tout le fromage. Il regarde Florian avec l'air de dire : je t'ai rendu service.",
+      "onscreen": [
+        "Pizza cachée",
+        "Pistache : coupable"
+      ],
+      "visual": "Pistache, a fluffy grey cat with big green eyes sitting inside a small oven on an open pizza box with cheese on its whiskers staring at Florian, a 34-year-old slightly chubby French accountant with short brown hair, a kind round face and a grey cardigan, who stands in a bathrobe with a towel and a horrified face, warm kitchen light, comedic mood"
+    },
+    {
+      "type": "day",
+      "day": 15,
+      "level": 40,
+      "title": "J-15 : la balance",
+      "narration": "Jour quinze. Niveau forme : quarante pour cent. Florian monte enfin sur la balance, après deux semaines sans oser. Moins deux kilos. Il est déçu. Deux kilos, ce n'est pas dix. Puis il remarque autre chose. Il dort mieux. Il ne s'essouffle plus en courant après le bus. Son pantalon gris, celui qui le serrait, se ferme maintenant sans qu'il ait besoin de retenir sa respiration. Et ce soir-là, il monte jusqu'au quatrième étage sans s'arrêter. Il s'arrête au cinquième. Mais c'est chez lui.",
+      "onscreen": [
+        "Niveau 40 %",
+        "-2 kg",
+        "4e étage sans pause"
+      ],
+      "visual": "Florian, a 34-year-old slightly chubby French accountant with short brown hair, a kind round face and a grey cardigan standing on a bathroom scale smiling with relief, his gray trousers fitting loosely, a bus stop in the background showing him no longer out of breath, bright morning light",
+      "overlay": {
+        "kind": "chip",
+        "text": "JOUR 15",
+        "beat": 0
+      }
+    },
+    {
+      "type": "vidal",
+      "line": "Votre balance ment moins que vous, mais vos escaliers mentent moins que votre balance.",
+      "title": "Le point d'étape",
+      "narration": "Florian retourne voir Vidal, un peu découragé. Il n'a perdu que deux kilos, il ne sera jamais prêt. Vidal prend sa tension, écoute son cœur, et hoche la tête. Tension meilleure. Pouls au repos plus bas. Puis il lui demande à quel étage il habite. Florian répond fièrement : au cinquième, et je monte sans m'arrêter jusqu'au quatrième. Vidal note quelque chose, et déclare : votre balance ment moins que vous, mais vos escaliers mentent moins que votre balance. Florian ne comprend pas tout, mais il le prend comme un compliment.",
+      "onscreen": [
+        "Tension : mieux",
+        "Escaliers : mieux"
+      ],
+      "visual": "doctor's office, Docteur Vidal, a 60-year-old deadpan French doctor with white-grey hair, rectangular glasses, a white coat and a stethoscope around his neck checking Florian, a 34-year-old slightly chubby French accountant with short brown hair, a kind round face and a grey cardigan's blood pressure deadpan, Florian, a 34-year-old slightly chubby French accountant with short brown hair, a kind round face and a grey cardigan sitting proudly on the exam table, staircase poster behind, bright clinic light"
+    },
+    {
+      "type": "card_refused",
+      "item": "Costume slim italien, taille 46",
+      "price": "449,00 €",
+      "title": "Le costume trop ambitieux",
+      "narration": "Jour dix. Florian veut un costume pour la soirée. Un vrai. Il entre dans une boutique chic, et choisit un costume slim italien, deux tailles en dessous de la sienne. Il se dit que d'ici les retrouvailles, il rentrera dedans. Le vendeur le regarde avec une compassion infinie. Quatre cent quarante-neuf euros. Carte refusée. Florian rougit. Le vendeur, très doucement, lui tend la même veste, à sa vraie taille. Florian l'essaie. Elle lui va parfaitement. Il la paie en trois fois, et il sourit dans le miroir.",
+      "onscreen": [
+        "CARTE REFUSÉE",
+        "Taille 46 : non",
+        "Vraie taille : oui"
+      ],
+      "visual": "chic men's clothing boutique, Florian, a 34-year-old slightly chubby French accountant with short brown hair, a kind round face and a grey cardigan in a too-small slim Italian suit looking embarrassed, a kind salesman handing him a bigger jacket with infinite compassion, a red glowing card terminal, warm shop light",
+      "overlay": {
+        "kind": "stamp",
+        "text": "CARTE REFUSÉE",
+        "beat": 2
+      }
+    },
+    {
+      "type": "day",
+      "day": 5,
+      "level": 62,
+      "title": "J-5 : le doute",
+      "narration": "Jour cinq. Niveau forme : soixante-deux pour cent. Florian a perdu trois kilos et demi. Il court cinq kilomètres sans s'arrêter. Il a même pris goût aux soupes. Mais en regardant les photos des anciens élèves sur le groupe de la soirée, il panique. Kevin a l'air d'un athlète. Sarah dirige une entreprise. Lui, il est toujours comptable, toujours un peu rond, et il n'a pas perdu dix kilos. Il écrit un message pour dire qu'il ne viendra pas. Il le garde en brouillon toute la nuit.",
+      "onscreen": [
+        "Niveau 62 %",
+        "-3,5 kg",
+        "Message en brouillon"
+      ],
+      "visual": "Florian, a 34-year-old slightly chubby French accountant with short brown hair, a kind round face and a grey cardigan jogging smiling in a park at sunset after five kilometers, then looking worried at a phone showing photos of athletic old classmates, warm sunset light, mixed emotions",
+      "overlay": {
+        "kind": "chip",
+        "text": "JOUR 5",
+        "beat": 0
+      }
+    },
+    {
+      "type": "vidal",
+      "line": "Les gens ne se souviendront pas de votre poids. Ils se souviendront si vous étiez là.",
+      "title": "La dernière ordonnance",
+      "narration": "Le lendemain, il croise le Docteur Vidal à la boulangerie. Vidal achète une baguette et un éclair au chocolat, sans la moindre honte. Florian lui avoue qu'il ne veut plus aller à la soirée. Vidal croque dans son éclair, réfléchit, puis dit : les gens ne se souviendront pas de votre poids. Ils se souviendront si vous étiez là. Puis il ajoute, en partant : et prenez un éclair, ça fait partie du traitement. Florian supprime le brouillon. Il ne prend pas d'éclair. Enfin, juste la moitié.",
+      "onscreen": [
+        "\"Ils se souviendront",
+        "si vous étiez là.\""
+      ],
+      "visual": "bakery, Docteur Vidal, a 60-year-old deadpan French doctor with white-grey hair, rectangular glasses, a white coat and a stethoscope around his neck biting into a chocolate eclair with a deadpan face and a baguette under his arm, Florian, a 34-year-old slightly chubby French accountant with short brown hair, a kind round face and a grey cardigan sheepishly confessing, warm bakery light, comedic wholesome mood"
+    },
+    {
+      "type": "day",
+      "day": 0,
+      "level": 70,
+      "title": "J-0 : les retrouvailles",
+      "narration": "Jour zéro. Niveau forme : soixante-dix pour cent. Florian entre dans la salle des fêtes, dans sa veste à sa vraie taille. Moins quatre kilos. Pas dix. Kevin le serre dans ses bras, et lui avoue qu'il s'est blessé au genou et qu'il ne court plus depuis des années. Sarah lui raconte qu'elle ne dort plus à cause du stress. Personne ne parle de son poids. Personne. Tout le monde parle de souvenirs, de profs, de bêtises. Et dans un coin, près du buffet, il y a Anaïs.",
+      "onscreen": [
+        "Niveau 70 %",
+        "-4 kg",
+        "Personne ne compte"
+      ],
+      "visual": "Florian, a 34-year-old slightly chubby French accountant with short brown hair, a kind round face and a grey cardigan entering a festive reunion hall in a well-fitting jacket, Kevin, a 34-year-old broad-shouldered former football captain with a buzz cut and a navy blazer hugging him warmly, guests chatting and laughing under string lights and a disco ball, warm golden lights",
+      "overlay": {
+        "kind": "chip",
+        "text": "JOUR 0",
+        "beat": 0
+      }
+    },
+    {
+      "type": "outro",
+      "title": "Ce qui a vraiment changé",
+      "narration": "Florian s'approche. Pour la première fois en quinze ans, il ose lui parler. Ils discutent de tout et de rien, de leurs boulots, de leurs chats. À un moment, Anaïs lui dit : tu as l'air bien, tu sais. Tu as l'air heureux. Florian réalise qu'elle a raison. Il n'a pas perdu dix kilos. Mais il a gagné des nuits complètes, des matins en baskets, et le courage d'être là. L'objectif n'était jamais le chiffre sur la balance. C'était de se sentir capable. Et toi, quel chiffre t'empêche d'avancer ?",
+      "onscreen": [
+        "Pas -10 kg.",
+        "Mais heureux.",
+        "Et toi ?"
+      ],
+      "visual": "Florian, a 34-year-old slightly chubby French accountant with short brown hair, a kind round face and a grey cardigan chatting happily with Anaïs, a 34-year-old French woman with long dark wavy hair, warm brown eyes and an emerald green dress on a terrace of a reunion hall under string lights at night, both smiling with warmth, friends laughing in the background, warm golden light, heartwarming mood"
+    }
+  ],
+  "short": {
+    "hook_text": "-10 KG EN 30 JOURS ?",
+    "narration": "Florian reçoit une invitation aux retrouvailles de son lycée. Dans trente jours. Il se regarde dans le miroir, il rentre le ventre, et il annonce : dix kilos en un mois. Facile. Jour trente : il fait deux pompes et demie, puis il reste allongé vingt minutes. Il essaie d'acheter une ceinture électrique miracle. Carte refusée. Son médecin, le Docteur Vidal, l'écoute exposer son plan, et lui répond calmement : dix kilos en un mois, c'est possible. Chez un éléphant. Premier jogging : il se fait doubler par une mamie avec un caddie. Cinq jours avant la soirée, il veut tout annuler. Et ce qui va se passer le soir des retrouvailles, il ne l'avait pas du tout prévu. Le film complet est sur la chaîne.",
+    "cta": "Le film complet est sur la chaîne",
+    "visuals": [
+      {
+        "p": "Florian, a 34-year-old slightly chubby French accountant with short brown hair, a kind round face and a grey cardigan in a bright bathroom sucking in his belly in front of a mirror, a phone with an invitation in his hand, hopeful face, colorful comedic light"
+      },
+      {
+        "p": "a giant glowing calendar and a festive reunion hall with string lights in the distance, Florian, a 34-year-old slightly chubby French accountant with short brown hair, a kind round face and a grey cardigan small in front with wide eyes, colorful playful lighting",
+        "at": "Dans trente jours",
+        "overlay": {
+          "kind": "banner",
+          "text": "30 JOURS"
+        }
+      },
+      {
+        "p": "Florian, a 34-year-old slightly chubby French accountant with short brown hair, a kind round face and a grey cardigan flexing his arms in front of a mirror with a confident grin, a floating cartoon scale with ten glowing weights, colorful comedic light",
+        "at": "dix kilos en un mois",
+        "overlay": {
+          "kind": "chip",
+          "text": "-10 KG ?"
+        }
+      },
+      {
+        "p": "Florian, a 34-year-old slightly chubby French accountant with short brown hair, a kind round face and a grey cardigan lying exhausted on a living room carpet after trying push-ups, a yoga mat nearby, colorful comedic light",
+        "at": "Jour trente",
+        "overlay": {
+          "kind": "chip",
+          "text": "JOUR 30"
+        }
+      },
+      {
+        "p": "close-up of Florian, a 34-year-old slightly chubby French accountant with short brown hair, a kind round face and a grey cardigan doing a shaky push-up with a trembling face and drops of sweat, a half push-up cartoon motion lines, colorful bright living room",
+        "at": "il fait deux pompes"
+      },
+      {
+        "p": "Florian, a 34-year-old slightly chubby French accountant with short brown hair, a kind round face and a grey cardigan on a sofa typing his bank card details with devout faith, an ad of a cartoon electric belt on a laptop, colorful evening light",
+        "at": "Il essaie d'acheter"
+      },
+      {
+        "p": "Florian, a 34-year-old slightly chubby French accountant with short brown hair, a kind round face and a grey cardigan staring at his phone with a dismayed face, a red glowing refusal on the screen, colorful evening light",
+        "at": "Carte refusée",
+        "overlay": {
+          "kind": "stamp",
+          "text": "CARTE REFUSÉE"
+        }
+      },
+      {
+        "p": "doctor's office, Docteur Vidal, a 60-year-old deadpan French doctor with white-grey hair, rectangular glasses, a white coat and a stethoscope around his neck deadpan listening with arms crossed to Florian, a 34-year-old slightly chubby French accountant with short brown hair, a kind round face and a grey cardigan who stands on a scale, bright clinic light, comedic mood",
+        "at": "Son médecin, le Docteur Vidal"
+      },
+      {
+        "p": "Docteur Vidal, a 60-year-old deadpan French doctor with white-grey hair, rectangular glasses, a white coat and a stethoscope around his neck deadpan pointing at a big poster of an elephant on the wall while Florian, a 34-year-old slightly chubby French accountant with short brown hair, a kind round face and a grey cardigan stares in shock, bright clinic light, comedic mood",
+        "at": "Chez un éléphant",
+        "overlay": {
+          "kind": "chip",
+          "text": "POSSIBLE... CHEZ UN ÉLÉPHANT"
+        }
+      },
+      {
+        "p": "Florian, a 34-year-old slightly chubby French accountant with short brown hair, a kind round face and a grey cardigan jogging in neon sneakers on an empty dawn street, sweating, a spry 80-year-old French lady with white curly hair, a purple coat and a tartan shopping trolley calmly overtaking him with her trolley, golden dawn light, comedic mood",
+        "at": "Premier jogging",
+        "overlay": {
+          "kind": "chip",
+          "text": "JOGGING"
+        }
+      },
+      {
+        "p": "Florian, a 34-year-old slightly chubby French accountant with short brown hair, a kind round face and a grey cardigan sitting on his bed holding a phone with athletic class photos on it, a sad face, a suit on a hanger, dim warm evening light",
+        "at": "Cinq jours avant",
+        "overlay": {
+          "kind": "chip",
+          "text": "JOUR 5"
+        }
+      },
+      {
+        "p": "Florian, a 34-year-old slightly chubby French accountant with short brown hair, a kind round face and a grey cardigan standing at the entrance of a reunion hall with string lights and a disco ball glowing behind the door, nervous but curious, warm golden light",
+        "at": "Et ce qui va se passer"
+      }
+    ]
+  },
+  "visual_bible": {
+    "flo": "Florian, a 34-year-old slightly chubby French accountant with short brown hair, a kind round face and a grey cardigan",
+    "vidal": "Docteur Vidal, a 60-year-old deadpan French doctor with white-grey hair, rectangular glasses, a white coat and a stethoscope around his neck",
+    "cat": "Pistache, a fluffy grey cat with big green eyes",
+    "anais": "Anaïs, a 34-year-old French woman with long dark wavy hair, warm brown eyes and an emerald green dress",
+    "kevin": "Kevin, a 34-year-old broad-shouldered former football captain with a buzz cut and a navy blazer",
+    "granny": "a spry 80-year-old French lady with white curly hair, a purple coat and a tartan shopping trolley"
+  }
+}

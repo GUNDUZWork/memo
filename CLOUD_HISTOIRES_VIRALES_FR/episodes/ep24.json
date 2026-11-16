@@ -1,0 +1,276 @@
+{
+  "id": 24,
+  "slug": "chaque-like-1-euro",
+  "formula": "etsilab",
+  "title": "Et si chaque like sur tes photos te rapportait 1 € ?",
+  "thumbnail": {
+    "line1": "1 LIKE = 1 €",
+    "line2": "jusqu'où tu irais ?",
+    "accent": "#FF2D55",
+    "visual": "Lucas, a 25-year-old French man with curly dark hair, round tortoiseshell glasses and a mustard yellow sweater, shocked open-mouthed close-up face on the right, giant glowing heart with a golden euro coin and flying banknotes, hot pink and electric blue lighting"
+  },
+  "youtube": {
+    "title": "Et si chaque like sur tes photos te rapportait 1 € ?",
+    "description": "Un matin, une notification change tout : chaque like sur tes photos te rapporte un vrai euro. Au début, c'est de l'argent de poche. Puis tu fais les calculs, et tout s'emballe.\n\nDans ce film, on suit l'escalade logique d'une règle simple : combien vaut vraiment une photo, combien tu peux gagner en une semaine, et ce que ça fait à ta vie, à tes amis et à ta tête. Jusqu'au moment où la règle change.\n\nEt toi, tu posterais quoi en premier ? Dis-le en commentaire.",
+    "tags": [
+      "et si",
+      "likes",
+      "réseaux sociaux",
+      "argent",
+      "scénario",
+      "histoire",
+      "mathématiques",
+      "instagram",
+      "influenceur",
+      "expérience de pensée",
+      "et si chaque like",
+      "compteur",
+      "phase 2",
+      "histoire virale",
+      "français"
+    ],
+    "pinned_comment": "Si chaque like te rapportait 1 €, tu posterais quelle photo en premier ? Et tu serais prêt à tout pour un like ?"
+  },
+  "counter": {
+    "label": "SOLDE",
+    "start": 0,
+    "rate": 1850,
+    "unit": "€",
+    "decimals": 0
+  },
+  "scenes": [
+    {
+      "type": "hook",
+      "title": "La notification",
+      "narration": "Imagine. Demain matin, tu te réveilles, tu attrapes ton téléphone, et une notification t'attend. Une seule ligne. À partir de maintenant, chaque like sur tes photos te rapporte un euro. Pas des points. Pas une cagnotte virtuelle. Un vrai euro, versé directement sur ton compte. Tu rigoles. Tu penses à une arnaque. Puis tu ouvres ton appli bancaire, et tu vois ton solde bouger. Plus trois euros. Plus un. Plus cinq. Ta vieille photo de vacances vient de se réveiller. Alors, jusqu'où tu vas aller ?",
+      "onscreen": [
+        "1 LIKE = 1 €",
+        "versé en direct"
+      ],
+      "visual": "Lucas, a 25-year-old French man with curly dark hair, round tortoiseshell glasses and a mustard yellow sweater, sitting up in bed in a bright Paris studio, wide-eyed at his phone showing a glowing notification with a heart icon and a golden euro coin, morning sunlight, rooftops outside the window, empty space above"
+    },
+    {
+      "type": "narration",
+      "title": "Les règles du jeu",
+      "narration": "D'abord, tu lis les conditions. Elles sont courtes. Seuls les likes sur tes photos comptent. Pas les commentaires, pas les partages, pas les vidéos. Les likes doivent venir de vrais comptes, pas de robots. Et l'argent arrive en temps réel, sans impôt pour l'instant. Tu relis trois fois. Il n'y a pas de piège apparent. Alors tu fais ce que tout le monde ferait. Tu ouvres ton profil, et tu comptes ce que tu possèdes déjà. Parce que d'un coup, ta galerie n'est plus une galerie. C'est un portefeuille.",
+      "onscreen": [
+        "vrais comptes",
+        "photos uniquement"
+      ],
+      "visual": "Lucas, a 25-year-old French man with curly dark hair, round tortoiseshell glasses and a mustard yellow sweater, sitting at a small kitchen table reading terms on a phone with a skeptical raised eyebrow, a coffee mug beside him, floating glowing hearts turning into coins above the screen, warm cozy light"
+    },
+    {
+      "type": "counter_focus",
+      "title": "Premier inventaire",
+      "narration": "Tu as quatre cent douze abonnés. En moyenne, une de tes photos récolte trente-huit likes. Ta photo de chat déguisé en citrouille, elle, en a fait cent vingt. Mais les anciens likes ne comptent pas. Seuls les nouveaux paient. Donc tu postes. Une photo du café du matin. Vingt minutes plus tard, trente et un euros. Tu regardes le compteur grimper pendant que tu te brosses les dents. C'est ridicule, et c'est grisant. Pour la première fois, ton téléphone ne te prend pas ton temps. Il te paie.",
+      "onscreen": [
+        "412 abonnés",
+        "38 likes par photo"
+      ],
+      "visual": "Lucas, a 25-year-old French man with curly dark hair, round tortoiseshell glasses and a mustard yellow sweater, in a sunny cafe taking a photo of his morning coffee and croissant from above, his phone screen glowing with hearts and euro coins popping out, delighted surprised smile, soft morning light"
+    },
+    {
+      "type": "math",
+      "title": "Le calcul qui change tout",
+      "narration": "Alors tu sors une feuille. Trente-huit likes par photo. Si tu postes dix photos par jour, ça fait trois cent quatre-vingts euros par jour. Sur un mois, onze mille quatre cents euros. Plus que la plupart des salaires du pays, juste en partageant ton assiette et ton reflet dans les vitrines. Mais il y a un problème. Tes abonnés ne vont pas aimer dix photos par jour. Ils vont saturer. Donc la vraie question n'est pas combien tu postes. C'est combien de gens te regardent.",
+      "equation": "38 × 10 × 30",
+      "result": "11 400 € / mois",
+      "onscreen": [
+        "10 photos / jour",
+        "11 400 € par mois"
+      ],
+      "visual": "Lucas, a 25-year-old French man with curly dark hair, round tortoiseshell glasses and a mustard yellow sweater, at a messy desk covered with paper sheets of scribbled calculations, a calculator and a phone with a pile of glowing coins growing beside it, amazed look, evening desk lamp",
+      "overlay": {
+        "kind": "chip",
+        "text": "11 400 € / MOIS",
+        "beat": 1
+      }
+    },
+    {
+      "type": "narration",
+      "title": "La chasse aux abonnés",
+      "narration": "Tu passes la semaine suivante à étudier. Les heures où les gens scrollent. Les couleurs qui arrêtent le pouce. Les légendes qui font réagir. Tu découvres que la lumière de dix-huit heures fait des miracles, que les animaux battent les paysages, et que les photos ratées mais drôles battent tout le reste. Tu t'abonnes à des inconnus pour qu'ils te suivent en retour. Tu réponds à chaque message. Au bout de sept jours, tu as trois mille abonnés. Et ta moyenne passe à deux cent cinquante likes par photo.",
+      "onscreen": [
+        "18 h = lumière dorée",
+        "3 000 abonnés"
+      ],
+      "visual": "Lucas, a 25-year-old French man with curly dark hair, round tortoiseshell glasses and a mustard yellow sweater, walking through a golden hour city street holding up his phone to photograph a funny cat in a pumpkin costume, a few people watching, orange sunset glow, curious determined mood"
+    },
+    {
+      "type": "counter_focus",
+      "title": "Le premier gros virement",
+      "narration": "Le huitième jour, tu postes une photo de ta grand-mère qui découvre la réalité virtuelle. Elle hurle de rire, les mains en l'air, comme si elle combattait un dragon invisible. La photo part. Elle est partagée, reprise, envoyée dans des groupes de famille dans tout le pays. En une nuit, quatorze mille likes. Quatorze mille euros. Tu appelles ta grand-mère à sept heures du matin. Elle ne comprend rien, mais elle exige la moitié. Tu acceptes. C'est la meilleure associée que tu aies jamais eue.",
+      "onscreen": [
+        "1 photo virale",
+        "+14 000 €"
+      ],
+      "visual": "Mamie Odette, an 82-year-old French grandmother with short white curly hair, big round glasses and a pink cardigan laughing wildly with arms in the air wearing a virtual reality headset in a cozy living room, Lucas, a 25-year-old French man with curly dark hair, round tortoiseshell glasses and a mustard yellow sweater filming her on his phone, hearts and coins bursting upward like fireworks, joyful bright lighting",
+      "overlay": {
+        "kind": "chip",
+        "text": "14 000 €",
+        "beat": 1
+      }
+    },
+    {
+      "type": "narration",
+      "title": "Tout le monde a compris",
+      "narration": "Mais tu n'es pas seul. La règle s'applique à tout le monde. En quelques jours, la planète entière devient photographe. Les gens se battent pour les meilleures places devant les couchers de soleil. Les restaurants facturent un supplément photo. Les mariages sont reprogrammés à l'heure dorée. Et surtout, une nouvelle économie apparaît. Puisque chaque like coûte zéro à celui qui le donne et rapporte un euro à celui qui le reçoit, les gens commencent à s'échanger des likes. Tu me likes, je te like. Des clubs entiers se forment.",
+      "onscreen": [
+        "la planète poste",
+        "tu me likes, je te like"
+      ],
+      "visual": "A crowded Paris street at sunset where hundreds of people hold up phones to photograph a spectacular sky, a restaurant terrace with diners posing with plates, colorful chaotic energy, warm golden light"
+    },
+    {
+      "type": "math",
+      "title": "La machine à argent",
+      "narration": "Fais le calcul avec moi. Un club de mille personnes. Chacun poste vingt photos par jour. Chacun like toutes les photos des autres. Ça fait vingt mille photos, et pour chacune, neuf cent quatre-vingt-dix-neuf likes. Près de vingt millions d'euros créés chaque jour, à partir de rien. Juste des pouces levés. Les banques paniquent. Les prix grimpent. Une baguette passe à trois euros, puis à huit. Quand l'argent tombe du ciel, il ne vaut plus grand-chose. Tu viens de découvrir l'inflation en direct.",
+      "equation": "1 000 × 20 × 999",
+      "result": "≈ 20 millions € / jour",
+      "onscreen": [
+        "20 millions par jour",
+        "baguette à 8 €"
+      ],
+      "visual": "A bright office room where a thousand cartoon people sit at laptops, cascades of glowing hearts flying between them and turning into golden coins, a worried banker in the corner holding his head, neon light"
+    },
+    {
+      "type": "narration",
+      "title": "Ce que ça fait à tes amis",
+      "narration": "Et puis il y a autre chose, plus discret. Un soir, ton meilleur ami poste une photo de son nouveau chiot. Tu as le doigt au-dessus du cœur. Et tu hésites. Parce que liker, c'est lui donner un euro. Et lui, la semaine dernière, il n'a pas liké ta photo de grand-mère. Tu te surprends à tenir des comptes. Qui t'a liké. Qui t'a ignoré. Combien chacun te doit. L'amitié devient une comptabilité. Et tu te rends compte que les autres font exactement la même chose avec toi.",
+      "onscreen": [
+        "qui t'a liké ?",
+        "l'amitié en tableur"
+      ],
+      "visual": "Lucas, a 25-year-old French man with curly dark hair, round tortoiseshell glasses and a mustard yellow sweater, sitting on a sofa at night with his thumb hovering over a heart button on his phone showing a cute puppy photo, torn expression, a faint thought bubble with a coin, cold blue screen light on his face"
+    },
+    {
+      "type": "counter_focus",
+      "title": "Ton premier million",
+      "narration": "Malgré tout, ton compteur continue de monter. Tu as engagé un photographe. Puis un deuxième. Ton appartement ressemble à un studio de cinéma, avec des lampes partout et un fond vert dans la cuisine. Tu postes à heure fixe, comme une usine. Un matin, le compteur affiche un million d'euros. Tu attendais ce moment depuis des semaines. Tu pensais crier, sauter, appeler tout le monde. À la place, tu ressens une seule chose. Une petite angoisse. Celle de la prochaine photo qui fera moins bien.",
+      "onscreen": [
+        "1 000 000 €",
+        "et maintenant ?"
+      ],
+      "visual": "Lucas, a 25-year-old French man with curly dark hair, round tortoiseshell glasses and a mustard yellow sweater, in his apartment turned into a photo studio with softbox lamps, a green screen in the kitchen and two photographers working, he holds a phone glowing with a giant coin pile, tired smile, bright studio lights"
+    },
+    {
+      "type": "narration",
+      "title": "La fatigue",
+      "narration": "Tu ne regardes plus rien sans te demander si ça ferait une bonne photo. Un arc-en-ciel ? Trop banal. Un accident de vélo ? Tu as honte d'y avoir pensé. Tu manges froid parce que le plat devait être photographié chaud. Tu dors mal parce que les likes de nuit viennent d'autres fuseaux horaires et que tu veux voir les chiffres. Tes vacances durent quatre jours, et tu en passes trois à cadrer. Le monde est devenu un décor. Et toi, tu es devenu un employé de ta propre vie.",
+      "onscreen": [
+        "tout devient décor",
+        "employé de ta vie"
+      ],
+      "visual": "Lucas, a 25-year-old French man with curly dark hair, round tortoiseshell glasses and a mustard yellow sweater, slumped at a table in front of a cold plate of food he cannot eat, dark circles under his eyes, phone propped up glowing with hearts, night, sad blue light from the screen, clock on the wall"
+    },
+    {
+      "type": "counter_focus",
+      "title": "Le classement",
+      "narration": "Les plateformes publient maintenant un classement mondial en temps réel. Les mille personnes les plus likées du jour. Tu y entres un mardi, à la neuf cent quarante-septième place. Tu restes collé à l'écran toute la soirée pour défendre ta position. Un garçon de douze ans en Islande, avec une photo de mouette qui lui vole un sandwich, te dépasse en dix minutes. Ton compteur dit un million trois cent mille euros. Ton cœur, lui, bat comme si tu étais en train de tout perdre.",
+      "onscreen": [
+        "classement mondial",
+        "947e place"
+      ],
+      "visual": "Lucas, a 25-year-old French man with curly dark hair, round tortoiseshell glasses and a mustard yellow sweater, on a dark sofa glued to his phone showing a ranking board with glowing medals, a twelve-year-old boy with a seagull stealing a sandwich visible on screen, tense anxious face, neon purple light"
+    },
+    {
+      "type": "phase2",
+      "title": "Phase 2",
+      "narration": "Et puis, un dimanche soir, tous les téléphones de la planète vibrent en même temps. Écran noir. Une ligne blanche. Phase deux. À partir de maintenant, chaque like que tu donnes te coûte un euro. Silence total. Pendant une heure, plus personne ne like rien. Les clubs d'échange s'effondrent. Les photos de chiots restent à zéro. Et tu comprends la vraie question. Combien de gens sont prêts à payer, de leur poche, pour te dire que tu comptes pour eux ?",
+      "alert": "PHASE 2 : chaque like que tu donnes te coûte désormais 1 €",
+      "onscreen": [
+        "PHASE 2",
+        "liker coûte 1 €"
+      ],
+      "visual": "A city at night where every phone on every window and every hand glows black with a white line at the same instant, Lucas, a 25-year-old French man with curly dark hair, round tortoiseshell glasses and a mustard yellow sweater in the foreground gripping his vibrating phone, shocked, ominous silence, dark blue light",
+      "overlay": {
+        "kind": "phase2",
+        "text": "PHASE 2",
+        "beat": 1
+      }
+    },
+    {
+      "type": "narration",
+      "title": "Le like qui coûte",
+      "narration": "Le lendemain, tu postes une photo. Ta meilleure lumière, ton meilleur cadrage. Elle fait quatre likes. Ta grand-mère. Ton meilleur ami, celui avec le chiot. Ta sœur. Et une ancienne prof de dessin que tu n'avais pas revue depuis dix ans. Quatre euros. Le plus petit gain depuis le début. Et pourtant, tu fixes ces quatre noms plus longtemps que n'importe quel million. Parce que ces quatre personnes-là ont payé. Elles ont choisi de perdre quelque chose pour toi.",
+      "onscreen": [
+        "4 likes",
+        "4 personnes qui ont payé"
+      ],
+      "visual": "Lucas, a 25-year-old French man with curly dark hair, round tortoiseshell glasses and a mustard yellow sweater, at a table in a small apartment looking at his phone with only four small hearts under his photo, Mamie Odette, an 82-year-old French grandmother with short white curly hair, big round glasses and a pink cardigan and a friend smiling in tiny portraits, tender thoughtful expression, warm lamp light"
+    },
+    {
+      "type": "outro",
+      "title": "Ce que vaut un like",
+      "narration": "Alors voilà la leçon. Un like gratuit ne coûte rien, et c'est pour ça qu'il ne dit presque rien. On l'a transformé en monnaie, et il s'est dévalué comme n'importe quelle monnaie qu'on imprime trop. Ce qui a de la valeur, c'est l'attention que quelqu'un choisit de te donner quand ça lui coûte. Un appel. Une visite. Un message un soir où il est fatigué. Maintenant, à toi. Si demain liker te coûtait un euro, qui recevrait encore ton like ? Écris un prénom en commentaire.",
+      "onscreen": [
+        "qui recevrait ton like ?",
+        "écris un prénom"
+      ],
+      "visual": "Lucas, a 25-year-old French man with curly dark hair, round tortoiseshell glasses and a mustard yellow sweater, sitting on a park bench at sunset talking warmly with Mamie Odette, an 82-year-old French grandmother with short white curly hair, big round glasses and a pink cardigan, phone put away in his pocket, they share a croissant, soft golden light, peaceful tender mood"
+    }
+  ],
+  "short": {
+    "hook_text": "1 LIKE = 1 € ?",
+    "narration": "Et si chaque like sur tes photos te rapportait un vrai euro ? Pas des points. De l'argent, versé en direct sur ton compte. Tu postes ton café du matin, trente et un euros. Une photo de ta grand-mère qui découvre la réalité virtuelle, quatorze mille euros en une nuit. Alors tu fais le calcul. Dix photos par jour, trente-huit likes chacune, onze mille euros par mois. Puis le monde entier comprend. Les gens créent des clubs pour s'échanger des likes. Vingt millions d'euros apparaissent chaque jour à partir de rien. La baguette passe à huit euros. Et un dimanche soir, tous les téléphones vibrent en même temps. Écran noir. Phase deux. Ce qui arrive ensuite change tout. Le film complet est sur la chaîne.",
+    "cta": "Le film complet est sur la chaîne",
+    "visuals": [
+      {
+        "p": "Lucas, a 25-year-old French man with curly dark hair, round tortoiseshell glasses and a mustard yellow sweater, in bed with a shocked face at his phone showing a glowing notification, bright morning room, a golden euro coin and a heart floating in the air, dramatic light"
+      },
+      {
+        "p": "Lucas, a 25-year-old French man with curly dark hair, round tortoiseshell glasses and a mustard yellow sweater, in a Paris studio holding his phone and looking at a giant glowing wall of hearts turning into euro coins, amazed face, bright playful light",
+        "at": "Tu postes ton café"
+      },
+      {
+        "p": "Mamie Odette, an 82-year-old French grandmother with short white curly hair, big round glasses and a pink cardigan laughing in a virtual reality headset with arms raised, Lucas, a 25-year-old French man with curly dark hair, round tortoiseshell glasses and a mustard yellow sweater filming her with his phone, golden light, a pile of glowing coins in the air",
+        "at": "Une photo de ta grand-mère",
+        "overlay": {
+          "kind": "chip",
+          "text": "14 000 € EN UNE NUIT"
+        }
+      },
+      {
+        "p": "Lucas, a 25-year-old French man with curly dark hair, round tortoiseshell glasses and a mustard yellow sweater, at a desk with a sheet of calculations and a calculator, a stack of golden coins growing beside him, excited calculating look, night lamp",
+        "at": "Alors tu fais le calcul",
+        "overlay": {
+          "kind": "chip",
+          "text": "11 000 € / MOIS"
+        }
+      },
+      {
+        "p": "A giant crowd of cartoon people around a long table exchanging glowing hearts that turn into coins, a baguette on a shelf with a huge price tag silhouette in a bakery window, chaotic bright colors",
+        "at": "Puis le monde entier"
+      },
+      {
+        "p": "A busy Paris bakery counter with a stunned baker holding a single baguette, a long line of customers with phones, coins raining from the ceiling, warm comic mood",
+        "at": "La baguette passe",
+        "overlay": {
+          "kind": "chip",
+          "text": "BAGUETTE : 8 €"
+        }
+      },
+      {
+        "p": "Lucas, a 25-year-old French man with curly dark hair, round tortoiseshell glasses and a mustard yellow sweater, in a dark room at night, all lights off, his phone showing a black screen with a thin white line, shocked frozen face, ominous dark blue light",
+        "at": "Et un dimanche soir",
+        "overlay": {
+          "kind": "banner",
+          "text": "PHASE 2"
+        }
+      },
+      {
+        "p": "Lucas, a 25-year-old French man with curly dark hair, round tortoiseshell glasses and a mustard yellow sweater, standing in a Paris street at night with his phone glowing black, other people in the background staring at their phones in silence, mysterious dramatic light",
+        "at": "Écran noir"
+      },
+      {
+        "p": "Lucas, a 25-year-old French man with curly dark hair, round tortoiseshell glasses and a mustard yellow sweater, looking at the camera with a stunned expression, a huge glowing black phone behind him, sparks of coins falling, cinematic dramatic light",
+        "at": "Ce qui arrive ensuite"
+      }
+    ],
+    "counter_speed": 9
+  },
+  "visual_bible": {
+    "hero": "Lucas, a 25-year-old French man with curly dark hair, round tortoiseshell glasses and a mustard yellow sweater",
+    "grandma": "Mamie Odette, an 82-year-old French grandmother with short white curly hair, big round glasses and a pink cardigan"
+  }
+}

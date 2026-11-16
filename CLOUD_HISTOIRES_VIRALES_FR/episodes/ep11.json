@@ -1,0 +1,353 @@
+{
+  "id": 11,
+  "slug": "30-jours-pour-parler-japonais",
+  "formula": "30jours",
+  "title": "Il te reste 30 jours pour parler japonais avant l'entretien de ta vie",
+  "thumbnail": {
+    "line1": "30 JOURS. ZÉRO JAPONAIS.",
+    "line2": "l'entretien de sa vie",
+    "accent": "#FF3B5C",
+    "visual": "Romane, a 27-year-old French woman illustrator with a messy dark brown bun pierced by a pencil, round freckled face and an orange hoodie in close-up with a panicked wide-eyed face and sweat drops, on the right a giant Japanese-style red torii gate and floating abstract symbols with a calendar showing a countdown glow, bold pink and red lighting"
+  },
+  "youtube": {
+    "title": "Il te reste 30 jours pour parler japonais avant l'entretien de ta vie",
+    "description": "Romane, vingt-sept ans, graphiste, décroche un entretien dans le studio de jeux vidéo de ses rêves, à Kyoto. Petit détail : la dernière partie de l'entretien se fera en japonais. Elle connaît exactement deux mots. Il lui reste trente jours.\n\nApplications, cartes de vocabulaire, karaoké raté, cartes bancaires qui refusent tout, et un médecin, le Docteur Vidal, qui n'a jamais été aussi peu impressionné.\n\nUne comédie de transformation sur l'apprentissage, la honte de se tromper, et ce qui compte vraiment le jour J.",
+    "tags": [
+      "30 jours",
+      "apprendre le japonais",
+      "japonais",
+      "défi",
+      "comédie",
+      "transformation",
+      "entretien d'embauche",
+      "kyoto",
+      "japon",
+      "motivation",
+      "langues",
+      "histoire drôle",
+      "docteur vidal",
+      "challenge",
+      "jeux vidéo"
+    ],
+    "pinned_comment": "Quelle langue tu rêverais de parler en 30 jours ? Et sois honnête : tu connais combien de mots de japonais ?"
+  },
+  "scenes": [
+    {
+      "type": "hook",
+      "title": "Le mail",
+      "narration": "Romane a vingt-sept ans. Elle dessine des personnages de jeux vidéo depuis qu'elle a six ans. Et ce matin, elle reçoit le mail qu'elle attend depuis toujours. Le studio Kitsune, à Kyoto, veut la rencontrer. Entretien dans trente jours. Elle hurle. Elle danse dans sa cuisine. Puis elle lit la dernière ligne. La dernière partie de l'entretien se déroulera en japonais. Romane connaît exactement deux mots de japonais. Sushi. Et karaoké. Le compte à rebours commence.",
+      "onscreen": [
+        "Kyoto",
+        "J-30",
+        "2 mots connus"
+      ],
+      "visual": "Romane, a 27-year-old French woman illustrator with a messy dark brown bun pierced by a pencil, round freckled face and an orange hoodie dancing with joy in her bright colorful Paris kitchen holding a phone with an email, Biscotte, a chubby orange tabby cat with a grumpy face watching on the counter, then her smile freezing, sunny morning light, cheerful comedic mood",
+      "overlay": {
+        "kind": "banner",
+        "text": "ENTRETIEN DANS 30 JOURS",
+        "beat": 0
+      }
+    },
+    {
+      "type": "day",
+      "day": 30,
+      "level": 2,
+      "title": "J-30 : niveau sushi",
+      "narration": "Jour trente. Niveau deux pour cent. Romane installe trois applications d'apprentissage en même temps. Elle s'achète un cahier neuf, avec une couverture en forme de chat qui fait coucou. Elle écrit en grand sur la première page : objectif, parler couramment. Puis elle découvre qu'il existe trois alphabets. Les hiraganas, les katakanas, et les kanjis. Et qu'il y a plus de deux mille kanjis d'usage courant. Elle referme doucement le cahier. Elle le rouvre. Elle barre le mot couramment, et elle écrit : survivre.",
+      "onscreen": [
+        "Niveau 2 %",
+        "3 alphabets",
+        "Objectif : survivre"
+      ],
+      "visual": "Romane, a 27-year-old French woman illustrator with a messy dark brown bun pierced by a pencil, round freckled face and an orange hoodie at a cluttered desk with three tablets and phones showing language apps, a new notebook with a cartoon cat cover, symbols of Japanese alphabets as floating abstract shapes, her face crumpling in panic, bright colorful room",
+      "overlay": {
+        "kind": "chip",
+        "text": "JOUR 30",
+        "beat": 0
+      }
+    },
+    {
+      "type": "card_refused",
+      "item": "Méthode Japonais Turbo Premium, accès à vie",
+      "price": "149,99 €",
+      "title": "La méthode miracle",
+      "narration": "Le soir même, une publicité lui promet de parler japonais en dix jours, grâce à une méthode secrète utilisée par des espions. Accès à vie, cent quarante-neuf euros quatre-vingt-dix-neuf. Romane se dit que c'est un investissement. Elle tape son numéro de carte avec une confiance totale. Paiement refusé. Elle réessaie. Refusé. Sa banque lui envoie un SMS : activité inhabituelle détectée. Romane regarde son téléphone et murmure : même ma banque sait que c'est une arnaque.",
+      "onscreen": [
+        "CARTE REFUSÉE",
+        "\"méthode d'espion\""
+      ],
+      "visual": "Romane, a 27-year-old French woman illustrator with a messy dark brown bun pierced by a pencil, round freckled face and an orange hoodie on her sofa typing credit card numbers on a laptop with total confidence, then looking at her phone with a dismayed face, a giant red refused stamp-like glow on the screen without text, colorful evening light",
+      "overlay": {
+        "kind": "stamp",
+        "text": "CARTE REFUSÉE",
+        "beat": 1
+      }
+    },
+    {
+      "type": "gag",
+      "caption": "Romane, 3 h du matin, récite les hiraganas à son chat qui n'a rien demandé",
+      "title": "Le chat professeur",
+      "narration": "Les premiers jours, Romane se fait des cartes de vocabulaire partout. Sur le frigo. Sur le miroir. Sur la porte des toilettes. Elle colle même une étiquette sur son chat, Biscotte, avec écrit neko, qui veut dire chat. Biscotte la retire en quatre secondes. À trois heures du matin, elle récite les hiraganas à voix haute, et le voisin du dessus tape au plafond. Elle lui répond poliment sumimasen, qui veut dire pardon. Il tape encore plus fort.",
+      "onscreen": [
+        "neko = chat",
+        "sumimasen = pardon"
+      ],
+      "visual": "Romane, a 27-year-old French woman illustrator with a messy dark brown bun pierced by a pencil, round freckled face and an orange hoodie sticking paper notes on a fridge, a mirror and a toilet door in her colorful apartment, Biscotte, a chubby orange tabby cat with a grumpy face with a paper label on its back pulling it off, at night a neighbor knocking on the ceiling, funny mood"
+    },
+    {
+      "type": "vidal",
+      "line": "Le japonais ne se respire pas, mademoiselle. Il s'apprend.",
+      "title": "Première visite chez Vidal",
+      "narration": "Au bout d'une semaine, Romane a mal à la tête en permanence. Elle va voir le Docteur Vidal, un médecin de soixante ans au regard aussi plat qu'une feuille d'ordonnance. Elle lui explique qu'elle dort avec des écouteurs qui diffusent du japonais toute la nuit, pour que ça rentre tout seul. Vidal enlève ses lunettes, les essuie, les remet. Puis il dit : le japonais ne se respire pas, mademoiselle. Il s'apprend. Et il prescrit huit heures de sommeil. Sans écouteurs.",
+      "onscreen": [
+        "Docteur Vidal",
+        "Ordonnance : dormir"
+      ],
+      "visual": "doctor's office, Romane, a 27-year-old French woman illustrator with a messy dark brown bun pierced by a pencil, round freckled face and an orange hoodie with headphones on and a headache explaining something, Docteur Vidal, a 60-year-old deadpan French doctor with grey hair, rectangular glasses, a white coat and a stethoscope around his neck deadpan wiping his glasses with a flat stare, cool white clinic light with colorful posters, comedic mood"
+    },
+    {
+      "type": "day",
+      "day": 23,
+      "level": 14,
+      "title": "J-23 : les hiraganas",
+      "narration": "Jour vingt-trois. Niveau quatorze pour cent. Bonne nouvelle : en dormant vraiment, Romane retient beaucoup mieux. Elle connaît maintenant les quarante-six hiraganas. Elle arrive à lire, très lentement, les mots écrits sur les paquets de nouilles de l'épicerie asiatique du coin. La dame de la caisse, madame Tanaka, l'observe déchiffrer une étiquette pendant deux minutes. Puis elle lui dit, en français parfait : c'est écrit poulet. Romane la regarde comme si elle venait de rencontrer une déesse.",
+      "onscreen": [
+        "Niveau 14 %",
+        "46 hiraganas"
+      ],
+      "visual": "small Asian grocery store with shelves of noodle packages, Romane, a 27-year-old French woman illustrator with a messy dark brown bun pierced by a pencil, round freckled face and an orange hoodie squinting hard at a package, Madame Tanaka, a 70-year-old Japanese grocery owner with a silver bun, kind wrinkled eyes and a floral apron behind the counter watching with a patient smile, warm cozy lantern light",
+      "overlay": {
+        "kind": "chip",
+        "text": "JOUR 23",
+        "beat": 0
+      }
+    },
+    {
+      "type": "narration",
+      "title": "Madame Tanaka",
+      "narration": "Madame Tanaka a soixante-dix ans, elle est arrivée d'Osaka il y a quarante ans, et elle s'ennuie un peu le mardi après-midi. Romane lui propose un marché. Elle repeint gratuitement l'enseigne de l'épicerie, et en échange, madame Tanaka lui parle japonais une heure par jour. Marché conclu. Le premier cours dure cinq minutes. Madame Tanaka lui fait répéter le mot merci, arigatou, quarante fois. Puis elle soupire et dit : on reprendra demain, tu parles comme un GPS.",
+      "onscreen": [
+        "1 h par jour",
+        "\"comme un GPS\""
+      ],
+      "visual": "Romane, a 27-year-old French woman illustrator with a messy dark brown bun pierced by a pencil, round freckled face and an orange hoodie on a ladder repainting the sign of an Asian grocery shop with a paint roller, Madame Tanaka, a 70-year-old Japanese grocery owner with a silver bun, kind wrinkled eyes and a floral apron below giving a lesson with a gentle smile and a raised finger, colorful sunny street, wholesome mood"
+    },
+    {
+      "type": "gag",
+      "caption": "Romane s'incline devant la machine à café du bureau. Par réflexe.",
+      "title": "Le réflexe",
+      "narration": "Au bout de dix jours, Romane a pris l'habitude de s'incliner pour dire bonjour. Le problème, c'est qu'elle le fait partout. Elle s'incline devant le chauffeur de bus. Devant le facteur. Devant sa propre mère, qui lui demande si elle va bien. Un matin, au bureau, elle s'incline très respectueusement devant la machine à café. Ses collègues la regardent en silence. Elle se redresse, prend son gobelet, et dit simplement : elle m'a rendu service.",
+      "onscreen": [
+        "Inclinaison",
+        "devant la machine à café"
+      ],
+      "visual": "Romane, a 27-year-old French woman illustrator with a messy dark brown bun pierced by a pencil, round freckled face and an orange hoodie bowing very respectfully in front of an office coffee machine, colleagues watching in stunned silence with mugs in their hands, bright office light, comedic mood"
+    },
+    {
+      "type": "day",
+      "day": 15,
+      "level": 33,
+      "title": "J-15 : premières phrases",
+      "narration": "Jour quinze. Niveau trente-trois pour cent. Romane sait se présenter. Elle sait dire d'où elle vient, quel est son métier, et pourquoi elle aime les jeux vidéo. Elle répète sa présentation sous la douche, dans le métro, et même en dormant, d'après Biscotte. Madame Tanaka ne dit plus qu'elle parle comme un GPS. Elle dit qu'elle parle comme un GPS qui a fait des progrès. Pour madame Tanaka, c'est l'équivalent d'une médaille d'or.",
+      "onscreen": [
+        "Niveau 33 %",
+        "Se présenter : OK"
+      ],
+      "visual": "Romane, a 27-year-old French woman illustrator with a messy dark brown bun pierced by a pencil, round freckled face and an orange hoodie practicing a presentation in the shower with soap bubbles and a gesture of introduction, Biscotte, a chubby orange tabby cat with a grumpy face peeking in from the doorway, steamy colorful bathroom, confident cheerful mood",
+      "overlay": {
+        "kind": "chip",
+        "text": "JOUR 15",
+        "beat": 0
+      }
+    },
+    {
+      "type": "card_refused",
+      "item": "Billet aller-retour Paris-Osaka, départ demain",
+      "price": "1 289,00 €",
+      "title": "L'immersion totale",
+      "narration": "Un soir, Romane a une idée géniale. L'immersion totale. Elle va partir au Japon tout de suite, pendant deux semaines, et revenir bilingue. Elle trouve un billet pour Osaka, départ le lendemain matin. Mille deux cent quatre-vingt-neuf euros. Elle clique. Carte refusée. Elle essaie avec l'autre carte. Refusée aussi. Sa banque lui envoie un nouveau SMS : on peut parler ? Romane se met à rire toute seule. Puis elle range sa carte, et elle ouvre son cahier.",
+      "onscreen": [
+        "CARTE REFUSÉE",
+        "\"on peut parler ?\""
+      ],
+      "visual": "Romane, a 27-year-old French woman illustrator with a messy dark brown bun pierced by a pencil, round freckled face and an orange hoodie laughing at her laptop with a plane ticket on screen, then a stunned face looking at her phone, a bright red glow from the phone, a packed suitcase half-open behind her, colorful night light",
+      "overlay": {
+        "kind": "stamp",
+        "text": "CARTE REFUSÉE",
+        "beat": 2
+      }
+    },
+    {
+      "type": "vidal",
+      "line": "Vous n'avez pas une maladie, vous avez une ambition. Ça ne se soigne pas.",
+      "title": "Deuxième visite chez Vidal",
+      "narration": "Jour onze. Romane retourne chez le Docteur Vidal, persuadée d'avoir une maladie rare. Elle rêve en japonais, mais seulement des phrases sur les nouilles au poulet. Elle a des tics de langage. Elle dit nani à la place de quoi. Vidal l'écoute en tapotant son stylo. Puis il conclut : vous n'avez pas une maladie, vous avez une ambition. Ça ne se soigne pas. Il hésite, et il ajoute, sans sourire : mais ça se fatigue. Faites des pauses.",
+      "onscreen": [
+        "Diagnostic :",
+        "ambition"
+      ],
+      "visual": "doctor's office, Romane, a 27-year-old French woman illustrator with a messy dark brown bun pierced by a pencil, round freckled face and an orange hoodie anxious on the exam table, Docteur Vidal, a 60-year-old deadpan French doctor with grey hair, rectangular glasses, a white coat and a stethoscope around his neck tapping a pen and writing a prescription with a deadpan expression, a tired but ambitious atmosphere, bright clinic light"
+    },
+    {
+      "type": "narration",
+      "title": "Le karaoké",
+      "narration": "Pour s'entraîner à l'oral, madame Tanaka emmène Romane dans un karaoké japonais du quartier. Romane choisit une chanson lente, une ballade très triste. Elle se trompe à chaque mot. Au lieu de chanter mon cœur est en feu, elle chante, avec beaucoup d'émotion, mon poulet est en feu. Toute la salle éclate de rire. Romane veut disparaître sous la table. Mais madame Tanaka applaudit plus fort que tout le monde. Et sur le chemin du retour, elle lui dit : tu as osé. C'est ça, le plus dur.",
+      "onscreen": [
+        "\"Mon poulet",
+        "est en feu\""
+      ],
+      "visual": "Romane, a 27-year-old French woman illustrator with a messy dark brown bun pierced by a pencil, round freckled face and an orange hoodie singing passionately into a microphone in a Japanese karaoke room with disco lights, Madame Tanaka, a 70-year-old Japanese grocery owner with a silver bun, kind wrinkled eyes and a floral apron clapping the loudest, other patrons laughing warmly, colorful neon lights, comedic wholesome mood"
+    },
+    {
+      "type": "day",
+      "day": 7,
+      "level": 58,
+      "title": "J-7 : le blocage",
+      "narration": "Jour sept. Niveau cinquante-huit pour cent. Et c'est là que tout coince. Romane fait un entretien d'entraînement en visio avec un ami de madame Tanaka, un ancien professeur de Kyoto. Il pose une question simple. Elle comprend chaque mot. Mais elle bloque. Plus rien ne sort. Trente secondes de silence. Elle coupe la caméra, et elle pleure dans son cahier au chat qui fait coucou. Elle écrit : je ne serai jamais prête. Et elle va se coucher sans dîner.",
+      "onscreen": [
+        "Niveau 58 %",
+        "Blocage total"
+      ],
+      "visual": "Romane, a 27-year-old French woman illustrator with a messy dark brown bun pierced by a pencil, round freckled face and an orange hoodie crying at her desk in front of a laptop with a video call open, her camera covered, a notebook with a cat cover in front of her, a clock on the wall, dim blue evening light, sad mood",
+      "overlay": {
+        "kind": "chip",
+        "text": "JOUR 7",
+        "beat": 0
+      }
+    },
+    {
+      "type": "vidal",
+      "line": "Personne n'est prêt. Les gens prêts, c'est un mythe, comme les régimes de trois jours.",
+      "title": "Troisième visite chez Vidal",
+      "narration": "Le lendemain, Romane va chez le Docteur Vidal pour une angine qu'elle n'a pas. En réalité, elle a juste besoin de parler à quelqu'un. Elle lui raconte le blocage, la honte, les trente secondes de silence. Vidal l'écoute jusqu'au bout. Puis il pose son stylo. Personne n'est prêt, dit-il. Les gens prêts, c'est un mythe, comme les régimes de trois jours. Romane rit pour la première fois depuis deux jours. En sortant, elle remarque qu'il ne lui a rien fait payer.",
+      "onscreen": [
+        "\"Personne",
+        "n'est prêt.\""
+      ],
+      "visual": "doctor's office, Romane, a 27-year-old French woman illustrator with a messy dark brown bun pierced by a pencil, round freckled face and an orange hoodie sitting and confiding with watery eyes, Docteur Vidal, a 60-year-old deadpan French doctor with grey hair, rectangular glasses, a white coat and a stethoscope around his neck putting down his pen with a rare small smile, warm afternoon light through the window, tender comedic mood"
+    },
+    {
+      "type": "gag",
+      "caption": "Biscotte a appris le japonais avant Romane. Elle répond à neko.",
+      "title": "Le vrai bilingue",
+      "narration": "Les derniers jours, Romane révise jusqu'à la dernière minute. Et elle fait une découverte étonnante. Quand elle dit neko à voix haute, Biscotte arrive en courant. Quand elle dit chat en français, Biscotte l'ignore totalement. Romane appelle sa mère pour lui annoncer la nouvelle : son chat est bilingue. Sa mère lui demande si elle dort assez. Romane répond oui. Biscotte, sur le canapé, la fixe avec un air qui dit clairement le contraire.",
+      "onscreen": [
+        "Chat bilingue",
+        "certifié"
+      ],
+      "visual": "Biscotte, a chubby orange tabby cat with a grumpy face sitting on a sofa staring judgmentally at Romane, a 27-year-old French woman illustrator with a messy dark brown bun pierced by a pencil, round freckled face and an orange hoodie, who is excitedly pointing at it, a notebook open on her lap, cozy living room, warm lamp light, comedic mood"
+    },
+    {
+      "type": "day",
+      "day": 0,
+      "level": 74,
+      "title": "J-0 : Kyoto",
+      "narration": "Jour zéro. Niveau soixante-quatorze pour cent. Kyoto. Une salle lumineuse, une table en bois clair, trois personnes face à elle. La partie en anglais se passe très bien. Puis la directrice artistique sourit et passe au japonais. Romane se présente. Elle se trompe de verbe. Elle se reprend. Elle parle de ses personnages, de son enfance, de madame Tanaka. Et quand elle ne trouve plus ses mots, elle prend un crayon, et elle dessine ce qu'elle veut dire.",
+      "onscreen": [
+        "Niveau 74 %",
+        "Kyoto, J-0"
+      ],
+      "visual": "bright Kyoto office room with a light wooden table, Romane, a 27-year-old French woman illustrator with a messy dark brown bun pierced by a pencil, round freckled face and an orange hoodie standing nervously yet determined with a pencil in her hand sketching a character on paper, the art director, a 45-year-old Japanese woman with a sleek black bob and a charcoal blazer and two colleagues smiling attentively, soft daylight, hopeful mood",
+      "overlay": {
+        "kind": "chip",
+        "text": "JOUR 0",
+        "beat": 0
+      }
+    },
+    {
+      "type": "outro",
+      "title": "Ce que la directrice a dit",
+      "narration": "À la fin, la directrice se penche vers elle. En japonais, très lentement, pour être sûre d'être comprise, elle dit : votre japonais n'est pas parfait. Mais vous avez appris tout ça en un mois, et vous n'avez jamais arrêté de parler. C'est exactement ce qu'on cherche. Trois semaines plus tard, Romane reçoit son contrat. Le premier message qu'elle envoie, c'est à madame Tanaka. Un seul mot. Arigatou. Parce que la perfection n'existe pas. Ce qui existe, c'est le courage d'ouvrir la bouche quand on n'est pas prêt. Et toi, qu'est-ce que tu n'oses pas commencer ?",
+      "onscreen": [
+        "Arigatou.",
+        "Et toi ?"
+      ],
+      "visual": "the art director, a 45-year-old Japanese woman with a sleek black bob and a charcoal blazer leaning toward Romane, a 27-year-old French woman illustrator with a messy dark brown bun pierced by a pencil, round freckled face and an orange hoodie with a warm smile in a bright Kyoto studio, cherry blossom petals floating past the window, Romane, a 27-year-old French woman illustrator with a messy dark brown bun pierced by a pencil, round freckled face and an orange hoodie beaming with tears of joy, soft golden light"
+    }
+  ],
+  "short": {
+    "hook_text": "30 JOURS POUR PARLER JAPONAIS",
+    "narration": "Romane reçoit le mail de sa vie. Un studio de jeux vidéo à Kyoto veut la rencontrer. Entretien dans trente jours. Dernière partie : en japonais. Elle connaît deux mots. Sushi et karaoké. Jour trente : elle découvre qu'il y a trois alphabets. Elle essaie d'acheter une méthode d'espion à cent cinquante euros. Carte refusée. Elle colle une étiquette sur son chat. Son médecin, le Docteur Vidal, la regarde et lui dit : le japonais ne se respire pas, mademoiselle. Il s'apprend. Au jour sept, pendant un entraînement, elle bloque complètement. Trente secondes de silence. Elle pense tout abandonner. Mais le jour de l'entretien, devant trois personnes, il va se passer quelque chose qu'elle n'avait pas prévu. Le film complet est sur la chaîne.",
+    "cta": "Le film complet est sur la chaîne",
+    "visuals": [
+      {
+        "p": "Romane, a 27-year-old French woman illustrator with a messy dark brown bun pierced by a pencil, round freckled face and an orange hoodie dancing with joy in her bright colorful Paris kitchen holding a phone with an email, Biscotte, a chubby orange tabby cat with a grumpy face watching on the counter, sunny morning light, cheerful mood"
+      },
+      {
+        "p": "a bright Japanese game studio building in Kyoto with cherry blossom trees and a glowing calendar floating in the sky, Romane, a 27-year-old French woman illustrator with a messy dark brown bun pierced by a pencil, round freckled face and an orange hoodie small in front of it with wide eyes, soft pink light",
+        "at": "Entretien dans trente jours",
+        "overlay": {
+          "kind": "banner",
+          "text": "ENTRETIEN DANS 30 JOURS"
+        }
+      },
+      {
+        "p": "close-up of Romane, a 27-year-old French woman illustrator with a messy dark brown bun pierced by a pencil, round freckled face and an orange hoodie reading her phone with wide shocked eyes, comedic panic, bright kitchen light behind her",
+        "at": "Dernière partie : en japonais"
+      },
+      {
+        "p": "Romane, a 27-year-old French woman illustrator with a messy dark brown bun pierced by a pencil, round freckled face and an orange hoodie holding up two fingers with a sheepish grin, a floating sushi and a microphone as cartoon objects above her head, bright cheerful colors",
+        "at": "Elle connaît deux mots"
+      },
+      {
+        "p": "Romane, a 27-year-old French woman illustrator with a messy dark brown bun pierced by a pencil, round freckled face and an orange hoodie at a desk with three tablets, a notebook with a cartoon cat cover, mysterious Japanese-like symbols swirling around her head, her face in panic, colorful room",
+        "at": "Jour trente",
+        "overlay": {
+          "kind": "chip",
+          "text": "JOUR 30"
+        }
+      },
+      {
+        "p": "Romane, a 27-year-old French woman illustrator with a messy dark brown bun pierced by a pencil, round freckled face and an orange hoodie typing a card number on her laptop with confidence, a cartoon spy in a trench coat on the ad screen, colorful evening light",
+        "at": "Elle essaie d'acheter"
+      },
+      {
+        "p": "Romane, a 27-year-old French woman illustrator with a messy dark brown bun pierced by a pencil, round freckled face and an orange hoodie staring at her phone with a dismayed face, a red glowing refusal on the screen, her laptop behind her, colorful evening light",
+        "at": "Carte refusée",
+        "overlay": {
+          "kind": "stamp",
+          "text": "CARTE REFUSÉE"
+        }
+      },
+      {
+        "p": "Romane, a 27-year-old French woman illustrator with a messy dark brown bun pierced by a pencil, round freckled face and an orange hoodie sticking a paper label on Biscotte, a chubby orange tabby cat with a grumpy face, which glares back grumpily and pulls it off, colorful cozy living room, comedic mood",
+        "at": "Elle colle une étiquette"
+      },
+      {
+        "p": "doctor's office, Docteur Vidal, a 60-year-old deadpan French doctor with grey hair, rectangular glasses, a white coat and a stethoscope around his neck deadpan wiping his glasses and looking at Romane, a 27-year-old French woman illustrator with a messy dark brown bun pierced by a pencil, round freckled face and an orange hoodie who wears headphones, cool clinic light, comedic mood",
+        "at": "Son médecin, le Docteur Vidal",
+        "overlay": {
+          "kind": "chip",
+          "text": "DOCTEUR VIDAL"
+        }
+      },
+      {
+        "p": "Romane, a 27-year-old French woman illustrator with a messy dark brown bun pierced by a pencil, round freckled face and an orange hoodie frozen in front of a laptop video call, a clock on the wall and a tumbleweed-like silence, wide stressed eyes, dim blue light",
+        "at": "Au jour sept",
+        "overlay": {
+          "kind": "chip",
+          "text": "JOUR 7"
+        }
+      },
+      {
+        "p": "Romane, a 27-year-old French woman illustrator with a messy dark brown bun pierced by a pencil, round freckled face and an orange hoodie sobbing at her desk next to a notebook with a cat cover, her laptop camera covered, a huge clock beside her, dim blue evening light, sad mood",
+        "at": "Trente secondes de silence"
+      },
+      {
+        "p": "bright Kyoto office, Romane, a 27-year-old French woman illustrator with a messy dark brown bun pierced by a pencil, round freckled face and an orange hoodie standing in front of three attentive interviewers at a light wooden table, a glowing mysterious sparkle in the air, soft daylight, suspense",
+        "at": "Mais le jour de l'entretien",
+        "overlay": {
+          "kind": "chip",
+          "text": "JOUR 0"
+        }
+      }
+    ]
+  },
+  "visual_bible": {
+    "romane": "Romane, a 27-year-old French woman illustrator with a messy dark brown bun pierced by a pencil, round freckled face and an orange hoodie",
+    "vidal": "Docteur Vidal, a 60-year-old deadpan French doctor with grey hair, rectangular glasses, a white coat and a stethoscope around his neck",
+    "tanaka": "Madame Tanaka, a 70-year-old Japanese grocery owner with a silver bun, kind wrinkled eyes and a floral apron",
+    "cat": "Biscotte, a chubby orange tabby cat with a grumpy face",
+    "director": "the art director, a 45-year-old Japanese woman with a sleek black bob and a charcoal blazer"
+  }
+}

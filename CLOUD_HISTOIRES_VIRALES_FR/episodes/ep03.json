@@ -1,0 +1,293 @@
+{
+  "id": 3,
+  "slug": "cerf-immobile-3h17",
+  "formula": "izranoff",
+  "title": "Si tu vois un cerf immobile dans ton jardin à 3h17 du matin... suis ces 7 règles",
+  "thumbnail": {
+    "line1": "LE CERF NE BOUGE PAS",
+    "line2": "3h17 du matin",
+    "accent": "#E01E1E",
+    "visual": "Terrified wide-eyed close-up of Julien, a 35-year-old French man with short dark hair, light stubble, a grey t-shirt and a dark checked blanket over his shoulders on the right, a window showing a motionless dark stag with huge antlers and softly glowing eyes in a frosty garden, red light"
+  },
+  "youtube": {
+    "title": "Si tu vois un cerf immobile dans ton jardin à 3h17 du matin... suis ces 7 règles",
+    "description": "Tu viens d’emménager dans une vieille maison au bord de la forêt. Derrière le compteur électrique, l’ancienne propriétaire a laissé une note : sept règles à suivre si tu vois un cerf immobile dans le jardin à 3h17 du matin.\n\nLa première nuit, tu ris. La deuxième, tu regardes l’horloge. La troisième, il est là. Une histoire de tension nocturne à vivre à la deuxième personne, jusqu’au retournement final.\n\nÉcoute-la avec un casque, lumière éteinte. Et dis-nous en commentaire quelle règle tu aurais enfreinte en premier.",
+    "tags": [
+      "histoire qui fait peur",
+      "règles",
+      "creepypasta",
+      "suis ces règles",
+      "cerf",
+      "3h17",
+      "horreur",
+      "tension",
+      "histoire du soir",
+      "forêt",
+      "maison hantée",
+      "mystère",
+      "plot twist",
+      "histoire en français",
+      "histoires virales"
+    ],
+    "pinned_comment": "Quelle règle tu aurais enfreinte en premier ? Moi, la numéro 2, sans hésiter."
+  },
+  "scenes": [
+    {
+      "type": "hook",
+      "title": "3h17",
+      "narration": "Il est trois heures dix-sept du matin. Tu t’es levé pour boire un verre d’eau. En passant devant la fenêtre de la cuisine, tu le vois. Un cerf. Au milieu de ton jardin. Immobile. Pas un mouvement des oreilles. Pas un nuage de vapeur devant ses naseaux, alors qu’il fait deux degrés dehors. Il regarde la maison. Il te regarde, toi. Et tu te souviens, d’un coup, de la note que tu as trouvée le jour de l’emménagement. Celle que tu avais trouvée drôle.",
+      "onscreen": [
+        "3h17",
+        "il ne bouge pas"
+      ],
+      "visual": "Julien, a 35-year-old French man with short dark hair, light stubble, a grey t-shirt and a dark checked blanket over his shoulders, standing in a dark old stone farmhouse kitchen holding a glass of water, looking out of the window at a motionless dark stag with huge antlers and softly glowing eyes standing still in the moonlit garden, cold blue night light, mist, tense mood"
+    },
+    {
+      "type": "narration",
+      "title": "La note derrière le compteur",
+      "narration": "Tu as acheté cette maison pour une bouchée de pain. Une vieille ferme en pierre, au bout d’un chemin, collée à la forêt. L’ancienne propriétaire, Madame Ferrand, avait vécu là quarante ans. Le jour où tu as ouvert le boîtier du compteur électrique, une feuille pliée en quatre est tombée. Écriture penchée, encre bleue. En haut, une phrase soulignée deux fois : « Si tu vois le cerf à trois heures dix-sept, suis ces règles. Toutes. Dans l’ordre. » Tu l’as rangée dans un tiroir en riant.",
+      "onscreen": [
+        "encre bleue",
+        "« toutes, dans l’ordre »"
+      ],
+      "visual": "Rustic old stone farmhouse at the edge of a dark forest at dusk, a hand in the foreground pulling a folded yellowed note out of an electric meter box, a faint portrait of Madame Ferrand, an elderly French woman with white hair in a bun, a flowered apron and a kind weary face on the wall, moody blue and amber light"
+    },
+    {
+      "type": "tension",
+      "title": "Les nuits d’avant",
+      "narration": "Les premières semaines, tout allait bien. Le chemin de terre, les hiboux, l’odeur du feu de bois. Pourtant, il y avait des détails. Le voisin le plus proche, un vieux monsieur qui vend des œufs, t’avait demandé si tu dormais bien, avec un drôle de regard. À la boulangerie du village, quand tu as dit le nom de la ferme, la vendeuse a arrêté de sourire. Et chaque nuit, sans savoir pourquoi, tu te réveillais quelques minutes après trois heures.",
+      "onscreen": [
+        "toujours vers 3h",
+        "drôles de regards"
+      ],
+      "visual": "Julien, a 35-year-old French man with short dark hair, light stubble, a grey t-shirt and a dark checked blanket over his shoulders, walking a dirt road to his stone farmhouse beside a dark forest at dusk, an old egg seller watching him with a strange look from a fence, a clock in a lit window showing night, cold blue ambient, uneasy mood"
+    },
+    {
+      "type": "rule",
+      "number": 1,
+      "title": "Règle n°1",
+      "rule": "Ne le regarde jamais plus de dix secondes.",
+      "narration": "Règle numéro un. Ne le regarde jamais plus de dix secondes. Madame Ferrand avait ajouté, en plus petit : « Il ne bouge que lorsqu’on le fixe trop longtemps. » Tu comptes dans ta tête. Six. Sept. Huit. Tu détournes les yeux juste à temps. Quand tu regardes à nouveau, une seconde, il est toujours au même endroit. Mais tu jurerais qu’avant, sa tête était tournée vers le portail. Maintenant, elle est tournée vers la cuisine.",
+      "onscreen": [
+        "10 secondes",
+        "pas une de plus"
+      ],
+      "visual": "Julien, a 35-year-old French man with short dark hair, light stubble, a grey t-shirt and a dark checked blanket over his shoulders, with his back turned to a kitchen window, counting on his fingers with eyes tight, a motionless dark stag with huge antlers and softly glowing eyes standing still in the dark garden outside with head turning toward the house, cold moonlight, creepy silent mood",
+      "overlay": {
+        "kind": "banner",
+        "text": "NE LE FIXE PAS",
+        "beat": 0
+      }
+    },
+    {
+      "type": "tension",
+      "title": "Le tiroir",
+      "narration": "Tu marches jusqu’au tiroir sans regarder la fenêtre. Tes mains tremblent un peu en dépliant la feuille. Dans le silence, tu entends le frigo ronronner, la pendule du salon, et quelque chose d’autre. Un petit bruit sec, régulier, dehors. Comme un sabot qui tape doucement sur une pierre. Une fois. Puis rien. Tu te dis que c’est le gel qui fait craquer les branches. Tu te dis beaucoup de choses, cette nuit-là.",
+      "onscreen": [
+        "toc",
+        "… puis rien"
+      ],
+      "visual": "Julien, a 35-year-old French man with short dark hair, light stubble, a grey t-shirt and a dark checked blanket over his shoulders, unfolding a crumpled note at a wooden table in a dim farmhouse kitchen, trembling hands, a fridge and old pendulum clock in the shadows, a faint hoof shape glimpsed through the window, cold blue light"
+    },
+    {
+      "type": "rule",
+      "number": 2,
+      "title": "Règle n°2",
+      "rule": "N’allume aucune lumière extérieure.",
+      "narration": "Règle numéro deux. N’allume aucune lumière extérieure. La raison est écrite juste en dessous : « La lumière lui donne une ombre. Et tu ne veux pas voir la forme de son ombre. » Ton doigt est déjà posé sur l’interrupteur du perron. Tu le retires lentement. Tu repenses à l’agent immobilier, qui t’avait dit que l’ampoule extérieure était grillée depuis des années. Tu comprends maintenant que personne ne l’a jamais changée exprès.",
+      "onscreen": [
+        "pas de lumière",
+        "pas d’ombre"
+      ],
+      "visual": "Julien, a 35-year-old French man with short dark hair, light stubble, a grey t-shirt and a dark checked blanket over his shoulders, with a finger hovering over a porch light switch in a dark hallway, refusing to press it, outside the dark garden shows a huge long shadow shape on the grass, cold blue moonlight, ominous mood"
+    },
+    {
+      "type": "rule",
+      "number": 3,
+      "title": "Règle n°3",
+      "rule": "Ne compte jamais ses pattes.",
+      "narration": "Règle numéro trois. Ne compte jamais ses pattes. Pas d’explication, cette fois. Juste cette phrase, et une tache d’encre, comme si la main de Madame Ferrand s’était arrêtée longtemps sur le papier. Évidemment, ton cerveau fait exactement l’inverse. Tu jettes un œil. Tu commences. Une. Deux. Trois. Tu fermes les yeux de toutes tes forces avant la suite. Tu ne sauras jamais le chiffre. Et c’est très bien comme ça.",
+      "onscreen": [
+        "ne compte pas",
+        "une… deux… trois…"
+      ],
+      "visual": "Julien, a 35-year-old French man with short dark hair, light stubble, a grey t-shirt and a dark checked blanket over his shoulders, sitting rigid in a dark kitchen with eyes squeezed shut, hands over his face, a shadowy stag silhouette with many thin legs behind the foggy window, cold blue light, nervous suggestion of horror, no gore"
+    },
+    {
+      "type": "tension",
+      "title": "La vitre",
+      "narration": "Tu t’assois par terre, dos contre le placard, pour ne plus voir la fenêtre. La pendule indique trois heures vingt-quatre. Dehors, le bruit de sabot recommence. Plus proche. Puis il s’arrête. Et dans le silence, il y a trois petits coups. Sur la vitre de la cuisine. Juste au-dessus de ta tête. Toc. Toc. Toc. Ni trop forts, ni trop doux. Polis. Comme quelqu’un qui sait que tu es là et qui n’est pas pressé.",
+      "onscreen": [
+        "toc toc toc",
+        "juste au-dessus"
+      ],
+      "visual": "Julien, a 35-year-old French man with short dark hair, light stubble, a grey t-shirt and a dark checked blanket over his shoulders, sitting on the kitchen floor with his back against a cupboard under the window, three soft round marks appearing on the misted glass above his head, clock showing night, cold blue light, tense polite eerie mood"
+    },
+    {
+      "type": "rule",
+      "number": 4,
+      "title": "Règle n°4",
+      "rule": "Si on frappe à la vitre, ne réponds pas. Même si c’est une voix que tu connais.",
+      "narration": "Règle numéro quatre. Si on frappe à la vitre, ne réponds pas. Même si c’est une voix que tu connais. Tu relis la ligne au moment exact où une voix murmure ton prénom. La voix de ta mère. Douce. Inquiète. Elle te demande d’ouvrir parce qu’elle a froid. Ta mère habite à six cents kilomètres. Elle dort, à cette heure-ci. Tu poses ta main sur ta bouche pour ne pas répondre, et tu restes comme ça, longtemps.",
+      "onscreen": [
+        "ne réponds pas",
+        "même à elle"
+      ],
+      "visual": "Julien, a 35-year-old French man with short dark hair, light stubble, a grey t-shirt and a dark checked blanket over his shoulders, sitting on the floor with a hand clamped over his mouth, wide terrified eyes, a gentle blurry woman's silhouette behind the window frosted glass, pale cold light, whispering tension",
+      "overlay": {
+        "kind": "stamp",
+        "text": "NE RÉPONDS PAS",
+        "beat": 0
+      }
+    },
+    {
+      "type": "tension",
+      "title": "Le bol",
+      "narration": "Les coups s’arrêtent. La voix aussi. Tu entends les sabots s’éloigner vers le perron. Puis un autre bruit, que tu mets un moment à reconnaître. Un bruit de langue. Quelque chose qui boit. Dans le bol en métal que tu laisses dehors depuis ton arrivée, parce que la note te l’a demandé. Tu ne l’avais jamais remarqué, mais chaque matin, ce bol était vide. Tu avais toujours pensé que c’était un chat du village.",
+      "onscreen": [
+        "quelque chose boit",
+        "le bol"
+      ],
+      "visual": "Dark farmhouse porch at night, a metal water bowl on the wooden steps, a motionless dark stag with huge antlers and softly glowing eyes lowering its head toward the bowl with glowing eyes, long shadows, mist rising, cold blue light, quiet uncanny mood"
+    },
+    {
+      "type": "rule",
+      "number": 5,
+      "title": "Règle n°5",
+      "rule": "Laisse toujours un bol d’eau sur le perron avant minuit.",
+      "narration": "Règle numéro cinq. Laisse toujours un bol d’eau sur le perron avant minuit. Et la raison, en dessous, qui te glace : « S’il a soif et que le bol est vide, il entrera boire à l’intérieur. » Tu essaies de te rappeler si tu as rempli le bol ce soir. Tu crois que oui. Tu n’en es pas certain. Le bruit de langue continue. Puis il s’arrête net. Comme si le bol était vide.",
+      "onscreen": [
+        "avant minuit",
+        "s’il a soif…"
+      ],
+      "visual": "Close view of an empty metal bowl on a dark porch, a motionless dark stag with huge antlers and softly glowing eyes looming at the edge of the door, the front door of the house with a slightly glowing keyhole, cold moonlight, ominous suspense, empty space above"
+    },
+    {
+      "type": "tension",
+      "title": "La poignée",
+      "narration": "Trois heures quarante et une. Le silence est total. Plus de vent, plus de branches, plus de frigo. Même la pendule semble avoir arrêté de battre. Et puis, très lentement, la poignée de la porte d’entrée commence à descendre. Tu l’entends grincer depuis la cuisine. Elle descend jusqu’en bas. Elle reste là. Le verrou tient. La poignée remonte, aussi doucement qu’elle est descendue. Tu n’as jamais été aussi content d’avoir payé un serrurier.",
+      "onscreen": [
+        "3h41",
+        "la poignée descend"
+      ],
+      "visual": "A dark farmhouse hallway at night, the front door's metal handle slowly lowering by itself, a bolt holding firmly, Julien, a 35-year-old French man with short dark hair, light stubble, a grey t-shirt and a dark checked blanket over his shoulders peeking around the kitchen corner pale with fear, cold blue light and deep shadows"
+    },
+    {
+      "type": "rule",
+      "number": 6,
+      "title": "Règle n°6",
+      "rule": "Ne sors pas avant que le premier oiseau ait chanté.",
+      "narration": "Règle numéro six. Ne sors pas avant que le premier oiseau ait chanté. « Il part toujours au premier chant. L’horloge ne compte pas. Le soleil ne compte pas. Seulement l’oiseau. » Alors tu attends. Assis par terre, ta couverture sur les épaules, la note serrée dans ta main. Les minutes passent comme des heures. À six heures douze, très loin, un merle commence à chanter. Tu n’as jamais rien entendu d’aussi beau.",
+      "onscreen": [
+        "attends l’oiseau",
+        "6h12"
+      ],
+      "visual": "Julien, a 35-year-old French man with short dark hair, light stubble, a grey t-shirt and a dark checked blanket over his shoulders, sitting on a kitchen floor wrapped in a blanket holding a folded note, faint dawn gray-blue light through the window, a blackbird silhouette singing on a branch outside, exhausted relieved face"
+    },
+    {
+      "type": "tension",
+      "title": "Le matin",
+      "narration": "Tu te relèves, courbatu, et tu oses enfin regarder par la fenêtre. Le jardin est vide. Le givre recouvre l’herbe, intact. Pas une seule trace de sabot. Nulle part. Sur le perron, le bol en métal est renversé, complètement sec. Tu te dis que tu as peut-être rêvé. Puis tu remarques, sur la vitre de la cuisine, à hauteur d’homme, trois petites marques rondes dans la buée. Exactement là où on a frappé.",
+      "onscreen": [
+        "aucune trace",
+        "trois marques"
+      ],
+      "visual": "Julien, a 35-year-old French man with short dark hair, light stubble, a grey t-shirt and a dark checked blanket over his shoulders looking through a kitchen window at a frosty empty garden at dawn, a toppled metal bowl on the porch, on the misted window glass three small round marks at head height, pale pink and blue light, eerie calm"
+    },
+    {
+      "type": "tension",
+      "title": "L’appel",
+      "narration": "À sept heures, tu appelles ta mère. Elle décroche à la deuxième sonnerie, la voix encore pleine de sommeil. Tu lui demandes, en essayant d’avoir l’air normal, si elle a bien dormi. Elle rit un peu. Elle te dit qu’elle a fait un rêve bizarre. Elle était perdue dans une forêt, il faisait très froid, et elle frappait à une fenêtre éclairée. Derrière la vitre, il y avait toi. Et tu ne voulais pas lui ouvrir. Tu raccroches sans rien dire.",
+      "onscreen": [
+        "« un rêve bizarre »",
+        "tu ne voulais pas ouvrir"
+      ],
+      "visual": "Julien, a 35-year-old French man with short dark hair, light stubble, a grey t-shirt and a dark checked blanket over his shoulders, in the kitchen at morning holding a phone to his ear with a worried pale face, on the screen a warm photo of his mother, frosted window behind him showing a dark forest, soft cold light, dread and silence"
+    },
+    {
+      "type": "rule",
+      "number": 7,
+      "title": "Règle n°7",
+      "rule": "Si un matin il n’est plus là à 3h17, ne cherche pas où il est allé.",
+      "narration": "Règle numéro sept. La dernière. Si un matin il n’est plus là à trois heures dix-sept, ne cherche pas où il est allé. Tu retournes la feuille, pour la première fois. Au dos, il y a autre chose. Une deuxième écriture, différente. Ronde, appliquée, tracée au crayon gris. Et cette écriture-là ne ressemble pas du tout à celle de Madame Ferrand.",
+      "onscreen": [
+        "ne cherche pas",
+        "au dos…"
+      ],
+      "visual": "Julien, a 35-year-old French man with short dark hair, light stubble, a grey t-shirt and a dark checked blanket over his shoulders, in a dim kitchen turning over the note, the back of the paper covered in neat round pencil handwriting, a sudden spooky light through the window, Madame Ferrand, an elderly French woman with white hair in a bun, a flowered apron and a kind weary face faintly visible as a ghostly kind smiling presence, cold blue light"
+    },
+    {
+      "type": "twist",
+      "title": "Le dos de la feuille",
+      "narration": "Au crayon gris, il est écrit : « Je suis Madame Ferrand. Les règles au recto, ce n’est pas moi qui les ai écrites. Le cerf ne t’a jamais voulu de mal. Pendant quarante ans, il s’est tenu immobile dans le jardin pour surveiller la maison. Pour la protéger de ce qui vient boire sur le perron. Celui qui a écrit ces règles voulait que tu ignores le cerf. Que tu ne le regardes pas. Que tu le laisses partir. » Tu lèves les yeux vers le jardin. Cette nuit, à trois heures dix-sept, le cerf n’est pas revenu. Mais le bol, lui, est de nouveau vide. Et il est posé dans ta cuisine.",
+      "onscreen": [
+        "ce n’était pas elle",
+        "le bol est à l’intérieur"
+      ],
+      "visual": "Madame Ferrand, an elderly French woman with white hair in a bun, a flowered apron and a kind weary face, as a gentle ghostly figure in the garden at night with a motionless dark stag with huge antlers and softly glowing eyes calm beside her, a metal bowl on a kitchen table in the foreground, Julien, a 35-year-old French man with short dark hair, light stubble, a grey t-shirt and a dark checked blanket over his shoulders looking up in realization, cold blue mist"
+    }
+  ],
+  "short": {
+    "hook_text": "UN CERF IMMOBILE À 3H17",
+    "narration": "Il est trois heures dix-sept du matin, et il y a un cerf dans ton jardin. Immobile. Il fait deux degrés, mais aucune vapeur ne sort de ses naseaux. Tu te souviens alors de la note laissée par l’ancienne propriétaire. Règle numéro un : ne le regarde jamais plus de dix secondes. Il ne bouge que lorsqu’on le fixe trop longtemps. Règle numéro deux : n’allume aucune lumière extérieure, tu ne veux pas voir la forme de son ombre. Et puis on frappe trois petits coups sur la vitre. Une voix murmure ton prénom. C’est la voix de ta mère. Elle habite à six cents kilomètres. Il reste cinq règles. Et la dernière va tout changer.",
+    "cta": "Le film complet est sur la chaîne",
+    "visuals": [
+      {
+        "p": "A frosty moonlit garden seen through a dark kitchen window, a motionless dark stag with huge antlers and softly glowing eyes standing perfectly still looking at the house, no breath vapour in the cold air, silhouette of a man in the foreground, cold blue night, creepy mood"
+      },
+      {
+        "p": "Julien, a 35-year-old French man with short dark hair, light stubble, a grey t-shirt and a dark checked blanket over his shoulders, in a dark farmhouse kitchen holding up a yellowed folded note under a dim lamp, reading with a worried face, cold blue light, shadows of the old stone walls",
+        "at": "Tu te souviens alors"
+      },
+      {
+        "p": "Julien, a 35-year-old French man with short dark hair, light stubble, a grey t-shirt and a dark checked blanket over his shoulders, with his back to the window counting seconds on his fingers, a motionless dark stag with huge antlers and softly glowing eyes outside in the dark garden turning its head toward the house, cold moonlight, suspense",
+        "at": "Règle numéro un",
+        "overlay": {
+          "kind": "chip",
+          "text": "10 SECONDES MAX"
+        }
+      },
+      {
+        "p": "A dark farmhouse porch with a switch on the wall, a long distorted stag shadow stretching across the frosty lawn, nobody visible, cold blue night, ominous mood",
+        "at": "Règle numéro deux",
+        "overlay": {
+          "kind": "banner",
+          "text": "AUCUNE LUMIÈRE"
+        }
+      },
+      {
+        "p": "Julien, a 35-year-old French man with short dark hair, light stubble, a grey t-shirt and a dark checked blanket over his shoulders, sitting on the kitchen floor under the window, three small marks of breath appearing on the glass above him, tense wide eyes, cold blue light",
+        "at": "Et puis on frappe"
+      },
+      {
+        "p": "Julien, a 35-year-old French man with short dark hair, light stubble, a grey t-shirt and a dark checked blanket over his shoulders, frozen with his hand over his mouth, a soft blurry woman's silhouette behind the frosted window glass, pale cold light, eerie whisper mood",
+        "at": "Une voix murmure"
+      },
+      {
+        "p": "Warm photograph of a French mother smiling on a phone screen lying on a dark kitchen table, a faint stag silhouette reflected in the window glass behind, cold blue night, uneasy mood",
+        "at": "C’est la voix"
+      },
+      {
+        "p": "A long dark rural road under a starry sky, six hundred kilometers of empty countryside, a tiny glowing light of a distant house, wide cold dramatic composition",
+        "at": "Elle habite"
+      },
+      {
+        "p": "Julien, a 35-year-old French man with short dark hair, light stubble, a grey t-shirt and a dark checked blanket over his shoulders, sitting wrapped in a blanket in a dark kitchen with five folded paper strips scattered on the table, the kitchen clock pointing near dawn, pale tired eyes, cold blue light",
+        "at": "Il reste cinq règles",
+        "overlay": {
+          "kind": "chip",
+          "text": "5 RÈGLES RESTANTES"
+        }
+      },
+      {
+        "p": "The back of a yellowed note covered in grey pencil handwriting lying on a wooden table, a metal bowl nearby, a stag silhouette in the misted window, dark dramatic spotlight",
+        "at": "Et la dernière"
+      }
+    ]
+  },
+  "visual_bible": {
+    "hero": "Julien, a 35-year-old French man with short dark hair, light stubble, a grey t-shirt and a dark checked blanket over his shoulders",
+    "deer": "a motionless dark stag with huge antlers and softly glowing eyes",
+    "ferrand": "Madame Ferrand, an elderly French woman with white hair in a bun, a flowered apron and a kind weary face"
+  }
+}

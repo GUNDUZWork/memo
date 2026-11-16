@@ -1,0 +1,273 @@
+{
+  "id": 28,
+  "slug": "acheter-une-heure-de-plus-chaque-jour",
+  "formula": "etsilab",
+  "title": "Et si tu pouvais acheter une heure de plus chaque jour ?",
+  "thumbnail": {
+    "line1": "25 HEURES PAR JOUR",
+    "line2": "à quel prix ?",
+    "accent": "#7C4DFF",
+    "visual": "Hugo, a 30-year-old French man with short wavy auburn hair, a trimmed beard and a teal bomber jacket, stunned close-up face on the right, giant glowing clock with frozen water droplets and a floating price tag shape, deep purple and gold lighting"
+  },
+  "youtube": {
+    "title": "Et si tu pouvais acheter une heure de plus chaque jour ?",
+    "description": "Une application te propose une vingt-cinquième heure. Pendant soixante minutes, le monde s'arrête, et toi seul continues de bouger. Prix : cinquante euros. Tu achètes, évidemment. Puis tu en veux une deuxième.\n\nDans ce film, on pousse le scénario jusqu'au bout, calculs à l'appui : combien d'heures tu peux gagner sur une vie, combien ça coûte vraiment, et ce qui se passe quand la règle change.\n\nEt toi, tu ferais quoi de ton heure en plus ? Réponds en commentaire.",
+    "tags": [
+      "et si",
+      "temps",
+      "une heure de plus",
+      "25e heure",
+      "scénario",
+      "expérience de pensée",
+      "mathématiques",
+      "productivité",
+      "histoire",
+      "argent",
+      "compteur",
+      "phase 2",
+      "réflexion",
+      "histoire virale",
+      "français"
+    ],
+    "pinned_comment": "Si tu avais une heure en plus chaque jour, pendant que le monde est figé, tu en ferais quoi ? Sois honnête."
+  },
+  "counter": {
+    "label": "HEURES EN PLUS",
+    "start": 0,
+    "rate": 0.7,
+    "unit": "h",
+    "decimals": 0
+  },
+  "scenes": [
+    {
+      "type": "hook",
+      "title": "La vingt-cinquième heure",
+      "narration": "Imagine qu'un soir, une application apparaisse sur ton téléphone. Tu ne l'as pas téléchargée. Elle s'appelle simplement Heure. Un seul bouton. Acheter une heure supplémentaire aujourd'hui, cinquante euros. Pendant soixante minutes, le monde entier se fige. Les voitures, les oiseaux, les horloges. Toi seul continues de bouger, de penser, de vivre. Puis tout reprend, exactement où ça s'était arrêté. Personne ne remarque rien. Tu hésites trois secondes. Puis tu appuies. Et tout commence ici.",
+      "onscreen": [
+        "1 heure = 50 €",
+        "le monde se fige"
+      ],
+      "visual": "Hugo, a 30-year-old French man with short wavy auburn hair, a trimmed beard and a teal bomber jacket, sitting on his sofa in a dim evening living room, looking at his phone showing a glowing clock-shaped app icon with a single big button, curious wonder, purple light, empty space above"
+    },
+    {
+      "type": "narration",
+      "title": "La première heure",
+      "narration": "La première fois, c'est vertigineux. Tu es dans ta cuisine. L'eau qui coulait du robinet s'est arrêtée en l'air, comme un fil de verre. Dehors, un pigeon est suspendu au-dessus du trottoir. Un silence total, plus profond que la nuit. Tu ne sais pas quoi faire. Alors tu fais la chose la plus banale du monde. Tu finis le dossier que tu repoussais depuis trois jours. Une heure plus tard, le robinet se remet à couler. Et ton dossier est terminé. Personne ne sait comment.",
+      "onscreen": [
+        "le temps s'arrête",
+        "dossier terminé"
+      ],
+      "visual": "Hugo, a 30-year-old French man with short wavy auburn hair, a trimmed beard and a teal bomber jacket, in a small kitchen where water from the tap is frozen in mid-air like a glass thread, a pigeon suspended outside the window, he stands amazed holding a coffee mug, silent magical purple light"
+    },
+    {
+      "type": "counter_focus",
+      "title": "L'habitude",
+      "narration": "Le lendemain, tu rachètes une heure. Puis le jour suivant. Et le suivant. Cinquante euros, c'est le prix d'un restaurant. Pour une heure entière de calme absolu, ça paraît dérisoire. Tu t'en sers pour faire du sport, pour lire, pour dormir un peu plus quand le réveil sonne trop tôt. Un matin, tu prends même ton petit-déjeuner sur le balcon, face à une ville entièrement immobile, avec le soleil bloqué au ras des toits comme une photo. Au bout d'une semaine, tu as vécu sept heures de plus que tout le monde. Ton compteur personnel tourne. Et pour la première fois depuis des années, tu n'as plus l'impression de courir après ta vie.",
+      "onscreen": [
+        "7 heures en plus",
+        "en 1 semaine"
+      ],
+      "visual": "Hugo, a 30-year-old French man with short wavy auburn hair, a trimmed beard and a teal bomber jacket, jogging in a frozen sunrise park, a runner and birds suspended in the air around him, calm joy, purple and gold light, a glowing phone in his hand showing a clock"
+    },
+    {
+      "type": "math",
+      "title": "Le calcul sur une vie",
+      "narration": "Alors tu fais le calcul. Une heure par jour, c'est trois cent soixante-cinq heures par an. Plus de quinze jours entiers. Sur cinquante ans, dix-huit mille deux cent cinquante heures. Plus de deux ans de vie supplémentaires, glissés entre les secondes. Et le prix ? Cinquante euros par jour, c'est dix-huit mille deux cent cinquante euros par an. Le prix d'une voiture, chaque année, pour une heure par jour. Tu ne peux pas te le permettre longtemps. Mais tu remarques un détail dans l'application. Un deuxième bouton vient d'apparaître.",
+      "equation": "1 h × 365 × 50 ans",
+      "result": "18 250 h ≈ 2 ans",
+      "onscreen": [
+        "18 250 heures",
+        "≈ 2 ans de vie"
+      ],
+      "visual": "Hugo, a 30-year-old French man with short wavy auburn hair, a trimmed beard and a teal bomber jacket, at a desk covered with calendars and sheets of calculations, a giant glowing clock face behind him with stacks of coins, amazed expression, night lamp, purple light"
+    },
+    {
+      "type": "narration",
+      "title": "La deuxième heure",
+      "narration": "Le deuxième bouton dit : acheter une deuxième heure aujourd'hui, cent euros. Le double. Tu comprends la logique. La première heure est bon marché pour t'accrocher. Les suivantes coûtent plus cher. Mais tu fais vite le compte. Avec deux heures par jour, tu pourrais lancer ce projet dont tu rêves depuis toujours. Écrire, apprendre, construire quelque chose. Tu décides que c'est un investissement. Tu achètes la deuxième. Puis, un dimanche, tu oses regarder le prix de la troisième.",
+      "onscreen": [
+        "2e heure : 100 €",
+        "un investissement ?"
+      ],
+      "visual": "Hugo, a 30-year-old French man with short wavy auburn hair, a trimmed beard and a teal bomber jacket, looking at his phone with a second glowing button priced higher, a thought bubble with a project blueprint, ambitious smile, dark living room lit by purple screen glow"
+    },
+    {
+      "type": "math",
+      "title": "La pente exponentielle",
+      "narration": "Troisième heure, deux cents euros. Quatrième, quatre cents. Le prix double à chaque fois. Pour la dixième heure de la journée, il faudrait payer vingt-cinq mille six cents euros. Et si tu voulais vivre une journée entière de plus, vingt-quatre heures supplémentaires d'un coup, la dernière heure coûterait plus de quatre cents millions d'euros. Le temps, finalement, suit la même règle que tout ce qui est rare. Le premier morceau est abordable. Le dernier est hors de prix. Tu te fixes une limite. Trois heures par jour, pas une de plus.",
+      "equation": "50 × 2^(n-1)",
+      "result": "10e heure = 25 600 €",
+      "onscreen": [
+        "prix × 2 à chaque heure",
+        "10e heure : 25 600 €"
+      ],
+      "visual": "Hugo, a 30-year-old French man with short wavy auburn hair, a trimmed beard and a teal bomber jacket, in front of a giant wall of glowing coins doubling in size each step like a staircase going up into the clouds, shocked face, dramatic violet light",
+      "overlay": {
+        "kind": "chip",
+        "text": "PRIX x2",
+        "beat": 1
+      }
+    },
+    {
+      "type": "counter_focus",
+      "title": "Trois heures volées",
+      "narration": "Avec trois heures par jour, ta vie change à une vitesse folle. En six mois, tu as vécu plus de cinq cents heures que personne n'a vues passer. Tu as appris l'italien. Tu as couru ton premier semi-marathon. Tu as écrit la moitié d'un roman. Tes collègues te trouvent incroyablement efficace. Tes amis te demandent ton secret. Tu souris. Tu dis que tu dors moins. Mais quand tu te regardes dans le miroir, tu remarques quelque chose. Tu as l'air un peu plus vieux que les gens nés la même année que toi.",
+      "onscreen": [
+        "500 heures",
+        "en 6 mois"
+      ],
+      "visual": "Hugo, a 30-year-old French man with short wavy auburn hair, a trimmed beard and a teal bomber jacket, in a frozen room, studying Italian with books, a half-written manuscript and running shoes beside him, bright productive energy, purple and warm gold light, clocks stopped on the wall"
+    },
+    {
+      "type": "narration",
+      "title": "Ce que personne ne voit",
+      "narration": "C'est logique, quand on y pense. Chaque heure achetée, ton corps la vit vraiment. Tes cheveux poussent, ta peau vieillit, ton cœur bat. Le monde est figé, pas toi. Avec trois heures par jour, tu vieillis d'environ un jour de plus toutes les huit journées. Sur dix ans, plus d'un an d'écart avec tes amis. Ce n'est pas énorme. Mais c'est irréversible. Et il y a autre chose, que tu n'avais pas prévu. Pendant ces heures-là, tu es seul. Complètement seul. Dans un monde de statues.",
+      "onscreen": [
+        "ton corps vieillit",
+        "seul parmi les statues"
+      ],
+      "visual": "Hugo, a 30-year-old French man with short wavy auburn hair, a trimmed beard and a teal bomber jacket, in a bathroom mirror looking at a very faint grey hair and tiny wrinkles on his face with worried eyes, soft cold light, subtle purple glow of a phone on the sink"
+    },
+    {
+      "type": "narration",
+      "title": "La solitude du temps arrêté",
+      "narration": "Au début, ce silence était un luxe. Maintenant, il commence à peser. Tu marches dans une rue figée. Un enfant est arrêté en plein saut au-dessus d'une flaque. Un couple s'embrasse, immobile, au coin d'un café. Tu passes à côté d'eux comme un fantôme. Tu ne peux rien partager de ce que tu vis pendant ces heures-là. Tu ne peux raconter à personne la beauté d'une goutte de pluie suspendue. Tu commences à comprendre qu'un temps qu'on ne partage avec personne a un goût étrange.",
+      "onscreen": [
+        "un enfant en plein saut",
+        "impossible à partager"
+      ],
+      "visual": "Hugo, a 30-year-old French man with short wavy auburn hair, a trimmed beard and a teal bomber jacket, walking alone in a frozen Paris street at night, a child suspended mid-jump above a puddle, a couple kissing motionless at a cafe corner, lonely quiet mood, purple blue light"
+    },
+    {
+      "type": "counter_focus",
+      "title": "La rumeur",
+      "narration": "Et puis tu découvres que tu n'es pas seul à avoir l'application. Un soir, pendant ton heure, tu vois quelqu'un d'autre marcher dans la rue figée. Une femme, la quarantaine, avec un sac de courses. Vous vous fixez, stupéfaits. Elle s'appelle Margot. Elle achète six heures par jour depuis deux ans. Elle a dépensé tout son héritage. Elle dit qu'elle a vécu six mois de plus que tout le monde, et qu'elle a l'impression de ne pas avoir vécu du tout. Ton compteur, lui, continue de monter.",
+      "onscreen": [
+        "Margot",
+        "6 heures par jour"
+      ],
+      "visual": "Margot, a 42-year-old French woman with a short black bob, sunglasses pushed up on her head, a beige trench coat and a grocery bag, a 42-year-old French woman with a short black bob and a beige trench coat carrying a grocery bag, walking toward Hugo, a 30-year-old French man with short wavy auburn hair, a trimmed beard and a teal bomber jacket in a frozen street, both staring at each other in shock, suspended pigeons overhead, purple dusk light",
+      "overlay": {
+        "kind": "chip",
+        "text": "6 H PAR JOUR",
+        "beat": 1
+      }
+    },
+    {
+      "type": "narration",
+      "title": "La question de Margot",
+      "narration": "Avant de disparaître au bout de la rue, Margot te pose une question. Qu'est-ce que tu as fait de tes heures ? Tu réponds fièrement. L'italien, le semi-marathon, le roman. Elle hoche la tête. Moi aussi, au début. Puis j'ai commencé à les utiliser pour travailler plus. Et puis pour rattraper le retard que je prenais en travaillant plus. Au bout d'un an, j'achetais des heures pour pouvoir payer les heures. Elle rit, un rire fatigué. Fais attention, dit-elle. Le temps qu'on achète finit toujours par être dépensé comme le reste.",
+      "onscreen": [
+        "payer les heures",
+        "avec des heures"
+      ],
+      "visual": "Margot, a 42-year-old French woman with a short black bob, sunglasses pushed up on her head, a beige trench coat and a grocery bag with tired haunted eyes, speaking gently to Hugo, a 30-year-old French man with short wavy auburn hair, a trimmed beard and a teal bomber jacket on a frozen street, a sad fading smile, her trench coat edges blowing in no wind, purple evening light"
+    },
+    {
+      "type": "phase2",
+      "title": "Phase 2",
+      "narration": "Le lendemain matin, l'application se met à jour toute seule. Écran noir. Une notification. Phase deux. Les heures ne sont plus vendues contre de l'argent. Désormais, chaque heure que tu achètes est retirée à une personne de ton choix, dans ta liste de contacts. Tu fixes l'écran. Le bouton est toujours là, au même endroit. Sous lui, ta liste de contacts défile. Ta mère. Ton meilleur ami. Ta sœur. Et pour la première fois, tu vois le vrai prix d'une heure.",
+      "alert": "PHASE 2 : chaque heure achetée est désormais prise à l'un de tes proches",
+      "onscreen": [
+        "PHASE 2",
+        "une heure prise à un proche"
+      ],
+      "visual": "Hugo, a 30-year-old French man with short wavy auburn hair, a trimmed beard and a teal bomber jacket, in a dark room staring at his phone with a black screen and a thin white line, an address-book list of contact photos glowing like ghosts around him, tense shocked mood, cold white light",
+      "overlay": {
+        "kind": "phase2",
+        "text": "PHASE 2",
+        "beat": 1
+      }
+    },
+    {
+      "type": "narration",
+      "title": "Le bouton",
+      "narration": "Tu restes assis longtemps, le pouce au-dessus de l'écran. Tu pourrais choisir quelqu'un que tu n'aimes pas. Un ancien collègue, un voisin bruyant. Personne ne le saurait. Mais tu penses à Margot, à ses heures dépensées comme de la monnaie. Et tu comprends que ce n'était jamais l'argent qui posait problème. Une heure a toujours été prise à quelqu'un. À ton sommeil, à tes amis, à ta famille, à toi-même. Alors tu fais la seule chose qui te paraît juste. Tu supprimes l'application.",
+      "onscreen": [
+        "choisir quelqu'un ?",
+        "application supprimée"
+      ],
+      "visual": "Hugo, a 30-year-old French man with short wavy auburn hair, a trimmed beard and a teal bomber jacket, sitting on his bed with his thumb hovering over his phone, scrolling a list of friends' photos with tender thoughts, a faint image of Margot, a 42-year-old French woman with a short black bob, sunglasses pushed up on her head, a beige trench coat and a grocery bag fading in the dark, soft lamp light, introspective mood"
+    },
+    {
+      "type": "narration",
+      "title": "Ce qui reste",
+      "narration": "Le téléphone redevient un téléphone. Le lendemain, la journée te paraît courte, presque étroite. Tu as perdu tes trois heures, et tu le sens. Mais tu remarques aussi autre chose. Tu ne gaspilles plus la première heure du matin à faire défiler des vidéos. Tu dis non à une réunion inutile. Tu te couches plus tôt. Sans le savoir, tu commences à acheter du temps autrement. Pas avec de l'argent. Avec des choix. Et ceux-là, personne ne peut te les facturer.",
+      "onscreen": [
+        "acheter du temps",
+        "avec des choix"
+      ],
+      "visual": "Hugo, a 30-year-old French man with short wavy auburn hair, a trimmed beard and a teal bomber jacket, in a bright morning kitchen eating breakfast slowly without his phone, a pleased relaxed expression, a calm dawn light through the window, a cup of coffee, simple happy mood"
+    },
+    {
+      "type": "outro",
+      "title": "Les vingt-quatre heures",
+      "narration": "Ce soir-là, tu appelles ta mère. Pas pour quelque chose de précis. Juste pour parler. La conversation dure une heure. Une heure normale, qui passe, que personne n'a figée. Et c'est peut-être la meilleure que tu aies vécue depuis des mois. La leçon, c'est que tu ne manques probablement pas de temps. Tu manques de temps passé avec ceux qui comptent. Personne ne te vendra une vingt-cinquième heure. Mais chacune des vingt-quatre que tu as déjà peut devenir celle-là. Alors dis-moi en commentaire. À qui tu donnerais ton heure ce soir ?",
+      "onscreen": [
+        "24 heures suffisent",
+        "à qui tu la donnes ?"
+      ],
+      "visual": "Hugo, a 30-year-old French man with short wavy auburn hair, a trimmed beard and a teal bomber jacket, on a sofa at night with a phone to his ear, smiling warmly, Hugo's mother, a 62-year-old French woman with short grey hair, a lilac scarf and warm eyes in a small phone-call bubble smiling, a warm lamp and a cozy living room, tender golden light"
+    }
+  ],
+  "short": {
+    "hook_text": "UNE HEURE EN PLUS ?",
+    "narration": "Et si tu pouvais acheter une heure de plus chaque jour ? Une application, un bouton, cinquante euros. Pendant soixante minutes, le monde entier se fige. L'eau s'arrête en l'air, les oiseaux restent suspendus, et toi seul continues de vivre. Une heure par jour, ça fait dix-huit mille heures sur une vie. Plus de deux ans offerts. Alors tu achètes une deuxième heure, cent euros. Une troisième, deux cents. Le prix double à chaque fois, et la dixième coûterait vingt-cinq mille euros. Puis un soir, dans une rue figée, tu croises une femme qui bouge. Elle achète six heures par jour depuis deux ans. Et le lendemain, l'application change ses règles. Le film complet est sur la chaîne.",
+    "cta": "Le film complet est sur la chaîne",
+    "visuals": [
+      {
+        "p": "Hugo, a 30-year-old French man with short wavy auburn hair, a trimmed beard and a teal bomber jacket, on a sofa looking at a phone with a glowing clock app and a single button, wonder, purple evening light"
+      },
+      {
+        "p": "Hugo, a 30-year-old French man with short wavy auburn hair, a trimmed beard and a teal bomber jacket, in a kitchen where the tap water is frozen in mid-air, a pigeon frozen outside the window, amazed face, silent purple light",
+        "at": "L'eau s'arrête",
+        "overlay": {
+          "kind": "chip",
+          "text": "+1 HEURE"
+        }
+      },
+      {
+        "p": "Hugo, a 30-year-old French man with short wavy auburn hair, a trimmed beard and a teal bomber jacket, with a hand on a glowing phone, a huge clock face behind him showing a faint extra hour, smiling, purple light",
+        "at": "Une heure par jour"
+      },
+      {
+        "p": "Hugo, a 30-year-old French man with short wavy auburn hair, a trimmed beard and a teal bomber jacket, at a desk pressing a glowing button on his phone, a second and third glowing clock ghost appearing behind him, ambitious tired smile, purple night light",
+        "at": "Une troisième, deux cents"
+      },
+      {
+        "p": "Hugo, a 30-year-old French man with short wavy auburn hair, a trimmed beard and a teal bomber jacket, looking up at a staircase of giant glowing coins doubling in height going up into the clouds, shocked face, dramatic violet light",
+        "at": "Le prix double",
+        "overlay": {
+          "kind": "chip",
+          "text": "10e HEURE : 25 600 €"
+        }
+      },
+      {
+        "p": "Margot, a 42-year-old French woman with a short black bob, sunglasses pushed up on her head, a beige trench coat and a grocery bag, a woman in a beige trench coat with a short black bob and a grocery bag, moving in a frozen street where a child is frozen mid-jump, Hugo, a 30-year-old French man with short wavy auburn hair, a trimmed beard and a teal bomber jacket staring at her shocked, purple dusk",
+        "at": "Puis un soir"
+      },
+      {
+        "p": "Margot, a 42-year-old French woman with a short black bob, sunglasses pushed up on her head, a beige trench coat and a grocery bag, in a frozen street with a tired knowing look and a pigeon suspended behind her, sunglasses on her head, purple light",
+        "at": "Elle achète six heures"
+      },
+      {
+        "p": "Hugo, a 30-year-old French man with short wavy auburn hair, a trimmed beard and a teal bomber jacket, in a dark room staring at his phone showing a black screen with a white line, shocked, cold white light",
+        "at": "Et le lendemain",
+        "overlay": {
+          "kind": "banner",
+          "text": "PHASE 2"
+        }
+      },
+      {
+        "p": "Hugo, a 30-year-old French man with short wavy auburn hair, a trimmed beard and a teal bomber jacket, at a table at dawn with his phone in front of him, thoughtful, torn, a window of warm sunrise light behind him",
+        "at": "Le film complet"
+      }
+    ],
+    "counter_speed": 9
+  },
+  "visual_bible": {
+    "hero": "Hugo, a 30-year-old French man with short wavy auburn hair, a trimmed beard and a teal bomber jacket",
+    "margot": "Margot, a 42-year-old French woman with a short black bob, sunglasses pushed up on her head, a beige trench coat and a grocery bag",
+    "mother": "Hugo's mother, a 62-year-old French woman with short grey hair, a lilac scarf and warm eyes"
+  }
+}

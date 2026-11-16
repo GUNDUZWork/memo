@@ -1,0 +1,320 @@
+{
+  "id": 27,
+  "slug": "30-jours-marathon-sans-jamais-courir",
+  "formula": "30jours",
+  "title": "Il te reste 30 jours pour courir un marathon sans jamais avoir couru",
+  "thumbnail": {
+    "line1": "J-30 : 42 KM",
+    "line2": "il n'a jamais couru",
+    "accent": "#FF7A00",
+    "visual": "Gaspard, a 34-year-old French man with short brown hair, a slightly round belly and an oversized grey jogging suit, exhausted comic close-up face on the right with a sweaty grimace and a race bib, giant countdown clock glowing behind, bright orange and sky blue colors"
+  },
+  "youtube": {
+    "title": "Il te reste 30 jours pour courir un marathon sans jamais avoir couru",
+    "description": "Gaspard a trente-quatre ans, un canapé qui a la forme de son corps, et une grand-mère qui vient de l'inscrire à un marathon. Il lui reste trente jours. Il n'a jamais couru plus loin que l'arrêt de bus.\n\nUne comédie de transformation, avec des cartes refusées, des ampoules, des gags, et le Docteur Vidal, médecin pince-sans-rire, qui a un avis sur tout. Et une ligne d'arrivée qu'on n'oubliera pas.\n\nRappel : préparer un marathon prend normalement plusieurs mois. Demande l'avis d'un médecin avant de te lancer.\n\nEt toi, tu tiendrais combien de kilomètres ?",
+    "tags": [
+      "30 jours",
+      "marathon",
+      "course à pied",
+      "transformation",
+      "comédie",
+      "défi",
+      "running",
+      "sport",
+      "motivation",
+      "histoire drôle",
+      "docteur vidal",
+      "grand-mère",
+      "débutant",
+      "histoire virale",
+      "français"
+    ],
+    "pinned_comment": "Quelle est la plus longue distance que tu as courue dans ta vie ? Sois honnête."
+  },
+  "scenes": [
+    {
+      "type": "hook",
+      "title": "L'inscription",
+      "narration": "Gaspard a trente-quatre ans. Il travaille dans une assurance, il mange ses pâtes devant les séries, et la dernière fois qu'il a couru, c'était pour attraper un bus. Il l'a raté. Ce matin, il reçoit un mail. Félicitations, votre inscription au marathon est confirmée. Départ dans trente jours. Quarante-deux kilomètres et cent quatre-vingt-quinze mètres. Gaspard n'a rien demandé. Mais il connaît une seule personne capable de lui faire ça. Sa grand-mère, Odette, quatre-vingt-huit ans. Il lui reste trente jours.",
+      "onscreen": [
+        "J-30",
+        "42,195 km"
+      ],
+      "visual": "Gaspard, a 34-year-old French man with short brown hair, a slightly round belly and an oversized grey jogging suit, at his sofa in a small apartment with a plate of pasta and a laptop showing a confirmation email with a running shoe icon, stunned face, afternoon light, TV glow, empty space above"
+    },
+    {
+      "type": "narration",
+      "title": "Odette",
+      "narration": "Il l'appelle. Odette décroche à la première sonnerie, comme si elle attendait. Oui, c'est moi, dit-elle fièrement. J'ai couru ce marathon en mille neuf cent soixante-dix-huit. J'étais la seule femme de mon club. Cette année, je ne peux plus. Alors tu le cours pour moi. Gaspard proteste. Il n'a pas de chaussures, pas de souffle, pas de temps. Odette répond simplement : je serai au quarantième kilomètre avec une pancarte. Ne me fais pas attendre trop longtemps. Puis elle raccroche.",
+      "onscreen": [
+        "Odette, 88 ans",
+        "marathon 1978"
+      ],
+      "visual": "Odette, an 88-year-old French grandmother with short white hair, a red knitted cardigan and sparkling blue eyes, in her cozy living room with a landline phone, proud wink at the camera, framed old black and white race photo behind her, Gaspard, a 34-year-old French man with short brown hair, a slightly round belly and an oversized grey jogging suit in a small inset window on the phone with a panicked face, warm light"
+    },
+    {
+      "type": "day",
+      "title": "Jour 1",
+      "day": 30,
+      "level": 3,
+      "narration": "Jour un. Gaspard enfile un vieux jogging de lycée, trop court aux chevilles, et sort à six heures du matin. Objectif modeste : faire le tour du pâté de maisons. Huit cents mètres. Au bout de trois cents, il a un point de côté. Au bout de cinq cents, il marche. Au bout de sept cents, il s'assoit sur un banc à côté d'un retraité qui nourrit des pigeons. Le retraité lui propose un morceau de pain. Gaspard accepte. Niveau : trois pour cent.",
+      "onscreen": [
+        "800 m",
+        "dont 300 en courant"
+      ],
+      "visual": "Gaspard, a 34-year-old French man with short brown hair, a slightly round belly and an oversized grey jogging suit, wearing a too-short old school jogging suit on a quiet dawn street, sitting exhausted on a bench next to the friendly retired man with a flat cap and green jacket feeding pigeons, soft pink sunrise, comic tiredness"
+    },
+    {
+      "type": "vidal",
+      "title": "Docteur Vidal",
+      "line": "Un marathon dans trente jours ? Je vais noter ça dans la rubrique humour.",
+      "narration": "Le lendemain, il prend rendez-vous chez le Docteur Vidal pour un certificat médical. Le Docteur Vidal l'écoute, l'ausculte, prend sa tension, puis retire lentement ses lunettes. Un marathon dans trente jours ? Je vais noter ça dans la rubrique humour. Il signe quand même le certificat, mais à une condition. Gaspard alternera marche et course, il écoutera son corps, et il reviendra le voir toutes les semaines. Et si vous avez mal au genou, ajoute-t-il, ce n'est pas de la motivation. C'est votre genou.",
+      "onscreen": [
+        "certificat signé",
+        "sous conditions"
+      ],
+      "visual": "Docteur Vidal, a deadpan French doctor in his 60s with grey hair, glasses, a white coat and a stethoscope, in a bright consulting room taking Gaspard's blood pressure with a deadpan raised eyebrow while Gaspard, a 34-year-old French man with short brown hair, a slightly round belly and an oversized grey jogging suit sits on the exam table looking sheepish, clinical white light",
+      "overlay": {
+        "kind": "banner",
+        "text": "DOCTEUR VIDAL",
+        "beat": 1
+      }
+    },
+    {
+      "type": "card_refused",
+      "title": "La montre connectée",
+      "item": "Montre GPS de course",
+      "price": "349,99 €",
+      "narration": "Gaspard décide que le problème, c'est l'équipement. Les vrais coureurs ont des montres. Il entre dans un magasin de sport et choisit la plus impressionnante, celle qui mesure le cœur, le sommeil, le stress et probablement les impôts. Trois cent quarante-neuf euros quatre-vingt-dix-neuf. Il tend sa carte avec assurance. Bip. Carte refusée. Le vendeur, un grand gaillard aux mollets de statue, lui dit gentiment : tu sais, ton téléphone compte aussi les kilomètres. Gaspard repart avec une paire de chaussettes à neuf euros.",
+      "onscreen": [
+        "CARTE REFUSÉE",
+        "chaussettes à 9 €"
+      ],
+      "visual": "Gaspard, a 34-year-old French man with short brown hair, a slightly round belly and an oversized grey jogging suit, at a sports store counter holding out a bank card toward a card terminal showing a red cross, an athletic salesman with statue-like calves smiling kindly, colorful bright shop, comedic embarrassed mood",
+      "overlay": {
+        "kind": "stamp",
+        "text": "CARTE REFUSÉE",
+        "beat": 1
+      }
+    },
+    {
+      "type": "gag",
+      "title": "Le pigeon",
+      "caption": "Gaspard se fait doubler par un pigeon. À pied.",
+      "narration": "Jour quatre. Gaspard tente un kilomètre complet sans s'arrêter. Il serre les dents, il souffle comme une bouilloire, il y croit. À mi-chemin, sur le trottoir, un pigeon marche dans la même direction que lui. Le pigeon ne vole pas. Il marche. Et pendant une dizaine de mètres, il reste exactement à sa hauteur, puis le dépasse tranquillement. Le retraité du banc, témoin de la scène, applaudit. Gaspard termine son kilomètre quand même. En neuf minutes. Le pigeon, lui, est déjà loin.",
+      "onscreen": [
+        "1 km",
+        "9 minutes"
+      ],
+      "visual": "Gaspard, a 34-year-old French man with short brown hair, a slightly round belly and an oversized grey jogging suit, jogging on a sidewalk at full effort while a plump pigeon walks right next to him at the same speed, comic scene, sunny morning, passers-by laughing in the background"
+    },
+    {
+      "type": "day",
+      "title": "Jour 7",
+      "day": 23,
+      "level": 15,
+      "narration": "Jour sept. Une semaine. Gaspard a trouvé un plan sur internet. Courir une minute, marcher une minute, recommencer. Ça paraît ridicule, mais ça marche. Ce matin, il fait cinq kilomètres. Lentement. Très lentement. Mais en entier. En rentrant, il envoie une capture à Odette. Elle répond une minute plus tard. Bravo. Plus que trente-sept. Gaspard rit tout seul dans l'escalier. Niveau : quinze pour cent.",
+      "onscreen": [
+        "5 km",
+        "plus que 37"
+      ],
+      "visual": "Gaspard, a 34-year-old French man with short brown hair, a slightly round belly and an oversized grey jogging suit, jogging slowly along a riverside path with a proud happy face, a phone in his hand showing a map trail, golden morning light, trees, calm mood"
+    },
+    {
+      "type": "card_refused",
+      "title": "Les chaussures en carbone",
+      "item": "Chaussures à plaque carbone",
+      "price": "279,99 €",
+      "narration": "Jour dix. Une ampoule énorme sur le talon. Gaspard accuse ses vieilles baskets. Il a lu que les champions portent des chaussures à plaque de carbone qui rebondissent toutes seules. Deux cent soixante-dix-neuf euros quatre-vingt-dix-neuf. Il essaie de payer en ligne, à minuit, avec l'énergie du désespoir. Paiement refusé. Plafond atteint. Le lendemain, le vendeur aux mollets de statue lui trouve une paire de l'année dernière, à sa pointure, bien amortie. Soixante euros. Elles ne rebondissent pas toutes seules. Mais elles ne font pas d'ampoules.",
+      "onscreen": [
+        "PAIEMENT REFUSÉ",
+        "modèle 2025 : 60 €"
+      ],
+      "visual": "Gaspard, a 34-year-old French man with short brown hair, a slightly round belly and an oversized grey jogging suit, in his apartment at midnight in front of a laptop displaying futuristic carbon running shoes and a payment page with a red refusal sign, a huge blister bandage on his heel, desperate comic face, dim light",
+      "overlay": {
+        "kind": "stamp",
+        "text": "CARTE REFUSÉE",
+        "beat": 1
+      }
+    },
+    {
+      "type": "vidal",
+      "title": "Docteur Vidal, semaine 2",
+      "line": "Votre cœur va bien. C'est votre dignité qui m'inquiète.",
+      "narration": "Rendez-vous de la deuxième semaine. Gaspard arrive avec un pansement au talon, une genouillère prêtée par sa voisine, et une nouvelle confiance en lui. Le Docteur Vidal l'examine longuement. Votre cœur va bien. C'est votre dignité qui m'inquiète. Gaspard lui raconte le pigeon. Un sourcil du docteur monte d'un millimètre. Chez lui, c'est un fou rire. Puis il ajoute, plus sérieux : dormez, mangez, et n'augmentez pas trop vite.",
+      "onscreen": [
+        "cœur : OK",
+        "dignité : à surveiller"
+      ],
+      "visual": "Docteur Vidal, a deadpan French doctor in his 60s with grey hair, glasses, a white coat and a stethoscope, examining Gaspard, a 34-year-old French man with short brown hair, a slightly round belly and an oversized grey jogging suit's knee with a deadpan look while Gaspard, a 34-year-old French man with short brown hair, a slightly round belly and an oversized grey jogging suit has a bandaged heel and a borrowed knee brace, a consulting room, cheerful clinical light, comic mood"
+    },
+    {
+      "type": "gag",
+      "title": "Les gels énergétiques",
+      "caption": "Goût « fruits rouges ». Texture « colle de bureau ».",
+      "narration": "Jour quatorze. Premier essai de gel énergétique, comme les vrais marathoniens. Le paquet promet un goût fruits rouges. Gaspard l'ouvre en courant, le presse un peu trop fort, et la moitié du gel atterrit sur son sourcil. L'autre moitié a un goût de bonbon fondu dans de la colle. Il passe le reste de la sortie avec une mouche collée au front. Une passante lui demande s'il va bien. Il répond : je m'entraîne pour un marathon. Elle le regarde avec beaucoup de compassion.",
+      "onscreen": [
+        "gel fruits rouges",
+        "1 mouche collée"
+      ],
+      "visual": "Gaspard, a 34-year-old French man with short brown hair, a slightly round belly and an oversized grey jogging suit, running on a path with an energy gel exploding onto his eyebrow, bright red goo, shocked grimace, comic action, sunny morning, blurred park behind"
+    },
+    {
+      "type": "day",
+      "title": "Jour 15",
+      "day": 15,
+      "level": 40,
+      "narration": "Jour quinze. La moitié. Gaspard tente sa première longue sortie. Quinze kilomètres, le long du canal, en alternant toujours marche et course. Au dixième kilomètre, quelque chose se passe. Ses jambes ne lui font plus la guerre. Sa respiration trouve un rythme. Il pense à Odette en mille neuf cent soixante-dix-huit, seule femme de son club, avec probablement des chaussures en toile. Il termine en deux heures. Il pleure un peu, sans savoir pourquoi. Niveau : quarante pour cent.",
+      "onscreen": [
+        "15 km",
+        "2 heures"
+      ],
+      "visual": "Gaspard, a 34-year-old French man with short brown hair, a slightly round belly and an oversized grey jogging suit, running along a canal at sunset with a steady rhythm and a peaceful smile, rows of trees and houseboats, golden light, feeling of breakthrough"
+    },
+    {
+      "type": "narration",
+      "title": "Le genou",
+      "narration": "Jour dix-neuf. En descendant un escalier, une douleur pointue sous la rotule. Gaspard panique. Il imagine déjà l'abandon, le regard d'Odette, la pancarte inutile. Il se souvient de la phrase du docteur : si vous avez mal au genou, ce n'est pas de la motivation. Alors, pour la première fois, il fait la chose intelligente. Il s'arrête. Trois jours de repos, de la glace, du vélo d'appartement chez sa voisine. Ça lui coûte plus que n'importe quelle sortie. Mais au quatrième jour, la douleur a disparu.",
+      "onscreen": [
+        "3 jours de repos",
+        "la chose intelligente"
+      ],
+      "visual": "Gaspard, a 34-year-old French man with short brown hair, a slightly round belly and an oversized grey jogging suit, sitting on a staircase holding his knee with a worried face, a small cartoon red spark at the knee, afraid thoughts bubble with a giant sign shaped like an X, warm indoor evening light"
+    },
+    {
+      "type": "vidal",
+      "title": "Docteur Vidal, semaine 3",
+      "line": "Vous vous êtes reposé de vous-même ? Je vais devoir revoir mon diagnostic.",
+      "narration": "Le Docteur Vidal palpe le genou, vérifie, plie, déplie. Puis il le regarde avec quelque chose qui ressemble à du respect. Vous vous êtes reposé de vous-même ? Je vais devoir revoir mon diagnostic. Il range son stylo. Écoutez-moi bien. Le jour de la course, vous ne courez pas pour un chrono. Vous marchez quand il faut. Vous buvez à chaque ravitaillement. Et si quelque chose ne va pas, vous vous arrêtez. Gaspard hoche la tête. En partant, il remarque une photo sur le bureau. Le Docteur Vidal, plus jeune, avec un dossard.",
+      "onscreen": [
+        "marcher quand il faut",
+        "un dossard sur le bureau"
+      ],
+      "visual": "Docteur Vidal, a deadpan French doctor in his 60s with grey hair, glasses, a white coat and a stethoscope, nodding with surprised respect in front of Gaspard, a 34-year-old French man with short brown hair, a slightly round belly and an oversized grey jogging suit sitting on the exam table, handing him a certificate, warm friendly consulting room, soft light, humorous mood"
+    },
+    {
+      "type": "day",
+      "title": "Jour 23",
+      "day": 7,
+      "level": 65,
+      "narration": "Jour vingt-trois. Dernière longue sortie. Vingt-cinq kilomètres. Le retraité aux pigeons l'accompagne à vélo pendant les cinq premiers, avec un sac de pain sur le porte-bagages. Gaspard tient. Il ne court pas vite, il ne court pas toujours, mais il avance. Au vingt-cinquième kilomètre, il est vidé, couvert de sel, et heureux comme un enfant. Le plan dit qu'il faut maintenant réduire, laisser le corps récupérer. Pour la première fois de sa vie, Gaspard a hâte d'être à un lundi. Niveau : soixante-cinq pour cent.",
+      "onscreen": [
+        "25 km",
+        "plus que 7 jours"
+      ],
+      "visual": "Gaspard, a 34-year-old French man with short brown hair, a slightly round belly and an oversized grey jogging suit, running on a long rural road with the friendly retired man with a flat cap and green jacket cycling beside him with a bag of bread on the bike rack, pigeons following overhead, golden afternoon light, tired but joyful"
+    },
+    {
+      "type": "gag",
+      "title": "La veille",
+      "caption": "Préparation mentale : niveau expert. Préparation du sac : niveau pâtes.",
+      "narration": "La veille de la course, Gaspard prépare ses affaires comme un astronaute. Dossard, épingles, chaussures, chaussettes à neuf euros, gels qu'il ne touchera pas. Il fait une plâtrée de pâtes si énorme que la casserole déborde sur la plaque. L'alarme incendie se déclenche à vingt-deux heures. Toute la résidence descend sur le parking en pyjama. Les voisins apprennent qu'il court un marathon le lendemain. Ils l'applaudissent sous la pluie. Gaspard, une serviette sur la tête, salue la foule comme un champion.",
+      "onscreen": [
+        "22 h : alarme incendie",
+        "standing ovation"
+      ],
+      "visual": "Gaspard, a 34-year-old French man with short brown hair, a slightly round belly and an oversized grey jogging suit, in a messy kitchen with a gigantic pot of pasta boiling over onto the stove, a fire alarm ringing, neighbors in pajamas peeking through the door, race bib on the table, comic chaotic night light"
+    },
+    {
+      "type": "day",
+      "title": "Le jour J",
+      "day": 0,
+      "level": 100,
+      "narration": "Jour J. Huit heures trente. Dix mille coureurs sur la ligne de départ. Gaspard se place tout au fond, avec les déguisés et les prudents. Le coup de feu part. Il court une minute, marche une minute, comme à l'entraînement. Au dixième kilomètre, il a mal partout. Au vingtième, il double un homme déguisé en banane, ce qui lui redonne de l'espoir. Au trentième, il marche longtemps. Il boit, il mange, il continue. Il ne regarde plus le chrono. Il compte seulement les kilomètres jusqu'au quarantième.",
+      "onscreen": [
+        "J-0",
+        "10 000 coureurs"
+      ],
+      "visual": "Gaspard, a 34-year-old French man with short brown hair, a slightly round belly and an oversized grey jogging suit, at the back of a crowd of ten thousand runners at a city marathon start line, among costumed runners, determined pale face, bright morning sun, balloons, festive mood",
+      "overlay": {
+        "kind": "banner",
+        "text": "JOUR J",
+        "beat": 1
+      }
+    },
+    {
+      "type": "narration",
+      "title": "Kilomètre 40",
+      "narration": "Et au quarantième kilomètre, elle est là. Odette, dans son fauteuil roulant, emmitouflée dans une couverture, avec le retraité aux pigeons qui la pousse. Sur la pancarte, en lettres tremblées : je t'avais dit de ne pas me faire attendre. Gaspard s'arrête. Il la serre dans ses bras, transpirant, en larmes. Elle lui glisse quelque chose dans la main. Une vieille médaille de mille neuf cent soixante-dix-huit. Elle dit : rends-la-moi à l'arrivée, avec la tienne. Gaspard repart. Deux kilomètres. Il court tout du long.",
+      "onscreen": [
+        "km 40",
+        "médaille 1978"
+      ],
+      "visual": "Odette, an 88-year-old French grandmother with short white hair, a red knitted cardigan and sparkling blue eyes, in a wheelchair wrapped in a blanket holding a homemade sign with wobbly handwriting, with the friendly retired man with a flat cap and green jacket pushing her, on the roadside of a marathon at kilometre forty, emotional warm smile, sunny light, crowd cheering behind"
+    },
+    {
+      "type": "outro",
+      "title": "Six heures quarante",
+      "narration": "Gaspard franchit la ligne en six heures et quarante minutes. Parmi les derniers. Sous les applaudissements de ceux qui sont restés. Il revient au quarantième kilomètre, deux médailles autour du cou, et en accroche une à Odette. Ce soir-là, il reçoit un message du Docteur Vidal. Une seule phrase : rubrique humour annulée. La morale, c'est qu'on ne se transforme pas en trente jours. On commence. Et on n'a pas besoin d'être rapide, seulement de ne pas s'arrêter avant les gens qui nous attendent. Et toi, qui t'attend au quarantième kilomètre ?",
+      "onscreen": [
+        "6 h 40",
+        "qui t'attend au km 40 ?"
+      ],
+      "visual": "Gaspard, a 34-year-old French man with short brown hair, a slightly round belly and an oversized grey jogging suit, crossing a marathon finish line with arms wide open, two medals around his neck, tears and a big smile, Odette, an 88-year-old French grandmother with short white hair, a red knitted cardigan and sparkling blue eyes in her wheelchair beside him with a medal, confetti, golden evening light"
+    }
+  ],
+  "short": {
+    "hook_text": "42 KM DANS 30 JOURS",
+    "narration": "Gaspard n'a jamais couru de sa vie. Et ce matin, il reçoit un mail : votre inscription au marathon est confirmée, départ dans trente jours. C'est sa grand-mère de quatre-vingt-huit ans qui l'a inscrit. Jour un, il fait huit cents mètres et finit sur un banc avec un retraité qui nourrit des pigeons. Jour quatre, il se fait doubler par un pigeon. À pied. Sa carte est refusée deux fois, une montre à trois cent cinquante euros, des chaussures à presque trois cents. Et le Docteur Vidal lui dit : un marathon dans trente jours ? Je vais noter ça dans la rubrique humour. Mais au quarantième kilomètre, quelqu'un l'attend avec une pancarte. Le film complet est sur la chaîne.",
+    "cta": "Le film complet est sur la chaîne",
+    "visuals": [
+      {
+        "p": "Gaspard, a 34-year-old French man with short brown hair, a slightly round belly and an oversized grey jogging suit, on a sofa reading an email on his laptop, stunned face, a bowl of pasta in his hand, evening TV light"
+      },
+      {
+        "p": "Gaspard, a 34-year-old French man with short brown hair, a slightly round belly and an oversized grey jogging suit, at a table in a small kitchen opening a laptop email with a running shoe icon and a calendar, shocked face, morning light",
+        "at": "Et ce matin, il reçoit"
+      },
+      {
+        "p": "Odette, an 88-year-old French grandmother with short white hair, a red knitted cardigan and sparkling blue eyes, an 88-year-old French grandmother with short white hair and a red knitted cardigan, smiling proudly with a wink in a cozy living room, a race bib in her hand, warm light",
+        "at": "C'est sa grand-mère"
+      },
+      {
+        "p": "Gaspard, a 34-year-old French man with short brown hair, a slightly round belly and an oversized grey jogging suit, on a bench exhausted next to the friendly retired man with a flat cap and green jacket feeding pigeons, soft dawn light, comic tiredness",
+        "at": "Jour un, il fait",
+        "overlay": {
+          "kind": "chip",
+          "text": "JOUR 1 : 800 m"
+        }
+      },
+      {
+        "p": "Gaspard, a 34-year-old French man with short brown hair, a slightly round belly and an oversized grey jogging suit, jogging with all his effort while a plump pigeon strolls beside him at the same speed overtaking him, comic, sunny street",
+        "at": "Jour quatre, il se fait",
+        "overlay": {
+          "kind": "chip",
+          "text": "DOUBLÉ PAR UN PIGEON"
+        }
+      },
+      {
+        "p": "Gaspard, a 34-year-old French man with short brown hair, a slightly round belly and an oversized grey jogging suit, holding a bank card at a sports shop terminal that shows a red cross, a salesman smiling kindly, bright colorful shop",
+        "at": "Sa carte est refusée",
+        "overlay": {
+          "kind": "stamp",
+          "text": "CARTE REFUSÉE"
+        }
+      },
+      {
+        "p": "Docteur Vidal, a deadpan French doctor in his 60s with grey hair, glasses, a white coat and a stethoscope, in a bright consulting room with a deadpan expression, hands crossed, Gaspard, a 34-year-old French man with short brown hair, a slightly round belly and an oversized grey jogging suit sheepish on the exam table, white light",
+        "at": "Et le Docteur Vidal"
+      },
+      {
+        "p": "Gaspard, a 34-year-old French man with short brown hair, a slightly round belly and an oversized grey jogging suit, running slowly on a long road toward a bright horizon with a determined face, golden hour, big sky",
+        "at": "Mais au quarantième kilomètre"
+      },
+      {
+        "p": "Odette, an 88-year-old French grandmother with short white hair, a red knitted cardigan and sparkling blue eyes, in a wheelchair wrapped in a blanket holding a homemade wobbly sign at the roadside of a marathon, the friendly retired man with a flat cap and green jacket pushing her, crowd cheering behind, warm emotional light",
+        "at": "quelqu'un l'attend"
+      },
+      {
+        "p": "Gaspard, a 34-year-old French man with short brown hair, a slightly round belly and an oversized grey jogging suit, walking tired but proud at sunset on an empty road with two medals around his neck, long warm shadow, soft golden light",
+        "at": "Le film complet"
+      }
+    ]
+  },
+  "visual_bible": {
+    "gaspard": "Gaspard, a 34-year-old French man with short brown hair, a slightly round belly and an oversized grey jogging suit",
+    "odette": "Odette, an 88-year-old French grandmother with short white hair, a red knitted cardigan and sparkling blue eyes",
+    "vidal": "Docteur Vidal, a deadpan French doctor in his 60s with grey hair, glasses, a white coat and a stethoscope",
+    "retired": "a friendly retired man with a flat cap, a green jacket and a bag of bread crumbs, feeding pigeons"
+  }
+}

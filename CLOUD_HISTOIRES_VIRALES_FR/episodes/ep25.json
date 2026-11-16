@@ -1,0 +1,303 @@
+{
+  "id": 25,
+  "slug": "3-regles-confiance-en-soi-science",
+  "formula": "homodeus",
+  "title": "Les 3 règles de la confiance en soi, selon la science",
+  "thumbnail": {
+    "line1": "LA VRAIE CONFIANCE",
+    "line2": "ce que dit la science",
+    "accent": "#00C2FF",
+    "visual": "a young French woman with a ponytail, a white t-shirt and jeans, determined close-up face on the right with a calm confident smile, behind her a crowd of silhouettes nodding while she stands apart, strong cyan and dark blue lighting"
+  },
+  "youtube": {
+    "title": "Les 3 règles de la confiance en soi, selon la science",
+    "description": "On te répète d'avoir confiance en toi comme si c'était un interrupteur. La science raconte autre chose : la confiance se construit, se mesure, et se teste face aux autres.\n\nDans ce film, trois règles, trois histoires, et deux études réelles : Kruger et Dunning à Cornell en 1999, et l'expérience de conformité de Solomon Asch en 1951. Avec leurs chiffres exacts, et leurs limites honnêtes.\n\nQuelle règle te parle le plus ? Dis-le en commentaire.",
+    "tags": [
+      "confiance en soi",
+      "psychologie",
+      "dunning kruger",
+      "asch",
+      "conformité",
+      "estime de soi",
+      "développement personnel",
+      "science",
+      "habitudes",
+      "timidité",
+      "les 3 règles",
+      "étude",
+      "mental",
+      "courage",
+      "français"
+    ],
+    "pinned_comment": "Quand as-tu eu le courage de dire non alors que tout le monde disait oui ? Raconte en une phrase."
+  },
+  "scenes": [
+    {
+      "type": "hook",
+      "title": "Le mensonge du miroir",
+      "narration": "On t'a sûrement déjà dit de te regarder dans le miroir et de te répéter que tu es génial. Que la confiance en soi, c'est une question d'attitude. Qu'il suffit d'y croire. Le problème, c'est que ça ne marche presque jamais. Tu le sais, parce que tu as essayé. Et si la confiance ne venait pas de ce que tu te dis, mais de ce que tu fais, de ce que tu mesures, et de ce que tu oses face aux autres ? Voici trois règles. Et cette fois, c'est la science qui parle.",
+      "onscreen": [
+        "la confiance",
+        "selon la science"
+      ],
+      "visual": "a young French woman with a ponytail, a white t-shirt and jeans, standing in front of a bathroom mirror trying to motivate herself with a forced smile, a sticky note on the mirror with no writing, doubtful eyes, soft cool morning light, empty space above"
+    },
+    {
+      "type": "narration",
+      "title": "Deux sortes de confiance",
+      "narration": "Avant de commencer, une distinction. Il existe une confiance bruyante, celle qui parle fort, qui coupe la parole, qui ne doute jamais. Et une confiance tranquille, celle qui sait ce qu'elle vaut, qui peut dire je ne sais pas sans trembler, et qui tient debout quand tout le monde pousse dans l'autre sens. La première impressionne pendant cinq minutes. La seconde dure toute une vie. Les trois règles qui suivent parlent uniquement de la seconde. Et la bonne nouvelle, c'est qu'elle s'apprend.",
+      "onscreen": [
+        "confiance bruyante",
+        "confiance tranquille"
+      ],
+      "visual": "Two silhouettes side by side in a university hallway, one loud person talking with arms wide in a crowd, and one calm person standing peacefully with a gentle smile, split warm and cool light, minimal clean mood"
+    },
+    {
+      "type": "rule",
+      "title": "Règle 1",
+      "number": 1,
+      "rule": "La confiance suit l'action, elle ne la précède pas.",
+      "narration": "Première règle. La confiance suit l'action, elle ne la précède pas. On attend souvent de se sentir prêt pour agir. Mais le sentiment d'être prêt arrive presque toujours après. C'est le cerveau qui regarde ce que tu as fait, et qui en conclut ce que tu es. Si tu n'agis jamais, il n'a aucune preuve. Et sans preuve, il choisit la prudence.",
+      "onscreen": [
+        "RÈGLE 1",
+        "l'action d'abord"
+      ],
+      "visual": "Inès, a 24-year-old French woman with long black wavy hair, a green parka jacket and silver hoop earrings, taking a first big step forward on a stage stairway toward a spotlight, nervous but determined, a small glowing footprint trail on the floor behind her, warm theatre light",
+      "overlay": {
+        "kind": "banner",
+        "text": "RÈGLE 1",
+        "beat": 1
+      }
+    },
+    {
+      "type": "narration",
+      "title": "Inès et le micro",
+      "narration": "Prends Inès. Vingt-quatre ans, une voix magnifique, et une peur panique de chanter devant quelqu'un. Pendant des années, elle attend le jour où elle se sentira prête. Ce jour ne vient pas. Alors elle change de méthode. Elle chante une seule phrase devant sa coloc. Puis un couplet devant deux amis. Puis une chanson entière dans un bar presque vide, un mardi soir, devant six personnes et un chien. Elle tremble à chaque fois. Mais à chaque fois, son cerveau note une preuve. Six mois plus tard, elle chante sur scène. Elle a toujours le trac. Elle a simplement accumulé assez de preuves pour savoir qu'elle y survit.",
+      "onscreen": [
+        "1 phrase",
+        "1 couplet",
+        "1 scène"
+      ],
+      "visual": "Inès, a 24-year-old French woman with long black wavy hair, a green parka jacket and silver hoop earrings, singing a song with closed eyes in a small bar to a handful of friends holding a microphone, warm string lights, supportive audience smiling, cozy amber light"
+    },
+    {
+      "type": "narration",
+      "title": "Le piège de l'attitude",
+      "narration": "Tu as peut-être entendu parler des postures de pouvoir. En deux mille dix, Carney, Cuddy et Yap annonçaient que tenir une posture de superhéros pendant deux minutes changeait tes hormones. L'idée a fait le tour du monde. Mais en deux mille quinze, l'équipe de Ranehill a refait l'expérience avec plus de participants, et l'effet hormonal n'est pas réapparu. Se tenir droit ne fait pas de mal. Mais ce n'est pas un raccourci. La vraie posture qui compte, c'est celle que tu prends en faisant la chose qui te fait peur.",
+      "onscreen": [
+        "posture de pouvoir ?",
+        "effet non reproduit"
+      ],
+      "visual": "A university lab with a man striking a superhero pose with fists on hips in front of a mirror, a researcher with a clipboard looking skeptical, saliva test tubes on a table, bright clinical light"
+    },
+    {
+      "type": "rule",
+      "title": "Règle 2",
+      "number": 2,
+      "rule": "Mesure-toi au lieu de te deviner.",
+      "narration": "Deuxième règle. Mesure-toi au lieu de te deviner. La confiance solide repose sur une image juste de toi-même. Ni gonflée, ni écrasée. Et le problème, c'est que nous sommes très mauvais pour nous évaluer à l'œil nu. Surtout dans les domaines où nous débutons.",
+      "onscreen": [
+        "RÈGLE 2",
+        "mesure, ne devine pas"
+      ],
+      "visual": "Malik, a 28-year-old French man of North African descent with short black hair, a beard, glasses and a checked blue shirt, a worried beginner developer at a desk with a laptop, a foggy thought cloud above him and a mirror reflecting a distorted size, evening office light, doubtful look",
+      "overlay": {
+        "kind": "banner",
+        "text": "RÈGLE 2",
+        "beat": 1
+      }
+    },
+    {
+      "type": "study",
+      "title": "L'étude de Cornell",
+      "institution": "Université Cornell",
+      "year": 1999,
+      "authors": "Justin Kruger et David Dunning",
+      "finding": "Le quart le moins performant a obtenu un score au 12e percentile mais s'est estimé au 62e.",
+      "stat": {
+        "label": "Quart le moins performant (percentile)",
+        "values": [
+          {
+            "name": "Score réel",
+            "value": 12
+          },
+          {
+            "name": "Score estimé",
+            "value": 62
+          }
+        ]
+      },
+      "caveat": "Une partie de l'écart peut venir d'un effet statistique : tout le monde a tendance à se placer vers la moyenne. L'effet existe, mais il est souvent exagéré en ligne.",
+      "narration": "En mille neuf cent quatre-vingt-dix-neuf, à l'Université Cornell, Justin Kruger et David Dunning font passer des tests de logique, de grammaire et d'humour à des étudiants. Puis ils leur demandent comment ils pensent s'en être sortis. Le quart le moins performant a obtenu un score au douzième percentile. Mais il s'est estimé au soixante-deuxième. Autrement dit, ceux qui en savaient le moins se croyaient au-dessus de la moyenne. Une nuance honnête quand même. Une partie de cet écart peut venir d'un simple effet statistique, et l'effet est souvent exagéré sur internet. Mais la leçon tient. Sans mesure, ton impression peut te tromper.",
+      "onscreen": [
+        "réel : 12e percentile",
+        "estimé : 62e"
+      ],
+      "visual": "Professor Asch, a 55-year-old man with grey hair, a tweed jacket and a bow tie, in a 1999 university classroom, a group of students taking a test at wooden desks, one overconfident student smiling widely while holding a paper, a chart-like ladder of steps drawn on the blackboard with no text, warm academic light"
+    },
+    {
+      "type": "narration",
+      "title": "Malik et le carnet",
+      "narration": "Malik, lui, avait le problème inverse. Développeur débutant, il était persuadé d'être nul. Chaque réunion était une torture, chaque question une preuve de son incompétence. Son manager lui a proposé une chose simple. Un carnet. Chaque vendredi, noter trois problèmes résolus dans la semaine, et une chose apprise. Pas ce qu'il ressentait. Ce qu'il avait fait. Au bout de trois mois, le carnet contenait près de quarante problèmes résolus. Malik l'a relu un soir, et il a compris que son impression et la réalité ne racontaient pas la même histoire.",
+      "onscreen": [
+        "3 problèmes résolus",
+        "chaque vendredi"
+      ],
+      "visual": "Malik, a 28-year-old French man of North African descent with short black hair, a beard, glasses and a checked blue shirt, writing in a small notebook at his desk on a Friday evening with a pen, a little smile of relief, a mug of tea, laptop closed, warm desk lamp glow"
+    },
+    {
+      "type": "narration",
+      "title": "Pourquoi mesurer rassure",
+      "narration": "C'est tout l'intérêt de la mesure. Elle protège dans les deux sens. Si tu te surestimes, elle te ramène sur terre avant que le monde ne s'en charge de façon plus brutale. Si tu te sous-estimes, elle te montre les preuves que ton cerveau refuse de voir. Un chronomètre, un carnet, une vidéo de toi en train de parler, un avis franc d'une personne compétente. Ce ne sont pas des outils pour te juger. Ce sont des outils pour te connaître. Et on n'a pas peur de ce qu'on connaît bien.",
+      "onscreen": [
+        "chrono, carnet, vidéo",
+        "se connaître"
+      ],
+      "visual": "Malik, a 28-year-old French man of North African descent with short black hair, a beard, glasses and a checked blue shirt, looking at an open notebook full of check marks and a stopwatch and a video camera on a tripod on the desk, a confident growing smile, bright morning light"
+    },
+    {
+      "type": "rule",
+      "title": "Règle 3",
+      "number": 3,
+      "rule": "La vraie confiance, c'est oser être le désaccord.",
+      "narration": "Troisième règle. La vraie confiance, c'est oser être le désaccord. Être sûr de soi quand tout le monde est d'accord avec toi, c'est facile. Le vrai test, c'est de garder ton jugement quand le groupe entier pense le contraire.",
+      "onscreen": [
+        "RÈGLE 3",
+        "oser dire non"
+      ],
+      "visual": "A group of cartoon people in a meeting room all raising their hands in agreement, one person in the middle keeping hand down, spotlight on him, dramatic contrast between warm and cool light",
+      "overlay": {
+        "kind": "banner",
+        "text": "RÈGLE 3",
+        "beat": 1
+      }
+    },
+    {
+      "type": "study",
+      "title": "Les lignes de Swarthmore",
+      "institution": "Swarthmore College",
+      "year": 1951,
+      "authors": "Solomon Asch",
+      "finding": "Environ 75 % des participants se sont conformés au moins une fois à une réponse de groupe manifestement fausse ; la conformité atteint environ 37 % des essais critiques.",
+      "stat": {
+        "label": "Conformité au groupe (%)",
+        "values": [
+          {
+            "name": "Participants conformés au moins une fois",
+            "value": 75
+          },
+          {
+            "name": "Essais critiques conformés",
+            "value": 37
+          }
+        ]
+      },
+      "caveat": "Expérience menée sur des étudiants américains des années 1950 ; les résultats varient selon les époques et les cultures, et la majorité des réponses sont restées indépendantes.",
+      "narration": "En mille neuf cent cinquante et un, au Swarthmore College, Solomon Asch montre à des étudiants une ligne, puis trois autres lignes, et demande laquelle a la même longueur. C'est évident. Sauf que les autres personnes dans la pièce sont des complices, et qu'ils donnent tous la même mauvaise réponse. Résultat. Environ soixante-quinze pour cent des participants se sont conformés au moins une fois. Et la conformité atteint environ trente-sept pour cent des essais critiques. La nuance, c'était des étudiants américains des années cinquante, et la majorité des réponses sont restées justes. Mais trois personnes sur quatre ont plié au moins une fois, face à une évidence.",
+      "onscreen": [
+        "75 % ont plié une fois",
+        "37 % des essais"
+      ],
+      "visual": "Professor Asch, a 55-year-old man with grey hair, a tweed jacket and a bow tie, in 1951 a classroom with seven students seated in a row looking at cards with lines, one student at the end with a puzzled worried face, dim vintage lighting, tension",
+      "overlay": {
+        "kind": "chip",
+        "text": "75 % SE CONFORMENT",
+        "beat": 1
+      }
+    },
+    {
+      "type": "narration",
+      "title": "Noé en réunion",
+      "narration": "Noé travaille dans une petite entreprise de transport. Un lundi, son directeur présente un nouveau planning. Tout le monde hoche la tête. Noé voit une erreur. Deux camions programmés pour le même quai à la même heure. Il sent la pression monter. Personne ne dit rien, alors peut-être que c'est lui qui se trompe. Il respire, et il lève la main. Je crois qu'il y a un conflit sur le quai trois. Silence. Le directeur vérifie. Noé a raison. Ce jour-là, il n'a rien gagné de spectaculaire. Mais il a appris qu'il pouvait tenir debout seul. Et ça, aucune affirmation devant le miroir ne le lui avait jamais appris.",
+      "onscreen": [
+        "quai 3",
+        "il lève la main"
+      ],
+      "visual": "Noé, a 35-year-old French man with short blond hair, a navy sweater and a lanyard badge, in a meeting room at a transport company, standing with his hand raised to speak while colleagues nod around the table, a screen behind with a schedule with two trucks colliding at one dock, tense but calm mood, cold office light"
+    },
+    {
+      "type": "narration",
+      "title": "Ce que les trois règles ont en commun",
+      "narration": "Regarde bien. Inès agit avant de se sentir prête. Malik mesure au lieu de deviner. Noé ose être le désaccord. Aucun des trois ne s'est réveillé un matin avec une confiance magique. Ils ont tous construit quelque chose de concret, une preuve après l'autre. La confiance tranquille n'est pas un trait de caractère réservé à quelques chanceux. C'est un dossier. Un dossier de preuves que tu remplis toi-même, jour après jour, et que personne ne peut te reprendre.",
+      "onscreen": [
+        "agir",
+        "mesurer",
+        "oser"
+      ],
+      "visual": "Inès, a 24-year-old French woman with long black wavy hair, a green parka jacket and silver hoop earrings, Malik, a 28-year-old French man of North African descent with short black hair, a beard, glasses and a checked blue shirt and Noé, a 35-year-old French man with short blond hair, a navy sweater and a lanyard badge standing side by side on a bridge at sunrise looking toward the city, each holding a small glowing trophy-like token of proof, determined peaceful smiles, golden light"
+    },
+    {
+      "type": "narration",
+      "title": "Ce que la confiance n'est pas",
+      "narration": "Et pour finir, trois idées reçues à jeter. La confiance n'est pas l'absence de peur. Inès a toujours le trac, et c'est très bien comme ça. La confiance n'est pas non plus la certitude d'avoir raison. Malik se trompe encore, mais il le voit plus vite, et il corrige sans se détester. Enfin, la confiance n'est pas l'arrogance. Noé n'a humilié personne en réunion. Il a juste posé une question précise, calmement, en acceptant de pouvoir se tromper. Les gens vraiment sûrs d'eux n'ont pas besoin de gagner chaque discussion. Ils ont seulement besoin de ne pas se trahir eux-mêmes. C'est moins spectaculaire qu'une posture de superhéros. Mais c'est beaucoup plus solide quand la vie devient difficile.",
+      "onscreen": [
+        "pas sans peur",
+        "pas arrogante"
+      ],
+      "visual": "Inès, a 24-year-old French woman with long black wavy hair, a green parka jacket and silver hoop earrings trembling slightly but singing, Malik, a 28-year-old French man of North African descent with short black hair, a beard, glasses and a checked blue shirt making a mistake and smiling while fixing it on a laptop, Noé, a 35-year-old French man with short blond hair, a navy sweater and a lanyard badge politely disagreeing in a meeting, three small scenes in a triptych, warm honest light"
+    },
+    {
+      "type": "outro",
+      "title": "Ta première preuve",
+      "narration": "Alors voici ton défi pour cette semaine. Choisis une seule petite chose qui te fait un peu peur, et fais-la. Note-la quelque part, avec la date. Et la prochaine fois que tu seras d'accord avec tout le monde par réflexe, demande-toi si tu l'es vraiment. Ce n'est pas spectaculaire. C'est comme ça que commence la confiance qui dure. Et toi, quelle règle te manque le plus en ce moment ? Agir, mesurer, ou oser ? Réponds en un mot dans les commentaires.",
+      "onscreen": [
+        "1 petite peur",
+        "agir, mesurer, oser ?"
+      ],
+      "visual": "a young French woman with a ponytail, a white t-shirt and jeans, writing a date and a small action in a notebook at a sunny desk, a cup of tea and a window with plants, a gentle confident smile, warm morning light"
+    }
+  ],
+  "short": {
+    "hook_text": "75 % ONT PLIÉ",
+    "narration": "Trois personnes sur quatre ont menti sur une évidence, juste pour faire comme le groupe. En mille neuf cent cinquante et un, au Swarthmore College, Solomon Asch montre des lignes à des étudiants et demande laquelle a la même longueur. C'est facile. Sauf que tous les autres dans la pièce sont des complices, et donnent la même mauvaise réponse. Environ soixante-quinze pour cent des participants se sont conformés au moins une fois. Alors c'est quoi, la vraie confiance en soi ? Pas se répéter qu'on est génial devant le miroir. La science dit autre chose. Il y a trois règles, et la deuxième vient d'une étude de Cornell qui va te faire douter de tout ce que tu crois savoir sur toi. Le film complet est sur la chaîne.",
+    "cta": "Le film complet est sur la chaîne",
+    "visuals": [
+      {
+        "p": "One young student in a 1951 classroom raising a hand and giving an obviously wrong answer with an embarrassed face while six others nod, vintage warm light, tense mood"
+      },
+      {
+        "p": "Professor Asch, a 55-year-old man with grey hair, a tweed jacket and a bow tie, in a 1951 college classroom showing a card with lines to seven seated students, the six actors all pointing at the same wrong line while one real student at the end looks puzzled and uneasy, vintage warm light",
+        "at": "En mille neuf cent"
+      },
+      {
+        "p": "Professor Asch, a 55-year-old man with grey hair, a tweed jacket and a bow tie, whispering with six smiling students in a hallway, the accomplices winking secretly while a lone confused student waits outside the door, vintage light",
+        "at": "Sauf que tous les autres"
+      },
+      {
+        "p": "A big group of cartoon students with three quarters of them highlighted in glowing blue nodding in agreement, one student apart in the shadow, vintage classroom, dramatic light",
+        "at": "Environ soixante-quinze",
+        "overlay": {
+          "kind": "chip",
+          "text": "75 % SE CONFORMENT"
+        }
+      },
+      {
+        "p": "a young French woman with a ponytail, a white t-shirt and jeans, standing alone in a spotlight on an empty stage, hands open and wondering, soft blue light",
+        "at": "Alors c'est quoi"
+      },
+      {
+        "p": "a young French woman with a ponytail, a white t-shirt and jeans, in front of a bathroom mirror doing a forced pep talk with a smile, doubtful eyes, soft cool light",
+        "at": "Pas se répéter"
+      },
+      {
+        "p": "A glowing scientific lab with a giant magnifying glass over a human brain and three glowing doors, cool blue light, mysterious curious mood, cinematic dramatic lighting, expressive faces, rich colors",
+        "at": "La science dit autre chose"
+      },
+      {
+        "p": "Inès, a 24-year-old French woman with long black wavy hair, a green parka jacket and silver hoop earrings, Malik, a 28-year-old French man of North African descent with short black hair, a beard, glasses and a checked blue shirt and Noé, a 35-year-old French man with short blond hair, a navy sweater and a lanyard badge standing together in front of three glowing numbered doors without text, curious and ready, cool cyan light",
+        "at": "Il y a trois règles"
+      },
+      {
+        "p": "Professor Asch, a 55-year-old man with grey hair, a tweed jacket and a bow tie, in a 1999 university lab with a clipboard and a student overconfidently pointing to the top of a tall bar chart with no labels, warm academic light",
+        "at": "et la deuxième vient"
+      }
+    ]
+  },
+  "visual_bible": {
+    "narrator": "a young French person in a casual grey t-shirt with short brown hair",
+    "ines": "Inès, a 24-year-old French woman with long black wavy hair, a green parka jacket and silver hoop earrings",
+    "malik": "Malik, a 28-year-old French man of North African descent with short black hair, a beard, glasses and a checked blue shirt",
+    "noe": "Noé, a 35-year-old French man with short blond hair, a navy sweater and a lanyard badge",
+    "prof": "Professor Asch, a 55-year-old man with grey hair, a tweed jacket and a bow tie"
+  }
+}

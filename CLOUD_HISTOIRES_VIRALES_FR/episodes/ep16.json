@@ -1,0 +1,358 @@
+{
+  "id": 16,
+  "slug": "argent-double-chaque-jour-30-jours",
+  "formula": "etsilab",
+  "title": "Et si ton argent doublait chaque jour pendant 30 jours ?",
+  "thumbnail": {
+    "line1": "1 CENTIME × 2 × 30",
+    "line2": "ou 1 million tout de suite ?",
+    "accent": "#FFD400",
+    "visual": "Maxime, a 29-year-old French man with curly dark blond hair, a light beard and a mustard yellow sweater in close-up with a stunned wide-eyed face, on the right a tiny glowing coin on a table next to a giant glowing million euro check, split between them a steep exponential curve, bold yellow and deep blue lighting"
+  },
+  "youtube": {
+    "title": "Et si ton argent doublait chaque jour pendant 30 jours ?",
+    "description": "Un inconnu te fait une offre : un million d'euros, tout de suite. Ou un seul centime, qui double chaque jour pendant trente jours. Tu as dix secondes pour choisir.\n\nDans ce scénario « Et si… », on suit jour après jour la puissance de la croissance exponentielle, avec un compteur qui double en direct à l'écran. Pourquoi les vingt premiers jours sont si décevants. Pourquoi tout explose à la fin. Et ce que ça dit de ton épargne, de tes crédits et de tes habitudes.\n\nAttention à la phase 2 : la règle va changer, et elle va coûter très cher.",
+    "tags": [
+      "et si",
+      "intérêts composés",
+      "argent",
+      "croissance exponentielle",
+      "1 centime",
+      "doubler",
+      "épargne",
+      "investir",
+      "mathématiques",
+      "expérience de pensée",
+      "dette",
+      "crédit",
+      "finance personnelle",
+      "devenir riche",
+      "phase 2"
+    ],
+    "pinned_comment": "Sois honnête : tu aurais pris le million tout de suite, ou le centime ?"
+  },
+  "counter": {
+    "label": "SOLDE",
+    "start": 0.01,
+    "rate": 0,
+    "unit": "€",
+    "decimals": 2,
+    "mode": "exp",
+    "base": 2,
+    "period": 18
+  },
+  "scenes": [
+    {
+      "type": "hook",
+      "title": "L'offre",
+      "narration": "Un homme en manteau gris s'assoit en face de toi, dans un café. Il pose deux enveloppes sur la table. Dans la première, il y a un chèque d'un million d'euros. Tu peux l'encaisser aujourd'hui. Dans la deuxième, il y a une pièce d'un centime. Un seul. Mais ce centime va doubler chaque jour, pendant trente jours. Tu as dix secondes pour choisir. Ton instinct hurle de prendre le million. Et pourtant, ta main se pose sur la deuxième enveloppe.",
+      "onscreen": [
+        "1 000 000 €",
+        "ou",
+        "0,01 € × 2 chaque jour"
+      ],
+      "visual": "cozy Paris cafe, a mysterious man in a long grey coat and a grey fedora with a calm knowing smile sitting across from Maxime, a 29-year-old French man with curly dark blond hair, a light beard and a mustard yellow sweater and placing two envelopes on the table, one with a glowing check and one with a tiny shining coin, Maxime, a 29-year-old French man with curly dark blond hair, a light beard and a mustard yellow sweater gripping the table with wide eyes, warm amber light, suspenseful mood",
+      "overlay": {
+        "kind": "banner",
+        "text": "1 MILLION OU 1 CENTIME ?",
+        "beat": 0
+      }
+    },
+    {
+      "type": "narration",
+      "title": "Les règles du jeu",
+      "narration": "L'homme sourit, et il t'explique les règles. Chaque matin à minuit, ton solde sera multiplié par deux. Tu ne peux rien retirer avant le trentième jour. Tu ne peux pas annuler. Et si tu racontes l'offre à quelqu'un, tout s'arrête. Il se lève, pose un billet pour son café, et s'en va sans se retourner. Sur ton téléphone, une nouvelle application est apparue. Un compteur. Il affiche zéro euro et un centime. Jour un. Tu te sens déjà un peu idiot.",
+      "onscreen": [
+        "Jour 1",
+        "0,01 €"
+      ],
+      "visual": "a mysterious man in a long grey coat and a grey fedora with a calm knowing smile leaving a cafe after laying a banknote on the table, Maxime, a 29-year-old French man with curly dark blond hair, a light beard and a mustard yellow sweater alone staring at a phone with a new glowing app showing a single tiny coin, warm amber cafe light, mysterious mood",
+      "overlay": {
+        "kind": "chip",
+        "text": "JOUR 1 : 0,01 €",
+        "beat": 1
+      }
+    },
+    {
+      "type": "counter_focus",
+      "title": "La première semaine",
+      "narration": "Jour deux, deux centimes. Jour trois, quatre centimes. Jour quatre, huit centimes. Tu regardes le compteur chaque matin, et chaque matin, tu as envie de pleurer. Jour cinq, seize centimes. Jour six, trente-deux centimes. Jour sept, une semaine complète, et ton solde atteint soixante-quatre centimes. Même pas de quoi acheter une baguette. Tu as refusé un million d'euros pour soixante-quatre centimes. Le soir, au dîner, tu ne touches presque pas à ton assiette.",
+      "onscreen": [
+        "Jour 7",
+        "0,64 €"
+      ],
+      "visual": "Maxime, a 29-year-old French man with curly dark blond hair, a light beard and a mustard yellow sweater at a dinner table staring at his phone with tears of regret, a tiny copper coin glowing on the screen, Chloé, a 26-year-old French woman with long straight black hair and a green jacket looking at him with a puzzled smile, a baguette on the table, warm evening light",
+      "overlay": {
+        "kind": "chip",
+        "text": "JOUR 7 : 0,64 €",
+        "beat": 0
+      }
+    },
+    {
+      "type": "math",
+      "title": "La formule",
+      "equation": "solde = 0,01 € × 2^(jour − 1)",
+      "result": "Jour 10 : 5,12 €",
+      "narration": "Pour te rassurer, tu ressors tes cours de maths. La formule est simple. Le solde du jour, c'est un centime multiplié par deux, puissance le numéro du jour moins un. Au jour dix, ça fait deux puissance neuf, soit cinq cent douze. Cinq cent douze centimes. Cinq euros et douze centimes. Après dix jours entiers, un tiers du chemin, tu as de quoi te payer un sandwich. Un petit sandwich. Sans boisson. Le million, lui, dort tranquillement dans la poche d'un inconnu.",
+      "onscreen": [
+        "0,01 × 2⁹",
+        "= 5,12 €"
+      ],
+      "visual": "Maxime, a 29-year-old French man with curly dark blond hair, a light beard and a mustard yellow sweater at a desk with chalk-like glowing equations and doubling coins floating around him, a notebook and a small sandwich, blue and gold light, thoughtful comedic mood",
+      "overlay": {
+        "kind": "chip",
+        "text": "JOUR 10 : 5,12 €",
+        "beat": 0
+      }
+    },
+    {
+      "type": "narration",
+      "title": "Le piège de l'intuition",
+      "narration": "Ce que tu ressens, tout le monde le ressent. Notre cerveau pense en ligne droite. Si quelque chose monte d'un euro par jour, on visualise facilement où ça va arriver. Mais un doublement, c'est une courbe. Et une courbe exponentielle a un défaut terrible pour la patience humaine : elle passe presque tout son temps à ressembler à rien. Elle reste plate, plate, plate. Et puis, d'un coup, elle se redresse comme un mur. Le problème, c'est qu'on abandonne presque toujours avant le mur.",
+      "onscreen": [
+        "Ligne droite",
+        "vs",
+        "courbe exponentielle"
+      ],
+      "visual": "a flat glowing line gradually bending up into a vertical wall in a minimalist landscape, Maxime, a 29-year-old French man with curly dark blond hair, a light beard and a mustard yellow sweater small at the bottom looking up amazed, a few coins at the bottom, blue and gold light, wonder mood"
+    },
+    {
+      "type": "narration",
+      "title": "La légende de l'échiquier",
+      "narration": "Ça te rappelle une vieille légende, celle de l'inventeur du jeu d'échecs. Le roi, ravi, lui propose n'importe quelle récompense. L'inventeur demande seulement du riz. Un grain sur la première case de l'échiquier, deux sur la deuxième, quatre sur la troisième, et ainsi de suite, en doublant à chaque case jusqu'à la soixante-quatrième. Le roi éclate de rire devant une demande aussi modeste. Puis ses conseillers font le calcul. Il n'y a pas assez de riz dans tout le royaume. Ni dans le monde entier, d'ailleurs. Toi, tu n'as que trente cases. Mais la légende te redonne un peu d'espoir.",
+      "onscreen": [
+        "64 cases",
+        "1, 2, 4, 8…"
+      ],
+      "visual": "legendary ancient palace, an old inventor presenting a chess board to a laughing king, rice grains doubling on each square, advisors with wide eyes and huge piles of rice growing, warm golden torchlight, storybook mood"
+    },
+    {
+      "type": "counter_focus",
+      "title": "Jour quinze",
+      "narration": "Jour quinze. La moitié du défi. Ton solde affiche cent soixante-trois euros et quatre-vingt-quatre centimes. C'est mieux. C'est même un bon restaurant pour deux. Mais à côté d'un million, c'est une goutte d'eau. Tu fais le calcul : il te reste quinze jours, et tu as gagné à peine plus que ce que coûte un plein de courses. Ta sœur te trouve bizarre. Tu passes ton temps à fixer ton téléphone en marmonnant des puissances de deux. Tu ne peux rien lui dire.",
+      "onscreen": [
+        "Jour 15",
+        "163,84 €"
+      ],
+      "visual": "Maxime, a 29-year-old French man with curly dark blond hair, a light beard and a mustard yellow sweater at a fancy restaurant for two looking at his phone, a glowing balance and a half-empty plate, mixed hopeful and doubtful face, Chloé, a 26-year-old French woman with long straight black hair and a green jacket watching him strangely, warm candlelight",
+      "overlay": {
+        "kind": "chip",
+        "text": "JOUR 15 : 163,84 €",
+        "beat": 0
+      }
+    },
+    {
+      "type": "narration",
+      "title": "Le doute",
+      "narration": "Cette nuit-là, tu fais un cauchemar. L'homme en manteau gris rit, et il déchire le chèque d'un million devant toi, morceau par morceau. Tu te réveilles en sueur à trois heures du matin. Tu ouvres l'application. Toujours cent soixante-trois euros. Tu te demandes si tu n'as pas fait la plus grosse erreur de ta vie. Tu recommences les calculs sur un coin de nappe, en tremblant. Et c'est là que tu le vois. Le chiffre qui t'attend à la fin. Tu le relis cinq fois.",
+      "onscreen": [
+        "03:00",
+        "Le doute"
+      ],
+      "visual": "Maxime, a 29-year-old French man with curly dark blond hair, a light beard and a mustard yellow sweater awake in bed at three in the morning in a dark bedroom, sweating, a dark dream cloud of the grey coat man tearing a giant check into pieces above him, a phone glowing in his hand, cold blue light"
+    },
+    {
+      "type": "narration",
+      "title": "L'énigme du nénuphar",
+      "narration": "Ta sœur, sans le savoir, te pose une devinette ce soir-là. Un nénuphar pousse dans un étang. Chaque jour, sa surface double. Au trentième jour, il recouvre tout l'étang. À quel jour en recouvre-t-il la moitié ? Ton premier réflexe, c'est de dire quinze. Puis tu t'arrêtes. Non. Au jour vingt-neuf. La veille. Pendant vingt-neuf jours, l'étang paraît presque vide, et en une seule nuit, il se couvre entièrement. Tu regardes ton téléphone, et tu comprends que ton compteur est exactement ce nénuphar. Tout va se jouer dans les derniers jours.",
+      "onscreen": [
+        "Jour 29 : la moitié",
+        "Jour 30 : tout"
+      ],
+      "visual": "Chloé, a 26-year-old French woman with long straight black hair and a green jacket drawing a pond on a napkin with a lily pad covering half of the water, Maxime, a 29-year-old French man with curly dark blond hair, a light beard and a mustard yellow sweater thinking with his finger raised, glowing lily pads doubling on a pond, warm cozy light, lightbulb moment"
+    },
+    {
+      "type": "counter_focus",
+      "title": "Jour vingt",
+      "narration": "Jour vingt. Cinq mille deux cent quarante-deux euros et quatre-vingt-huit centimes. Et pour la première fois, tu sens la courbe bouger. Hier, tu avais deux mille six cent vingt et un euros. Aujourd'hui, le double. En une seule nuit, tu as gagné plus que pendant les dix-neuf premiers jours réunis. C'est la propriété magique du doublement : chaque nouveau jour rapporte plus que tous les jours précédents additionnés. Tu sors acheter des croissants pour tout l'immeuble. Tu chantes dans l'escalier.",
+      "onscreen": [
+        "Jour 20",
+        "5 242,88 €"
+      ],
+      "visual": "Maxime, a 29-year-old French man with curly dark blond hair, a light beard and a mustard yellow sweater watching his phone as a glowing balance jumps higher, a rising exponential curve behind him bending upwards, gold coins streaming up, amazed grin, blue and gold light, excitement",
+      "overlay": {
+        "kind": "chip",
+        "text": "JOUR 20 : 5 242 €",
+        "beat": 0
+      }
+    },
+    {
+      "type": "narration",
+      "title": "L'emprunt",
+      "narration": "Et c'est là que tu fais une bêtise. Tu sais que l'argent arrive. Tu en es sûr. Alors tu ne veux plus attendre. Tu vas voir Bertrand, un ami d'ami qui prête de l'argent un peu trop facilement, et tu empruntes cinquante mille euros. Il te demande juste de signer un papier. Tu ne lis pas les petites lignes. Pourquoi faire ? Dans dix jours, tu seras millionnaire. Avec les cinquante mille euros, tu t'achètes une voiture neuve, rouge, qui sent encore le plastique. Tu fais trois fois le tour du quartier.",
+      "onscreen": [
+        "Emprunt",
+        "50 000 €"
+      ],
+      "visual": "Maxime, a 29-year-old French man with curly dark blond hair, a light beard and a mustard yellow sweater in a shady back office signing a document without reading it, Bertrand, a shady 45-year-old moneylender with slicked back hair, a shiny black jacket, a gold chain and a sly grin smiling slyly and handing him bundles of euro banknotes, dark moody light, Maxime, a 29-year-old French man with curly dark blond hair, a light beard and a mustard yellow sweater grinning naively, a shiny red car outside the window"
+    },
+    {
+      "type": "counter_focus",
+      "title": "Jour vingt-cinq",
+      "narration": "Jour vingt-cinq. Cent soixante-sept mille sept cent soixante-douze euros et seize centimes. Tu es devenu riche, en une nuit, pour de vrai. Mais attention, tu es encore loin du million que tu as refusé. Il faut attendre le jour vingt-huit pour le dépasser enfin, avec un million trois cent quarante-deux mille euros. Jusqu'au jour vingt-sept, l'homme au manteau gris avait raison, et ton instinct aussi. Tu dors avec ton téléphone sous l'oreiller. Et au milieu de la nuit, il vibre.",
+      "onscreen": [
+        "Jour 25",
+        "167 772,16 €"
+      ],
+      "visual": "Maxime, a 29-year-old French man with curly dark blond hair, a light beard and a mustard yellow sweater proud in front of a shiny red sports car, holding a phone with a glowing balance, a tall rising golden curve behind him, golden hour light, overconfident grin",
+      "overlay": {
+        "kind": "chip",
+        "text": "JOUR 25 : 167 772 €",
+        "beat": 0
+      }
+    },
+    {
+      "type": "math",
+      "title": "Le jour où tout bascule",
+      "equation": "0,01 € × 2^27",
+      "result": "Jour 28 : 1 342 177,28 €",
+      "narration": "Avant de lire la notification, tu refais une dernière fois le calcul, pour te rassurer. Jour vingt-sept, six cent soixante et onze mille euros. Jour vingt-huit, un centime fois deux puissance vingt-sept : un million trois cent quarante-deux mille cent soixante-dix-sept euros et vingt-huit centimes. Le million est dépassé. Et au jour trente, le dernier, le compteur atteindra cinq millions trois cent soixante-huit mille sept cent neuf euros et douze centimes. Plus de cinq fois l'autre enveloppe. Tu souris dans le noir. Puis tu ouvres la notification.",
+      "onscreen": [
+        "Jour 28 : 1,34 M€",
+        "Jour 30 : 5,37 M€"
+      ],
+      "visual": "Maxime, a 29-year-old French man with curly dark blond hair, a light beard and a mustard yellow sweater at a desk surrounded by glowing floating equations and doubling gold coins reaching a million, wide-eyed relief, blue and gold light, warm lamp"
+    },
+    {
+      "type": "phase2",
+      "title": "Phase 2",
+      "alert": "PHASE 2 — Ton argent continue de doubler chaque jour. Tes dettes aussi.",
+      "narration": "Phase deux. Ton argent continue de doubler chaque jour. Tes dettes aussi. Tu te redresses d'un coup. Les cinquante mille euros de Bertrand. Tu ouvres le papier que tu as signé sans le lire. En bas, en tout petit, il y a une ligne : les intérêts suivent les règles de l'offre. Jour vingt-six, ta dette passe à cent mille euros. Jour vingt-sept, deux cent mille. Jour vingt-huit, quatre cent mille. La courbe magique qui te rendait riche travaille maintenant aussi contre toi.",
+      "onscreen": [
+        "Dette × 2",
+        "chaque jour"
+      ],
+      "visual": "Maxime, a 29-year-old French man with curly dark blond hair, a light beard and a mustard yellow sweater opening a folded contract in a dark room and discovering a tiny line at the bottom, Bertrand, a shady 45-year-old moneylender with slicked back hair, a shiny black jacket, a gold chain and a sly grin as a looming shadow behind him, a red glowing curve rising like a wall, shocked pale face, dramatic dark light",
+      "overlay": {
+        "kind": "phase2",
+        "text": "PHASE 2",
+        "beat": 0
+      }
+    },
+    {
+      "type": "math",
+      "title": "Le vrai bilan",
+      "equation": "5 368 709,12 € − 50 000 € × 2^5",
+      "result": "3 768 709,12 €",
+      "narration": "Jour trente. Ton solde affiche cinq millions trois cent soixante-huit mille euros. Mais ta dette, doublée cinq fois, est passée de cinquante mille euros à un million six cent mille. Une voiture rouge t'a coûté un million cinq cent cinquante mille euros de plus que son prix. Il te reste trois millions sept cent soixante-huit mille euros. Tu es riche. Mais tu viens de comprendre, dans ta chair, que la même force qui construit une fortune peut aussi la dévorer.",
+      "onscreen": [
+        "Dette : 1 600 000 €",
+        "Reste : 3 768 709,12 €"
+      ],
+      "visual": "Maxime, a 29-year-old French man with curly dark blond hair, a light beard and a mustard yellow sweater sitting on a pile of gold coins and banknotes next to an equally huge pile of red debt papers, exhausted wise face, glowing balance on his phone, dramatic gold and red lighting",
+      "overlay": {
+        "kind": "chip",
+        "text": "JOUR 30 : 5,3 M€",
+        "beat": 0
+      }
+    },
+    {
+      "type": "outro",
+      "title": "La leçon",
+      "narration": "Dans la vraie vie, personne ne double ton argent chaque jour. Mais la même mécanique existe, plus lentement. Un placement à sept pour cent par an double à peu près tous les dix ans. Mille euros placés à vingt-cinq ans deviennent environ quinze mille à soixante-cinq. Et un crédit à la consommation mal remboursé fait exactement l'inverse. La croissance exponentielle ne choisit pas son camp. C'est à toi de la mettre de ton côté, et d'être patient quand tout paraît plat. Alors, honnêtement : le million tout de suite, ou le centime ?",
+      "onscreen": [
+        "Patience",
+        "+ temps",
+        "= exponentiel"
+      ],
+      "visual": "Maxime, a 29-year-old French man with curly dark blond hair, a light beard and a mustard yellow sweater older and calm in a sunny park, planting a small money tree sapling with a watering can, golden coins as leaves and a growing glowing curve in the sky, warm golden hour light, hopeful mood"
+    }
+  ],
+  "short": {
+    "hook_text": "1 MILLION OU 1 CENTIME ?",
+    "narration": "Un inconnu te propose deux enveloppes. Dans la première, un million d'euros, tout de suite. Dans la deuxième, un centime qui double chaque jour pendant trente jours. Tu prends le centime. Jour sept : soixante-quatre centimes. Jour dix : cinq euros douze. Jour quinze : cent soixante-trois euros. Tu as l'impression d'avoir fait la pire erreur de ta vie. Et puis la courbe se réveille. Jour vingt : cinq mille deux cents euros. Jour vingt-cinq : cent soixante-sept mille. Jour trente : plus de cinq millions trois cent mille euros. Sauf qu'entre-temps, tu as emprunté de l'argent. Et au jour vingt-cinq, une notification noire apparaît. Phase deux. La règle vient de changer, et elle va te coûter une fortune. Le film complet est sur la chaîne.",
+    "cta": "Le film complet est sur la chaîne",
+    "visuals": [
+      {
+        "p": "cozy Paris cafe, a mysterious man in a long grey coat and a grey fedora with a calm knowing smile placing two envelopes on the table in front of Maxime, a 29-year-old French man with curly dark blond hair, a light beard and a mustard yellow sweater, one with a glowing check and one with a tiny shining coin, warm amber light, suspenseful mood"
+      },
+      {
+        "p": "a glowing check envelope on a cafe table opening to reveal golden light and a million euro banknote shower, Maxime, a 29-year-old French man with curly dark blond hair, a light beard and a mustard yellow sweater's wide eyes reflecting the glow, warm amber light",
+        "at": "Dans la première",
+        "overlay": {
+          "kind": "chip",
+          "text": "1 000 000 €"
+        }
+      },
+      {
+        "p": "a tiny shining copper coin on a cafe table doubling into two coins with sparkles, Maxime, a 29-year-old French man with curly dark blond hair, a light beard and a mustard yellow sweater leaning in curious, warm amber light, mysterious mood",
+        "at": "Dans la deuxième",
+        "overlay": {
+          "kind": "chip",
+          "text": "1 CENTIME × 2"
+        }
+      },
+      {
+        "p": "Maxime, a 29-year-old French man with curly dark blond hair, a light beard and a mustard yellow sweater reaching and picking the small coin envelope with a determined face while a mysterious man in a long grey coat and a grey fedora with a calm knowing smile smiles knowingly, warm amber cafe light, dramatic closeup",
+        "at": "Tu prends le centime"
+      },
+      {
+        "p": "Maxime, a 29-year-old French man with curly dark blond hair, a light beard and a mustard yellow sweater at a dinner table staring at his phone with tears of regret, a tiny coin glowing on the screen, Chloé, a 26-year-old French woman with long straight black hair and a green jacket puzzled, warm evening light",
+        "at": "Jour sept",
+        "overlay": {
+          "kind": "chip",
+          "text": "JOUR 7 : 0,64 €"
+        }
+      },
+      {
+        "p": "Maxime, a 29-year-old French man with curly dark blond hair, a light beard and a mustard yellow sweater at a desk with a small sandwich and glowing equations floating around him, blue and gold light, thoughtful comedic mood",
+        "at": "Jour dix",
+        "overlay": {
+          "kind": "chip",
+          "text": "JOUR 10 : 5,12 €"
+        }
+      },
+      {
+        "p": "Maxime, a 29-year-old French man with curly dark blond hair, a light beard and a mustard yellow sweater at a fancy restaurant looking at his phone with a glowing balance, a half-empty plate, mixed hopeful and doubtful face, warm candlelight",
+        "at": "Jour quinze",
+        "overlay": {
+          "kind": "chip",
+          "text": "JOUR 15 : 163 €"
+        }
+      },
+      {
+        "p": "a flat glowing line suddenly bending up into a vertical wall, Maxime, a 29-year-old French man with curly dark blond hair, a light beard and a mustard yellow sweater small at the bottom looking up amazed, gold coins streaming upward, blue and gold light",
+        "at": "Et puis la courbe"
+      },
+      {
+        "p": "Maxime, a 29-year-old French man with curly dark blond hair, a light beard and a mustard yellow sweater watching his phone with a glowing jumping balance, a rising exponential curve behind him, gold coins around, amazed grin, blue and gold light",
+        "at": "Jour vingt : cinq",
+        "overlay": {
+          "kind": "chip",
+          "text": "JOUR 20 : 5 242 €"
+        }
+      },
+      {
+        "p": "Maxime, a 29-year-old French man with curly dark blond hair, a light beard and a mustard yellow sweater proud in front of a shiny red sports car, a tall golden curve behind him, golden hour light, overconfident grin",
+        "at": "Jour vingt-cinq : cent",
+        "overlay": {
+          "kind": "chip",
+          "text": "JOUR 25 : 167 772 €"
+        }
+      },
+      {
+        "p": "Maxime, a 29-year-old French man with curly dark blond hair, a light beard and a mustard yellow sweater in a shady back office signing a document without reading it while Bertrand, a shady 45-year-old moneylender with slicked back hair, a shiny black jacket, a gold chain and a sly grin slides banknotes toward him with a sly grin, dark moody light",
+        "at": "Sauf qu'entre-temps",
+        "overlay": {
+          "kind": "chip",
+          "text": "50 000 € EMPRUNTÉS"
+        }
+      },
+      {
+        "p": "Maxime, a 29-year-old French man with curly dark blond hair, a light beard and a mustard yellow sweater opening a folded contract in a dark room and discovering a tiny line, Bertrand, a shady 45-year-old moneylender with slicked back hair, a shiny black jacket, a gold chain and a sly grin as a looming shadow, a red glowing curve rising like a wall, shocked pale face, dramatic dark light",
+        "at": "Phase deux",
+        "overlay": {
+          "kind": "phase2",
+          "text": "PHASE 2"
+        }
+      }
+    ],
+    "counter_speed": 8
+  },
+  "visual_bible": {
+    "hero": "Maxime, a 29-year-old French man with curly dark blond hair, a light beard and a mustard yellow sweater",
+    "stranger": "a mysterious man in a long grey coat and a grey fedora with a calm knowing smile",
+    "sister": "Chloé, a 26-year-old French woman with long straight black hair and a green jacket",
+    "lender": "Bertrand, a shady 45-year-old moneylender with slicked back hair, a shiny black jacket, a gold chain and a sly grin"
+  }
+}

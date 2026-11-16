@@ -1,0 +1,361 @@
+{
+  "id": 9,
+  "slug": "3-regles-du-silence",
+  "formula": "homodeus",
+  "title": "Pourquoi ceux qui parlent moins gagnent plus : les 3 règles du silence",
+  "thumbnail": {
+    "line1": "TAIS-TOI ET GAGNE",
+    "line2": "les 3 règles du silence",
+    "accent": "#FFD400",
+    "visual": "Inès, a 35-year-old French businesswoman with a sleek black bob, a dark green blazer and small gold earrings in close-up with a finger on her lips in a shushing gesture, calm intense eyes, on the right, behind glowing golden speech bubbles breaking into pieces, bold yellow and deep blue lighting"
+  },
+  "youtube": {
+    "title": "Pourquoi ceux qui parlent moins gagnent plus : les 3 règles du silence",
+    "description": "Dans une réunion, ce n'est presque jamais celui qui parle le plus qui décide. C'est souvent celui qui se tait, qui écoute, et qui pose une seule phrase au bon moment.\n\nDans ce film, on décortique les 3 règles du silence stratégique à travers trois histoires originales, et deux expériences célèbres de psychologie : Kruger et Dunning à Cornell, et Asch à Swarthmore. Avec leurs vrais chiffres, et leurs limites.\n\nLe but n'est pas de devenir froid ou mystérieux. Le but, c'est de comprendre pourquoi une parole rare pèse plus lourd, et comment l'utiliser sans manipuler personne.",
+    "tags": [
+      "silence",
+      "psychologie",
+      "pouvoir",
+      "communication",
+      "charisme",
+      "écoute",
+      "négociation",
+      "dunning kruger",
+      "expérience de asch",
+      "conformisme",
+      "développement personnel",
+      "confiance en soi",
+      "leadership",
+      "influence",
+      "parler moins"
+    ],
+    "pinned_comment": "Sois honnête : tu fais partie de ceux qui remplissent les silences, ou de ceux qui les laissent durer ?"
+  },
+  "scenes": [
+    {
+      "type": "hook",
+      "title": "La phrase qui a tout changé",
+      "narration": "Une salle de réunion. Douze personnes. Pendant quarante minutes, tout le monde parle, coupe, répète, s'agace. Et puis il y a Inès, au bout de la table. Elle n'a rien dit. Pas un mot. Quand le directeur se tourne enfin vers elle, elle pose une seule question. Dix secondes. Et la décision est prise, dans son sens. Ce n'est pas de la magie. C'est une compétence. Et aujourd'hui, je vais te donner les trois règles du silence.",
+      "onscreen": [
+        "12 personnes",
+        "40 minutes",
+        "1 seule phrase"
+      ],
+      "visual": "modern glass meeting room with twelve colleagues around a long table arguing and gesturing, Inès, a 35-year-old French businesswoman with a sleek black bob, a dark green blazer and small gold earrings sitting calm and silent at the far end of the table, the director turning toward her, cool office light, tense atmosphere"
+    },
+    {
+      "type": "narration",
+      "title": "Le bruit n'est pas le pouvoir",
+      "narration": "On a tous grandi avec la même idée. Pour exister, il faut parler. Lever la main. Avoir un avis sur tout. Remplir le vide. Parce que le vide fait peur. Mais regarde autour de toi. Les gens qui t'impressionnent vraiment, ceux qu'on écoute quand ils ouvrent la bouche, ce sont rarement ceux qui parlent le plus. Ils parlent moins. Et chaque mot compte plus. Le silence n'est pas une absence. C'est un outil. Encore faut-il savoir s'en servir.",
+      "onscreen": [
+        "Parler moins",
+        "peser plus"
+      ],
+      "visual": "Inès, a 35-year-old French businesswoman with a sleek black bob, a dark green blazer and small gold earrings standing calm in a busy open-space office while colleagues around her talk loudly with wide open mouths and waving hands, empty speech bubbles floating, soft blue office light, she smiles quietly"
+    },
+    {
+      "type": "rule",
+      "number": 1,
+      "rule": "Celui qui parle en premier révèle son jeu",
+      "title": "Règle 1 : ne parle pas en premier",
+      "narration": "Règle numéro un. Celui qui parle en premier révèle son jeu. Quand tu prends la parole tout de suite, tu donnes aux autres une carte complète de ce que tu penses, de ce que tu veux, et de ce qui te fait peur. Eux, ils n'ont encore rien montré. Ils peuvent ajuster. Toi, tu ne peux plus reculer. Laisser les autres parler d'abord, ce n'est pas être timide. C'est récolter de l'information avant de décider quoi en faire.",
+      "onscreen": [
+        "RÈGLE 1",
+        "Ne parle pas",
+        "en premier"
+      ],
+      "visual": "close-up of a poker table where one player flips all cards face up and looks worried while the other players hide their cards with sly smiles, warm lamp light, dark green felt, dramatic mood",
+      "overlay": {
+        "kind": "chip",
+        "text": "RÈGLE 1",
+        "beat": 0
+      }
+    },
+    {
+      "type": "narration",
+      "title": "Le vendeur de vélos",
+      "narration": "Prends Malik. Il vend son vieux vélo de course sur internet. Un acheteur arrive, tourne autour du vélo, et demande : alors, c'est combien en vrai ? Malik avait prévu de dire trois cents euros. Mais il se tait. Il sourit, et il demande : vous pensiez à combien ? L'acheteur hésite, puis lâche : je peux monter jusqu'à quatre cent cinquante. Cent cinquante euros gagnés. Juste parce que Malik a laissé l'autre parler en premier.",
+      "onscreen": [
+        "Prévu : 300 €",
+        "Obtenu : 450 €"
+      ],
+      "visual": "Malik, a 30-year-old French man with short curly black hair, a trimmed beard and a mustard yellow sweater in a sunny Paris courtyard next to an old racing bike for sale, a buyer circling the bike, Malik, a 30-year-old French man with short curly black hair, a trimmed beard and a mustard yellow sweater smiling calmly with a finger on his lips, warm afternoon light"
+    },
+    {
+      "type": "narration",
+      "title": "Pourquoi ça marche",
+      "narration": "Ce qui se passe dans ce genre de moment, c'est que le silence crée une petite pression. La plupart des gens ne supportent pas plus de trois ou quatre secondes de blanc dans une conversation. Alors ils comblent. Ils précisent. Ils se justifient. Et en se justifiant, ils te donnent exactement ce dont tu avais besoin. Ce n'est pas une ruse. Tu n'as rien caché, rien inventé. Tu as simplement laissé de la place à l'autre.",
+      "onscreen": [
+        "3 secondes",
+        "de silence"
+      ],
+      "visual": "close-up of an awkward buyer sweating and fidgeting in a living room, a wall clock showing time passing, Malik, a 30-year-old French man with short curly black hair, a trimmed beard and a mustard yellow sweater smiling patiently with arms crossed, warm yellow light, comedic tension"
+    },
+    {
+      "type": "study",
+      "title": "Cornell : ceux qui savent le moins",
+      "institution": "Université Cornell",
+      "year": 1999,
+      "authors": "Justin Kruger & David Dunning",
+      "finding": "Les participants les moins performants surestiment massivement leur niveau.",
+      "stat": {
+        "label": "Percentile (sur 100)",
+        "values": [
+          {
+            "name": "Score réel du quart le plus faible",
+            "value": 12
+          },
+          {
+            "name": "Score qu'ils s'attribuaient",
+            "value": 62
+          }
+        ]
+      },
+      "caveat": "L'effet a été mesuré sur des tests précis (logique, grammaire, humour). Une partie de l'écart s'explique aussi par des effets statistiques : ça ne veut pas dire que tous ceux qui parlent fort sont incompétents.",
+      "narration": "En mille neuf cent quatre-vingt-dix-neuf, à l'université Cornell, Justin Kruger et David Dunning font passer des tests de logique, de grammaire et d'humour. Puis ils demandent à chacun d'estimer son propre niveau. Résultat : le quart le moins performant a obtenu un score au douzième percentile. Mais ces mêmes personnes se sont placées, en moyenne, au soixante-deuxième. Autrement dit, ceux qui maîtrisent le moins un sujet sont souvent les plus sûrs d'eux. Et souvent, les plus bavards.",
+      "onscreen": [
+        "Réel : 12e percentile",
+        "Estimé : 62e"
+      ],
+      "visual": "university lecture hall at Cornell with students taking a test at desks, two researchers in white coats observing with clipboards, a confident student ticking boxes proudly, golden autumn light through tall windows",
+      "overlay": {
+        "kind": "banner",
+        "text": "CORNELL 1999",
+        "beat": 0
+      }
+    },
+    {
+      "type": "narration",
+      "title": "La nuance honnête",
+      "narration": "Attention quand même. Cette étude ne dit pas que tous ceux qui parlent fort sont incompétents. Elle a été faite sur des tests précis, et une partie de l'écart s'explique par des effets statistiques. Mais elle nous rappelle une chose utile : l'assurance n'est pas une preuve de compétence. Quand quelqu'un parle beaucoup, avec aplomb, ça ne veut pas dire qu'il a raison. Et quand toi tu te tais pour réfléchir, ça ne veut pas dire que tu as tort.",
+      "onscreen": [
+        "Assurance",
+        "≠ compétence"
+      ],
+      "visual": "two researchers in white coats beside a big balance scale, on one side a loud confident man with megaphone, on the other a thoughtful woman reading a book, soft pastel lab background, wise gentle mood"
+    },
+    {
+      "type": "rule",
+      "number": 2,
+      "rule": "Un mot rare vaut plus qu'un discours",
+      "title": "Règle 2 : rends ta parole rare",
+      "narration": "Règle numéro deux. Un mot rare vaut plus qu'un discours. C'est une loi d'économie toute simple. Ce qui est abondant perd de la valeur. Si tu commentes chaque idée, chaque mail, chaque détail, les gens finissent par ne plus t'écouter. Ta voix devient un bruit de fond. Mais si tu interviens peu, et seulement quand tu as quelque chose de vraiment utile, alors chaque fois que tu parles, la salle se tourne vers toi.",
+      "onscreen": [
+        "RÈGLE 2",
+        "Un mot rare",
+        "vaut plus"
+      ],
+      "visual": "Inès, a 35-year-old French businesswoman with a sleek black bob, a dark green blazer and small gold earrings speaking once in a meeting room, all twelve colleagues turning their heads toward her with respect, a single glowing gold coin floating above the table while cheap copper coins pile up on the floor, warm light",
+      "overlay": {
+        "kind": "chip",
+        "text": "RÈGLE 2",
+        "beat": 0
+      }
+    },
+    {
+      "type": "narration",
+      "title": "Le stagiaire et la cheffe",
+      "narration": "Théo est stagiaire dans une agence. Le premier mois, il veut prouver qu'il existe. Il donne son avis sur tout. Résultat : on le trouve sympa, mais personne ne retient ce qu'il dit. Le deuxième mois, il change de méthode. Il prend des notes, il écoute, et il ne parle qu'une fois par réunion. Un jour, il signale une erreur dans un budget que personne n'avait vue. La cheffe s'arrête, le regarde, et dit : toi, je veux t'entendre plus souvent.",
+      "onscreen": [
+        "Mois 1 : tout dire",
+        "Mois 2 : bien dire"
+      ],
+      "visual": "Théo, a 23-year-old French intern with messy blond hair, round glasses and a light blue shirt with a lanyard in a modern agency open-space, first month chatting nonstop to bored colleagues, then second month taking notes quietly; split scene, a female manager pointing at him with an impressed smile, bright office light"
+    },
+    {
+      "type": "quote",
+      "title": "Ce qu'on sait depuis longtemps",
+      "quote": "La parole est d'argent, mais le silence est d'or.",
+      "author": "Proverbe",
+      "narration": "Il y a un vieux proverbe que tout le monde connaît : la parole est d'argent, mais le silence est d'or. On le répète aux enfants pour qu'ils se taisent à table. Mais en réalité, il dit quelque chose de beaucoup plus fin. L'argent, c'est utile. On en a besoin tous les jours. L'or, c'est ce qu'on garde pour les grandes occasions. Ta parole, c'est pareil. Garde ton or pour les moments où il fait vraiment la différence.",
+      "onscreen": [
+        "Parole : argent",
+        "Silence : or"
+      ],
+      "visual": "a wooden table with a shining gold bar and a silver bar, a grandmother and a child at dinner in the background with a finger on lips, warm golden light, cozy dining room, proverb mood"
+    },
+    {
+      "type": "rule",
+      "number": 3,
+      "rule": "Le silence te protège de la pression du groupe",
+      "title": "Règle 3 : résiste au groupe",
+      "narration": "Règle numéro trois. Le silence te protège de la pression du groupe. Quand tout le monde autour de toi dit la même chose, il y a une force énorme qui te pousse à suivre. À hocher la tête. À dire, moi aussi, je suis d'accord. Celui qui sait se taire au lieu d'approuver par réflexe garde sa liberté de jugement. Il n'est pas obligé de contredire tout le monde. Il refuse juste de valider ce qu'il ne pense pas.",
+      "onscreen": [
+        "RÈGLE 3",
+        "Ne valide pas",
+        "par réflexe"
+      ],
+      "visual": "crowd of people in suits all nodding in unison with identical smiles in a conference room, Clara, a 32-year-old French woman with long wavy auburn hair and an elegant red dress standing among them with arms crossed, calm and independent, cold blue light with a warm spotlight on her",
+      "overlay": {
+        "kind": "chip",
+        "text": "RÈGLE 3",
+        "beat": 0
+      }
+    },
+    {
+      "type": "study",
+      "title": "Swarthmore : la force du groupe",
+      "institution": "Swarthmore College",
+      "year": 1951,
+      "authors": "Solomon Asch",
+      "finding": "Face à un groupe unanime qui donne une réponse fausse, beaucoup de participants suivent le groupe.",
+      "stat": {
+        "label": "Pourcentage",
+        "values": [
+          {
+            "name": "Participants qui se sont conformés au moins une fois",
+            "value": 75
+          },
+          {
+            "name": "Essais critiques avec conformité",
+            "value": 37
+          }
+        ]
+      },
+      "caveat": "L'expérience a été menée sur de jeunes hommes américains des années cinquante, et une majorité des réponses restaient correctes. Les réplications montrent des taux variables selon les époques et les cultures.",
+      "narration": "En mille neuf cent cinquante et un, au Swarthmore College, Solomon Asch montre des lignes de longueurs différentes à des étudiants. La bonne réponse est évidente. Mais dans la salle, tous les autres participants sont des complices, et ils donnent volontairement une réponse fausse. Résultat : environ soixante-quinze pour cent des vrais participants se sont conformés au moins une fois. Et sur les essais piégés, la conformité tourne autour de trente-sept pour cent. Face au groupe, on doute de ses propres yeux.",
+      "onscreen": [
+        "75 % au moins une fois",
+        "≈ 37 % des essais"
+      ],
+      "visual": "1951 psychology lab at Swarthmore College, eight students seated in a row looking at a board with three vertical lines, a researcher with a clipboard, vintage warm sepia tones, slightly tense mood",
+      "overlay": {
+        "kind": "banner",
+        "text": "ASCH 1951",
+        "beat": 0
+      }
+    },
+    {
+      "type": "narration",
+      "title": "Ce que ça ne dit pas",
+      "narration": "La nuance, maintenant. Asch a travaillé avec de jeunes étudiants américains, dans les années cinquante. Et il faut le dire : la majorité des réponses restaient correctes. Les gens ne sont pas des moutons. Mais un quart des participants seulement n'a jamais cédé, pas une seule fois. Et Asch a remarqué autre chose. Quand un seul complice donnait la bonne réponse, la conformité s'effondrait. Parfois, il suffit d'une personne qui refuse de suivre pour libérer tous les autres.",
+      "onscreen": [
+        "1 seule voix",
+        "change tout"
+      ],
+      "visual": "vintage psychology lab with seven students raising hands for the wrong line while one student looks puzzled, another student next to him smiling and agreeing with him, warm sepia light, hopeful mood"
+    },
+    {
+      "type": "narration",
+      "title": "La soirée de Clara",
+      "narration": "Clara est à un dîner. Quelqu'un se moque d'une collègue absente, et tout le monde rit. On attend que Clara rie aussi. Elle ne dit rien. Elle ne fait pas la morale. Elle boit une gorgée d'eau, et elle laisse passer trois secondes. Le rire s'éteint tout seul. Puis quelqu'un change de sujet. Personne ne l'a accusée de rien. Mais tout le monde a compris où elle se situait. Son silence a parlé plus fort qu'un sermon.",
+      "onscreen": [
+        "Pas de sermon",
+        "juste 3 secondes"
+      ],
+      "visual": "elegant dinner party in a Paris apartment, guests laughing around a table, Clara, a 32-year-old French woman with long wavy auburn hair and an elegant red dress sipping a glass of water without laughing, three seconds of silence, the laughter fading, warm candlelight"
+    },
+    {
+      "type": "narration",
+      "title": "Le piège à éviter",
+      "narration": "Un mot d'avertissement. Le silence stratégique, ce n'est pas bouder. Ce n'est pas ignorer les gens, ni les punir en refusant de répondre. Ça, c'est de la manipulation, et ça abîme les relations. Le bon silence est chaleureux. Tu regardes la personne. Tu hoches la tête. Tu montres que tu écoutes vraiment. La différence entre les deux, l'autre la sent tout de suite. Un silence froid repousse. Un silence attentif donne envie de te faire confiance.",
+      "onscreen": [
+        "Silence froid : non",
+        "Silence attentif : oui"
+      ],
+      "visual": "two panels, on the left Inès, a 35-year-old French businesswoman with a sleek black bob, a dark green blazer and small gold earrings listening warmly to a colleague with a gentle nod and open eyes in warm light, on the right a person sulking with crossed arms and cold shoulder in cold blue light, clear contrast"
+    },
+    {
+      "type": "narration",
+      "title": "Récap des 3 règles",
+      "narration": "On récapitule. Règle un : ne parle pas en premier, laisse les autres montrer leur jeu. Règle deux : rends ta parole rare, pour qu'elle garde sa valeur. Règle trois : ne valide pas par réflexe, le silence te protège de la pression du groupe. Et un exercice pour cette semaine. Dans ta prochaine conversation importante, compte jusqu'à trois avant de répondre. Juste trois secondes. Tu vas être surpris de tout ce que les gens te disent pendant ce temps-là.",
+      "onscreen": [
+        "1. Pas en premier",
+        "2. Parole rare",
+        "3. Pas de réflexe"
+      ],
+      "visual": "Inès, a 35-year-old French businesswoman with a sleek black bob, a dark green blazer and small gold earrings counting on her fingers up to three before answering in a calm modern cafe, three glowing golden light dots floating above her hand, relaxed smile, warm daylight"
+    },
+    {
+      "type": "outro",
+      "title": "Et toi ?",
+      "narration": "Inès, la femme silencieuse du début, n'était pas plus intelligente que les onze autres. Elle avait juste écouté pendant qu'ils parlaient. Alors je te pose la question. Dans ta vie, est-ce que tu remplis les silences, ou est-ce que tu les laisses travailler pour toi ? Réponds en commentaire, mais prends trois secondes avant d'écrire. Et si ce film t'a été utile, abonne-toi. Le prochain parle de manipulation douce, et de comment t'en protéger.",
+      "onscreen": [
+        "Et toi ?",
+        "Réponds en commentaire"
+      ],
+      "visual": "Inès, a 35-year-old French businesswoman with a sleek black bob, a dark green blazer and small gold earrings alone at the big glass meeting room window at sunset, looking out at Paris with a satisfied calm smile, empty chairs behind her, warm orange light, peaceful mood"
+    }
+  ],
+  "short": {
+    "hook_text": "CELUI QUI SE TAIT GAGNE",
+    "narration": "Malik vend son vélo. Il avait prévu de demander trois cents euros. L'acheteur lui dit : alors, c'est combien en vrai ? Et là, Malik ne répond pas. Il sourit, et il retourne la question : vous pensiez à combien ? Silence. L'acheteur hésite, puis lâche : je peux aller jusqu'à quatre cent cinquante. Cent cinquante euros gagnés, juste en se taisant. C'est la première règle du silence : celui qui parle en premier révèle son jeu. Et une étude de l'université Cornell montre pourquoi les plus bavards ne sont pas toujours ceux qui savent le plus. Mais la troisième règle est encore plus puissante. Elle peut te protéger d'un groupe entier. Le film complet est sur la chaîne.",
+    "cta": "Le film complet est sur la chaîne",
+    "visuals": [
+      {
+        "p": "Malik, a 30-year-old French man with short curly black hair, a trimmed beard and a mustard yellow sweater in a sunny Paris courtyard next to his old racing bike for sale, holding the handlebars proudly, warm afternoon light"
+      },
+      {
+        "p": "a buyer in a green jacket circling the racing bike and asking a question with a curious expression, Malik, a 30-year-old French man with short curly black hair, a trimmed beard and a mustard yellow sweater beside the bike, sunny courtyard, warm light",
+        "at": "L'acheteur lui dit"
+      },
+      {
+        "p": "close-up of Malik, a 30-year-old French man with short curly black hair, a trimmed beard and a mustard yellow sweater smiling calmly with a finger on his lips while staying silent, buyer in front of him looking uneasy, warm light",
+        "at": "Et là, Malik ne répond pas",
+        "overlay": {
+          "kind": "stamp",
+          "text": "SILENCE"
+        }
+      },
+      {
+        "p": "Malik, a 30-year-old French man with short curly black hair, a trimmed beard and a mustard yellow sweater smiling and gesturing with an open hand toward the buyer as if asking a question, the buyer thinking with a hand on chin, sunny courtyard",
+        "at": "Il sourit, et il retourne"
+      },
+      {
+        "p": "close-up of the buyer sweating and hesitating, a wall clock behind him, tense comedic mood, warm light",
+        "at": "Silence. L'acheteur hésite"
+      },
+      {
+        "p": "the buyer pulling out a thick wad of euro banknotes from his pocket, eyes wide, Malik, a 30-year-old French man with short curly black hair, a trimmed beard and a mustard yellow sweater watching surprised, bright warm light",
+        "at": "je peux aller jusqu'à",
+        "overlay": {
+          "kind": "chip",
+          "text": "450 €"
+        }
+      },
+      {
+        "p": "Malik, a 30-year-old French man with short curly black hair, a trimmed beard and a mustard yellow sweater raising his arms in joy with banknotes floating around him, big grin, sunny courtyard, confetti-like golden light",
+        "at": "Cent cinquante euros gagnés",
+        "overlay": {
+          "kind": "chip",
+          "text": "+150 €"
+        }
+      },
+      {
+        "p": "poker table with one player showing all cards face up looking worried while others smile slyly, dark green felt, dramatic lamp light",
+        "at": "C'est la première règle",
+        "overlay": {
+          "kind": "chip",
+          "text": "RÈGLE 1"
+        }
+      },
+      {
+        "p": "two researchers in white coats in a Cornell university lecture hall observing students taking a test, golden autumn light",
+        "at": "Et une étude de l'université",
+        "overlay": {
+          "kind": "chip",
+          "text": "CORNELL"
+        }
+      },
+      {
+        "p": "Inès, a 35-year-old French businesswoman with a sleek black bob, a dark green blazer and small gold earrings standing calm among a crowd of people in suits who nod in unison, cold blue light with a warm spotlight on her, cinematic",
+        "at": "Mais la troisième règle",
+        "overlay": {
+          "kind": "chip",
+          "text": "RÈGLE 3"
+        }
+      },
+      {
+        "p": "Inès, a 35-year-old French businesswoman with a sleek black bob, a dark green blazer and small gold earrings protected by a glowing golden bubble while a whole crowd presses against it, her arms crossed with a calm smile, dramatic light",
+        "at": "Elle peut te protéger"
+      }
+    ]
+  },
+  "visual_bible": {
+    "ines": "Inès, a 35-year-old French businesswoman with a sleek black bob, a dark green blazer and small gold earrings",
+    "malik": "Malik, a 30-year-old French man with short curly black hair, a trimmed beard and a mustard yellow sweater",
+    "theo": "Théo, a 23-year-old French intern with messy blond hair, round glasses and a light blue shirt with a lanyard",
+    "clara": "Clara, a 32-year-old French woman with long wavy auburn hair and an elegant red dress",
+    "boss": "the director, a 55-year-old man with receding grey hair, a navy suit and a loud confident posture"
+  }
+}

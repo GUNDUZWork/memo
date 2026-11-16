@@ -1,0 +1,340 @@
+{
+  "id": 14,
+  "slug": "station-service-4h-du-matin",
+  "formula": "izranoff",
+  "title": "Si une station-service est encore ouverte à 4h du matin sur une route vide... suis ces 7 règles",
+  "thumbnail": {
+    "line1": "OUVERTE À 4H. POURQUOI ?",
+    "line2": "lis les 7 règles",
+    "accent": "#E63946",
+    "visual": "extreme close-up of the driver, a 30-year-old French man with short dark hair, light stubble, tired eyes and a green parka with terrified wide eyes lit by cold neon, on the right a lonely glowing gas station in a dark forest with a faint rusty fourth pump and a grey sedan with no lights, deep red and black"
+  },
+  "youtube": {
+    "title": "Station-service ouverte à 4h du matin sur une route vide... suis ces 7 règles",
+    "description": "Il est presque quatre heures du matin. Ton voyant d'essence clignote depuis vingt kilomètres. Et au milieu de nulle part, une station-service est encore ouverte. Néons blancs, pompes propres, une caissière derrière la vitre. Elle te tend une carte plastifiée avec sept règles.\n\nUne histoire de tension nocturne à la deuxième personne, 100 % originale, sans gore. À écouter au casque, de préférence pas en conduisant.\n\nRelis bien la règle numéro trois avant la fin.",
+    "tags": [
+      "histoire qui fait peur",
+      "creepypasta",
+      "règles",
+      "station-service",
+      "horreur",
+      "4h du matin",
+      "route de nuit",
+      "suspense",
+      "frisson",
+      "histoire d'horreur",
+      "mystère",
+      "plot twist",
+      "histoire audio",
+      "nuit",
+      "conduite de nuit"
+    ],
+    "pinned_comment": "Tu aurais suivi toutes les règles, ou tu serais reparti sans faire le plein ?"
+  },
+  "scenes": [
+    {
+      "type": "hook",
+      "title": "Le voyant",
+      "narration": "Trois heures cinquante-huit. Ça fait vingt kilomètres que le voyant d'essence clignote. Pas un village. Pas une voiture. Juste ta route, tes phares, et les sapins qui défilent des deux côtés. Et puis, au sommet d'une côte, une lumière blanche. Une station-service. Ouverte. Les néons bourdonnent, les pompes brillent comme si elles étaient neuves. Tu te gares, soulagé. Tu ne te demandes pas encore pourquoi une station est ouverte à quatre heures du matin sur une route où personne ne passe.",
+      "onscreen": [
+        "03:58",
+        "Réservoir vide"
+      ],
+      "visual": "empty forest road at night, a lone old car with its fuel warning light glowing, headlights cutting through pine trees, at the top of a hill a gas station shining with harsh white neon light and gleaming pumps, deep dark blue night, creepy calm mood",
+      "overlay": {
+        "kind": "banner",
+        "text": "03:58",
+        "beat": 0
+      }
+    },
+    {
+      "type": "tension",
+      "title": "La caissière",
+      "narration": "Derrière la vitre de la boutique, une femme d'une soixantaine d'années, cheveux gris tirés en chignon, gilet bleu, badge au nom d'Odile. Elle ne sourit pas. Quand tu entres, la clochette de la porte sonne, et elle sursaute, comme si elle n'attendait plus personne. Sans un mot, elle glisse vers toi une carte plastifiée, jaunie, cornée aux angles. En haut, au feutre noir : clients de nuit, lisez ceci avant de toucher à quoi que ce soit.",
+      "onscreen": [
+        "Odile",
+        "\"Lisez ceci.\""
+      ],
+      "visual": "inside a harsh-lit gas station shop at night, Odile, a 60-year-old French gas station cashier with grey hair in a tight bun, a blue cardigan and a stern pale face sliding a yellowed laminated card across the counter toward the driver, a 30-year-old French man with short dark hair, light stubble, tired eyes and a green parka, the door bell still swaying, flickering fluorescent light, deep shadows, uneasy mood"
+    },
+    {
+      "type": "rule",
+      "number": 1,
+      "rule": "Paie en liquide. Ne donne jamais ta carte bancaire, il ne doit pas connaître ton nom.",
+      "title": "Règle 1 : en liquide",
+      "narration": "Règle numéro un. Payez en liquide. Ne donnez jamais votre carte bancaire. Il ne doit pas connaître votre nom. Tu fouilles ton portefeuille. Tu as un billet de vingt et quelques pièces. Tu lèves les yeux vers Odile pour lui demander qui est ce il. Elle secoue la tête, très lentement, un doigt sur les lèvres. Puis elle montre du menton le terminal de paiement, posé au bout du comptoir. Son écran est allumé. Il affiche : bonjour. Il n'y a personne en face.",
+      "onscreen": [
+        "RÈGLE 1",
+        "En liquide.",
+        "Jamais ta carte."
+      ],
+      "visual": "close-up of the driver, a 30-year-old French man with short dark hair, light stubble, tired eyes and a green parka holding a twenty euro bill at the counter, Odile, a 60-year-old French gas station cashier with grey hair in a tight bun, a blue cardigan and a stern pale face with a finger on her lips pointing at a payment terminal whose small screen glows eerily, harsh neon light, cold blue shadows",
+      "overlay": {
+        "kind": "chip",
+        "text": "RÈGLE 1",
+        "beat": 0
+      }
+    },
+    {
+      "type": "rule",
+      "number": 2,
+      "rule": "N'utilise jamais la pompe numéro 4. De jour, elle n'existe pas.",
+      "title": "Règle 2 : la pompe 4",
+      "narration": "Règle numéro deux. N'utilisez jamais la pompe numéro quatre. De jour, elle n'existe pas. Tu tournes la tête vers le parking. Il y a trois pompes. Une, deux, trois. Alignées sous l'auvent. Tu les comptes deux fois. Puis tu remarques, un peu à l'écart, dans la pénombre, au bord de la forêt, une quatrième pompe. Plus vieille. Rouillée. Son petit écran est allumé. Et tu jurerais qu'elle n'était pas là quand tu es arrivé.",
+      "onscreen": [
+        "RÈGLE 2",
+        "Pas la pompe 4",
+        "(elle n'existe pas)"
+      ],
+      "visual": "gas station forecourt at night under neon, three pumps lined up under a canopy and a fourth old rusty pump at the dark forest edge with a faint glowing screen, the driver, a 30-year-old French man with short dark hair, light stubble, tired eyes and a green parka staring from afar, cold blue light, eerie mood",
+      "overlay": {
+        "kind": "chip",
+        "text": "RÈGLE 2",
+        "beat": 0
+      }
+    },
+    {
+      "type": "tension",
+      "title": "Le plein",
+      "narration": "Tu donnes ton billet de vingt à Odile. Elle débloque la pompe numéro un. Tu sors. L'air est glacé, et il y a cette odeur d'essence et de résine mélangées. Tu décroches le pistolet, et tu commences le plein. Les chiffres défilent lentement. Trop lentement. Derrière toi, tu entends un petit clic. Le bruit d'un pistolet qu'on décroche. Tu te retournes. Personne. Mais à la pompe numéro quatre, le compteur s'est mis à tourner.",
+      "onscreen": [
+        "Pompe 1 : toi",
+        "Pompe 4 : ?"
+      ],
+      "visual": "the driver, a 30-year-old French man with short dark hair, light stubble, tired eyes and a green parka fueling his car at pump number one in the freezing night, mist of breath, the rusty fourth pump at the forest edge with its handle slightly swinging by itself, a faint glowing screen, cold white neon and black forest"
+    },
+    {
+      "type": "rule",
+      "number": 3,
+      "rule": "Si une voiture arrive tous feux éteints, cache-toi derrière le comptoir. Ce n'est pas un client.",
+      "title": "Règle 3 : feux éteints",
+      "narration": "Tu rentres dans la boutique, plus vite que tu ne voudrais l'admettre. Odile pose son doigt sur la règle suivante. Règle numéro trois. Si une voiture arrive tous feux éteints, cachez-vous derrière le comptoir. Ce n'est pas un client. À cet instant précis, tu entends un moteur. Tu regardes dehors. Une berline grise monte la côte, lentement. Pas de phares. Pas de feux arrière. Elle glisse dans la nuit comme une ombre, et elle s'arrête juste à côté de ta voiture.",
+      "onscreen": [
+        "RÈGLE 3",
+        "Tous feux éteints",
+        "= cache-toi"
+      ],
+      "visual": "gas station at night, a grey sedan driving up the hill with no headlights and no tail lights like a shadow, the driver, a 30-year-old French man with short dark hair, light stubble, tired eyes and a green parka watching through the shop window, Odile, a 60-year-old French gas station cashier with grey hair in a tight bun, a blue cardigan and a stern pale face behind him pointing urgently, cold blue light, dread",
+      "overlay": {
+        "kind": "chip",
+        "text": "RÈGLE 3",
+        "beat": 0
+      }
+    },
+    {
+      "type": "tension",
+      "title": "Derrière le comptoir",
+      "narration": "Odile t'attrape par la manche et te tire derrière le comptoir. Vous êtes accroupis tous les deux, entre les cartons de cigarettes et un seau d'eau sale. Tu entends le moteur tourner au ralenti. Une portière s'ouvre. Mais aucun pas. Aucune voix. Rien. Le moteur tourne encore une minute, deux minutes. Tu regardes Odile. Elle a fermé les yeux, et ses lèvres bougent, comme si elle comptait. Puis la portière se referme. Et la berline repart, toujours sans lumière.",
+      "onscreen": [
+        "Moteur au ralenti",
+        "Personne ne sort"
+      ],
+      "visual": "the driver, a 30-year-old French man with short dark hair, light stubble, tired eyes and a green parka and Odile, a 60-year-old French gas station cashier with grey hair in a tight bun, a blue cardigan and a stern pale face crouched behind a shop counter between boxes and a bucket, Odile, a 60-year-old French gas station cashier with grey hair in a tight bun, a blue cardigan and a stern pale face with eyes closed whispering a count, engine rumble outside, dim light through the window, a distant door sound, suspense"
+    },
+    {
+      "type": "rule",
+      "number": 4,
+      "rule": "Si le téléphone de la cabine sonne, ne décroche pas. Il n'est plus relié à rien depuis des années.",
+      "title": "Règle 4 : la cabine",
+      "narration": "Tu te relèves, les jambes en coton. Odile tapote la carte. Règle numéro quatre. Si le téléphone de la cabine sonne, ne décrochez pas. Il n'est plus relié à rien depuis des années. Tu cherches la cabine du regard. Elle est là, dehors, contre le mur, sous un néon qui grésille. Vieille cabine à pièces, vitres sales. Le fil du combiné pend, coupé net. Et pourtant, au moment où tu la regardes, elle se met à sonner.",
+      "onscreen": [
+        "RÈGLE 4",
+        "Ne décroche pas",
+        "Fil coupé"
+      ],
+      "visual": "outdoor old phone booth glowing under a flickering neon against the shop wall at night, a cut dangling cord from the receiver, the driver, a 30-year-old French man with short dark hair, light stubble, tired eyes and a green parka watching through the glass, cold blue and sickly yellow light, creepy mood",
+      "overlay": {
+        "kind": "chip",
+        "text": "RÈGLE 4",
+        "beat": 0
+      }
+    },
+    {
+      "type": "tension",
+      "title": "Huit sonneries",
+      "narration": "Une sonnerie. Deux. Trois. Le son est aigu, métallique, il traverse la vitre de la boutique comme si elle n'existait pas. Quatre. Cinq. Tu as le réflexe absurde de vouloir aller répondre, juste pour que ça s'arrête. Odile pose une main sur ton bras. Six. Sept. Huit. Puis le silence. Et dans ta poche, ton propre téléphone se met à vibrer. Numéro masqué. Tu le sors, tu regardes l'écran, et tu refuses l'appel avec un pouce qui tremble.",
+      "onscreen": [
+        "8 sonneries",
+        "Numéro masqué"
+      ],
+      "visual": "the driver, a 30-year-old French man with short dark hair, light stubble, tired eyes and a green parka in the shop clutching a vibrating phone with a hidden number, Odile, a 60-year-old French gas station cashier with grey hair in a tight bun, a blue cardigan and a stern pale face holding his arm, the phone booth outside glowing and silent, harsh neon light, cold shadows, tense dread"
+    },
+    {
+      "type": "rule",
+      "number": 5,
+      "rule": "Si quelqu'un entre à pied et demande la route de Saint-Aubert, réponds que tu ne connais pas.",
+      "title": "Règle 5 : Saint-Aubert",
+      "narration": "Règle numéro cinq. Si quelqu'un entre à pied et vous demande la route de Saint-Aubert, répondez que vous ne connaissez pas. Ne lui indiquez jamais le chemin. Tu n'as pas le temps de demander ce qu'est Saint-Aubert. La clochette de la porte sonne. Un homme entre. Grand, en costume sombre, impeccable, sans une goutte de pluie, sans une trace de boue. Il n'y a aucune voiture de plus sur le parking. Il s'approche de toi, pas d'Odile. De toi.",
+      "onscreen": [
+        "RÈGLE 5",
+        "\"Je ne connais pas.\""
+      ],
+      "visual": "a tall pale man in an impeccable dark suit with a too-wide polite smile and faintly glowing eyes stepping through the shop door in the middle of the night with no rain or mud on him, the driver, a 30-year-old French man with short dark hair, light stubble, tired eyes and a green parka frozen near the counter, Odile, a 60-year-old French gas station cashier with grey hair in a tight bun, a blue cardigan and a stern pale face pale and still, harsh neon light, no car outside, uneasy atmosphere",
+      "overlay": {
+        "kind": "chip",
+        "text": "RÈGLE 5",
+        "beat": 0
+      }
+    },
+    {
+      "type": "tension",
+      "title": "L'homme en costume",
+      "narration": "Il te sourit. Un sourire poli, un peu trop large. Excusez-moi, dit-il, je cherche la route de Saint-Aubert. Je crois que je me suis perdu. Sa voix est douce. Rassurante. Tu as envie de l'aider. Tu as même envie de lui proposer de le déposer. Les mots montent dans ta gorge. Puis tu vois la carte plastifiée, posée sur le comptoir. Tu avales ta salive, et tu dis : désolé, je ne connais pas. Le sourire de l'homme ne bouge pas. Il reste là, à te regarder, beaucoup trop longtemps.",
+      "onscreen": [
+        "\"La route",
+        "de Saint-Aubert ?\""
+      ],
+      "visual": "close-up of a tall pale man in an impeccable dark suit with a too-wide polite smile and faintly glowing eyes smiling politely at the driver, a 30-year-old French man with short dark hair, light stubble, tired eyes and a green parka with a hand open as if asking for directions, the driver, a 30-year-old French man with short dark hair, light stubble, tired eyes and a green parka swallowing nervously with a laminated card in front of him, neon light, calm but chilling mood"
+    },
+    {
+      "type": "rule",
+      "number": 6,
+      "rule": "Ne regarde pas l'écran des caméras. Si tu t'y vois, ce n'est pas toi.",
+      "title": "Règle 6 : les caméras",
+      "narration": "L'homme finit par tourner les talons. La clochette sonne. Il disparaît dans le noir, à pied, du côté de la forêt. Tu respires enfin. Règle numéro six. Ne regardez pas l'écran des caméras. Si vous vous y voyez, ce n'est pas vous. Trop tard. Ton regard est déjà sur le petit moniteur en noir et blanc, au-dessus de la caisse. Quatre images. Le parking. Les pompes. La boutique. Et sur l'image de la boutique, il y a Odile, seule derrière le comptoir.",
+      "onscreen": [
+        "RÈGLE 6",
+        "Ne regarde pas",
+        "les caméras"
+      ],
+      "visual": "a tall pale man in an impeccable dark suit with a too-wide polite smile and faintly glowing eyes walking away into the dark forest at the edge of the gas station, the driver, a 30-year-old French man with short dark hair, light stubble, tired eyes and a green parka watching from the door, then a black and white security monitor above the register showing the empty shop with Odile, a 60-year-old French gas station cashier with grey hair in a tight bun, a blue cardigan and a stern pale face alone, cold light",
+      "overlay": {
+        "kind": "chip",
+        "text": "RÈGLE 6",
+        "beat": 0
+      }
+    },
+    {
+      "type": "tension",
+      "title": "La quatrième image",
+      "narration": "Toi, tu n'apparais pas sur l'image. Tu agites la main. Rien. Odile, elle, est bien là, à côté de l'endroit où tu te tiens. Tu cherches ta voiture sur l'image du parking. Elle y est, à la pompe numéro un. Et à côté, il y a quelqu'un. Debout. Immobile. Il porte ta veste. Il a ta silhouette. Il regarde la caméra. Odile éteint le moniteur d'un geste sec. Elle te dit, pour la première fois : il est temps de partir. Lis la dernière.",
+      "onscreen": [
+        "Sur l'écran :",
+        "quelqu'un avec ta veste"
+      ],
+      "visual": "Odile, a 60-year-old French gas station cashier with grey hair in a tight bun, a blue cardigan and a stern pale face switching off a black and white security monitor with a stiff gesture, on it a figure in a green parka stands at pump one looking at the camera, the driver, a 30-year-old French man with short dark hair, light stubble, tired eyes and a green parka pale and wide-eyed, cold neon light",
+      "overlay": {
+        "kind": "stamp",
+        "text": "CE N'EST PAS TOI",
+        "beat": 2
+      }
+    },
+    {
+      "type": "rule",
+      "number": 7,
+      "rule": "Pars avant 4h44. N'allume tes phares qu'après le panneau de sortie de la forêt.",
+      "title": "Règle 7 : pars avant 4h44",
+      "narration": "Règle numéro sept. Partez avant quatre heures quarante-quatre. N'allumez pas vos phares avant d'avoir passé le panneau de sortie de la forêt. Il vous trouve à la lumière. L'horloge au-dessus de la porte indique quatre heures quarante et une. Tu cours jusqu'à ta voiture. Il n'y a plus personne à côté. Tu démarres. Tu laisses les phares éteints, et tu roules au pas, guidé par la lueur blanche de la station dans ton rétroviseur, puis par rien du tout.",
+      "onscreen": [
+        "RÈGLE 7",
+        "Avant 4h44",
+        "Phares éteints"
+      ],
+      "visual": "the driver, a 30-year-old French man with short dark hair, light stubble, tired eyes and a green parka sprinting to his car under the neon canopy with a wall clock in the shop window reading nearly four forty-four, no one beside the car, headlights switched off, harsh white neon and dark pine forest, panic",
+      "overlay": {
+        "kind": "chip",
+        "text": "RÈGLE 7",
+        "beat": 0
+      }
+    },
+    {
+      "type": "tension",
+      "title": "La route sans fin",
+      "narration": "Tu roules dans le noir complet. Tu devines la route au bruit des pneus sur l'asphalte, aux reflets gris des bas-côtés. Dix minutes. Vingt minutes. Toujours pas de panneau. Tu commences à penser que tu l'as raté. Que tu peux rallumer. Mais tu n'oses pas. Tes mains sont soudées au volant. Puis, au sommet d'une côte, une lumière blanche apparaît devant toi. Des néons. Des pompes qui brillent comme si elles étaient neuves. Tu ralentis. Ton cœur s'arrête presque.",
+      "onscreen": [
+        "Toujours pas",
+        "de panneau"
+      ],
+      "visual": "the driver, a 30-year-old French man with short dark hair, light stubble, tired eyes and a green parka driving through a pitch black forest road with headlights off, hands gripping the wheel, faint grey reflections on the roadside, then ahead a white glow of neon at the top of a hill, deep dark blue night, dread"
+    },
+    {
+      "type": "twist",
+      "title": "Tous feux éteints",
+      "narration": "C'est la même station. Tu montes la côte lentement, sans phares, et tu t'arrêtes à côté d'une petite voiture garée à la pompe numéro un. Derrière la vitre de la boutique, tu vois Odile. Et à côté d'elle, un jeune homme avec une carte plastifiée à la main. Il te regarde arriver, les yeux écarquillés. Puis Odile l'attrape par la manche, et ils disparaissent tous les deux derrière le comptoir. Tu comprends enfin la règle numéro trois. Une voiture tous feux éteints. Ce n'est pas un client. Tu ouvres ta portière. Et tu attends qu'il sorte.",
+      "onscreen": [
+        "Ce n'est pas",
+        "un client."
+      ],
+      "visual": "gas station at night, the driver, a 30-year-old French man with short dark hair, light stubble, tired eyes and a green parka stopped beside a small car at pump one, behind the shop window Odile, a 60-year-old French gas station cashier with grey hair in a tight bun, a blue cardigan and a stern pale face pulls a young man with a laminated card by the sleeve behind the counter, neon light, eerie quiet, dark forest all around"
+    }
+  ],
+  "short": {
+    "hook_text": "N'ALLUME PAS TES PHARES",
+    "narration": "Quatre heures du matin. Ton réservoir est vide, et au milieu de nulle part, une station-service est encore ouverte. La caissière, Odile, ne dit pas un mot. Elle te tend une carte plastifiée avec sept règles. Règle un : paie en liquide, il ne doit pas connaître ton nom. Règle deux : n'utilise jamais la pompe numéro quatre, de jour, elle n'existe pas. Tu regardes dehors. Il y a trois pompes. Et puis une quatrième, rouillée, au bord de la forêt. Règle trois : si une voiture arrive tous feux éteints, cache-toi, ce n'est pas un client. Et justement, une berline grise monte la côte, sans aucune lumière. Retiens bien cette règle. Elle va tout changer. Le film complet est sur la chaîne.",
+    "cta": "Le film complet est sur la chaîne",
+    "visuals": [
+      {
+        "p": "empty forest road at night, a lone old car with its fuel warning light glowing, headlights cutting through pine trees, a gas station shining with white neon at the top of the hill, deep dark blue night",
+        "overlay": {
+          "kind": "banner",
+          "text": "04:00"
+        }
+      },
+      {
+        "p": "Odile, a 60-year-old French gas station cashier with grey hair in a tight bun, a blue cardigan and a stern pale face behind a gas station counter at night in harsh neon light, staring at the driver, a 30-year-old French man with short dark hair, light stubble, tired eyes and a green parka without a word, pale stern face, deep shadows, eerie mood",
+        "at": "La caissière, Odile"
+      },
+      {
+        "p": "Odile, a 60-year-old French gas station cashier with grey hair in a tight bun, a blue cardigan and a stern pale face sliding a yellowed laminated card across the counter toward the driver, a 30-year-old French man with short dark hair, light stubble, tired eyes and a green parka, harsh fluorescent light, deep shadows, uneasy mood",
+        "at": "Elle te tend une carte",
+        "overlay": {
+          "kind": "chip",
+          "text": "7 RÈGLES"
+        }
+      },
+      {
+        "p": "close-up of the driver, a 30-year-old French man with short dark hair, light stubble, tired eyes and a green parka holding a twenty euro bill at the counter while Odile, a 60-year-old French gas station cashier with grey hair in a tight bun, a blue cardigan and a stern pale face points at a payment terminal with an eerie glowing screen, neon light",
+        "at": "Règle un",
+        "overlay": {
+          "kind": "chip",
+          "text": "RÈGLE 1"
+        }
+      },
+      {
+        "p": "gas station forecourt at night, three pumps under a canopy and a fourth old rusty pump at the dark forest edge with a faint glowing screen, cold blue light",
+        "at": "Règle deux",
+        "overlay": {
+          "kind": "chip",
+          "text": "RÈGLE 2"
+        }
+      },
+      {
+        "p": "the driver, a 30-year-old French man with short dark hair, light stubble, tired eyes and a green parka standing in the freezing forecourt counting three pumps with his finger, mist of breath, neon light, black forest behind",
+        "at": "Il y a trois pompes"
+      },
+      {
+        "p": "a rusty old fourth gas pump at the edge of a dark forest with a faintly glowing small screen and a handle slightly swinging, cold blue mist, creepy mood",
+        "at": "Et puis une quatrième",
+        "overlay": {
+          "kind": "stamp",
+          "text": "POMPE N°4"
+        }
+      },
+      {
+        "p": "Odile, a 60-year-old French gas station cashier with grey hair in a tight bun, a blue cardigan and a stern pale face pointing urgently at the card while the driver, a 30-year-old French man with short dark hair, light stubble, tired eyes and a green parka reads it with wide eyes, shop window showing a dark night outside, neon light",
+        "at": "Règle trois",
+        "overlay": {
+          "kind": "chip",
+          "text": "RÈGLE 3"
+        }
+      },
+      {
+        "p": "a grey sedan climbing the hill toward the gas station with all lights off like a shadow, neon in the distance, deep blue night, dread",
+        "at": "Et justement, une berline grise"
+      },
+      {
+        "p": "the driver, a 30-year-old French man with short dark hair, light stubble, tired eyes and a green parka and Odile, a 60-year-old French gas station cashier with grey hair in a tight bun, a blue cardigan and a stern pale face crouched behind a counter with wide eyes listening, a faint grey shape of the sedan through the window, dim light, suspense",
+        "at": "Retiens bien cette règle"
+      },
+      {
+        "p": "close-up of the driver, a 30-year-old French man with short dark hair, light stubble, tired eyes and a green parka in a dark car, a pale glow from the gas station in the mirror, a ghostly grey sedan silhouette, cold light, ominous mood",
+        "at": "Elle va tout changer"
+      }
+    ]
+  },
+  "visual_bible": {
+    "hero": "the driver, a 30-year-old French man with short dark hair, light stubble, tired eyes and a green parka",
+    "odile": "Odile, a 60-year-old French gas station cashier with grey hair in a tight bun, a blue cardigan and a stern pale face",
+    "suit": "a tall pale man in an impeccable dark suit with a too-wide polite smile and faintly glowing eyes"
+  }
+}

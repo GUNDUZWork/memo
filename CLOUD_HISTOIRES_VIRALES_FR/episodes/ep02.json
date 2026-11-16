@@ -1,0 +1,279 @@
+{
+  "id": 2,
+  "slug": "pensees-entendues-5-metres",
+  "formula": "etsilab",
+  "title": "Et si tout le monde entendait tes pensées dans un rayon de 5 mètres ?",
+  "thumbnail": {
+    "line1": "ILS ENTENDENT TOUT",
+    "line2": "rayon : 5 mètres",
+    "accent": "#FF3B6B",
+    "visual": "Close-up of Antoine, a 30-year-old French man with short curly dark hair, round tortoiseshell glasses and a mustard yellow sweater, wide shocked eyes and open mouth, on the right, with many glowing pink thought clouds bursting from his head, dark blue background, dramatic rim light"
+  },
+  "youtube": {
+    "title": "Et si tout le monde entendait tes pensées dans un rayon de 5 mètres ?",
+    "description": "Un matin, sans prévenir, tes pensées deviennent audibles. Pas pour toi : pour tout le monde autour de toi, dans un rayon de cinq mètres. Dans le métro, au bureau, au repas de famille. Chaque idée qui te traverse la tête est entendue à voix haute.\n\nDans ce scénario « Et si », on calcule combien de personnes t’entendent chaque jour, ce que ça change dans ton couple, ton travail et tes amitiés, et pourquoi la phase 2 va tout renverser.\n\nAbonne-toi pour d’autres scénarios, et dis-nous en commentaire quelle pensée tu aurais le plus peur qu’on entende.",
+    "tags": [
+      "et si",
+      "scénario",
+      "pensées",
+      "télépathie",
+      "lire dans les pensées",
+      "expérience de pensée",
+      "histoire",
+      "imagination",
+      "psychologie",
+      "honnêteté",
+      "what if",
+      "maths",
+      "vie sociale",
+      "histoires virales",
+      "fiction"
+    ],
+    "pinned_comment": "Quelle est la pensée que tu aurais le plus peur que ton entourage entende ? (Tu as le droit de mentir, ici.)"
+  },
+  "counter": {
+    "label": "PENSÉES ENTENDUES",
+    "start": 0,
+    "rate": 3,
+    "unit": "",
+    "decimals": 0
+  },
+  "scenes": [
+    {
+      "type": "hook",
+      "title": "La voix dans l’ascenseur",
+      "narration": "Imagine. Tu montes dans un ascenseur avec ton voisin du quatrième. Tu lui fais un petit sourire poli, et dans ta tête, tu te dis : « Pourvu qu’il ne me parle pas de sa trottinette. » Sauf que cette fois, il se retourne. Il a l’air blessé. Parce qu’il l’a entendue. Ta pensée. Mot pour mot. À partir d’aujourd’hui, tout ce que tu penses est entendu par toutes les personnes situées à moins de cinq mètres de toi. Toutes. Sans exception. Et tu ne peux pas l’éteindre.",
+      "onscreen": [
+        "rayon : 5 mètres",
+        "impossible à couper"
+      ],
+      "visual": "Antoine, a 30-year-old French man with short curly dark hair, round tortoiseshell glasses and a mustard yellow sweater, in a narrow Paris apartment building elevator next to a hurt-looking elderly neighbour, glowing translucent thought clouds floating from his head, awkward polite smile, warm cramped lighting, empty space above"
+    },
+    {
+      "type": "narration",
+      "title": "La première matinée",
+      "narration": "Au début, tu crois à une coïncidence. Puis tu remarques que les gens se retournent sur ton passage. Une dame à la boulangerie rougit quand tu trouves, dans ta tête, que sa baguette est un peu trop cuite. Un livreur éclate de rire quand tu te demandes si tu as bien fermé le gaz. Tu comprends que ta voix intérieure sort de toi. Pas fort. Comme un murmure clair, posé juste à côté de l’oreille des autres. Et elle ne s’arrête jamais.",
+      "onscreen": [
+        "un murmure",
+        "pour tout le monde"
+      ],
+      "visual": "Antoine, a 30-year-old French man with short curly dark hair, round tortoiseshell glasses and a mustard yellow sweater, walking down a sunny Paris street past a bakery, passers-by turning their heads toward him with surprised faces, a blushing woman holding a baguette, soft glowing sound waves coming from his head, bright morning light"
+    },
+    {
+      "type": "math",
+      "title": "Combien de gens t’entendent ?",
+      "narration": "Faisons le calcul. Un cercle de cinq mètres de rayon, c’est pi fois cinq au carré. Environ soixante-dix-huit mètres carrés. Dans un bureau normal, ça fait peut-être six collègues. Mais dans une rame de métro à l’heure de pointe, on peut compter quatre personnes par mètre carré. Quatre fois soixante-dix-huit. Ça fait plus de trois cents personnes qui entendent tout ce qui te passe par la tête, entre deux stations. Trois cents témoins de ton cerveau, chaque matin.",
+      "equation": "π × 5² × 4 pers./m²",
+      "result": "≈ 314 personnes",
+      "onscreen": [
+        "78 m²",
+        "314 auditeurs"
+      ],
+      "visual": "Antoine, a 30-year-old French man with short curly dark hair, round tortoiseshell glasses and a mustard yellow sweater, standing in the center of a huge glowing circle drawn on the ground around him, with a crowd of small silhouettes inside it, floating geometric lines and a luminous radius, playful math atmosphere, blue and violet light"
+    },
+    {
+      "type": "counter_focus",
+      "title": "Le métro de huit heures",
+      "narration": "Alors tu prends le métro. Et c’est l’enfer. Tu essaies de ne penser à rien, mais essayer de ne penser à rien, c’est déjà penser. Tu remarques un homme qui sent fort le parfum, et la moitié du wagon t’entend le remarquer. Tu te dis que c’est gênant, et le wagon entend que c’est gênant. Une adolescente filme la scène. Le compteur de pensées entendues s’affole. En vingt minutes de trajet, tu as offert à des inconnus plus d’intimité qu’à ta propre famille en un an.",
+      "onscreen": [
+        "ne pense à rien",
+        "trop tard"
+      ],
+      "visual": "Antoine, a 30-year-old French man with short curly dark hair, round tortoiseshell glasses and a mustard yellow sweater, squeezed in a packed rush-hour Paris metro carriage, dozens of commuters staring at him, a teenager filming with a phone, glowing thought clouds rising above him, harsh fluorescent light, embarrassed expression",
+      "overlay": {
+        "kind": "chip",
+        "text": "300 TÉMOINS",
+        "beat": 1
+      }
+    },
+    {
+      "type": "narration",
+      "title": "Le bureau",
+      "narration": "Au travail, tu arrives en avance pour être tranquille. Erreur. À neuf heures, ta collègue Inès s’assoit à trois mètres de toi. Tu relis un mail de ton chef, Monsieur Perrin, et ta tête commente chaque phrase. Inès te regarde, les yeux ronds. Puis elle se met à sourire. Parce qu’elle pense exactement la même chose que toi sur ce mail, depuis deux ans. Pour la première fois, quelqu’un au bureau sait vraiment ce que tu penses. Et c’est presque un soulagement.",
+      "onscreen": [
+        "Inès : 3 mètres",
+        "complicité"
+      ],
+      "visual": "Antoine, a 30-year-old French man with short curly dark hair, round tortoiseshell glasses and a mustard yellow sweater, sitting at an open-space office desk looking at a computer, Inès, a 32-year-old French woman with a black bob haircut, red lipstick and a cream blazer sitting three meters away smiling in surprise, glowing thought clouds between them, soft morning office light through big windows"
+    },
+    {
+      "type": "narration",
+      "title": "La réunion",
+      "narration": "À onze heures, réunion d’équipe. Douze personnes autour d’une table. Monsieur Perrin présente un nouveau projet qu’il trouve génial. Tu essaies de garder un visage neutre. Ton visage est parfait. Ta tête, beaucoup moins. « Ça ne marchera jamais, on a déjà essayé en 2021. » Silence total. Monsieur Perrin pose son feutre. Et contre toute attente, il te demande pourquoi. Tu expliques. Une demi-heure plus tard, le projet est corrigé. Ton honnêteté involontaire vient de faire économiser trois mois de travail à l’équipe.",
+      "onscreen": [
+        "visage : neutre",
+        "tête : pas du tout"
+      ],
+      "visual": "Antoine, a 30-year-old French man with short curly dark hair, round tortoiseshell glasses and a mustard yellow sweater, at a long meeting table with twelve colleagues, Monsieur Perrin, a 55-year-old French boss with thinning grey hair, a grey mustache, a light blue shirt and a striped tie standing next to a whiteboard holding a marker and looking stunned, dead silence, glowing thought cloud above the hero, tense but comic mood, cool office light"
+    },
+    {
+      "type": "counter_focus",
+      "title": "Le premier rendez-vous",
+      "narration": "Le soir, tu as un premier rendez-vous. Tu avais prévu d’annuler, mais tu décides d’y aller quand même. Au restaurant, la table est petite. Un mètre entre vous. Elle s’appelle Maëlle. Tu penses qu’elle est belle, et elle l’entend. Tu penses que tu es trop nerveux, et elle l’entend aussi. Tu penses que tu as peur qu’elle parte en courant. Elle pose sa fourchette. Et elle te dit : « C’est la première fois que je sais exactement où j’en suis avec quelqu’un. » Le compteur grimpe. Elle reste.",
+      "onscreen": [
+        "distance : 1 mètre",
+        "elle reste"
+      ],
+      "visual": "Antoine, a 30-year-old French man with short curly dark hair, round tortoiseshell glasses and a mustard yellow sweater, at a small candlelit table in a cozy Paris restaurant with Maëlle, a 28-year-old French woman with long auburn hair, green eyes and a denim jacket over a white top who is putting down her fork and smiling softly, glowing thought clouds floating between them, warm golden romantic light"
+    },
+    {
+      "type": "narration",
+      "title": "Les petits mensonges",
+      "narration": "Mais les jours suivants, tu découvres le vrai problème. Ce ne sont pas les grandes vérités. Ce sont les petits mensonges. Ceux qui rendent la vie supportable. Ta tante te montre un pull qu’elle a tricoté pour toi, avec un renne dessus. Ta bouche dit « Il est magnifique ». Ta tête dit autre chose. Ton ami te fait écouter sa première chanson. Ta bouche l’encourage. Ta tête cherche la sortie. Tu ne peux plus être poli. Tu ne peux plus faire semblant. Tu dois devenir sincère, ou devenir silencieux.",
+      "onscreen": [
+        "bouche : merci",
+        "tête : au secours"
+      ],
+      "visual": "Antoine, a 30-year-old French man with short curly dark hair, round tortoiseshell glasses and a mustard yellow sweater, at a family lunch holding up a hideous knitted reindeer sweater with a forced smile, his elderly aunt beaming proudly, a glowing sarcastic thought cloud above his head, cosy living room, warm light"
+    },
+    {
+      "type": "math",
+      "title": "La distance de sécurité",
+      "narration": "Alors tu calcules ta distance de sécurité. Cinq mètres de rayon, c’est dix mètres de diamètre. Pour être seul, il te faut une bulle vide de la taille d’un petit appartement. Dans une grande ville, avec plus de vingt mille habitants au kilomètre carré, il y a statistiquement plus d’une personne et demie dans ta bulle à chaque instant. Même la nuit, tes voisins de palier sont à moins de cinq mètres. Ils t’entendent rêver. Tu déménages à la campagne.",
+      "equation": "20 000 hab./km² × 78,5 m²",
+      "result": "≈ 1,6 personne en permanence",
+      "onscreen": [
+        "bulle : 10 m",
+        "1,6 personne"
+      ],
+      "visual": "Antoine, a 30-year-old French man with short curly dark hair, round tortoiseshell glasses and a mustard yellow sweater, standing alone in an empty park with a faint glowing protective bubble around him, a ring drawn on the grass, tiny buildings of a big city in the background, soft blue evening light, calm but lonely"
+    },
+    {
+      "type": "narration",
+      "title": "La maison isolée",
+      "narration": "Tu loues une petite maison au bout d’un chemin, à trois kilomètres du premier village. Le silence est incroyable. Personne pour t’entendre. Tu peux penser n’importe quoi, n’importe quand. Les premiers jours, c’est le paradis. Puis tu remarques quelque chose d’étrange. Sans personne autour, tes pensées tournent en rond. Tu n’as plus de raison de les trier. Tu te surprends à parler aux poules du voisin. Et tu réalises que la liberté totale, sans personne pour la partager, ressemble beaucoup à de la solitude.",
+      "onscreen": [
+        "3 km de silence",
+        "trop de silence"
+      ],
+      "visual": "Antoine, a 30-year-old French man with short curly dark hair, round tortoiseshell glasses and a mustard yellow sweater, sitting on the porch of a small stone country house at the end of a dirt road, talking to chickens in the garden, green fields and forest, golden afternoon light, slightly lonely amused expression"
+    },
+    {
+      "type": "counter_focus",
+      "title": "Le retour en ville",
+      "narration": "Alors tu reviens. Mais tu reviens différent. Tu as appris à penser autrement. Pas à cacher tes pensées : c’est impossible. Mais à les choisir. Quand quelqu’un t’agace, tu cherches ce qui l’explique avant de le juger. Quand tu trouves quelqu’un formidable, tu le penses très fort, exprès. Dans le métro, les gens commencent à se rapprocher de toi plutôt qu’à s’éloigner. Le compteur de pensées entendues continue de grimper. Mais maintenant, ce que les gens entendent, ça leur fait du bien.",
+      "onscreen": [
+        "choisir ses pensées",
+        "+ de monde autour"
+      ],
+      "visual": "Antoine, a 30-year-old French man with short curly dark hair, round tortoiseshell glasses and a mustard yellow sweater, back in the Paris metro, smiling warmly and looking at a stranger, people around him moving closer with friendly faces, soft golden glowing thought clouds, uplifting warm light, hopeful mood"
+    },
+    {
+      "type": "narration",
+      "title": "Célèbre malgré toi",
+      "narration": "Évidemment, la nouvelle se répand. Des vidéos de toi circulent avec des millions de vues. On t’appelle « l’homme transparent ». Des chercheurs veulent t’étudier. Des politiciens refusent de s’approcher à moins de dix mètres. Un célèbre joueur de poker te propose une fortune juste pour s’asseoir à côté de toi pendant que tu regardes les cartes de ses adversaires. Tu refuses. Parce que tu as compris une chose : ton don ne sert pas à découvrir les secrets des autres. Il te force seulement à ne plus en avoir.",
+      "onscreen": [
+        "l’homme transparent",
+        "offre refusée"
+      ],
+      "visual": "Antoine, a 30-year-old French man with short curly dark hair, round tortoiseshell glasses and a mustard yellow sweater, surrounded by journalists with cameras and microphones, a poker player in sunglasses offering a briefcase, phone screens showing his face, flashing lights, overwhelmed but firm expression, stage-like spotlight"
+    },
+    {
+      "type": "narration",
+      "title": "Maëlle",
+      "narration": "Avec Maëlle, ça fait maintenant six mois. Elle dit que c’est la relation la plus reposante de sa vie. Pas de sous-entendus, pas de silences à décoder. Quand tu es fatigué, elle le sait. Quand tu as peur, elle le sait aussi. Un soir, sur un banc, tu penses très fort à une question que tu n’oses pas poser. Elle sourit et répond oui avant même que tu ouvres la bouche. Le compteur s’arrête une seconde. Puis repart. Tu crois que tu as enfin trouvé l’équilibre. Tu te trompes.",
+      "onscreen": [
+        "6 mois",
+        "elle a dit oui"
+      ],
+      "visual": "Antoine, a 30-year-old French man with short curly dark hair, round tortoiseshell glasses and a mustard yellow sweater and Maëlle, a 28-year-old French woman with long auburn hair, green eyes and a denim jacket over a white top sitting side by side on a bench at sunset beside the Seine, she smiles and nods before he speaks, a glowing heart-shaped thought cloud above him, romantic orange and pink sky"
+    },
+    {
+      "type": "phase2",
+      "title": "PHASE 2",
+      "narration": "Le lendemain matin, tous les téléphones du pays vibrent en même temps. Un écran noir. Une ligne blanche. Phase deux. Le rayon s’étend à toute l’humanité. En une seconde, huit milliards de personnes se mettent à entendre les pensées de tous ceux qui sont à moins de cinq mètres. Dans la rue, c’est le chaos. Des couples se disputent sur les trottoirs. Des collègues démissionnent en direct. Des amis découvrent ce qu’ils pensaient vraiment les uns des autres. Et au milieu de cette tempête, il y a toi. Calme.",
+      "alert": "PHASE 2 — TOUT LE MONDE EST CONCERNÉ",
+      "onscreen": [
+        "8 milliards",
+        "plus de secrets"
+      ],
+      "visual": "Paris street at dawn, all the people on the sidewalk frozen staring at their phones glowing black with a single white line, shocked faces, couples arguing, a huge glowing circle expanding across the whole city, dramatic dark blue sky",
+      "overlay": {
+        "kind": "phase2",
+        "text": "PHASE 2",
+        "beat": 0
+      }
+    },
+    {
+      "type": "narration",
+      "title": "Le seul qui sait faire",
+      "narration": "En quelques jours, tu deviens la personne la plus demandée du pays. Pas parce que tu es riche, ni parce que tu es puissant. Parce que tu es le seul à avoir déjà vécu ça. Tu donnes des conseils à la télévision, dans les écoles, dans les hôpitaux. Ta méthode tient en trois phrases. On ne peut pas cacher ce qu’on pense. Mais on peut apprendre à penser plus juste. Et, surtout, on peut pardonner aux autres ce qu’ils pensent sans le vouloir.",
+      "onscreen": [
+        "penser plus juste",
+        "pardonner"
+      ],
+      "visual": "Antoine, a 30-year-old French man with short curly dark hair, round tortoiseshell glasses and a mustard yellow sweater, calm and smiling, sitting on a studio sofa giving advice to a TV host, a wide audience of people listening, bright television lights, a soft glowing halo around the audience's thought clouds, warm atmosphere"
+    },
+    {
+      "type": "outro",
+      "title": "Et toi ?",
+      "narration": "Au fond, ce scénario pose une question simple. Si tes pensées devenaient publiques demain, est-ce que tu serais fier de la personne qu’on entendrait ? Personne n’est parfait à l’intérieur. Tout le monde juge, compare, s’agace. Mais on peut décider de ce qu’on nourrit. Alors maintenant, à toi. Quelle est la pensée que tu aurais le plus peur que les gens entendent ? Et quelle est celle que tu aimerais, au contraire, que quelqu’un entende enfin ? Dis-le en commentaire. Ici, personne ne t’entend penser.",
+      "onscreen": [
+        "et toi ?",
+        "dis-le en commentaire"
+      ],
+      "visual": "Antoine, a 30-year-old French man with short curly dark hair, round tortoiseshell glasses and a mustard yellow sweater, on a rooftop terrace at golden hour looking toward the Paris skyline, many soft glowing thought clouds rising peacefully into the sky, thoughtful gentle smile, warm light, empty sky above for text"
+    }
+  ],
+  "short": {
+    "hook_text": "ILS ENTENDENT TES PENSÉES",
+    "narration": "Imagine que tout le monde entende tes pensées, dans un rayon de cinq mètres. Dans l’ascenseur, ton voisin entend que tu espères qu’il ne te parlera pas. Au bureau, ton chef entend ce que tu penses de son projet. Dans le métro, à l’heure de pointe, ça fait environ trois cent quatorze personnes qui écoutent ton cerveau entre deux stations. Tu ne peux plus mentir. Tu ne peux plus faire semblant. Tu fuis à la campagne, et tu découvres que le silence total, c’est pire. Alors tu reviens, et tu apprends à penser autrement. Tout se calme. Jusqu’au matin où tous les téléphones du pays vibrent en même temps. Phase deux. Et cette fois, personne n’est prêt.",
+    "cta": "Le film complet est sur la chaîne",
+    "visuals": [
+      {
+        "p": "Antoine, a 30-year-old French man with short curly dark hair, round tortoiseshell glasses and a mustard yellow sweater, standing in a Paris street with glowing translucent thought clouds floating out of his head, people around turning to listen with shocked faces, bright pink and blue neon lighting"
+      },
+      {
+        "p": "Antoine, a 30-year-old French man with short curly dark hair, round tortoiseshell glasses and a mustard yellow sweater, in a tiny apartment elevator with a hurt-looking elderly neighbour, glowing thought cloud between them, awkward smile, warm cramped light",
+        "at": "Dans l’ascenseur"
+      },
+      {
+        "p": "Antoine, a 30-year-old French man with short curly dark hair, round tortoiseshell glasses and a mustard yellow sweater, at an office desk while Monsieur Perrin, a 55-year-old French boss with thinning grey hair, a grey mustache, a light blue shirt and a striped tie stands nearby looking offended and stunned, a glowing thought cloud above the hero, cool daylight",
+        "at": "Au bureau"
+      },
+      {
+        "p": "Antoine, a 30-year-old French man with short curly dark hair, round tortoiseshell glasses and a mustard yellow sweater, squeezed in a packed rush-hour metro carriage, a crowd of faces staring at him, glowing thought clouds rising, harsh fluorescent light",
+        "at": "Dans le métro",
+        "overlay": {
+          "kind": "chip",
+          "text": "314 PERSONNES"
+        }
+      },
+      {
+        "p": "Antoine, a 30-year-old French man with short curly dark hair, round tortoiseshell glasses and a mustard yellow sweater, with his hand over his mouth, wide eyes, trying not to think, a swirl of glowing thought clouds around his head, surrounded by silhouettes, tense dramatic light",
+        "at": "Tu ne peux plus mentir"
+      },
+      {
+        "p": "Antoine, a 30-year-old French man with short curly dark hair, round tortoiseshell glasses and a mustard yellow sweater, alone on a dirt road in the countryside next to a small stone house, green fields, silent empty landscape, golden evening light, lonely expression",
+        "at": "Tu fuis à la campagne"
+      },
+      {
+        "p": "Antoine, a 30-year-old French man with short curly dark hair, round tortoiseshell glasses and a mustard yellow sweater, back in a Paris street smiling warmly at people who smile back, soft golden glowing thought clouds, calm uplifting light",
+        "at": "Alors tu reviens"
+      },
+      {
+        "p": "Quiet Paris street at night, a single phone vibrating with a black screen on a bench, glowing white line, mysterious dark blue atmosphere, a lone streetlamp, empty cobblestones",
+        "at": "Jusqu’au matin"
+      },
+      {
+        "p": "Many people in a Paris street all holding black glowing phones, the city shocked and frozen, a huge luminous circle expanding across rooftops, dramatic dawn light",
+        "at": "Phase deux",
+        "overlay": {
+          "kind": "phase2",
+          "text": "PHASE 2"
+        }
+      },
+      {
+        "p": "Antoine, a 30-year-old French man with short curly dark hair, round tortoiseshell glasses and a mustard yellow sweater, looking frightened and speechless in the middle of a chaotic crowd, countless glowing thought clouds swirling around everyone, intense red and blue lighting",
+        "at": "Et cette fois"
+      }
+    ],
+    "counter_speed": 9
+  },
+  "visual_bible": {
+    "hero": "Antoine, a 30-year-old French man with short curly dark hair, round tortoiseshell glasses and a mustard yellow sweater",
+    "maelle": "Maëlle, a 28-year-old French woman with long auburn hair, green eyes and a denim jacket over a white top",
+    "perrin": "Monsieur Perrin, a 55-year-old French boss with thinning grey hair, a grey mustache, a light blue shirt and a striped tie",
+    "ines": "Inès, a 32-year-old French woman with a black bob haircut, red lipstick and a cream blazer"
+  }
+}

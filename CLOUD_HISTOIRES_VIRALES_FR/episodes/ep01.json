@@ -1,0 +1,301 @@
+{
+  "id": 1,
+  "slug": "1-euro-par-seconde",
+  "formula": "etsilab",
+  "title": "Et si tu gagnais 1 € chaque seconde, mais que ta banque bloquait tout ?",
+  "thumbnail": {
+    "line1": "1 € PAR SECONDE",
+    "line2": "mais compte bloqué",
+    "accent": "#FFD400",
+    "visual": "Théo, a 26-year-old French man with messy brown hair, light stubble and a navy blue hoodie, shocked open-mouthed face next to a giant glowing balance screen with euro banknotes flying, bold yellow and deep blue lighting"
+  },
+  "youtube": {
+    "title": "Et si tu gagnais 1 € chaque seconde, mais que ta banque bloquait tout ?",
+    "description": "Un lundi matin, ton compte se met à recevoir un euro chaque seconde. Sans virement, sans expéditeur, sans explication. 86 400 euros par jour, plus de 31 millions par an. Le rêve absolu… jusqu’à ce que ta banque gèle tout.\n\nDans ce scénario « Et si », on calcule tout : combien tu gagnes, combien tu ne peux pas toucher, et pourquoi être riche sur le papier peut devenir un cauchemar administratif. Et attention à la phase 2 : la règle change d’un coup.\n\nAbonne-toi pour ne rater aucun scénario, et dis-nous en commentaire ce que tu ferais pendant la première heure.",
+    "tags": [
+      "et si",
+      "scénario",
+      "argent",
+      "1 euro par seconde",
+      "banque",
+      "compte bloqué",
+      "millionnaire",
+      "histoire",
+      "expérience de pensée",
+      "maths",
+      "riche",
+      "finance",
+      "imagination",
+      "what if",
+      "histoires virales"
+    ],
+    "pinned_comment": "Sois honnête : pendant la première heure, avant que la banque bloque tout, tu aurais dépensé quoi ?"
+  },
+  "counter": {
+    "label": "SOLDE",
+    "start": 0,
+    "rate": 1,
+    "unit": "€",
+    "decimals": 0
+  },
+  "scenes": [
+    {
+      "type": "hook",
+      "title": "Un euro. Puis deux.",
+      "narration": "Imagine. Tu te réveilles un lundi matin, tu attrapes ton téléphone, et tu vois une notification de ta banque. Plus un euro. Tu rafraîchis. Plus deux euros. Plus trois. Chaque seconde, un euro tombe sur ton compte. Pas de virement, pas d’expéditeur, aucune explication. Juste un compteur qui ne s’arrête jamais. Tu crois que ta vie vient de changer pour toujours. Et tu as raison. Sauf que ta banque, elle aussi, vient de remarquer ce compteur. Et elle n’aime pas du tout ça.",
+      "onscreen": [
+        "+1 € / seconde",
+        "sans explication"
+      ],
+      "visual": "Théo, a 26-year-old French man with messy brown hair, light stubble and a navy blue hoodie, sitting up in bed in a sunny Paris studio apartment, staring wide-eyed at his phone where a banking balance is climbing, golden morning light through the window, rooftops of Paris outside"
+    },
+    {
+      "type": "narration",
+      "title": "Les premières minutes",
+      "narration": "Les cinq premières minutes, tu ne bouges pas. Tu fixes l’écran comme si c’était une blague. Soixante euros par minute. Tu fais une capture d’écran, puis une deuxième, pour être sûr que tu ne rêves pas. Tu appelles ton meilleur ami, Karim. Il te dit que c’est sûrement une erreur informatique et qu’il ne faut surtout rien dépenser. Tu raccroches. Le compteur affiche trois cent douze euros. Tu te dis qu’une erreur informatique, ça ne dure pas. Et pourtant, ça continue.",
+      "onscreen": [
+        "60 € par minute",
+        "erreur ?"
+      ],
+      "visual": "Théo, a 26-year-old French man with messy brown hair, light stubble and a navy blue hoodie, frozen in his small kitchen holding a coffee mug and a phone, a huge glowing digital balance display floating in the air in front of him, stunned disbelief"
+    },
+    {
+      "type": "math",
+      "title": "Le calcul qui donne le vertige",
+      "narration": "Alors tu sors une calculatrice. Un euro par seconde. Une heure, c’est trois mille six cents secondes. Donc trois mille six cents euros de l’heure, même pendant que tu dors. Une journée, c’est quatre-vingt-six mille quatre cents secondes. Quatre-vingt-six mille quatre cents euros par jour. Et sur une année entière, plus de trente et un millions d’euros. Sans travailler. Sans rien faire. Juste en respirant. Pour te donner une idée, le salaire médian en France tourne autour de deux mille euros net par mois. Toi, tu gagnes ça en un peu plus d’une demi-heure.",
+      "equation": "1 € × 86 400 s",
+      "result": "86 400 € par jour",
+      "onscreen": [
+        "3 600 € / heure",
+        "31,5 M€ / an"
+      ],
+      "visual": "Théo, a 26-year-old French man with messy brown hair, light stubble and a navy blue hoodie, at a cluttered desk at night with a calculator, notebooks full of equations and towers of euro coins, lamp light, lightbulb moment, excited face"
+    },
+    {
+      "type": "counter_focus",
+      "title": "Le croissant le plus cher",
+      "narration": "Tu décides d’aller à la boulangerie, juste pour tester. Pendant que tu marches, le compteur grimpe. Mille. Mille cinq cents. Tu prends un croissant, un pain au chocolat et, pour la première fois de ta vie, tu dis à la boulangère de garder la monnaie. Tu tends ta carte. Bip. Paiement accepté. Tu ressors avec un sourire immense. Tu viens de dépenser deux euros quarante. Pendant ce temps, ton compte a gagné presque quatre cents euros. Tu commences à comprendre ce que ça veut dire, être riche.",
+      "onscreen": [
+        "paiement accepté",
+        "+400 € en route"
+      ],
+      "visual": "Théo, a 26-year-old French man with messy brown hair, light stubble and a navy blue hoodie, walking happily on a charming Paris street toward a boulangerie with golden croissants in the window, phone glowing in his hand, bright morning sun"
+    },
+    {
+      "type": "narration",
+      "title": "Le coup de fil",
+      "narration": "À onze heures douze, ton téléphone sonne. Un numéro masqué. C’est le service de sécurité de ta banque. Une voix très calme t’explique qu’une activité inhabituelle a été détectée sur ton compte. Des milliers de crédits d’un euro, d’origine inconnue, toutes les secondes. Tu réponds, honnêtement, que tu n’en sais pas plus qu’eux. Un silence. Puis la voix dit une phrase que tu n’oublieras jamais. « Par mesure de précaution, votre compte est gelé jusqu’à nouvel ordre. » Clic.",
+      "onscreen": [
+        "activité inhabituelle",
+        "compte gelé"
+      ],
+      "visual": "Théo, a 26-year-old French man with messy brown hair, light stubble and a navy blue hoodie, standing on a grey Paris sidewalk answering a phone call with a worried face, overcast light, pedestrians blurred behind him",
+      "overlay": {
+        "kind": "banner",
+        "text": "COMPTE GELÉ",
+        "beat": 3
+      }
+    },
+    {
+      "type": "counter_focus",
+      "title": "Riche, mais à sec",
+      "narration": "Tu ouvres ton application. Le compteur tourne toujours. Douze mille euros. Treize mille. Mais à côté du solde, il y a maintenant un petit cadenas rouge. Tu essaies de faire un virement de dix euros à Karim. Refusé. Tu vas au distributeur. Carte retenue. Le soir, tu commandes une pizza. Refusée. Tu manges des pâtes au beurre devant un écran qui t’annonce que tu possèdes vingt mille euros. C’est la première fois de ta vie que tu es riche et affamé en même temps.",
+      "onscreen": [
+        "solde : 20 000 €",
+        "carte refusée"
+      ],
+      "visual": "Théo, a 26-year-old French man with messy brown hair, light stubble and a navy blue hoodie, at a boulangerie counter holding a bank card, a payment terminal with a red declined screen, the baker shrugging apologetically, croissants behind the glass",
+      "overlay": {
+        "kind": "stamp",
+        "text": "CARTE REFUSÉE",
+        "beat": 2
+      }
+    },
+    {
+      "type": "narration",
+      "title": "Le rendez-vous à l’agence",
+      "narration": "Le lendemain, rendez-vous à l’agence avec ton conseiller, Monsieur Garnier. Il t’explique la règle. Les banques ont l’obligation légale de vérifier l’origine de chaque somme importante. C’est ce qu’on appelle la lutte contre le blanchiment. Tant que tu ne prouves pas d’où vient l’argent, il ne peut pas le libérer. Tu lui demandes ce que tu dois prouver. Il te répond : « Un contrat, une facture, un héritage, n’importe quoi. » Tu n’as rien. L’argent tombe du ciel, et le ciel ne fournit pas de justificatif.",
+      "onscreen": [
+        "origine des fonds ?",
+        "aucune preuve"
+      ],
+      "visual": "Théo, a 26-year-old French man with messy brown hair, light stubble and a navy blue hoodie, sitting across a desk from Monsieur Garnier, a 50-year-old French bank advisor with slicked grey hair, round glasses, a grey suit and a burgundy tie, in a bright bank branch office with glass walls, Garnier opening a thick grey folder with a serious face"
+    },
+    {
+      "type": "narration",
+      "title": "Le plan B",
+      "narration": "Alors tu ouvres un compte dans une autre banque. Puis une néobanque sur ton téléphone. Tu attends, plein d’espoir. Rien. Les euros continuent d’arriver, mais uniquement sur le compte gelé. Comme si quelqu’un, quelque part, avait choisi ce compte précis. Tu essaies même de le fermer. Impossible : on ne ferme pas un compte qui fait l’objet d’une enquête. Tu es prisonnier de ta propre fortune. Et pendant que tu remplis des formulaires, le compteur, lui, ne prend jamais de pause.",
+      "onscreen": [
+        "nouveau compte : 0 €",
+        "impossible de fermer"
+      ],
+      "visual": "Théo, a 26-year-old French man with messy brown hair, light stubble and a navy blue hoodie, on his sofa tapping a phone showing several banking apps, a pile of bank cards on the coffee table, frustrated, warm evening lamp light"
+    },
+    {
+      "type": "counter_focus",
+      "title": "Le cap du million",
+      "narration": "Onze jours et demi plus tard, à quatorze heures et des poussières, le compteur passe le million. Un million d’euros. Quelqu’un à la banque a parlé, et ta tête circule déjà sur les réseaux. Des journalistes campent devant ton immeuble. Des inconnus t’écrivent pour te demander de l’aide. Ta tante, que tu n’as pas vue depuis neuf ans, t’invite à dîner. Et toi, tu n’as même pas de quoi payer le métro. Tu es le millionnaire le plus pauvre du pays.",
+      "onscreen": [
+        "1 000 000 €",
+        "toujours bloqué"
+      ],
+      "visual": "Théo, a 26-year-old French man with messy brown hair, light stubble and a navy blue hoodie, in his living room staring at a giant holographic number made of golden light floating above his phone, golden sparkles everywhere, mouth wide open in awe"
+    },
+    {
+      "type": "narration",
+      "title": "La banque change de ton",
+      "narration": "Puis un matin, Monsieur Garnier te rappelle. Mais cette fois, sa voix est chaleureuse. Presque amicale. Il te propose un rendez-vous avec le directeur régional. Café, croissants, fauteuil en cuir. Le directeur t’explique que tu es désormais l’un des plus gros clients de la banque. Il ne peut toujours pas débloquer ton argent. En revanche, il peut te prêter de l’argent. Avec ton compte gelé comme garantie. Tu viens de comprendre. Ils vont te faire payer pour accéder à ton propre argent.",
+      "onscreen": [
+        "un prêt ?",
+        "garanti par TON argent"
+      ],
+      "visual": "Monsieur Garnier, a 50-year-old French bank advisor with slicked grey hair, round glasses, a grey suit and a burgundy tie, leaning forward with a fake warm wide smile and sliding a glossy folder across a plush office desk toward Théo, a 26-year-old French man with messy brown hair, light stubble and a navy blue hoodie, shady golden light"
+    },
+    {
+      "type": "math",
+      "title": "Payer pour son propre argent",
+      "narration": "Faisons le calcul. Tu empruntes cent mille euros à quatre pour cent par an. Ça te coûte quatre mille euros d’intérêts chaque année. Pendant ce temps, sur ton compte gelé, l’argent dort. Pas d’intérêts pour toi. Mais la banque, elle, utilise ces millions pour prêter à d’autres clients. Résultat : chaque seconde, tu gagnes un euro que tu ne peux pas toucher, et la banque gagne de l’argent deux fois grâce à toi. Le génie, ce n’était pas toi. C’était eux.",
+      "equation": "100 000 € × 4 %",
+      "result": "4 000 € d’intérêts par an",
+      "onscreen": [
+        "tu paies 4 %",
+        "la banque gagne 2 fois"
+      ],
+      "visual": "Théo, a 26-year-old French man with messy brown hair, light stubble and a navy blue hoodie, reading a loan contract with a pen in hand, a giant golden euro coin wrapped in chains and a padlock on the desk, a bank vault door in the background"
+    },
+    {
+      "type": "narration",
+      "title": "Les nouveaux amis",
+      "narration": "Évidemment, ta vie sociale explose. Des cousins éloignés découvrent soudain ton adresse. Un ancien camarade de collège te propose d’investir dans son food truck de crêpes au wasabi. Un influenceur veut filmer une vidéo avec toi, intitulée « Une journée avec le millionnaire fauché ». Même ton propriétaire, qui ignorait tes messages depuis deux ans à propos de la fuite dans la salle de bains, t’envoie un bouquet de fleurs. Tu apprends très vite une chose : l’argent bloqué attire autant de monde que l’argent disponible.",
+      "onscreen": [
+        "crêpes au wasabi ?",
+        "nouveaux amis"
+      ],
+      "visual": "a crowd of distant cousins and strangers with hopeful grins at the doorway of Théo, a 26-year-old French man with messy brown hair, light stubble and a navy blue hoodie's apartment, holding gifts and a plate of green wasabi crepes, Théo peeking out puzzled"
+    },
+    {
+      "type": "narration",
+      "title": "La vie à crédit",
+      "narration": "Alors tu vis comme ça. À crédit. Un appartement correct, un vélo neuf, des courses sans regarder les prix. Tu rembourses Karim, qui t’a hébergé deux semaines. Le compteur dépasse cinq millions, puis dix millions, au bout de cent seize jours. Des avocats spécialisés t’envoient des devis. Un ministère s’intéresse à ton dossier. Des scientifiques viennent même mesurer ton compte, comme on étudierait une météorite. Et toi, tu commences à t’habituer. C’est exactement à ce moment-là que tout bascule.",
+      "onscreen": [
+        "10 000 000 €",
+        "jour 116"
+      ],
+      "visual": "Théo, a 26-year-old French man with messy brown hair, light stubble and a navy blue hoodie, riding a brand new bicycle through a sunny Paris street carrying grocery bags, modest happy life, the Eiffel tower in the distance"
+    },
+    {
+      "type": "phase2",
+      "title": "PHASE 2",
+      "narration": "Un mardi, à trois heures du matin, ton téléphone s’allume tout seul. Fond noir. Une seule ligne, écrite en blanc. Phase deux. Le flux s’inverse. Tu ouvres l’application. Le compteur ne monte plus. Il descend. Moins un euro par seconde. Mais ton compte est gelé, donc aucun euro ne peut en sortir. Le système cherche alors l’argent ailleurs. Et il le trouve. Directement dans les réserves de ta banque. Quatre-vingt-six mille quatre cents euros par jour qui disparaissent de leurs coffres.",
+      "alert": "PHASE 2 — LE FLUX S’INVERSE : −1 € / SECONDE",
+      "onscreen": [
+        "−1 € / seconde",
+        "débité : ta banque"
+      ],
+      "visual": "a dark bedroom at 3 AM, Théo, a 26-year-old French man with messy brown hair, light stubble and a navy blue hoodie awake in bed, a phone glowing in his hands with a pitch black screen reflecting in his terrified eyes, cold blue night light"
+    },
+    {
+      "type": "narration",
+      "title": "Le déblocage express",
+      "narration": "À huit heures précises, Monsieur Garnier est devant ta porte. En personne. Avec un dossier déjà signé. Ton compte est débloqué. Toutes les vérifications sont miraculeusement terminées. Il te supplie de tout retirer, tout de suite, n’importe où, pourvu que ce ne soit plus chez eux. Tu le regardes longtemps. Puis tu lui proposes un petit arrangement : tu acceptes de transférer ton compte, mais à condition qu’ils annulent tous les intérêts de ton prêt. Il signe sans même lire.",
+      "onscreen": [
+        "compte débloqué",
+        "en 5 heures"
+      ],
+      "visual": "Monsieur Garnier, a 50-year-old French bank advisor with slicked grey hair, round glasses, a grey suit and a burgundy tie standing at the door of an apartment at 8 am holding a thick folder with a forced bright smile, Théo, a 26-year-old French man with messy brown hair, light stubble and a navy blue hoodie in pajamas at the doorway rubbing his eyes, morning hallway light"
+    },
+    {
+      "type": "outro",
+      "title": "La leçon",
+      "narration": "Voilà la leçon. Ce qui fait la richesse, ce n’est pas un chiffre sur un écran. C’est la liberté de s’en servir. Pendant des mois, tu avais des millions et aucune liberté. Et la seule chose qui a tout débloqué, ce n’est pas la loi, ni la justice. C’est le moment où ton problème est devenu le problème de quelqu’un d’autre. Maintenant, à toi. Si demain tu gagnais un euro par seconde, tu le dirais à qui en premier ? Et à qui, surtout, tu ne le dirais jamais ?",
+      "onscreen": [
+        "la richesse = la liberté",
+        "et toi ?"
+      ],
+      "visual": "Théo, a 26-year-old French man with messy brown hair, light stubble and a navy blue hoodie, standing on a Paris rooftop at sunset with open arms, free and calm smile, holding a small bakery bag, golden hour, the Paris skyline"
+    }
+  ],
+  "short": {
+    "hook_text": "1 € PAR SECONDE. BLOQUÉ.",
+    "narration": "Imagine que ton compte reçoive un euro chaque seconde. Trois mille six cents euros de l’heure. Quatre-vingt-six mille quatre cents euros par jour. Plus de trente et un millions par an, sans rien faire. Le premier matin, tu t’achètes un croissant et tu laisses la monnaie. À onze heures douze, ta banque t’appelle. Activité inhabituelle. Compte gelé. Le compteur continue de grimper, mais ta carte est refusée partout. Tu es millionnaire et tu manges des pâtes au beurre. Puis la banque te propose de te prêter ton propre argent, avec intérêts. Et un mardi, à trois heures du matin, une notification noire apparaît sur ton téléphone. Phase deux. Ce qui se passe ensuite, personne ne l’avait prévu.",
+    "cta": "Le film complet est sur la chaîne",
+    "visuals": [
+      {
+        "p": "Théo, a 26-year-old French man with messy brown hair, light stubble and a navy blue hoodie, in a Paris studio apartment staring in shock at a giant digital banking screen showing a balance that rises every second, glowing numbers, dramatic lighting"
+      },
+      {
+        "p": "Théo, a 26-year-old French man with messy brown hair, light stubble and a navy blue hoodie, lying on a bed covered in euro banknotes raining from the ceiling, laughing in disbelief, bright neon lighting",
+        "at": "Trois mille six cents",
+        "overlay": {
+          "kind": "chip",
+          "text": "3 600 € / HEURE"
+        }
+      },
+      {
+        "p": "Théo, a 26-year-old French man with messy brown hair, light stubble and a navy blue hoodie, standing in front of a huge wall of glowing digital counters and stacks of cash, wide shocked eyes, cinematic neon glow",
+        "at": "Quatre-vingt-six mille",
+        "overlay": {
+          "kind": "chip",
+          "text": "86 400 € / JOUR"
+        }
+      },
+      {
+        "p": "aerial view of Paris at golden hour with giant glowing golden euro symbols floating above the Eiffel tower and rooftops, magical atmosphere",
+        "at": "Plus de trente et un millions",
+        "overlay": {
+          "kind": "chip",
+          "text": "31,5 M€ / AN"
+        }
+      },
+      {
+        "p": "Théo, a 26-year-old French man with messy brown hair, light stubble and a navy blue hoodie, in a charming Paris boulangerie happily buying a croissant, leaving a huge tip in the jar, the smiling baker, warm morning sunlight",
+        "at": "Le premier matin"
+      },
+      {
+        "p": "Monsieur Garnier, a 50-year-old French bank advisor with slicked grey hair, round glasses, a grey suit and a burgundy tie, in a dark moody office at night slamming a phone down on the receiver, cold light through blinds, stressed face, ominous mood",
+        "at": "À onze heures douze",
+        "overlay": {
+          "kind": "banner",
+          "text": "COMPTE GELÉ"
+        }
+      },
+      {
+        "p": "Théo, a 26-year-old French man with messy brown hair, light stubble and a navy blue hoodie, at a boulangerie counter holding out a bank card, a payment terminal glowing red with a declined screen, the baker apologetic, tense mood",
+        "at": "Le compteur continue",
+        "overlay": {
+          "kind": "stamp",
+          "text": "CARTE REFUSÉE"
+        }
+      },
+      {
+        "p": "Théo, a 26-year-old French man with messy brown hair, light stubble and a navy blue hoodie, sitting alone at a kitchen table eating plain buttered pasta in front of an open nearly empty fridge, a phone beside him glowing with a huge balance, ironic mood, warm dim light",
+        "at": "Tu es millionnaire"
+      },
+      {
+        "p": "Monsieur Garnier, a 50-year-old French bank advisor with slicked grey hair, round glasses, a grey suit and a burgundy tie, with a smug smile offering a loan contract across a desk to Théo, a 26-year-old French man with messy brown hair, light stubble and a navy blue hoodie, who looks puzzled and insulted, bank office, dramatic side light",
+        "at": "Puis la banque",
+        "overlay": {
+          "kind": "chip",
+          "text": "PRÊT + INTÉRÊTS"
+        }
+      },
+      {
+        "p": "a pitch dark bedroom at 3 AM, Théo, a 26-year-old French man with messy brown hair, light stubble and a navy blue hoodie sitting up in bed holding a phone whose black screen glows ominously, blue moonlight, deep shadows",
+        "at": "Et un mardi",
+        "overlay": {
+          "kind": "phase2",
+          "text": "Le flux s'inverse : −1 € / seconde"
+        }
+      },
+      {
+        "p": "extreme close-up of Théo, a 26-year-old French man with messy brown hair, light stubble and a navy blue hoodie's terrified face lit only by the cold light of his phone in the dark, wide shaking eyes, cinematic horror lighting",
+        "at": "Ce qui se passe ensuite"
+      }
+    ],
+    "counter_speed": 9
+  },
+  "visual_bible": {
+    "hero": "Théo, a 26-year-old French man with messy brown hair, light stubble and a navy blue hoodie",
+    "banker": "Monsieur Garnier, a 50-year-old French bank advisor with slicked grey hair, round glasses, a grey suit and a burgundy tie"
+  }
+}

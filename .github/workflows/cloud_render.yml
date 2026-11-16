@@ -1,0 +1,185 @@
+name: Cloud Render — Histoires Virales FR
+
+# Usine de rendu 100 % cloud : 30 épisodes (film 1920x1080 + Short 1080x1920).
+# Images : AUCUNE image IA (ni Kaggle, ni Colab, ni API gratuite) : tout est dessiné par code dans le style Lemo-Opuscar (voir CLAUDE.md / LEMO_STYLE.md).
+# Rendu : Ép. 1 + 2 d'abord, puis les 28 autres (5 en parallèle). Un rapport final résume chaque épisode.
+# Aucun secret requis pour le rendu (facultatif : POLLINATIONS_API_KEY, HF_TOKEN).
+# Livrables : Artifacts (par épisode) + une Release GitHub par exécution.
+
+on:
+  workflow_dispatch:
+    inputs:
+      episodes:
+        description: "Épisodes à rendre : all, ou liste (ex. 1,4,12) ou plage (ex. 1-10)"
+        required: false
+        default: "all"
+      preview_seconds:
+        description: "0 = durée complète ; N = ne rendre que les N premières secondes (test rapide)"
+        required: false
+        default: "0"
+  push:
+    branches: [main, "claude/**"]
+    paths:
+      - "CLOUD_HISTOIRES_VIRALES_FR/**"
+      - ".github/workflows/cloud_render.yml"
+      - ".github/actions/render-episode/action.yml"
+
+permissions:
+  contents: write # création de la Release + upload des assets
+
+concurrency:
+  group: cloud-render-${{ github.ref }}
+  cancel-in-progress: true
+
+defaults:
+  run:
+    working-directory: CLOUD_HISTOIRES_VIRALES_FR
+
+jobs:
+  plan:
+    name: Plan (validation + matrice)
+    runs-on: ubuntu-latest
+    outputs:
+      episodes: ${{ steps.matrix.outputs.episodes }}
+      count: ${{ steps.matrix.outputs.count }}
+      first: ${{ steps.matrix.outputs.first }}
+      first_count: ${{ steps.matrix.outputs.first_count }}
+      rest: ${{ steps.matrix.outputs.rest }}
+      rest_count: ${{ steps.matrix.outputs.rest_count }}
+      tag: ${{ steps.release.outputs.tag }}
+    steps:
+      - uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+
+      - name: Valider les 30 scénarios
+        run: node validateEpisodes.js
+
+      - name: Construire la matrice d'épisodes
+        id: matrix
+        env:
+          INPUT_EPISODES: ${{ github.event.inputs.episodes }}
+          EVENT: ${{ github.event_name }}
+          BEFORE: ${{ github.event.before }}
+          DEFAULT_PUSH_EPISODES: ""
+        run: |
+          ALL=$(seq 1 30 | paste -sd, -)
+          if [ "$EVENT" = "workflow_dispatch" ]; then
+            SEL="${INPUT_EPISODES:-all}"
+            if [ "$SEL" = "all" ]; then LIST="$ALL"
+            elif echo "$SEL" | grep -qE '^[0-9]+-[0-9]+$'; then LIST=$(seq ${SEL%-*} ${SEL#*-} | paste -sd, -)
+            else LIST=$(echo "$SEL" | tr -d ' ')
+            fi
+          else
+            # Push : AUCUN rendu automatique tant que les images Kaggle ne sont pas prêtes ; lancer à la main (Run workflow) ou mettre "all"/"1" ici.
+            # Élargir plus tard en changeant cette variable (ex. "1,2" ou "all").
+            LIST="${DEFAULT_PUSH_EPISODES:-1}"
+            [ "$LIST" = "all" ] && LIST="$ALL"
+          fi
+          JSON="[${LIST}]"
+          [ "$LIST" = "" ] && JSON="[]"
+          COUNT=$(echo "$LIST" | tr ',' '\n' | grep -c . || true)
+          echo "episodes=$JSON" >> "$GITHUB_OUTPUT"
+          echo "count=$COUNT" >> "$GITHUB_OUTPUT"
+          # Ordre de production : Épisodes 1 et 2 d'abord (voix réelle, version complète), puis tous les autres
+          FIRST=$(echo "$LIST" | tr ',' '\n' | grep -xE '1|2' | paste -sd, - || true)
+          REST=$(echo "$LIST" | tr ',' '\n' | grep -vxE '1|2' | grep . | paste -sd, - || true)
+          echo "first=[${FIRST}]" >> "$GITHUB_OUTPUT"
+          echo "first_count=$(echo "$FIRST" | tr ',' '\n' | grep -c . || true)" >> "$GITHUB_OUTPUT"
+          echo "rest=[${REST}]" >> "$GITHUB_OUTPUT"
+          echo "rest_count=$(echo "$REST" | tr ',' '\n' | grep -c . || true)" >> "$GITHUB_OUTPUT"
+          echo "### Matrice : $COUNT épisode(s) → $JSON" >> "$GITHUB_STEP_SUMMARY"
+
+      - name: Créer la Release de cette exécution
+        id: release
+        continue-on-error: true # une erreur de Release ne doit pas bloquer la production
+        if: steps.matrix.outputs.count != '0'
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          TAG="render-${GITHUB_RUN_NUMBER}-${GITHUB_RUN_ATTEMPT}"
+          {
+            echo "Rendu cloud automatique — commit ${GITHUB_SHA::7} (${GITHUB_REF_NAME})"
+            echo
+            echo "Épisodes : ${{ steps.matrix.outputs.episodes }}"
+            echo
+            echo "Par épisode : epXX_main_1920x1080.mp4 · epXX_short_1080x1920.mp4 · epXX_fr.srt · epXX_short_fr.srt · epXX_youtube_metadata.md · epXX_thumbnail.png"
+            echo "Voix edge-tts fr-FR-RemyMultilingualNeural · mix -14 LUFS / -1 dBTP"
+          } > notes.md
+          gh release create "$TAG" --target "$GITHUB_SHA" --prerelease \
+            --title "Histoires Virales FR — rendu #${GITHUB_RUN_NUMBER}" --notes-file notes.md
+          echo "tag=$TAG" >> "$GITHUB_OUTPUT"
+
+  # Vague 1 : Épisode 1 et Épisode 2, voix edge-tts réelle, durée complète.
+  # Si la voix réelle échoue ici, la vague 2 ne démarre pas (on voit le problème tout de suite).
+  render_first:
+    name: "Vague 1 — Épisode ${{ matrix.episode }}"
+    needs: [plan]
+    if: ${{ !cancelled() && needs.plan.result == 'success' && needs.plan.outputs.first_count != '0' }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    strategy:
+      fail-fast: false
+      max-parallel: 2
+      matrix:
+        episode: ${{ fromJSON(needs.plan.outputs.first) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./.github/actions/render-episode
+        with:
+          episode: ${{ matrix.episode }}
+          preview: ${{ github.event.inputs.preview_seconds || '0' }}
+          tag: ${{ needs.plan.outputs.tag }}
+          token: ${{ github.token }}
+
+  # Vague 2 : les 28 autres épisodes, 5 en parallèle.
+  render_rest:
+    name: "Vague 2 — Épisode ${{ matrix.episode }}"
+    needs: [plan, render_first]
+    if: ${{ !cancelled() && needs.plan.result == 'success' && needs.plan.outputs.rest_count != '0' && (needs.render_first.result == 'success' || needs.render_first.result == 'skipped') }}
+    runs-on: ubuntu-latest
+    timeout-minutes: 150
+    strategy:
+      fail-fast: false
+      max-parallel: 5
+      matrix:
+        episode: ${{ fromJSON(needs.plan.outputs.rest) }} # [3..30]
+    steps:
+      - uses: actions/checkout@v4
+      - uses: ./.github/actions/render-episode
+        with:
+          episode: ${{ matrix.episode }}
+          preview: ${{ github.event.inputs.preview_seconds || '0' }}
+          tag: ${{ needs.plan.outputs.tag }}
+          token: ${{ github.token }}
+
+  report:
+    name: Rapport final
+    permissions:
+      contents: read
+      actions: read
+    needs: [plan, render_first, render_rest]
+    if: ${{ always() && needs.plan.result == 'success' }}
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: .
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/download-artifact@v4
+        with:
+          pattern: ep*-report
+          path: reports
+        continue-on-error: true
+      - name: Rapport (DONE / FAILED, source des images, durée totale)
+        env:
+          GH_TOKEN: ${{ github.token }}
+        run: |
+          gh api "repos/${{ github.repository }}/actions/runs/${{ github.run_id }}/jobs?per_page=100" > jobs_api.json
+          gh api "repos/${{ github.repository }}/actions/runs/${{ github.run_id }}" --jq '.run_started_at' > started.txt
+          python3 CLOUD_HISTOIRES_VIRALES_FR/scripts/report.py jobs_api.json reports "$(cat started.txt)" >> "$GITHUB_STEP_SUMMARY"
+          cat "$GITHUB_STEP_SUMMARY" | tail -45

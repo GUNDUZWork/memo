@@ -1,0 +1,312 @@
+{
+  "id": 23,
+  "slug": "30-jours-devenir-influenceur-0-abonne",
+  "formula": "30jours",
+  "title": "Il te reste 30 jours pour devenir influenceur en partant de 0 abonné",
+  "thumbnail": {
+    "line1": "0 ABONNÉ, 30 JOURS",
+    "line2": "objectif 10 000",
+    "accent": "#FF2E93",
+    "visual": "Enzo, a 21-year-old guy with messy dark hair and a pink hoodie, extreme close-up with a worried hopeful face, a giant glowing follower bar almost full, a yellow chicken costume behind, hot pink and yellow light"
+  },
+  "youtube": {
+    "title": "Il te reste 30 jours pour devenir influenceur en partant de 0 abonné",
+    "description": "Tu as parié avec ton cousin que tu pouvais passer de zéro à dix mille abonnés en trente jours. Le perdant fera le tour du village en costume de poulet. Tu n'as ni idée, ni matériel, ni charisme. Ta carte bancaire, elle, n'a plus d'avis.\n\nTrente jours de vidéos ratées, de ring light refusée, de tendances incomprises et de consultations chez le Docteur Vidal, qui n'a jamais vu une seule vidéo de sa vie et compte bien continuer.\n\nUne comédie de transformation sur les chiffres, l'authenticité, et ce qui compte vraiment quand on parle à une caméra.",
+    "tags": [
+      "30 jours",
+      "défi",
+      "influenceur",
+      "0 abonné",
+      "réseaux sociaux",
+      "comédie",
+      "histoire drôle",
+      "transformation",
+      "Docteur Vidal",
+      "créateur de contenu",
+      "challenge",
+      "motivation",
+      "histoire émouvante",
+      "abonnés",
+      "authenticité"
+    ],
+    "pinned_comment": "Si tu devais lancer ta chaîne demain avec zéro abonné, tu parlerais de quoi ?"
+  },
+  "scenes": [
+    {
+      "type": "hook",
+      "title": "Le pari",
+      "narration": "Il te reste trente jours. Trente jours pour passer de zéro à dix mille abonnés. Tout a commencé au repas de famille, quand ton cousin Kevin a sorti son téléphone pour montrer ses vingt mille abonnés. Tu as dit, la bouche pleine de gratin : moi aussi, je pourrais le faire. Kevin a souri. Pari. Dix mille en trente jours. Le perdant fera le tour du village en costume de poulet, un dimanche matin, jour de marché. Tu t'appelles Sacha, tu as dix-neuf ans, et ton compte affiche fièrement zéro abonné. Même ta mère ne te suit pas.",
+      "onscreen": [
+        "J-30",
+        "0 / 10 000"
+      ],
+      "visual": "A noisy French family lunch table, Kevin, a smug 28-year-old French cousin with slicked-back hair and a designer sweater proudly showing a phone to everyone, Enzo, a 21-year-old French guy with messy dark hair, a bright pink hoodie and a headset around his neck with his mouth full of gratin raising a fork bravely, relatives laughing, warm cozy dining room light, comedy mood"
+    },
+    {
+      "type": "day",
+      "day": 1,
+      "level": 2,
+      "title": "Jour 1 : la première vidéo",
+      "narration": "Jour un. Tu filmes ta première vidéo dans ta chambre. Tu dis bonjour à tout le monde avec un grand sourire. Tu réalises que tout le monde, pour l'instant, c'est personne. Tu recommences vingt-trois fois. Dans la prise finale, tu ressembles à un otage qui lit un communiqué. Tu publies quand même. Résultat au bout de vingt-quatre heures : quatorze vues. Dont onze de toi. Deux de ta grand-mère, qui a cliqué par erreur. Et une d'un compte qui vend des montres.",
+      "onscreen": [
+        "Jour 1",
+        "14 vues",
+        "dont 11 de toi"
+      ],
+      "visual": "Enzo, a 21-year-old French guy with messy dark hair, a bright pink hoodie and a headset around his neck filming himself in a tiny messy bedroom with a phone on a pile of books, an exaggerated forced smile like a hostage video, lots of discarded takes, soft daylight, comedy mood",
+      "overlay": {
+        "kind": "chip",
+        "text": "14 VUES",
+        "beat": 0
+      }
+    },
+    {
+      "type": "card_refused",
+      "item": "Ring light professionnelle",
+      "price": "129,99 €",
+      "title": "La lumière du succès",
+      "narration": "Le problème, tu en es sûr, c'est l'éclairage. Tous les influenceurs ont un anneau lumineux, ce cercle blanc qui fait briller les yeux. Tu en trouves un magnifique, avec trépied, télécommande et trois températures de couleur. Cent vingt-neuf euros quatre-vingt-dix-neuf. Tu cliques sur payer, déjà ébloui par ton futur. Paiement refusé. Tu réessaies. Refusé. Tu finis par scotcher une lampe de bureau sur une pile de dictionnaires. Le résultat est moins lumineux. Mais beaucoup plus intellectuel.",
+      "onscreen": [
+        "CARTE REFUSÉE",
+        "129,99 €"
+      ],
+      "visual": "Enzo, a 21-year-old French guy with messy dark hair, a bright pink hoodie and a headset around his neck at a laptop clicking pay with a sparkling ring light on the screen, then the screen flashing red declined, his face melting from joy to despair, bright cheerful colors, comedy mood",
+      "overlay": {
+        "kind": "stamp",
+        "text": "PAIEMENT REFUSÉ",
+        "beat": 2
+      }
+    },
+    {
+      "type": "gag",
+      "caption": "Éclairage professionnel, version dictionnaire",
+      "title": "La danse",
+      "narration": "Jour quatre. Tu décides de suivre une tendance. Une danse que tout le monde fait. Tu l'apprends pendant trois heures. Au moment de filmer, ton genou heurte le bureau, la lampe tombe des dictionnaires, et le chat, terrorisé, traverse le cadre en diagonale comme une comète. Tu publies la vidéo par erreur au lieu de la supprimer. Elle fait trois cents vues. Tous les commentaires parlent du chat. Le chat a désormais plus de fans que toi.",
+      "onscreen": [
+        "300 vues",
+        "100 % pour le chat"
+      ],
+      "visual": "Enzo, a 21-year-old French guy with messy dark hair, a bright pink hoodie and a headset around his neck dancing awkwardly in a bedroom, knee hitting the desk, a lamp falling from stacked dictionaries and a fat tabby cat dashing diagonally across the frame like a comet, chaos, bright comedic mood"
+    },
+    {
+      "type": "vidal",
+      "line": "Vous souffrez d'une maladie rare : vous vérifiez vos statistiques plus souvent que votre pouls.",
+      "title": "Docteur Vidal, première visite",
+      "narration": "Jour sept. Tu as mal au pouce, mal au cou et les yeux qui piquent. Tu vas voir le Docteur Vidal. Il t'observe pendant que tu attends dans son cabinet. Tu as rafraîchi ton application quatre fois en deux minutes. Il note quelque chose, lève les yeux et dit, très calmement : vous souffrez d'une maladie rare. Vous vérifiez vos statistiques plus souvent que votre pouls. Il te prescrit une promenade sans téléphone. Tu lui demandes si tu peux filmer la promenade. Il ne répond pas. Il te regarde simplement par-dessus ses lunettes.",
+      "onscreen": [
+        "Diagnostic :",
+        "statistite aiguë"
+      ],
+      "visual": "A doctor's office, Docteur Vidal, a deadpan grey-haired doctor with glasses, a white coat and a stethoscope deadpan watching Enzo, a 21-year-old French guy with messy dark hair, a bright pink hoodie and a headset around his neck who stares at a phone and refreshes it, thumbs cramped, eyes red, a pulse monitor beside, warm clinic light, comedic mood"
+    },
+    {
+      "type": "day",
+      "day": 9,
+      "level": 14,
+      "title": "Jour 9 : quarante-deux abonnés",
+      "narration": "Jour neuf. Quarante-deux abonnés. Dont ta mère, enfin, qui t'a suivi après une négociation sur la vaisselle. Tu as tout essayé. Les défis, les réactions, les conseils de vie alors que tu n'as pas de vie. Rien ne décolle. Kevin t'envoie un message avec juste un émoji de poulet. Ce soir-là, tu regardes tes vidéos à la suite. Et tu remarques une chose gênante. Dans aucune de ces vidéos, tu n'as l'air d'être toi. Tu as l'air d'imiter quelqu'un. Et tu ne sais même pas qui.",
+      "onscreen": [
+        "Jour 9",
+        "42 abonnés"
+      ],
+      "visual": "Enzo, a 21-year-old French guy with messy dark hair, a bright pink hoodie and a headset around his neck sitting on his bed with a phone, a tiny follower count shown by a sad cartoon sparkle, Kevin, a smug 28-year-old French cousin with slicked-back hair and a designer sweater sending a chicken emoji floating on the phone, gloomy blue light, comedy mood",
+      "overlay": {
+        "kind": "chip",
+        "text": "42 ABONNÉS",
+        "beat": 0
+      }
+    },
+    {
+      "type": "narration",
+      "title": "Le carnet de Papi Jo",
+      "narration": "Le dimanche, tu vas aider ton grand-père, Papi Jo, à réparer son vieux poste de radio. Il a quatre-vingt-quatre ans et répare tout depuis toujours. Les grille-pain, les vélos, les montres du quartier. Il t'explique chaque pièce, avec ses mots à lui. Ça, c'est le cœur du poste. Ça, c'est sa voix. Ça, c'est le petit nerveux qui grille toujours en premier. Tu l'écoutes pendant trois heures sans regarder ton téléphone une seule fois. Et en rentrant, tu as une idée. Une idée simple. Peut-être trop simple.",
+      "onscreen": [
+        "Papi Jo, 84 ans",
+        "Il répare tout"
+      ],
+      "visual": "A cozy rustic workshop full of tools and clocks, Papi Jo, an 84-year-old grandfather with white hair, grey moustache, blue overalls and a flat cap repairing an old radio with a tiny screwdriver while Enzo, a 21-year-old French guy with messy dark hair, a bright pink hoodie and a headset around his neck watches fascinated, warm golden light, tender mood"
+    },
+    {
+      "type": "day",
+      "day": 12,
+      "level": 31,
+      "title": "Jour 12 : la vidéo de Papi",
+      "narration": "Jour douze. Tu poses ton téléphone sur l'établi et tu filmes Papi Jo qui répare un grille-pain. Pas de musique. Pas de montage. Juste ses mains, ses explications et ses petites phrases. Ça, c'est le petit nerveux, il grille toujours en premier, comme les gens. Tu publies la vidéo à vingt-deux heures et tu vas te coucher. Le lendemain matin, ton téléphone est bouillant. Trente-huit mille vues. Mille deux cents nouveaux abonnés. Les commentaires disent tous la même chose : on veut encore Papi Jo.",
+      "onscreen": [
+        "38 000 vues",
+        "+1 200 abonnés"
+      ],
+      "visual": "Enzo, a 21-year-old French guy with messy dark hair, a bright pink hoodie and a headset around his neck filming Papi Jo, an 84-year-old grandfather with white hair, grey moustache, blue overalls and a flat cap repairing a toaster on a workbench with a phone propped on a stack of books, golden afternoon light, tools around, tender and authentic mood"
+    },
+    {
+      "type": "gag",
+      "caption": "Papi Jo découvre le mot abonné",
+      "title": "Papi et les abonnés",
+      "narration": "Tu montres les chiffres à Papi Jo. Il ne comprend pas. Tu lui expliques que mille deux cents personnes se sont abonnées. Il fronce les sourcils, inquiet. Abonnées à quoi ? Il faut leur envoyer quelque chose par la poste ? Tu lui dis non, qu'ils veulent juste le revoir. Il réfléchit un long moment. Puis il demande, très sérieux, s'il doit mettre une cravate. La vidéo suivante, il porte une cravate à fleurs, au-dessus de son bleu de travail. Elle fait soixante mille vues.",
+      "onscreen": [
+        "Cravate",
+        "+ bleu de travail"
+      ],
+      "visual": "Papi Jo, an 84-year-old grandfather with white hair, grey moustache, blue overalls and a flat cap squinting at a phone with serious worried eyes while Enzo, a 21-year-old French guy with messy dark hair, a bright pink hoodie and a headset around his neck explains social media, tiny glowing hearts floating from the screen, workshop light, comedy mood",
+      "overlay": {
+        "kind": "chip",
+        "text": "1 200 ABONNÉS",
+        "beat": 0
+      }
+    },
+    {
+      "type": "vidal",
+      "line": "Votre grand-père a un meilleur rythme cardiaque que vous et plus d'abonnés. Je m'inquiète pour vous.",
+      "title": "Docteur Vidal, deuxième visite",
+      "narration": "Jour seize. Tu accompagnes Papi Jo chez le Docteur Vidal pour son bilan annuel. Dans la salle d'attente, deux patientes le reconnaissent et lui demandent une photo. Le Docteur Vidal ausculte Papi, puis toi, par principe. Il range son stéthoscope et soupire. Votre grand-père a un meilleur rythme cardiaque que vous et plus d'abonnés. Je m'inquiète pour vous. Puis, en vous raccompagnant, il glisse à Papi Jo, très discrètement, que son grille-pain fait un drôle de bruit depuis mars.",
+      "onscreen": [
+        "Papi : en pleine forme",
+        "Toi : à surveiller"
+      ],
+      "visual": "A doctor's office waiting room, two women asking Papi Jo, an 84-year-old grandfather with white hair and a flat cap, for a selfie, Docteur Vidal listening to his chest with a stethoscope, Enzo in a pink hoodie behind, bright clinic light, comedy"
+    },
+    {
+      "type": "card_refused",
+      "item": "Micro-cravate sans fil pour Papi",
+      "price": "74,50 €",
+      "title": "Le micro de Papi",
+      "narration": "Pour la qualité du son, tu veux offrir un vrai micro à Papi Jo. Un petit micro-cravate sans fil, pour qu'on entende bien ses phrases. Soixante-quatorze euros cinquante. Tu tends ta carte à la caisse du magasin d'électronique. Bip. Refusée. Le vendeur te reconnaît. Il te regarde, puis il sourit. C'est toi le petit-fils de Papi Jo ? Il passe le micro gratuitement, à une seule condition : que Papi répare le vieux tourne-disque de sa femme. Marché conclu.",
+      "onscreen": [
+        "CARTE REFUSÉE",
+        "74,50 €"
+      ],
+      "visual": "An electronics shop, Enzo, a 21-year-old French guy with messy dark hair, a bright pink hoodie and a headset around his neck holding a card to a cashier's terminal flashing red, a kind clerk smiling and pointing to a lavalier microphone gift, comedic and warm mood",
+      "overlay": {
+        "kind": "stamp",
+        "text": "CARTE REFUSÉE",
+        "beat": 2
+      }
+    },
+    {
+      "type": "day",
+      "day": 22,
+      "level": 63,
+      "title": "Jour 22 : la tentation",
+      "narration": "Jour vingt-deux. Six mille quatre cents abonnés. Une marque de boissons énergisantes te contacte. Elle te propose de l'argent pour que Papi Jo boive leur canette fluo en direct, en disant que c'est son secret de jeunesse. Tu regardes le message longtemps. Avec cet argent, tu pourrais t'acheter la ring light. Dix ring lights. Tu montres le message à Papi. Il lit, pose ses lunettes et dit seulement : moi, mon secret de jeunesse, c'est la soupe. Tu refuses le contrat.",
+      "onscreen": [
+        "6 400 abonnés",
+        "Contrat refusé"
+      ],
+      "visual": "Enzo, a 21-year-old French guy with messy dark hair, a bright pink hoodie and a headset around his neck sitting in front of a laptop looking at a message about energy drink sponsorship, a giant neon can floating above, Papi Jo, an 84-year-old grandfather with white hair, grey moustache, blue overalls and a flat cap behind him smiling innocently, tempting devilish glow, comedy mood"
+    },
+    {
+      "type": "vidal",
+      "line": "Je n'ai jamais regardé une vidéo de ma vie. Sauf celles du grille-pain. Trois fois.",
+      "title": "Docteur Vidal, troisième visite",
+      "narration": "Jour vingt-sept. Neuf mille cent abonnés. Tu passes au cabinet récupérer une ordonnance pour Papi. Le Docteur Vidal te tend la feuille sans un mot. Puis, au moment où tu passes la porte, il se racle la gorge. Je n'ai jamais regardé une vidéo de ma vie. Sauf celles du grille-pain. Trois fois. Il retourne aussitôt à son bureau, comme si rien ne s'était passé. Sur l'écran de son ordinateur, tu aperçois un onglet ouvert. C'est ta chaîne. Il est abonné.",
+      "onscreen": [
+        "9 100 abonnés",
+        "+ Docteur Vidal"
+      ],
+      "visual": "Docteur Vidal, a deadpan grey-haired doctor with glasses, a white coat and a stethoscope handing a prescription across a desk with a deadpan face, Enzo, a 21-year-old French guy with messy dark hair, a bright pink hoodie and a headset around his neck listening nervously, a bright screen in the background with a floating toaster video thumbnail, warm clinic light, comedic mood"
+    },
+    {
+      "type": "day",
+      "day": 30,
+      "level": 96,
+      "title": "Jour 30 : le compteur",
+      "narration": "Jour trente. Vingt-trois heures cinquante. Neuf mille neuf cent quatre-vingt-quatre abonnés. Il en manque seize. Kevin t'a déjà envoyé une photo du costume de poulet, taille M. Tu ne publies rien de plus. Tu ne supplies personne. Tu es dans l'atelier avec Papi Jo, qui t'apprend à souder pour la première fois. Ta main tremble, la sienne la guide. À minuit, tu regardes enfin ton téléphone. Neuf mille neuf cent quatre-vingt-dix-sept. Tu as perdu. De trois abonnés.",
+      "onscreen": [
+        "Jour 30",
+        "9 997 / 10 000"
+      ],
+      "visual": "A late-night workshop, Papi Jo, an 84-year-old grandfather with white hair, grey moustache, blue overalls and a flat cap teaching Enzo, a 21-year-old French guy with messy dark hair, a bright pink hoodie and a headset around his neck to solder a small circuit, sparks of light, a laptop on the side showing a nearly full counter bar, tense hopeful mood, golden lamp",
+      "overlay": {
+        "kind": "chip",
+        "text": "9 984 ABONNÉS",
+        "beat": 0
+      }
+    },
+    {
+      "type": "gag",
+      "caption": "Le poulet le plus suivi du village",
+      "title": "Le costume de poulet",
+      "narration": "Le dimanche suivant, jour de marché, tu enfiles le costume de poulet. Taille M. Il te serre aux épaules. Tu fais le tour du village sous les applaudissements ironiques de Kevin. Sauf que derrière toi, il y a Papi Jo, qui filme. Et derrière Papi Jo, la moitié du village, qui a reconnu le petit-fils de la chaîne du grille-pain. La vidéo du poulet fait deux cent mille vues dans la soirée. Kevin, lui, n'a toujours que vingt mille abonnés.",
+      "onscreen": [
+        "200 000 vues",
+        "Kevin : 20 000"
+      ],
+      "visual": "A village market on a sunny day, Enzo, a 21-year-old French guy with messy dark hair, a bright pink hoodie and a headset around his neck in a yellow chicken costume too tight at the shoulders, Kevin, a smug 28-year-old French cousin with slicked-back hair and a designer sweater laughing and clapping, Papi Jo, an 84-year-old grandfather with white hair, grey moustache, blue overalls and a flat cap filming behind with a phone, villagers applauding, joyful chaos"
+    },
+    {
+      "type": "outro",
+      "title": "Ce que les chiffres ne disent pas",
+      "narration": "Tu as perdu le pari. Officiellement. Mais en trente jours, tu as appris quelque chose qu'aucun compteur ne mesure. Les gens ne s'abonnent pas à quelqu'un qui imite. Ils s'abonnent à quelqu'un de vrai. Et parfois, ce quelqu'un de vrai, ce n'est même pas toi. C'est la personne que tu prends enfin le temps de regarder. Papi Jo a désormais sa propre chaîne. Il répare des grille-pain, il porte des cravates à fleurs, et il dit à chaque fois : n'oubliez pas, le petit nerveux grille toujours en premier. Et toi, quelle personne de ta vie mériterait d'être filmée ?",
+      "onscreen": [
+        "Sois vrai",
+        "Regarde les autres"
+      ],
+      "visual": "Enzo and Papi Jo sitting side by side in the workshop on a sunset evening, an old radio playing between them, Enzo in a pink hoodie looking at his grandfather with warm affection, golden light, tender mood"
+    }
+  ],
+  "short": {
+    "hook_text": "0 ABONNÉ. 30 JOURS.",
+    "narration": "Il te reste trente jours pour passer de zéro à dix mille abonnés. Sinon, tu fais le tour du village en costume de poulet. Jour un, ta première vidéo fait quatorze vues, dont onze de toi. Ta carte bancaire refuse la ring light, alors tu scotches une lampe de bureau sur une pile de dictionnaires. Jour quatre, tu tentes une danse à la mode, et c'est ton chat qui devient célèbre. Ton médecin, le Docteur Vidal, te diagnostique une maladie rare : tu vérifies tes statistiques plus souvent que ton pouls. Jour neuf, quarante-deux abonnés. Et puis un dimanche, chez ton grand-père, tu poses ton téléphone sur l'établi. Ce que tu filmes ce jour-là va tout changer. Le film complet est sur la chaîne.",
+    "cta": "Le film complet est sur la chaîne",
+    "visuals": [
+      {
+        "p": "Enzo, a 21-year-old French guy with messy dark hair, a bright pink hoodie and a headset around his neck filming himself in a small bedroom with a phone on a stack of books, a hostage-video smile, three takes lying around, daylight, comedy"
+      },
+      {
+        "p": "Enzo, a 21-year-old French guy with messy dark hair, a bright pink hoodie and a headset around his neck in a yellow chicken costume too small for him in a village market, Kevin, a smug 28-year-old French cousin with slicked-back hair and a designer sweater laughing and filming, villagers watching, comedy mood",
+        "at": "Sinon, tu fais le tour",
+        "overlay": {
+          "kind": "chip",
+          "text": "0 → 10 000"
+        }
+      },
+      {
+        "p": "Enzo, a 21-year-old French guy with messy dark hair, a bright pink hoodie and a headset around his neck filming himself with a pretend serious face, a view counter shown as a tiny sad sparkle, bedroom, daylight, comedy mood",
+        "at": "Jour un"
+      },
+      {
+        "p": "Enzo, a 21-year-old French guy with messy dark hair, a bright pink hoodie and a headset around his neck holding a bank card at a laptop checkout, red declined screen, then taping a desk lamp onto a stack of dictionaries, comedy mood",
+        "at": "Ta carte bancaire",
+        "overlay": {
+          "kind": "stamp",
+          "text": "CARTE REFUSÉE"
+        }
+      },
+      {
+        "p": "Enzo, a 21-year-old French guy with messy dark hair, a bright pink hoodie and a headset around his neck dancing awkwardly while a fat tabby cat flies across the frame like a comet and knocks over the lamp, chaos, bright comedic mood",
+        "at": "Jour quatre"
+      },
+      {
+        "p": "Docteur Vidal, a deadpan grey-haired doctor with glasses, a white coat and a stethoscope deadpan checking Enzo, a 21-year-old French guy with messy dark hair, a bright pink hoodie and a headset around his neck's pulse while Enzo, a 21-year-old French guy with messy dark hair, a bright pink hoodie and a headset around his neck refreshes a phone with the other hand, clinic light, comedic mood",
+        "at": "Ton médecin"
+      },
+      {
+        "p": "Enzo, a 21-year-old French guy with messy dark hair, a bright pink hoodie and a headset around his neck sitting alone on his bed staring at a phone with a tiny follower counter and a chicken emoji floating above, gloomy blue light, comedy mood",
+        "at": "Jour neuf",
+        "overlay": {
+          "kind": "chip",
+          "text": "42 ABONNÉS"
+        }
+      },
+      {
+        "p": "Enzo, a 21-year-old French guy with messy dark hair, a bright pink hoodie and a headset around his neck putting a phone on a workbench in a cozy workshop while Papi Jo, an 84-year-old grandfather with white hair, grey moustache, blue overalls and a flat cap repairs a radio, golden afternoon light, warm mood",
+        "at": "Et puis un dimanche"
+      },
+      {
+        "p": "A phone on a workbench in golden light filming Papi Jo, an 84-year-old grandfather with white hair, grey moustache, blue overalls and a flat cap's wrinkled skilled hands fixing a toaster, a glow of hope and sparkle around it, tender cinematic mood",
+        "at": "Ce que tu filmes"
+      },
+      {
+        "p": "Enzo, a 21-year-old French guy with messy dark hair, a bright pink hoodie and a headset around his neck and Papi Jo, an 84-year-old grandfather with white hair, grey moustache, blue overalls and a flat cap standing together in the workshop, Enzo, a 21-year-old French guy with messy dark hair, a bright pink hoodie and a headset around his neck holding a phone and smiling, golden light, warm inviting mood",
+        "at": "Le film complet"
+      }
+    ]
+  },
+  "visual_bible": {
+    "hero": "Enzo, a 21-year-old French guy with messy dark hair, a bright pink hoodie and a headset around his neck",
+    "papijo": "Papi Jo, an 84-year-old grandfather with white hair, grey moustache, blue overalls and a flat cap",
+    "kevin": "Kevin, a smug 28-year-old French cousin with slicked-back hair and a designer sweater",
+    "vidal": "Docteur Vidal, a deadpan grey-haired doctor with glasses, a white coat and a stethoscope",
+    "cat": "a fat tabby cat"
+  }
+}

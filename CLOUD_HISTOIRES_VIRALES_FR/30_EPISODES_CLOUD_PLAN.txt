@@ -1,0 +1,60 @@
+================================================================================
+ CLOUD_HISTOIRES_VIRALES_FR — PLAN DE PRODUCTION 30 ÉPISODES (100 % CLOUD)
+================================================================================
+Voix      : edge-tts fr-FR-RemyMultilingualNeural
+Mix       : -14 LUFS intégrés, true peak -1 dBTP (loudnorm 2 passes)
+Film      : 1920x1080 (16:9), 8-10 min, 25 fps, H.264 + AAC
+Short     : 1080x1920 (9:16), ~50 s, renvoie vers le film complet
+Livrables : epXX_main_1920x1080.mp4, epXX_short_1080x1920.mp4, epXX_fr.srt,
+            epXX_short_fr.srt, epXX_youtube_metadata.md, epXX_thumbnail.png
+Usine     : .github/workflows/cloud_render.yml (matrix 1..30, max-parallel 5)
+
+FORMULES (moteur : cloudViralEngine.js)
+--------------------------------------------------------------------------------
+ A. etsilab   — « Et si… » : compteur mathématique qui monte en continu à l'écran,
+                notification système noire « PHASE 2 » forcée à 8:00.
+ B. homodeus  — « Les 3 règles » : exactement 3 cartes RÈGLE + 2 infographies
+                d'études réelles (université, année, chiffre, nuance).
+ C. izranoff  — « Suis ces 7 règles » : tension nocturne, 7 cartes RÈGLE,
+                mode glitch rouge + Plot Twist dans les 45 dernières secondes.
+ D. 30jours   — « Il te reste 30 jours » : gag visuel toutes les 6 s,
+                tampon CARTE REFUSÉE, barre « Niveau +% », Docteur Vidal.
+
+PLAN
+--------------------------------------------------------------------------------
+Ep | Formule  | Titre
+---+----------+-----------------------------------------------------------------
+01 | etsilab  | Et si tu gagnais 1 € chaque seconde, mais que ta banque bloquait tout ?
+02 | etsilab  | Et si tout le monde entendait tes pensées dans un rayon de 5 mètres ?
+03 | izranoff | Si tu vois un cerf immobile dans ton jardin à 3h17 du matin... suis ces 7 règles
+04 | 30jours  | Tu as 30 jours pour te transformer avant de revoir Léa (Le Film + Shorts)
+05 | homodeus | Les 3 règles du pouvoir que les gens calmes utilisent sans jamais le dire
+06 | izranoff | Si ton ascenseur s'arrête au 13e étage d'un immeuble qui n'en a que 12... suis ces 7 règles
+07 | 30jours  | Il te reste 30 jours pour devenir riche avant le mariage de ton ex
+08 | etsilab  | Et si tu rajeunissais d'un an à chaque fois que tu mens ?
+09 | homodeus | Pourquoi ceux qui parlent moins gagnent plus : les 3 règles du silence
+10 | izranoff | Si quelqu'un frappe trois fois à la porte de ton chalet après minuit... suis ces 7 règles
+11 | 30jours  | Il te reste 30 jours pour parler japonais avant l'entretien de ta vie
+12 | etsilab  | Et si chaque pas que tu faisais te rapportait 10 centimes ?
+13 | homodeus | Les 3 règles de la manipulation douce (et comment t'en protéger)
+14 | izranoff | Si une station-service est encore ouverte à 4h du matin sur une route vide... suis ces 7 règles
+15 | 30jours  | Il te reste 30 jours pour perdre 10 kg avant les retrouvailles du lycée
+16 | etsilab  | Et si ton argent doublait chaque jour pendant 30 jours ?
+17 | homodeus | Les 3 règles que les élites apprennent à leurs enfants (et pas l'école)
+18 | izranoff | Si tu reçois un SMS de ton propre numéro à 2h22... suis ces 7 règles
+19 | 30jours  | Il te reste 30 jours pour sauver le restaurant de ton grand-père
+20 | etsilab  | Et si le monde entier arrêtait de vieillir… sauf toi ?
+21 | homodeus | Les 3 règles de l'attention : pourquoi tu ne finis jamais rien
+22 | izranoff | Si tu entends ta mère t'appeler depuis la cave alors qu'elle est au travail... suis ces 7 règles
+23 | 30jours  | Il te reste 30 jours pour devenir influenceur en partant de 0 abonné
+24 | etsilab  | Et si chaque like sur tes photos te rapportait 1 € ?
+25 | homodeus | Les 3 règles de la confiance en soi, selon la science
+26 | izranoff | Si ton GPS te dit de tourner dans un champ à 3h du matin... suis ces 7 règles
+27 | 30jours  | Il te reste 30 jours pour courir un marathon sans jamais avoir couru
+28 | etsilab  | Et si tu pouvais acheter une heure de plus chaque jour ?
+29 | homodeus | Les 3 règles du charisme : ce que les gens jugent en 7 secondes
+30 | izranoff | Si ta clé d'hôtel ouvre la chambre 217 alors qu'elle n'existe pas... suis ces 7 règles
+
+Répartition : etsilab 8 · homodeus 7 · izranoff 8 · 30jours 7
+Rythme cloud : 5 épisodes en parallèle, ~15-25 min par épisode sur ubuntu-latest.
+================================================================================

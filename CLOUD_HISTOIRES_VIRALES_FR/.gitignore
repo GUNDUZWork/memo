@@ -1,0 +1,6 @@
+node_modules/
+build/
+dist/
+__pycache__/
+ai_assets/
+jobs.json

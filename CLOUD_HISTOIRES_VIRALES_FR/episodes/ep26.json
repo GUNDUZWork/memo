@@ -1,0 +1,297 @@
+{
+  "id": 26,
+  "slug": "gps-champ-3h-du-matin-7-regles",
+  "formula": "izranoff",
+  "title": "Si ton GPS te dit de tourner dans un champ à 3h du matin... suis ces 7 règles",
+  "thumbnail": {
+    "line1": "NE TOURNE PAS",
+    "line2": "3h00, route vide",
+    "accent": "#E50914",
+    "visual": "a lone 30-year-old French man driver with short dark hair, stubble and a rumpled white wedding shirt with loosened tie, seen from behind or in profile, terrified close-up face on the right lit by the blue glow of a GPS screen, behind him a dark wheat field with many glowing headlights, red and black color scheme"
+  },
+  "youtube": {
+    "title": "Si ton GPS te dit de tourner dans un champ à 3h du matin... suis ces 7 règles",
+    "description": "Une voiture de location, une route de campagne, trois heures du matin. Dans la boîte à gants, une note pliée en quatre. Et sur l'écran, une flèche qui t'indique de tourner à droite, droit dans un champ de blé.\n\nSept règles. Chacune a une raison. Et tu ne vas comprendre la plus importante qu'au lever du jour.\n\nÀ quelle règle tu aurais craqué ? Dis-le en commentaire.",
+    "tags": [
+      "7 règles",
+      "histoire horreur",
+      "creepypasta",
+      "gps",
+      "route de nuit",
+      "3h du matin",
+      "suspense",
+      "histoire effrayante",
+      "règles",
+      "nuit",
+      "voiture",
+      "campagne",
+      "frisson",
+      "histoire virale",
+      "français"
+    ],
+    "pinned_comment": "Sois honnête : tu aurais tourné dans le champ, ou tu aurais suivi la note jusqu'au bout ?"
+  },
+  "scenes": [
+    {
+      "type": "hook",
+      "title": "Tournez à droite",
+      "narration": "Il est trois heures du matin. Tu roules seul sur une départementale que tu ne connais pas. Pas un lampadaire, pas une maison, juste les phares qui découpent deux tunnels blancs dans le noir. Et la voix du GPS, calme, polie, qui dit : dans cent mètres, tournez à droite. Tu ralentis. À droite, il n'y a pas de route. Il y a un champ. Des épis immobiles, sans un souffle de vent. La flèche à l'écran pointe droit dedans. Et c'est là que tu te souviens de la note.",
+      "onscreen": [
+        "3:00",
+        "tournez à droite"
+      ],
+      "visual": "a lone 30-year-old French man driver with short dark hair, stubble and a rumpled white wedding shirt with loosened tie, seen from behind or in profile, driving a rental car on a pitch-black country road at 3am, headlights cutting two white tunnels, a GPS screen glowing blue on the dashboard, a wheat field on the right side, cold eerie mood, empty dark sky above"
+    },
+    {
+      "type": "narration",
+      "title": "La note dans la boîte à gants",
+      "narration": "Tu as loué cette voiture la veille, dans une petite agence de gare, pour rentrer d'un mariage. L'employé, un vieux monsieur aux mains tachées d'encre, t'a tendu les clés sans sourire. Il a juste dit : tout est dans la boîte à gants. Tu pensais aux papiers. Au premier arrêt, tu as trouvé une feuille pliée en quatre, écrite à la main. En haut, une phrase soulignée deux fois. Si le GPS te dit de tourner dans un champ à trois heures du matin, suis ces sept règles. Tu avais ri. Tu ne ris plus.",
+      "onscreen": [
+        "7 règles",
+        "écrites à la main"
+      ],
+      "visual": "Interior of a small train station car rental agency at dusk, the old rental agency clerk with white thinning hair, ink-stained hands and a worn brown cardigan handing keys across the counter without smiling, a lone 30-year-old French man driver with short dark hair, stubble and a rumpled white wedding shirt with loosened tie, seen from behind or in profile at the desk, dim yellow lamp, old paper maps on the wall, uneasy mood"
+    },
+    {
+      "type": "narration",
+      "title": "Sur le bas-côté",
+      "narration": "Tu te gares sur le bas-côté, moteur allumé, warnings éteints. Tu déplies la feuille sur le volant, à la lumière bleue de l'écran. L'écriture est serrée, penchée, comme celle de quelqu'un qui écrivait vite. Certaines lettres ont été repassées plusieurs fois, si fort que le papier est presque troué. Au dos, il y a des taches brunes que tu préfères ne pas identifier. Tu vérifies ton téléphone. Pas de réseau. Pas une seule barre. La dernière ville est à trente kilomètres derrière toi, la prochaine à quarante devant. Le GPS répète, patient : dans cent mètres, tournez à droite. Alors tu reprends la route, et tu lis la première règle à voix basse.",
+      "onscreen": [
+        "pas de réseau",
+        "40 km devant"
+      ],
+      "visual": "a lone 30-year-old French man driver with short dark hair, stubble and a rumpled white wedding shirt with loosened tie, seen from behind or in profile, in the driver's seat of a parked car on a dark roadside, unfolding a handwritten sheet of paper under the blue light of a GPS screen, tense expression, engine on, deep night, fog on the road"
+    },
+    {
+      "type": "rule",
+      "title": "Règle 1",
+      "number": 1,
+      "rule": "Ne tourne pas. Continue tout droit, même s'il recalcule.",
+      "narration": "Règle numéro un. Ne tourne pas. Continue tout droit, même s'il recalcule. Il recalculera. Plusieurs fois. Il te dira que tu as manqué la sortie, que la route est fermée devant, que c'est le seul chemin. Ne l'écoute pas. Ce champ n'a pas de fond.",
+      "onscreen": [
+        "RÈGLE 1",
+        "ne tourne pas"
+      ],
+      "visual": "A dark countryside road at night, a car with headlights passing a dark opening in a field of tall wheat, the wheat swaying like a curtain, the GPS screen glowing on the dashboard, ominous cold blue light",
+      "overlay": {
+        "kind": "banner",
+        "text": "RÈGLE 1",
+        "beat": 1
+      }
+    },
+    {
+      "type": "tension",
+      "title": "Recalcul",
+      "narration": "Tu dépasses l'entrée du champ sans freiner. Dans le rétroviseur, les épis se referment comme un rideau. Le GPS émet un petit son. Recalcul de l'itinéraire. Faites demi-tour dès que possible. Tu continues. Deux cents mètres plus loin, une nouvelle flèche, encore à droite, encore vers le champ. Puis une troisième. Le blé longe la route sans fin, et chaque fois, la voix te propose d'y entrer. Elle ne s'énerve pas. Elle a tout son temps. C'est ça le pire. Elle a l'air de savoir que la nuit est longue.",
+      "onscreen": [
+        "recalcul…",
+        "faites demi-tour"
+      ],
+      "visual": "a lone 30-year-old French man driver with short dark hair, stubble and a rumpled white wedding shirt with loosened tie, seen from behind or in profile, gripping the steering wheel, eyes on the rear-view mirror where wheat stalks close like a curtain behind him, GPS glowing blue, sweat on his forehead, dark road ahead, tense atmosphere"
+    },
+    {
+      "type": "rule",
+      "title": "Règle 2",
+      "number": 2,
+      "rule": "N'éteins pas le GPS. Tant qu'il parle, tu sais où il est.",
+      "narration": "Règle numéro deux. N'éteins pas le GPS. Tant qu'il parle, tu sais où il est. Quand il se tait, il ne s'arrête pas. Il écoute. Et un GPS qui écoute finit toujours par trouver un autre moyen de te guider.",
+      "onscreen": [
+        "RÈGLE 2",
+        "laisse-le parler"
+      ],
+      "visual": "A car GPS screen glowing blue on a dark dashboard speaking calmly, small sound waves, a dark wheat-field road through the windshield, a lone 30-year-old French man driver with short dark hair, stubble and a rumpled white wedding shirt with loosened tie, seen from behind or in profile's hand pulling away from the screen, cold eerie light"
+    },
+    {
+      "type": "tension",
+      "title": "La tentation",
+      "narration": "Ta main est déjà sur l'écran. Tu voulais juste faire taire cette voix. Tu la retires lentement. Le GPS continue, imperturbable. Restez sur la départementale pendant quatre kilomètres. Pour la première fois, il donne une indication normale. Tu respires. Puis tu remarques un détail. La carte à l'écran ne montre plus de champ. Elle montre une route, à droite, avec un nom. Chemin de la Moisson. Tu regardes par la fenêtre. Il n'y a toujours que du blé. La carte a été mise à jour. Pas la réalité.",
+      "onscreen": [
+        "chemin de la Moisson",
+        "qui n'existe pas"
+      ],
+      "visual": "a lone 30-year-old French man driver with short dark hair, stubble and a rumpled white wedding shirt with loosened tie, seen from behind or in profile, with his hand hovering over a glowing GPS screen to turn it off, hesitating, scared eyes, the screen lighting his face cold blue, dark car interior, rain streaks on the windshield"
+    },
+    {
+      "type": "rule",
+      "title": "Règle 3",
+      "number": 3,
+      "rule": "Si la voix change et prononce ton prénom, ne réponds pas.",
+      "narration": "Règle numéro trois. Si la voix change et prononce ton prénom, ne réponds pas. Pas un mot, pas un murmure, pas même un soupir. Elle ne connaît pas ton prénom. Elle attend que tu le confirmes.",
+      "onscreen": [
+        "RÈGLE 3",
+        "ne réponds pas"
+      ],
+      "visual": "a lone 30-year-old French man driver with short dark hair, stubble and a rumpled white wedding shirt with loosened tie, seen from behind or in profile, in a dark car with a hand over his own mouth so as not to answer, the GPS screen glowing blue and sound waves forming his first name as a faint glowing shape without letters, terrified eyes, night"
+    },
+    {
+      "type": "tension",
+      "title": "La voix de ta mère",
+      "narration": "Quatre kilomètres plus loin, la voix du GPS grésille. Quand elle revient, elle n'est plus métallique. Elle est douce, chaude, familière. C'est la voix de ta mère. Elle dit : mon chéri, tu vas te perdre, tourne ici, je t'attends. Ta gorge se serre. Ta mère dort à trois cents kilomètres d'ici. Tu le sais. Mais la voix a exactement son rythme, sa petite hésitation avant les mots importants. Elle répète ton prénom, presque. Il manque une syllabe. Comme si elle cherchait. Tu serres les dents jusqu'à avoir mal.",
+      "onscreen": [
+        "mon chéri…",
+        "il manque une syllabe"
+      ],
+      "visual": "a lone 30-year-old French man driver with short dark hair, stubble and a rumpled white wedding shirt with loosened tie, seen from behind or in profile, in a dark car, tears in his eyes and a trembling lip listening to a calm familiar voice from the dashboard, a faint warm glow from the GPS speaker contrasting with the cold dark night outside",
+      "overlay": {
+        "kind": "chip",
+        "text": "LA VOIX DE MAMAN",
+        "beat": 1
+      }
+    },
+    {
+      "type": "rule",
+      "title": "Règle 4",
+      "number": 4,
+      "rule": "Si tu vois des phares au milieu du champ, ne fais pas d'appel de phares.",
+      "narration": "Règle numéro quatre. Si tu vois des phares au milieu du champ, ne fais pas d'appel de phares. Ce ne sont pas des voitures. Ce sont ceux qui ont tourné. Ils cherchent quelqu'un qui leur réponde.",
+      "onscreen": [
+        "RÈGLE 4",
+        "pas d'appel de phares"
+      ],
+      "visual": "a lone 30-year-old French man driver with short dark hair, stubble and a rumpled white wedding shirt with loosened tie, seen from behind or in profile, stopped at the side of a dark road, staring at a vast wheat field with many pairs of glowing headlights, hand on the headlight stalk but not touching it, afraid, cold moonlight"
+    },
+    {
+      "type": "tension",
+      "title": "Les lumières dans le blé",
+      "narration": "Tu les vois d'abord comme des reflets. Puis tu comprends. Deux phares, loin dans le champ, immobiles. Puis deux autres. Puis une dizaine, répartis dans le blé comme des bougies sur un gâteau. Certains sont jaunes, à l'ancienne. D'autres ont la lumière bleue des modèles récents. Aucun ne bouge. Aucun moteur. Quand tu passes à leur hauteur, tous les phares clignotent ensemble, une fois, comme un salut. Ton pouce frôle la manette. Tu le retires. Les phares s'éteignent un par un, derrière toi.",
+      "onscreen": [
+        "des phares dans le blé",
+        "ils clignotent"
+      ],
+      "visual": "A vast dark wheat field at night with dozens of pairs of headlights glowing motionless in the middle, yellow and blue, like candles on a cake, a lone 30-year-old French man driver with short dark hair, stubble and a rumpled white wedding shirt with loosened tie, seen from behind or in profile's car silhouette on the road at the edge, eerie quiet"
+    },
+    {
+      "type": "rule",
+      "title": "Règle 5",
+      "number": 5,
+      "rule": "Ne t'arrête pas au village dont le panneau n'a pas de nom.",
+      "narration": "Règle numéro cinq. Ne t'arrête pas au village dont le panneau n'a pas de nom. Même si la boulangerie est éclairée. Même si tu as faim, sommeil, ou besoin d'essence. Ceux qui y vivent sont très accueillants. Ils n'ont jamais laissé personne repartir.",
+      "onscreen": [
+        "RÈGLE 5",
+        "panneau sans nom"
+      ],
+      "visual": "A dark village sign with an empty white frame bordered in red at a bend of the road, behind it neat flowered houses all lit up, a bakery open at night, creepy peaceful mood, deep blue night"
+    },
+    {
+      "type": "tension",
+      "title": "Le village",
+      "narration": "Le panneau apparaît dans un virage. Un cadre blanc bordé de rouge. À l'intérieur, rien. Pas de lettres, pas même une trace effacée. Puis les maisons, propres, fleuries, toutes éclairées. La boulangerie est ouverte. À trois heures quarante du matin. Derrière la vitrine, une femme en tablier te fait signe d'entrer en souriant. Il y a des gens assis aux terrasses, dans le froid, qui se tournent tous vers ta voiture en même temps. Ta jauge d'essence clignote. Tu accélères. Dans le rétroviseur, ils sourient toujours.",
+      "onscreen": [
+        "3:40",
+        "tout est éclairé"
+      ],
+      "visual": "A bakery window at night glowing warm yellow, a pale woman in a white apron with a fixed unblinking smile waving through the glass with her smile, a lone 30-year-old French man driver with short dark hair, stubble and a rumpled white wedding shirt with loosened tie, seen from behind or in profile's car parked outside with the driver looking straight ahead and refusing, creepy inviting atmosphere",
+      "overlay": {
+        "kind": "chip",
+        "text": "VILLAGE SANS NOM",
+        "beat": 1
+      }
+    },
+    {
+      "type": "rule",
+      "title": "Règle 6",
+      "number": 6,
+      "rule": "Si l'alarme de ceinture du siège passager sonne, ne regarde pas le siège.",
+      "narration": "Règle numéro six. Si l'alarme de ceinture du siège passager sonne, ne regarde pas le siège. Regarde la route. Mets la musique si tu veux. Le capteur détecte un poids. Ce poids partira de lui-même à l'aube, si tu ne lui donnes aucune raison de rester.",
+      "onscreen": [
+        "RÈGLE 6",
+        "ne regarde pas"
+      ],
+      "visual": "Inside a car at night, a red seat belt warning light blinking on the dashboard with a small passenger silhouette icon, the empty passenger seat slightly sinking, a lone 30-year-old French man driver with short dark hair, stubble and a rumpled white wedding shirt with loosened tie, seen from behind or in profile staring at the road with clenched jaw, cold blue light"
+    },
+    {
+      "type": "tension",
+      "title": "Le passager",
+      "narration": "Le bip commence juste après le village. Régulier. Insistant. Le voyant rouge de ceinture clignote sur le tableau de bord, avec la petite silhouette côté passager. Tu sens le siège s'enfoncer légèrement, comme quand quelqu'un s'y installe avec précaution. Une odeur de terre mouillée envahit l'habitacle. Du coin de l'œil, une forme. Tu fixes la ligne blanche. Tu allumes la radio. Une chanson que tu ne connais pas, que personne ne chante plus depuis longtemps. Le bip continue pendant vingt minutes. Puis, d'un coup, plus rien.",
+      "onscreen": [
+        "bip… bip…",
+        "odeur de terre"
+      ],
+      "visual": "a lone 30-year-old French man driver with short dark hair, stubble and a rumpled white wedding shirt with loosened tie, seen from behind or in profile, driving with wide terrified eyes fixed forward, the passenger seat beside him appearing slightly compressed, a faint mist of wet earth in the air, cold blue dashboard light, dawn not yet risen"
+    },
+    {
+      "type": "rule",
+      "title": "Règle 7",
+      "number": 7,
+      "rule": "Quand il annonce que tu es arrivé, vérifie que c'est bien ta destination.",
+      "narration": "Règle numéro sept. Quand le GPS annonce vous êtes arrivé, vérifie que c'est bien la destination que tu as entrée. Si ce n'est pas le cas, ne descends pas. Recule de cent mètres sans te retourner, puis attends le soleil.",
+      "onscreen": [
+        "RÈGLE 7",
+        "vérifie l'adresse"
+      ],
+      "visual": "a lone 30-year-old French man driver with short dark hair, stubble and a rumpled white wedding shirt with loosened tie, seen from behind or in profile, in a dark car staring at the GPS announcing arrival, a hand on the gear stick ready to reverse, the farmhouse looming in the headlights, dread, cold light"
+    },
+    {
+      "type": "tension",
+      "title": "Vous êtes arrivé",
+      "narration": "À cinq heures dix, la voix redevient métallique. Vous êtes arrivé à destination. Tu freines. Devant toi, une ferme abandonnée, au bout d'un chemin de terre que tu ne te souviens pas d'avoir pris. Sur l'écran, l'adresse affichée n'est pas la tienne. C'est chemin de la Moisson, numéro un. La porte de la ferme est entrouverte. Une lumière s'allume au premier étage. Tu passes la marche arrière. Cent mètres, sans regarder derrière. Tu attends. Et lentement, le ciel devient gris, puis rose.",
+      "onscreen": [
+        "5:10",
+        "chemin de la Moisson, n°1"
+      ],
+      "visual": "a lone 30-year-old French man driver with short dark hair, stubble and a rumpled white wedding shirt with loosened tie, seen from behind or in profile, stepping out of a stopped car in front of an abandoned farmhouse with a dark open door at 5am, the GPS screen showing an unfamiliar address, cold grey light, fog"
+    },
+    {
+      "type": "twist",
+      "title": "Le GPS muet",
+      "narration": "Au matin, tu rends la voiture à l'agence. Le vieux monsieur n'est pas là. Une jeune femme prend les clés. Tu lui parles de la note, du GPS, de la voix. Elle fronce les sourcils. Quelle note ? On ne met rien dans les boîtes à gants. Et ce modèle, le GPS est en panne depuis l'an dernier. Il n'a plus de haut-parleur. Il ne peut pas parler. Tu sors, les jambes en coton. Alors toute la nuit, ce n'était pas le GPS qui te guidait. Ni la voix. Ni la note. Au fond de ta poche, ton téléphone vibre. Une notification de ton appli de navigation. Tu ne l'as jamais ouverte. Dans cent mètres, tournez à droite.",
+      "onscreen": [
+        "il ne peut pas parler",
+        "tournez à droite"
+      ],
+      "visual": "Inside the agency in the morning, a lone 30-year-old French man driver with short dark hair, stubble and a rumpled white wedding shirt with loosened tie, seen from behind or in profile, tired and pale, speaking to a young woman rental agent with a brown bob haircut and a red company vest who looks confused, a dead black GPS screen on the desk, flat daylight, uneasy mood"
+    }
+  ],
+  "short": {
+    "hook_text": "TON GPS VISE UN CHAMP",
+    "narration": "Trois heures du matin. Route de campagne. Ton GPS te dit de tourner à droite. Sauf qu'à droite, il n'y a pas de route. Il y a un champ de blé, immobile, sans un souffle de vent. Heureusement, dans la boîte à gants de ta voiture de location, il y a une note écrite à la main. Sept règles. Règle numéro un : ne tourne pas, même s'il recalcule. Il recalculera. Règle numéro trois : si la voix change et prononce ton prénom, ne réponds pas. Quatre kilomètres plus tard, la voix du GPS devient celle de ta mère. Et au loin, au milieu du blé, des dizaines de phares s'allument en même temps. La règle numéro sept va tout changer. Le film complet est sur la chaîne.",
+    "cta": "Le film complet est sur la chaîne",
+    "visuals": [
+      {
+        "p": "a lone 30-year-old French man driver with short dark hair, stubble and a rumpled white wedding shirt with loosened tie, seen from behind or in profile, in a rental car on a pitch-black country road at 3am, GPS glowing blue, headlights cutting the dark, tense face, empty sky above"
+      },
+      {
+        "p": "A dark roadside with a dense motionless wheat field on the right and no road, a rental car with headlights on, GPS glowing blue, eerie silence, cinematic dramatic lighting, expressive faces, rich colors",
+        "at": "Sauf qu'à droite"
+      },
+      {
+        "p": "a lone 30-year-old French man driver with short dark hair, stubble and a rumpled white wedding shirt with loosened tie, seen from behind or in profile, in a parked car opening the glove box and unfolding a handwritten sheet of paper, blue dashboard light, worried look, night",
+        "at": "Heureusement, dans la boîte"
+      },
+      {
+        "p": "A close view of a dark road with a car passing a field entrance, the wheat closing like a curtain behind in the rear-view mirror, GPS glow, tense, cinematic dramatic lighting, expressive faces, rich colors",
+        "at": "Règle numéro un",
+        "overlay": {
+          "kind": "banner",
+          "text": "RÈGLE 1"
+        }
+      },
+      {
+        "p": "a lone 30-year-old French man driver with short dark hair, stubble and a rumpled white wedding shirt with loosened tie, seen from behind or in profile, gripping his steering wheel, afraid, a GPS screen glowing with a calm voice sound waves around it, sweat on his face, cold blue light",
+        "at": "Règle numéro trois"
+      },
+      {
+        "p": "a lone 30-year-old French man driver with short dark hair, stubble and a rumpled white wedding shirt with loosened tie, seen from behind or in profile, in the car with tears in his eyes listening to a warm familiar voice from the dashboard, faint warm glow vs cold dark night outside",
+        "at": "Quatre kilomètres plus tard"
+      },
+      {
+        "p": "A vast dark wheat field at night with dozens of pairs of headlights switching on at once in the middle of the wheat, yellow and blue glow, ominous quiet",
+        "at": "Et au loin"
+      },
+      {
+        "p": "a lone 30-year-old French man driver with short dark hair, stubble and a rumpled white wedding shirt with loosened tie, seen from behind or in profile, with a shocked face looking at the road, handwritten sheet of paper glowing faintly on his knees with seven blank lines, dark car, dramatic light",
+        "at": "La règle numéro sept"
+      },
+      {
+        "p": "A dark country road at night, the rear lights of a rental car disappearing into fog, a faint glow of wheat field lights behind, cinematic cold blue, cinematic dramatic lighting, expressive faces, rich colors",
+        "at": "Le film complet"
+      }
+    ]
+  },
+  "visual_bible": {
+    "driver": "a lone 30-year-old French man driver with short dark hair, stubble and a rumpled white wedding shirt with loosened tie, seen from behind or in profile",
+    "clerk": "an old rental agency clerk with white thinning hair, ink-stained hands and a worn brown cardigan",
+    "baker": "a pale woman in a white apron with a fixed unblinking smile",
+    "clerk2": "a young woman rental agent with a brown bob haircut and a red company vest"
+  }
+}

@@ -1,0 +1,302 @@
+{
+  "id": 6,
+  "slug": "ascenseur-13e-etage",
+  "formula": "izranoff",
+  "title": "Si ton ascenseur s'arrête au 13e étage d'un immeuble qui n'en a que 12... suis ces 7 règles",
+  "thumbnail": {
+    "line1": "13e ÉTAGE",
+    "line2": "l’immeuble en a 12",
+    "accent": "#E01E1E",
+    "visual": "Terrified close-up of Marc, a 32-year-old French man with short black hair, tired eyes and a dark grey coat on the right, behind him an open elevator door on a red number thirteen glow, dark long corridor, cold green and red light"
+  },
+  "youtube": {
+    "title": "Si ton ascenseur s'arrête au 13e étage d'un immeuble qui n'en a que 12... suis ces 7 règles",
+    "description": "Ton immeuble a douze étages. Tu les as comptés le jour de ta visite. Pourtant, ce soir, à une heure du matin, l’ascenseur dépasse le douzième, et les portes s’ouvrent sur un couloir que tu n’as jamais vu.\n\nHeureusement, le gardien de nuit t’avait glissé une carte le jour de ton arrivée. Sept règles. Chacune a une raison. Et aucune ne doit être oubliée. Une histoire de tension à vivre à la deuxième personne, jusqu’au retournement final.\n\nÀ écouter au casque, de préférence pas dans un ascenseur. Dis-nous en commentaire quelle règle t’a le plus angoissé.",
+    "tags": [
+      "histoire qui fait peur",
+      "suis ces règles",
+      "ascenseur",
+      "13e étage",
+      "creepypasta",
+      "horreur",
+      "tension",
+      "immeuble",
+      "règles",
+      "histoire du soir",
+      "mystère",
+      "plot twist",
+      "histoire en français",
+      "miroir",
+      "histoires virales"
+    ],
+    "pinned_comment": "Sois honnête : tu aurais réussi à ne pas regarder le miroir de la cabine ?"
+  },
+  "scenes": [
+    {
+      "type": "hook",
+      "title": "Le bouton qui n’existe pas",
+      "narration": "Il est une heure du matin. Tu rentres d’une soirée, fatigué, et tu appuies sur le bouton neuf, comme d’habitude. Les portes se ferment. L’ascenseur monte. Six. Sept. Huit. Neuf. Il ne s’arrête pas. Dix. Onze. Douze. Ton immeuble a douze étages. Tu les as comptés le jour de la visite. Pourtant, l’écran au-dessus des portes affiche maintenant un chiffre rouge que tu n’avais jamais vu. Treize. La cabine s’immobilise. Un petit bip. Et les portes commencent à s’ouvrir.",
+      "onscreen": [
+        "12 étages",
+        "affiché : 13"
+      ],
+      "visual": "Marc, a 32-year-old French man with short black hair, tired eyes and a dark grey coat, inside a dim old elevator cabin looking up at the display glowing a red number, the doors beginning to open on a dark corridor, cold green fluorescent light, eerie quiet, tension"
+    },
+    {
+      "type": "narration",
+      "title": "La carte du gardien",
+      "narration": "Tu te rappelles alors la carte. Le jour de ton emménagement, le gardien de nuit, Monsieur Baptistin, un homme très grand aux cheveux blancs, te l’a glissée dans la main sans un mot. Une carte bristol jaunie, couverte d’une écriture serrée. Tu l’as rangée dans ton portefeuille en souriant poliment. Tes doigts la retrouvent maintenant, tout au fond, derrière ta carte vitale. En haut, une seule phrase : « Si l’ascenseur s’arrête au treizième, suis ces sept règles. Ne saute rien. »",
+      "onscreen": [
+        "Monsieur Baptistin",
+        "« ne saute rien »"
+      ],
+      "visual": "Marc, a 32-year-old French man with short black hair, tired eyes and a dark grey coat, pulling a yellowed card out of his wallet in a dim apartment lobby, Monsieur Baptistin, a very tall elderly night guard with white hair and a dark uniform standing tall in the shadow in the background with a grave expression, cold blue and yellow light, mysterious mood"
+    },
+    {
+      "type": "rule",
+      "number": 1,
+      "title": "Règle n°1",
+      "rule": "Ne sors jamais de la cabine.",
+      "narration": "Règle numéro un. Ne sors jamais de la cabine. Quoi que tu voies, quoi que tu entendes. « Les portes du treizième ne se rouvrent que pour ceux qui sont restés à l’intérieur. » Tu recules contre la paroi du fond, jusqu’à sentir la barre métallique dans ton dos. Les portes sont maintenant grandes ouvertes. Et devant toi, il y a un couloir.",
+      "onscreen": [
+        "reste dans la cabine",
+        "quoi qu’il arrive"
+      ],
+      "visual": "Marc, a 32-year-old French man with short black hair, tired eyes and a dark grey coat, pressed against the back wall of an elevator cabin as the doors open wide on a long burgundy corridor, red digital number glowing above, cold green light, tense mood",
+      "overlay": {
+        "kind": "banner",
+        "text": "NE SORS PAS",
+        "beat": 0
+      }
+    },
+    {
+      "type": "tension",
+      "title": "Le couloir",
+      "narration": "Le couloir ressemble au tien. Presque. Même moquette bordeaux, mêmes appliques murales, mêmes portes en bois avec leur numéro en laiton. Mais il est beaucoup trop long. Il s’étire au loin, bien au-delà des limites du bâtiment. Les ampoules grésillent une à une, de plus en plus loin. Il n’y a aucun bruit. Pas de télévision derrière les portes, pas de ronflement, pas de chasse d’eau. Juste une odeur de poussière et de vieux parfum, celle des appartements fermés depuis très longtemps.",
+      "onscreen": [
+        "beaucoup trop long",
+        "aucun bruit"
+      ],
+      "visual": "A very long hotel-like corridor with burgundy carpet and brass numbered doors stretching endlessly into the distance, flickering wall lamps, dust in the air, nobody visible, cold green light, quiet dread, empty space above"
+    },
+    {
+      "type": "rule",
+      "number": 2,
+      "title": "Règle n°2",
+      "rule": "Si quelqu’un te demande l’heure, ne réponds pas.",
+      "narration": "Règle numéro deux. Si quelqu’un te demande l’heure, ne réponds pas. « Au treizième, ils ne savent pas quelle heure il est chez nous. Et ils aimeraient beaucoup le savoir. » Tu relis la phrase deux fois. Ils. Tu lèves les yeux vers le couloir. Tout au bout, une des portes est maintenant entrouverte. Elle ne l’était pas, il y a une seconde.",
+      "onscreen": [
+        "ne donne pas l’heure",
+        "« ils »"
+      ],
+      "visual": "Marc, a 32-year-old French man with short black hair, tired eyes and a dark grey coat, in an elevator reading a yellowed card, in the far end of a long corridor one door is slightly open with a thin line of yellow light, cold green fluorescent glow, uneasy tension"
+    },
+    {
+      "type": "tension",
+      "title": "La voix",
+      "narration": "Une silhouette sort de l’appartement du fond. Une petite dame, en robe de chambre fleurie, avec des pantoufles. Elle avance lentement vers l’ascenseur, en souriant. Quand elle est assez proche, elle penche la tête et demande, d’une voix très douce : « Excusez-moi, jeune homme. Vous auriez l’heure ? Ma montre s’est arrêtée. » Tu as ton téléphone dans la main. L’écran est allumé. Tu le retournes contre ta jambe. Tu ne dis rien. Son sourire reste exactement le même. Mais ses yeux, eux, ne sourient plus.",
+      "onscreen": [
+        "« vous auriez l’heure ? »",
+        "écran retourné"
+      ],
+      "visual": "a small elderly woman in a flowered dressing gown and flowered slippers with a fixed smile, walking slowly out of an apartment at the end of a long corridor toward the elevator, smiling, her eyes wide and cold, Marc, a 32-year-old French man with short black hair, tired eyes and a dark grey coat holding his phone behind his leg with a scared face, green fluorescent light"
+    },
+    {
+      "type": "rule",
+      "number": 3,
+      "title": "Règle n°3",
+      "rule": "Ne regarde pas le miroir de la cabine.",
+      "narration": "Règle numéro trois. Ne regarde pas le miroir de la cabine. « Au treizième, ton reflet n’a pas besoin de toi pour bouger. » Le miroir couvre toute la paroi de gauche, du sol au plafond. Tu le sens là, juste à la limite de ta vision, comme une fenêtre ouverte sur une autre pièce. Tu fixes tes chaussures. Tu fixes le tapis. Tu fixes n’importe quoi, sauf la gauche.",
+      "onscreen": [
+        "pas le miroir",
+        "regarde tes pieds"
+      ],
+      "visual": "Elevator cabin interior with a mirror wall on the left, the reflection seen only as a vague silhouette, Marc, a 32-year-old French man with short black hair, tired eyes and a dark grey coat staring at the floor with fear, cold light, uneasy mood",
+      "overlay": {
+        "kind": "stamp",
+        "text": "PAS LE MIROIR",
+        "beat": 0
+      }
+    },
+    {
+      "type": "tension",
+      "title": "Une seconde",
+      "narration": "La petite dame a disparu. Tu ne l’as pas vue partir. Le couloir est de nouveau vide. Tes yeux te piquent, ta nuque est raide. Et à un moment, par pur réflexe, comme quand on vérifie si on a quelque chose entre les dents, ton regard glisse vers la gauche. Une seconde. Même pas. Tu détournes immédiatement les yeux, le cœur battant. Tu as juste eu le temps de voir ton reflet. Normal. Immobile. Tout va bien. Tu te dis que tout va bien.",
+      "onscreen": [
+        "une seconde",
+        "tout va bien ?"
+      ],
+      "visual": "Marc, a 32-year-old French man with short black hair, tired eyes and a dark grey coat, in the elevator glancing at the mirror for a split second with a shocked face, his reflection standing perfectly still and calm, cold green light, eerie atmosphere, empty space above"
+    },
+    {
+      "type": "rule",
+      "number": 4,
+      "title": "Règle n°4",
+      "rule": "N’appuie jamais sur le bouton d’alarme.",
+      "narration": "Règle numéro quatre. N’appuie jamais sur le bouton d’alarme. « Au treizième, ce n’est pas moi qui répondrai. » Ton pouce était déjà posé sur la petite cloche jaune. Tu le retires lentement. Tu penses au haut-parleur grillagé au-dessus de ta tête, à la voix qui pourrait en sortir, et tu n’as soudain plus aucune envie d’entendre qui décroche à cet étage-là.",
+      "onscreen": [
+        "pas d’alarme",
+        "qui répondrait ?"
+      ],
+      "visual": "Marc, a 32-year-old French man with short black hair, tired eyes and a dark grey coat, with his finger hovering over a small yellow alarm button on an elevator panel, a grilled speaker above his head, his sweaty scared face, cold light, hesitant tension"
+    },
+    {
+      "type": "tension",
+      "title": "Le grésillement",
+      "narration": "Comme pour te narguer, le haut-parleur grésille quand même. Un souffle. Puis une respiration, lente, régulière, comme celle de quelqu’un qui attend à l’autre bout d’un téléphone. Personne n’a appuyé. Tu n’as rien touché. La respiration continue. Puis une voix, très proche du micro, chuchote : « Allô ? Il y a quelqu’un dans la cabine ? » Tu serres la carte du gardien si fort que le carton se plie. Tu ne réponds pas. Au bout d’un moment, le grésillement s’arrête.",
+      "onscreen": [
+        "« allô ? »",
+        "personne n’a appuyé"
+      ],
+      "visual": "Close-up of the grilled speaker in an elevator ceiling crackling, a faint breathing shape of soundwaves, Marc, a 32-year-old French man with short black hair, tired eyes and a dark grey coat standing frozen below clutching a bent card, cold green light, dread"
+    },
+    {
+      "type": "rule",
+      "number": 5,
+      "title": "Règle n°5",
+      "rule": "Si quelqu’un entre, regarde ses pieds. S’ils ne touchent pas le sol, ferme les yeux jusqu’au bip.",
+      "narration": "Règle numéro cinq. Si quelqu’un entre dans la cabine, ne le regarde pas en face. Regarde ses pieds. S’ils ne touchent pas le sol, ferme les yeux jusqu’au bip. Tu lis cette ligne au moment précis où tu entends des pas sur la moquette. Des pas lents. Qui se rapprochent. Qui s’arrêtent juste devant l’ascenseur.",
+      "onscreen": [
+        "regarde ses pieds",
+        "puis ferme les yeux"
+      ],
+      "visual": "Marc, a 32-year-old French man with short black hair, tired eyes and a dark grey coat, in an elevator with his head down staring at the floor, a pair of footsteps approaching on burgundy carpet outside the open doors, shadows stretching, cold green light, tense"
+    },
+    {
+      "type": "tension",
+      "title": "Les pantoufles",
+      "narration": "Quelqu’un entre dans la cabine. Tu sens le parquet de l’ascenseur bouger très légèrement sous son poids. Tu gardes la tête baissée. Tu vois deux pantoufles fleuries. Et entre les pantoufles et le sol, il y a un espace. Deux centimètres. Peut-être trois. Tu fermes les yeux. Tu entends la petite dame respirer, tout près de ton oreille. Elle chuchote : « Juste l’heure, mon petit. Juste l’heure. » Tu comptes dans ta tête. Tu ne réponds pas. Puis, enfin, le bip.",
+      "onscreen": [
+        "les pantoufles",
+        "elles flottent"
+      ],
+      "visual": "Marc, a 32-year-old French man with short black hair, tired eyes and a dark grey coat, with closed eyes in an elevator, the pair of flowered slippers of a small elderly woman in a flowered dressing gown and flowered slippers with a fixed smile hovering two centimeters above the floor next to him, cold green light, silent horror suggested, no gore"
+    },
+    {
+      "type": "rule",
+      "number": 6,
+      "title": "Règle n°6",
+      "rule": "Pour redescendre, appuie sur 1, puis 12, puis 1. Jamais sur RDC.",
+      "narration": "Règle numéro six. Pour redescendre, appuie sur le un, puis sur le douze, puis encore sur le un. Jamais sur le bouton du rez-de-chaussée. « Le rez-de-chaussée du treizième n’est pas le nôtre. » Tu ouvres les yeux. La cabine est vide. Les portes sont encore ouvertes. Tu tends la main vers le tableau de commande, et tu remarques que tes doigts tremblent tellement que tu dois t’y reprendre à deux fois.",
+      "onscreen": [
+        "1 → 12 → 1",
+        "jamais RDC"
+      ],
+      "visual": "Marc, a 32-year-old French man with short black hair, tired eyes and a dark grey coat, in an elevator pressing the panel buttons with trembling fingers, the cabin empty and the doors still open on the corridor, cold green light, tense relief, empty space above"
+    },
+    {
+      "type": "tension",
+      "title": "La descente",
+      "narration": "Un. Douze. Un. Les portes se referment, lentement, sur le long couloir bordeaux. Au tout dernier moment, juste avant qu’elles se touchent, tu aperçois la petite dame, debout au milieu de la moquette, qui te fait un signe de la main. L’ascenseur descend. Douze. Onze. Dix. L’écran clignote. Neuf. Les portes s’ouvrent sur ton palier. Ton paillasson. Ta plante en plastique. La lumière automatique qui s’allume avec son petit clic familier. Tu sors en courant.",
+      "onscreen": [
+        "12… 11… 10…",
+        "ton palier"
+      ],
+      "visual": "An elevator door closing on a long burgundy corridor, a small elderly woman in a flowered dressing gown and flowered slippers with a fixed smile waving politely from the middle of the corridor, Marc, a 32-year-old French man with short black hair, tired eyes and a dark grey coat inside pressed against the wall with a pale face, cold green light, eerie farewell"
+    },
+    {
+      "type": "rule",
+      "number": 7,
+      "title": "Règle n°7",
+      "rule": "Le lendemain, ne raconte à personne que tu es monté au treizième.",
+      "narration": "Règle numéro sept. La dernière. Le lendemain, ne raconte à personne que tu es monté au treizième. « Ceux qui en parlent finissent toujours par y retourner. » Tu claques ta porte, tu tournes la clé deux fois, tu t’assois par terre dans l’entrée. Tu respires. Tu as tout respecté. Enfin, presque tout. Tu retournes la carte pour la ranger. Et tu découvres qu’au dos, il y a une huitième ligne.",
+      "onscreen": [
+        "n’en parle à personne",
+        "une 8e ligne ?"
+      ],
+      "visual": "Marc, a 32-year-old French man with short black hair, tired eyes and a dark grey coat, in an apartment entrance closing the door and turning two keys, sitting on the floor with a shaken face, a yellowed card in his hand, warm hall light contrasted with cold light from the stairwell"
+    },
+    {
+      "type": "tension",
+      "title": "La nuit",
+      "narration": "Au dos de la carte, l’écriture est plus petite, plus pressée, comme ajoutée après coup. Mais tu es trop épuisé pour la déchiffrer dans la pénombre. Tu te dis que tu la liras demain, à la lumière du jour. Tu te traînes jusqu’à ton lit, tout habillé. Dehors, la ville dort. Dans la cage d’escalier, très loin, tu entends l’ascenseur se remettre en marche tout seul. Il monte. Longtemps. Puis il s’arrête. Tu ne comptes pas les étages. Tu t’endors.",
+      "onscreen": [
+        "tu la liras demain",
+        "l’ascenseur monte"
+      ],
+      "visual": "Marc, a 32-year-old French man with short black hair, tired eyes and a dark grey coat, lying on his bed fully dressed in a dark bedroom, exhausted, a small card on the nightstand, through the open door the elevator in the far stairwell glowing with a soft green light, quiet ominous mood"
+    },
+    {
+      "type": "twist",
+      "title": "Le dos de la carte",
+      "narration": "Le matin, tu te lèves, tu vas dans la salle de bains et tu reprends la carte. La phrase au dos dit : « Si tu as regardé le miroir, même une seule seconde, alors ce n’est pas toi qui es redescendu. » Tu relis la phrase. Une fois. Deux fois. Tu te souviens de cette seconde. Du reflet immobile. Normal. Tu lèves lentement les yeux vers le miroir au-dessus du lavabo. Ton reflet est là, les cheveux en bataille, la carte à la main. Il a l’air aussi fatigué que toi. Puis tu souris, soulagé. Et c’est là que tu le remarques. Ton reflet, lui, souriait déjà.",
+      "onscreen": [
+        "ce n’est pas toi",
+        "il souriait déjà"
+      ],
+      "visual": "Marc, a 32-year-old French man with short black hair, tired eyes and a dark grey coat, in a bathroom reading a card with a relieved smile, the mirror above the sink showing his reflection already smiling widely at him, cold light, creeping dread, empty space above",
+      "overlay": {
+        "kind": "stamp",
+        "text": "SON REFLET SOURIAIT",
+        "beat": 0
+      }
+    }
+  ],
+  "short": {
+    "hook_text": "IL N’Y A QUE 12 ÉTAGES",
+    "narration": "Ton immeuble a douze étages. Pourtant, cette nuit, à une heure du matin, l’ascenseur affiche treize. Les portes s’ouvrent sur un couloir trop long, silencieux, qui sent la poussière. Heureusement, le gardien de nuit t’a donné une carte. Règle numéro un : ne sors jamais de la cabine. Règle numéro deux : si quelqu’un te demande l’heure, ne réponds pas. Au treizième, ils aimeraient beaucoup savoir quelle heure il est chez nous. Règle numéro trois : ne regarde pas le miroir, ton reflet n’a pas besoin de toi pour bouger. Au fond du couloir, une petite dame en pantoufles s’approche en souriant. Et elle te demande l’heure. Il reste quatre règles. La dernière est écrite au dos.",
+    "cta": "Le film complet est sur la chaîne",
+    "visuals": [
+      {
+        "p": "A dark elevator display glowing a red number in the dark, cold green light on the metal doors, a hand on the panel, creeping dread, empty space above, subject in the lower third, soft cinematic depth, clear empty space above"
+      },
+      {
+        "p": "An elevator door opening on a very long silent corridor with burgundy carpet and brass doors, cold green fluorescent light, dust floating, subject in the lower third, soft cinematic depth, clear empty space above",
+        "at": "Les portes s’ouvrent"
+      },
+      {
+        "p": "Marc, a 32-year-old French man with short black hair, tired eyes and a dark grey coat, in a dim lobby receiving a yellowed card from Monsieur Baptistin, a very tall elderly night guard with white hair and a dark uniform, cold blue and yellow light, a silent eerie handover",
+        "at": "Heureusement, le gardien"
+      },
+      {
+        "p": "Marc, a 32-year-old French man with short black hair, tired eyes and a dark grey coat, pressed to the back wall of the elevator while the doors are open to a dark corridor, tense wide eyes, cold green light",
+        "at": "Règle numéro un",
+        "overlay": {
+          "kind": "banner",
+          "text": "NE SORS JAMAIS"
+        }
+      },
+      {
+        "p": "Marc, a 32-year-old French man with short black hair, tired eyes and a dark grey coat, with a phone screen turned toward his leg, his eyes down, a faint pair of eyes watching from the corridor, cold green light",
+        "at": "Règle numéro deux",
+        "overlay": {
+          "kind": "stamp",
+          "text": "PAS L’HEURE"
+        }
+      },
+      {
+        "p": "A mirror wall of an elevator showing a blurred still reflection, a hand covering a part of the glass, cold light, eerie mood, subject in the lower third, soft cinematic depth, clear empty space above",
+        "at": "Règle numéro trois",
+        "overlay": {
+          "kind": "stamp",
+          "text": "PAS LE MIROIR"
+        }
+      },
+      {
+        "p": "A long corridor with a lone door open at the end and a thin line of warm yellow light spilling out, cold green fluorescent glow, dust, dread, subject in the lower third, soft cinematic depth, clear empty space above",
+        "at": "Au fond du couloir"
+      },
+      {
+        "p": "a small elderly woman in a flowered dressing gown and flowered slippers with a fixed smile walking slowly toward the elevator with a calm smile and cold eyes, flowered slippers on a burgundy carpet, cold green light, eerie mood",
+        "at": "une petite dame"
+      },
+      {
+        "p": "A pair of flowered slippers hovering above a burgundy carpet in a dark corridor, a hand extended from the shadow asking the hour, cold green light, subject in the lower third, soft cinematic depth, clear empty space above",
+        "at": "Et elle te demande l’heure"
+      },
+      {
+        "p": "A yellowed card lying on the floor of an elevator with a reflected line of text hidden, Marc, a 32-year-old French man with short black hair, tired eyes and a dark grey coat sitting nearby with a pale face, cold green light",
+        "at": "Il reste quatre règles",
+        "overlay": {
+          "kind": "chip",
+          "text": "4 RÈGLES RESTANTES"
+        }
+      }
+    ]
+  },
+  "visual_bible": {
+    "hero": "Marc, a 32-year-old French man with short black hair, tired eyes and a dark grey coat",
+    "guard": "Monsieur Baptistin, a very tall elderly night guard with white hair and a dark uniform",
+    "lady": "a small elderly woman in a flowered dressing gown and flowered slippers with a fixed smile"
+  }
+}

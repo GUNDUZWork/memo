@@ -1,0 +1,336 @@
+{
+  "id": 12,
+  "slug": "chaque-pas-10-centimes",
+  "formula": "etsilab",
+  "title": "Et si chaque pas que tu faisais te rapportait 10 centimes ?",
+  "thumbnail": {
+    "line1": "1 PAS = 10 CENTIMES",
+    "line2": "combien en 1 an ?",
+    "accent": "#2EC4B6",
+    "visual": "Lucas, a 28-year-old French man with short wavy brown hair, a teal t-shirt, jeans and white sneakers in close-up with a stunned wide-eyed open-mouthed face, on the right a giant glowing sneaker footprint exploding into golden euro coins, bold teal and gold lighting"
+  },
+  "youtube": {
+    "title": "Et si chaque pas que tu faisais te rapportait 10 centimes ?",
+    "description": "Un matin, une notification apparaît sur ton téléphone : à partir de maintenant, chaque pas que tu fais te rapporte 10 centimes. Ça a l'air ridicule. Et pourtant, fais le calcul : combien vaut une journée normale ? Un marathon ? Une année entière à marcher ?\n\nDans ce scénario « Et si… », on pousse la logique jusqu'au bout, chiffres à l'appui, avec un compteur qui monte en direct pendant tout le film.\n\nEt fais attention à la phase 2. Parce que la règle va changer. Brutalement.",
+    "tags": [
+      "et si",
+      "scénario",
+      "argent",
+      "marcher",
+      "pas",
+      "10000 pas",
+      "calcul",
+      "mathématiques",
+      "expérience de pensée",
+      "que ferais-tu",
+      "devenir riche",
+      "marathon",
+      "santé",
+      "histoire",
+      "phase 2"
+    ],
+    "pinned_comment": "Tu fais combien de pas par jour en moyenne ? Calcule ce que tu aurais gagné aujourd'hui."
+  },
+  "counter": {
+    "label": "GAINS",
+    "start": 0,
+    "rate": 0.2,
+    "unit": "€",
+    "decimals": 2
+  },
+  "scenes": [
+    {
+      "type": "hook",
+      "title": "La notification",
+      "narration": "Sept heures douze. Ton réveil sonne. Tu attrapes ton téléphone, et il y a une notification que tu n'as jamais vue. Pas d'application. Pas d'expéditeur. Juste une phrase : à partir de maintenant, chaque pas que tu fais te rapporte dix centimes. Tu ricanes. Une pub, sûrement. Tu poses un pied par terre. Ding. Dix centimes. Le deuxième pied. Ding. Vingt centimes. Tu regardes l'écran, et le chiffre qui vient d'apparaître en haut. Et tu restes immobile, un pied en l'air.",
+      "onscreen": [
+        "1 pas = 0,10 €",
+        "07:12"
+      ],
+      "visual": "Lucas, a 28-year-old French man with short wavy brown hair, a teal t-shirt, jeans and white sneakers sitting up in bed in a small sunny Paris bedroom at seven in the morning, staring at his phone with a glowing teal coin icon, then putting one bare foot on the floor, golden light, comic surprise, floating golden coins",
+      "overlay": {
+        "kind": "banner",
+        "text": "1 PAS = 10 CENTIMES",
+        "beat": 0
+      }
+    },
+    {
+      "type": "narration",
+      "title": "Le test de la cuisine",
+      "narration": "Évidemment, tu testes. Tu marches jusqu'à la cuisine. Quatorze pas. Un euro quarante. Tu reviens. Deux euros quatre-vingts. Tu fais le tour de ta table basse en tournant comme un chien qui cherche sa place. Ding, ding, ding. Tu te connectes à ton compte bancaire. L'argent est là. Viré en temps réel, ligne par ligne, avec un libellé qui dit simplement : pas. Ce n'est pas une blague. C'est réel. Et tu viens de gagner sept euros en faisant le ménage autour de ta table.",
+      "onscreen": [
+        "14 pas",
+        "1,40 €"
+      ],
+      "visual": "Lucas, a 28-year-old French man with short wavy brown hair, a teal t-shirt, jeans and white sneakers walking to a small kitchen and spinning in circles around a coffee table like a dog, golden coins popping out at every footstep, bank app glowing on his phone, wide delighted eyes, warm morning light"
+    },
+    {
+      "type": "counter_focus",
+      "title": "Une journée normale",
+      "narration": "Alors tu décides de vivre une journée normale, juste pour voir. Le trajet jusqu'au métro, les couloirs, le bureau, la pause déjeuner, les courses, le retour. Une personne moyenne fait entre cinq mille et sept mille pas par jour. Toi, ce jour-là, tu en fais six mille deux cents. Le soir, sur ton canapé, tu regardes le compteur. Six cent vingt euros. En une journée. Sans rien faire de spécial. Juste en vivant. Tu ne dors pas de la nuit.",
+      "onscreen": [
+        "6 200 pas",
+        "= 620 €"
+      ],
+      "visual": "Lucas, a 28-year-old French man with short wavy brown hair, a teal t-shirt, jeans and white sneakers walking a busy Paris street towards the metro with a phone, a trail of glowing golden coins following each footstep, commuters in the background, bright daytime colors, joyful mood",
+      "overlay": {
+        "kind": "chip",
+        "text": "620 €",
+        "beat": 1
+      }
+    },
+    {
+      "type": "math",
+      "title": "Le calcul qui fait peur",
+      "equation": "10 000 pas × 0,10 € × 365 jours",
+      "result": "365 000 € par an",
+      "narration": "Le lendemain matin, tu sors une feuille et un crayon. Les médecins recommandent souvent dix mille pas par jour. Dix mille pas fois dix centimes, ça fait mille euros. Par jour. Mille euros fois trois cent soixante-cinq jours, ça fait trois cent soixante-cinq mille euros par an. Juste en suivant les conseils de ton médecin. Tu relis la ligne trois fois. Tu gagnes plus qu'un chirurgien. En marchant. Tu poses ta démission à dix heures du matin.",
+      "onscreen": [
+        "10 000 pas/jour",
+        "= 365 000 €/an"
+      ],
+      "visual": "Lucas, a 28-year-old French man with short wavy brown hair, a teal t-shirt, jeans and white sneakers at a desk with a sheet of paper and pencil, floating glowing coins and shapes representing calculations around him, a resignation letter beside him, wide amazed eyes, bright colorful light",
+      "overlay": {
+        "kind": "chip",
+        "text": "1 000 € / JOUR",
+        "beat": 0
+      }
+    },
+    {
+      "type": "narration",
+      "title": "Marcher, ton nouveau métier",
+      "narration": "Les premières semaines sont magiques. Tu marches partout. Tu découvres des quartiers de ta ville que tu n'avais jamais vus. Tu traverses des parcs, tu longes le fleuve, tu montes des escaliers juste pour le plaisir. Tu achètes les meilleures chaussures du magasin. Tu les paies avec l'argent de tes pas, ce qui te fait rire à chaque fois. Tes amis pensent que tu as gagné au loto. Tu leur dis la vérité. Ils pensent que tu as gagné au loto et que tu es devenu bizarre.",
+      "onscreen": [
+        "Semaine 1",
+        "Nouveau métier : marcher"
+      ],
+      "visual": "Lucas, a 28-year-old French man with short wavy brown hair, a teal t-shirt, jeans and white sneakers walking happily through a beautiful park along a river with new shiny sneakers, golden coins sparkling at each step, friends watching him in disbelief in the background, sunny blue sky"
+    },
+    {
+      "type": "counter_focus",
+      "title": "Le marathon",
+      "narration": "Puis tu as une idée. Un marathon, c'est quarante-deux kilomètres et cent quatre-vingt-quinze mètres. Avec des pas d'environ soixante-dix centimètres, ça fait à peu près soixante mille pas. Soixante mille pas, c'est six mille euros. Tu t'inscris au marathon de ta ville. Tu ne cours pas, tu marches. Tu mets un peu moins de sept heures. Tu arrives parmi les derniers, sous les applaudissements polis des bénévoles qui rangent déjà les barrières. Six mille euros. Tu es le dernier le plus riche de l'histoire.",
+      "onscreen": [
+        "42,195 km",
+        "≈ 60 000 pas",
+        "= 6 000 €"
+      ],
+      "visual": "Lucas, a 28-year-old French man with short wavy brown hair, a teal t-shirt, jeans and white sneakers walking calmly in a marathon among runners, a volunteer clapping politely at the finish line, golden coins raining from the sky, tired but proud grin, bright sunny city street",
+      "overlay": {
+        "kind": "chip",
+        "text": "60 000 PAS",
+        "beat": 0
+      }
+    },
+    {
+      "type": "math",
+      "title": "Le salaire horaire",
+      "equation": "6 000 € ÷ 7 heures",
+      "result": "≈ 857 € de l'heure",
+      "narration": "Six mille euros divisés par sept heures de marche, ça fait environ huit cent cinquante-sept euros de l'heure. Pour comparer, le salaire minimum en France tourne autour de douze euros de l'heure, avant les charges. Tu gagnes donc plus de soixante-dix fois le salaire minimum, en avançant un pied devant l'autre. Et là, ton cerveau fait ce que tous les cerveaux font devant une somme pareille. Il se demande comment gagner encore plus.",
+      "onscreen": [
+        "≈ 857 €/heure",
+        "× 70 le SMIC"
+      ],
+      "visual": "Lucas, a 28-year-old French man with short wavy brown hair, a teal t-shirt, jeans and white sneakers standing proudly in front of a big glowing hourglass and a stack of golden coins towering over a tiny minimum wage coin, confident grin, teal and gold lighting, comic scale contrast"
+    },
+    {
+      "type": "narration",
+      "title": "Les petites triches",
+      "narration": "Tu commences par le tapis de course. Ça marche. Chaque pas compte, même sur place. Tu en installes un dans ton salon, puis un deuxième dans ta chambre, face à la télé. Puis tu essaies les tout petits pas, des pas de souris, cinq centimètres chacun. Ding, ding, ding. Mais le lendemain, une nouvelle notification arrive : les pas de moins de trente centimètres ne sont plus comptés. Tu te figes. Quelqu'un, quelque part, te regarde marcher. Et ce quelqu'un a des règles.",
+      "onscreen": [
+        "Pas < 30 cm",
+        "= 0 €"
+      ],
+      "visual": "Lucas, a 28-year-old French man with short wavy brown hair, a teal t-shirt, jeans and white sneakers walking on two treadmills in a cramped living room, tiny mouse steps with wide eyes, a glowing warning phone floating in front of him, golden coins disappearing, bright but anxious light",
+      "overlay": {
+        "kind": "banner",
+        "text": "PAS < 30 CM : NON COMPTÉS",
+        "beat": 2
+      }
+    },
+    {
+      "type": "narration",
+      "title": "L'homme qui marche",
+      "narration": "Forcément, ça finit par se voir. Un journaliste local remarque cet inconnu qui traverse la ville du matin au soir, toujours au même rythme, toujours avec le sourire. Il te suit pendant une journée entière, à vélo. Le soir, l'article sort : l'homme qui ne s'arrête jamais. Les gens te reconnaissent dans la rue. Certains marchent à côté de toi quelques minutes pour faire une photo. Toi, tu ne ralentis pas. Tu leur souris poliment, et tu accélères. Chaque seconde passée à parler, c'est une seconde où tes pieds ne travaillent pas.",
+      "onscreen": [
+        "\"L'homme qui ne",
+        "s'arrête jamais\""
+      ],
+      "visual": "Lucas, a 28-year-old French man with short wavy brown hair, a teal t-shirt, jeans and white sneakers walking through a city street with a smile while a local journalist pedals alongside him on a bike with a notebook, passersby taking photos, bright sunny afternoon, comedic mood"
+    },
+    {
+      "type": "counter_focus",
+      "title": "Six mois plus tard",
+      "narration": "Six mois passent. Tu marches désormais trente kilomètres par jour, en moyenne. À peu près quarante-trois mille pas. Quatre mille trois cents euros quotidiens. Tu as perdu du poids, tes mollets sont devenus énormes, et ton compte affiche un peu plus de sept cent mille euros. Tu as remboursé ton prêt étudiant, offert une voiture à ta mère, et acheté un appartement en liquide. Le notaire t'a demandé d'où venait l'argent. Tu as répondu : de mes pieds. Il n'a pas ri.",
+      "onscreen": [
+        "43 000 pas/jour",
+        "≈ 700 000 €"
+      ],
+      "visual": "Lucas, a 28-year-old French man with short wavy brown hair, a teal t-shirt, jeans and white sneakers walking at dusk with muscular calves and a beaming smile in front of a notary and a luxury apartment, golden coins streaming into a glowing bank balance, warm sunset light"
+    },
+    {
+      "type": "narration",
+      "title": "Le prix invisible",
+      "narration": "Mais quelque chose a changé, et tu ne t'en es pas rendu compte tout de suite. Tu ne t'assois plus. Jamais. S'asseoir, c'est perdre de l'argent. Tu manges en marchant. Tu téléphones en marchant. Au restaurant, tu tournes autour de la table pendant que tes amis dînent. Au cinéma, tu restes au fond, et tu fais des allers-retours dans l'allée. Tes genoux te font mal tous les soirs. Ton kiné te dit que ton corps n'est pas une usine. Tu lui réponds que si, maintenant, il l'est.",
+      "onscreen": [
+        "Assis = 0 €",
+        "Tu ne t'assois plus"
+      ],
+      "visual": "Lucas, a 28-year-old French man with short wavy brown hair, a teal t-shirt, jeans and white sneakers pacing around a table in a restaurant while his friends eat dinner and watch him, a glowing coin counter behind him, awkward comic mood, warm restaurant light"
+    },
+    {
+      "type": "narration",
+      "title": "Jamais assez",
+      "narration": "Le plus étrange, c'est que plus le compteur monte, moins il te fait plaisir. Au début, cent euros te donnaient des frissons. Maintenant, une journée à quatre mille euros te paraît une mauvaise journée. Tu compares tes chiffres à ceux de la semaine dernière. Tu te fixes des objectifs absurdes. Cinquante mille pas. Soixante mille. Tu marches sous la pluie, avec de la fièvre, avec une ampoule qui saigne dans ta chaussure. Tu te dis que tu t'arrêteras quand tu auras un million. Puis tu as un million. Et tu ne t'arrêtes pas.",
+      "onscreen": [
+        "1 000 000 €",
+        "et tu continues"
+      ],
+      "visual": "Lucas, a 28-year-old French man with short wavy brown hair, a teal t-shirt, jeans and white sneakers walking alone in the rain at night with a fever and a grim exhausted face, a blister on his foot, a glowing phone showing a coin icon, cold blue and teal lighting, sad mood"
+    },
+    {
+      "type": "narration",
+      "title": "L'anniversaire",
+      "narration": "Et puis il y a l'anniversaire de ta petite sœur. Elle a organisé un dîner chez elle, une longue soirée assise autour d'une table, avec des jeux de société. Tu fais le calcul avant même d'y penser. Quatre heures assis, c'est au moins quinze mille pas perdus. Mille cinq cents euros. Alors tu envoies un message. Désolé, je ne pourrai pas venir. Tu passes la soirée à marcher seul le long du périphérique. Le compteur monte. Et toi, pour la première fois, tu ne regardes pas le compteur.",
+      "onscreen": [
+        "4 heures assis",
+        "= 1 500 € perdus ?"
+      ],
+      "visual": "Lucas, a 28-year-old French man with short wavy brown hair, a teal t-shirt, jeans and white sneakers walking alone along a dark ring road at night, far away in the background a lit window of Zoé, a 22-year-old French woman with short curly red hair, freckles and a yellow dress's birthday party with balloons, golden coins dropping around him, lonely cold blue light"
+    },
+    {
+      "type": "narration",
+      "title": "La solitude qui marche",
+      "narration": "Les semaines suivantes, tes amis arrêtent de t'inviter. Pas par méchanceté. Juste parce que tu refuses toujours. Tu as plus d'argent que tu n'en as jamais rêvé, et tu marches seul, écouteurs dans les oreilles, de six heures du matin à minuit. Un soir, en traversant un pont, tu croises un vieux monsieur qui avance doucement avec sa canne. Il te sourit. Tu le dépasses sans t'arrêter. Et cette nuit-là, ton téléphone vibre. Une notification noire. Tu ne l'as jamais vue comme ça.",
+      "onscreen": [
+        "Seul",
+        "de 6 h à minuit"
+      ],
+      "visual": "Lucas, a 28-year-old French man with short wavy brown hair, a teal t-shirt, jeans and white sneakers on a bridge at night passing an elderly man with a white moustache, a flat cap, a brown cardigan and a wooden cane who smiles and walks slowly with a cane, Lucas, a 28-year-old French man with short wavy brown hair, a teal t-shirt, jeans and white sneakers not stopping, headphones on, a dark phone glowing ominously in his pocket, cold blue lighting"
+    },
+    {
+      "type": "phase2",
+      "title": "Phase 2",
+      "alert": "PHASE 2 — Chaque pas fait seul te coûte désormais 10 centimes. Chaque pas fait à côté de quelqu'un te rapporte 1 €.",
+      "narration": "Phase deux. Chaque pas fait seul te coûte désormais dix centimes. Chaque pas fait à côté de quelqu'un te rapporte un euro. Tu relis le message. Tu fais trois pas dans ta chambre, par réflexe. Ding. Moins trente centimes. Ton cœur s'emballe. Tout ce que tu as construit depuis six mois repose sur une chose : marcher seul, le plus vite possible. Et maintenant, chaque pas solitaire te vide les poches. Tu t'assois sur ton lit. Pour la première fois depuis des mois, tu ne bouges plus du tout.",
+      "onscreen": [
+        "Seul : -0,10 €",
+        "Accompagné : +1 €"
+      ],
+      "visual": "Lucas, a 28-year-old French man with short wavy brown hair, a teal t-shirt, jeans and white sneakers sitting on his bed in a dark room, a black glowing phone showing a menacing dark notification, golden coins turning into black cracked coins, shocked pale face, dramatic dark teal and black lighting",
+      "overlay": {
+        "kind": "phase2",
+        "text": "PHASE 2",
+        "beat": 0
+      }
+    },
+    {
+      "type": "math",
+      "title": "Le nouveau calcul",
+      "equation": "2 000 pas lents × 1 €",
+      "result": "2 000 € et une sœur retrouvée",
+      "narration": "Le lendemain, tu appelles ta petite sœur. Tu t'excuses pour son anniversaire, et tu lui proposes une promenade. Elle accepte, mais à son rythme. Très lent. Vous marchez une heure dans le parc. Elle s'arrête pour regarder les canards, pour acheter une glace. Vous faites à peine deux mille pas. Mais deux mille pas fois un euro, ça fait deux mille euros. Plus que ta meilleure journée de marche solitaire. Et à la fin, ta sœur te prend le bras et te dit : tu m'as manqué. Ça, aucun compteur ne savait le calculer.",
+      "onscreen": [
+        "2 000 pas × 1 €",
+        "= 2 000 €"
+      ],
+      "visual": "Lucas, a 28-year-old French man with short wavy brown hair, a teal t-shirt, jeans and white sneakers and Zoé, a 22-year-old French woman with short curly red hair, freckles and a yellow dress walking slowly in a sunny park, Zoé, a 22-year-old French woman with short curly red hair, freckles and a yellow dress licking an ice cream and watching ducks on a pond, golden coins floating around both of them, warm joyful light, relaxed mood",
+      "overlay": {
+        "kind": "chip",
+        "text": "2 000 € EN 2 000 PAS",
+        "beat": 1
+      }
+    },
+    {
+      "type": "outro",
+      "title": "Ce que tu as compris",
+      "narration": "Alors tu changes tout. Tu marches avec ton grand-père le dimanche, à deux kilomètres heure. Tu raccompagnes tes collègues à la gare. Tu retrouves le vieux monsieur du pont, et vous faites un bout de chemin ensemble. Tu gagnes moins de pas, mais tu gagnes plus. En argent, et en tout le reste. Parce qu'au fond, la vraie question n'a jamais été combien vaut un pas. C'est : avec qui tu marches. Et toi, si demain chaque pas comptait, avec qui tu aurais envie de marcher ?",
+      "onscreen": [
+        "Avec qui",
+        "tu marches ?"
+      ],
+      "visual": "Lucas, a 28-year-old French man with short wavy brown hair, a teal t-shirt, jeans and white sneakers walking slowly beside an elderly man with a white moustache, a flat cap, a brown cardigan and a wooden cane on a sunny Sunday path along the river, laughing together, golden coins sparkling around both of them, warm golden-hour light, friendly heartwarming mood"
+    }
+  ],
+  "short": {
+    "hook_text": "1 PAS = 10 CENTIMES",
+    "narration": "Imagine. Tu te réveilles, et une notification t'annonce que chaque pas que tu fais te rapporte dix centimes. Tu poses un pied par terre. Ding. Dix centimes. Une journée normale, six mille pas, ça fait six cents euros. Dix mille pas par jour, comme le conseillent les médecins, c'est mille euros. Fois trois cent soixante-cinq, ça fait trois cent soixante-cinq mille euros par an. Tu démissionnes. Tu marches un marathon, soixante mille pas, six mille euros. Tu ne t'assois plus jamais, même pas pour l'anniversaire de ta sœur. Et puis une nuit, une notification noire apparaît. Phase deux. La règle vient de changer, et chaque pas que tu fais maintenant peut te coûter très cher. Le film complet est sur la chaîne.",
+    "cta": "Le film complet est sur la chaîne",
+    "visuals": [
+      {
+        "p": "Lucas, a 28-year-old French man with short wavy brown hair, a teal t-shirt, jeans and white sneakers sitting up in bed in a small sunny Paris bedroom, staring at his phone showing a glowing coin notification, golden morning light, comic surprise"
+      },
+      {
+        "p": "close-up of a bare foot stepping on a wooden floor with a glowing golden coin popping out, a phone glowing nearby, warm morning light, comic magic",
+        "at": "Tu poses un pied",
+        "overlay": {
+          "kind": "chip",
+          "text": "+ 0,10 €"
+        }
+      },
+      {
+        "p": "Lucas, a 28-year-old French man with short wavy brown hair, a teal t-shirt, jeans and white sneakers walking a busy Paris street towards the metro, a trail of golden coins following his steps, commuters around, bright daylight",
+        "at": "Une journée normale",
+        "overlay": {
+          "kind": "chip",
+          "text": "600 € / JOUR"
+        }
+      },
+      {
+        "p": "Lucas, a 28-year-old French man with short wavy brown hair, a teal t-shirt, jeans and white sneakers at a desk holding a glowing sheet of paper with floating coins and a pedometer shape around him, wide amazed eyes, bright teal and gold light",
+        "at": "Dix mille pas par jour",
+        "overlay": {
+          "kind": "chip",
+          "text": "1 000 € / JOUR"
+        }
+      },
+      {
+        "p": "a giant glowing calendar with stacks of golden coins towering over Lucas, a 28-year-old French man with short wavy brown hair, a teal t-shirt, jeans and white sneakers, who stares up in awe, teal and gold lighting",
+        "at": "Fois trois cent soixante-cinq",
+        "overlay": {
+          "kind": "chip",
+          "text": "365 000 € / AN"
+        }
+      },
+      {
+        "p": "Lucas, a 28-year-old French man with short wavy brown hair, a teal t-shirt, jeans and white sneakers cheerfully tossing a resignation paper over his shoulder while walking out of an office door, colleagues staring, bright sunny exit",
+        "at": "Tu démissionnes"
+      },
+      {
+        "p": "Lucas, a 28-year-old French man with short wavy brown hair, a teal t-shirt, jeans and white sneakers walking in a marathon among runners with a volunteer clapping, golden coins raining from the sky, tired proud grin, sunny street",
+        "at": "Tu marches un marathon",
+        "overlay": {
+          "kind": "chip",
+          "text": "6 000 €"
+        }
+      },
+      {
+        "p": "Lucas, a 28-year-old French man with short wavy brown hair, a teal t-shirt, jeans and white sneakers pacing around a restaurant table while his friends sit and eat, awkward comic mood, glowing counter behind him, warm light",
+        "at": "Tu ne t'assois plus"
+      },
+      {
+        "p": "Lucas, a 28-year-old French man with short wavy brown hair, a teal t-shirt, jeans and white sneakers walking alone on a dark ring road, in the distance a lit window with Zoé, a 22-year-old French woman with short curly red hair, freckles and a yellow dress's birthday balloons, golden coins around him, lonely cold blue light",
+        "at": "même pas pour l'anniversaire"
+      },
+      {
+        "p": "Lucas, a 28-year-old French man with short wavy brown hair, a teal t-shirt, jeans and white sneakers sitting on his bed in a dark room, a black glowing phone with a menacing notification, black cracked coins around him, shocked pale face, dark teal lighting",
+        "at": "Et puis une nuit",
+        "overlay": {
+          "kind": "phase2",
+          "text": "PHASE 2"
+        }
+      },
+      {
+        "p": "Lucas, a 28-year-old French man with short wavy brown hair, a teal t-shirt, jeans and white sneakers frozen mid-step with a golden coin turning into a black crack, an ominous glowing phone in his hand, dramatic dark teal and red light, tense mood",
+        "at": "La règle vient de changer"
+      }
+    ],
+    "counter_speed": 150
+  },
+  "visual_bible": {
+    "hero": "Lucas, a 28-year-old French man with short wavy brown hair, a teal t-shirt, jeans and white sneakers",
+    "zoe": "Zoé, a 22-year-old French woman with short curly red hair, freckles and a yellow dress",
+    "oldman": "an elderly man with a white moustache, a flat cap, a brown cardigan and a wooden cane"
+  }
+}

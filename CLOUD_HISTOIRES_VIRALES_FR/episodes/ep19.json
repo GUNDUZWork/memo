@@ -1,0 +1,300 @@
+{
+  "id": 19,
+  "slug": "30-jours-sauver-restaurant-grand-pere",
+  "formula": "30jours",
+  "title": "Il te reste 30 jours pour sauver le restaurant de ton grand-père",
+  "thumbnail": {
+    "line1": "30 JOURS AVANT FERMETURE",
+    "line2": "le resto de papi",
+    "accent": "#FFD400",
+    "visual": "Timéo, a 22-year-old guy with curly dark hair, extreme close-up with a panicked face holding a smoking frying pan, a red countdown circle floating, Papi Lucien blurred behind, warm yellow and red light"
+  },
+  "youtube": {
+    "title": "Il te reste 30 jours pour sauver le restaurant de ton grand-père",
+    "description": "Ton grand-père Lucien tient le même petit restaurant depuis quarante ans. Un matin, une lettre tombe : s'il ne rembourse pas ses dettes dans trente jours, la salle sera vendue. Tu ne sais pas cuisiner. Ta carte bancaire non plus, apparemment.\n\nTrente jours de casseroles brûlées, de clients fantômes, de carte refusée au pire moment, et de rendez-vous chez le Docteur Vidal, qui a toujours le mot qu'il ne faut pas.\n\nUne comédie de transformation, avec beaucoup de beurre, un peu de larmes, et une recette de blanquette qu'on n'oubliera pas.",
+    "tags": [
+      "30 jours",
+      "défi",
+      "restaurant",
+      "grand-père",
+      "comédie",
+      "histoire drôle",
+      "transformation",
+      "cuisine",
+      "famille",
+      "Docteur Vidal",
+      "motivation",
+      "histoire émouvante",
+      "challenge",
+      "entrepreneuriat",
+      "sauver le restaurant"
+    ],
+    "pinned_comment": "Toi, tu aurais mis quel plat sur l'ardoise pour sauver Chez Lucien ?"
+  },
+  "scenes": [
+    {
+      "type": "hook",
+      "title": "La lettre recommandée",
+      "narration": "Il te reste trente jours. Trente jours pour sauver Chez Lucien, le petit restaurant de ton grand-père. Ce matin, le facteur a déposé une lettre recommandée sur le comptoir. Dettes, loyers en retard, factures de fournisseurs. Si papi ne rembourse pas onze mille euros d'ici un mois, la salle sera vendue. Papi Lucien a quatre-vingt-un ans et un dos qui fait du bruit quand il se baisse. Toi, tu t'appelles Timéo, tu as vingt-deux ans, et la dernière chose que tu as cuisinée, c'est un bol de céréales. Raté.",
+      "onscreen": [
+        "J-30",
+        "11 000 € de dettes"
+      ],
+      "visual": "A small cozy French bistro, check-tiled floor and red checkered tablecloths, a registered letter lying on the wooden counter, Papi Lucien, an 81-year-old restaurateur with white hair, white moustache, thick glasses and a blue striped apron reading it with worry, Timéo, a 22-year-old guy with curly dark hair and a too-long white apron standing beside him holding a bowl of cereal, morning light, comedy mood"
+    },
+    {
+      "type": "day",
+      "day": 1,
+      "level": 3,
+      "title": "Jour 1 : le premier service",
+      "narration": "Jour un. Tu enfiles le tablier de papi, qui t'arrive aux genoux. Premier service de midi. Trois clients. Un monsieur qui vient depuis mille neuf cent quatre-vingt-six, une dame avec un caniche, et un livreur égaré. Tu sers une omelette qui ressemble à une carte de France après un tremblement de terre. Le monsieur la goûte, pose sa fourchette et dit simplement : Lucien, il est malade, le petit ? Papi, depuis la caisse, répond : non, il est neuf.",
+      "onscreen": [
+        "Jour 1",
+        "3 clients"
+      ],
+      "visual": "Lunch service in a small French bistro, Timéo, a 22-year-old guy with curly dark hair and a too-long white apron proudly serving a lopsided omelette to an elderly regular customer with a flat cap and a grey cardigan who looks puzzled, Papi Lucien, an 81-year-old restaurateur with white hair, white moustache, thick glasses and a blue striped apron smiling behind the cash register, warm cheerful light, comedic mood"
+    },
+    {
+      "type": "gag",
+      "caption": "Omelette, version abstraite",
+      "title": "L'alarme incendie",
+      "narration": "Le soir même, tu tentes des frites maison. Tu ne sais pas qu'on ne remplit pas une friteuse à ras bord. L'huile déborde, la fumée monte, l'alarme incendie se met à hurler. Les pompiers arrivent en sept minutes. Le plus jeune regarde la cuisine, regarde tes frites, regarde papi, et demande poliment s'il peut en goûter une. Il la goûte. Il ne dit rien. Il remet son casque. C'était sa façon à lui de donner son avis.",
+      "onscreen": [
+        "Les pompiers",
+        "ont goûté"
+      ],
+      "visual": "Small bistro kitchen filled with smoke, an overflowing deep fryer, Timéo, a 22-year-old guy with curly dark hair and a too-long white apron panicking with hands on head, a young French firefighter with a helmet and a yellow jacket tasting a fry with a poker face, Papi Lucien, an 81-year-old restaurateur with white hair, white moustache, thick glasses and a blue striped apron calm in the doorway, flashing red light, comedy mood"
+    },
+    {
+      "type": "vidal",
+      "line": "Vous avez les mains d'un pianiste. Malheureusement, c'est un piano qui a pris feu.",
+      "title": "Docteur Vidal, première visite",
+      "narration": "Le lendemain, tu te retrouves chez le Docteur Vidal avec trois brûlures, une coupure au pouce et un bleu dont tu ne connais pas l'origine. Il examine tes mains en silence, longuement, en remontant ses lunettes. Puis il déclare : vous avez les mains d'un pianiste. Malheureusement, c'est un piano qui a pris feu. Il te prescrit de la pommade, des pansements et, en rajoutant une ligne à la main sur l'ordonnance, un livre de cuisine pour débutants.",
+      "onscreen": [
+        "3 brûlures",
+        "1 coupure",
+        "1 mystère"
+      ],
+      "visual": "A doctor's office, Docteur Vidal, a deadpan grey-haired doctor with glasses, a white coat and a stethoscope deadpan holding up Timéo, a 22-year-old guy with curly dark hair and a too-long white apron's bandaged hands with a magnifying glass, Timéo, a 22-year-old guy with curly dark hair and a too-long white apron with plasters on the thumb and burn marks, a cookbook on the desk, warm clinic light, comedic mood",
+      "overlay": {
+        "kind": "banner",
+        "text": "MAINS D'UN PIANISTE",
+        "beat": 0
+      }
+    },
+    {
+      "type": "narration",
+      "title": "Le carnet de papi",
+      "narration": "Ce soir-là, papi sort un vieux carnet à spirale de sous le comptoir. Les pages sont tachées de sauce, les coins sont cornés. Dedans, toutes ses recettes depuis mille neuf cent quatre-vingt-trois. Mais attention, pas de grammes, pas de minutes. Juste des indications du genre : du beurre, jusqu'à ce que ça chante. Du sel, comme ta grand-mère. Cuire jusqu'à ce que la cuisine sente le dimanche. Tu regardes papi. Il hausse les épaules. C'est comme ça qu'on m'a appris, dit-il. Il va falloir que tu apprennes à écouter.",
+      "onscreen": [
+        "« Jusqu'à ce que ça chante »"
+      ],
+      "visual": "Papi Lucien, an 81-year-old restaurateur with white hair, white moustache, thick glasses and a blue striped apron at the cash register opening an old spiral notebook with sauce stains, Timéo, a 22-year-old guy with curly dark hair and a too-long white apron leaning over to read, little glowing steam swirls and herbs floating from the pages, warm evening light in the bistro, tender mood"
+    },
+    {
+      "type": "card_refused",
+      "item": "Couteau de chef japonais",
+      "price": "189,99 €",
+      "title": "Le couteau du destin",
+      "narration": "Tu décides que le problème, c'est ton matériel. Un vrai chef a un vrai couteau. Tu te rends dans une boutique spécialisée et tu choisis un magnifique couteau japonais, lame damassée, manche en bois d'olivier. Cent quatre-vingt-neuf euros quatre-vingt-dix-neuf. Tu tends ta carte avec l'assurance d'un grand chef étoilé. Bip. Refusée. Le vendeur te regarde avec compassion et te propose, à la place, un économe à quatre euros. Tu l'achètes. Tu le tiens comme un sabre.",
+      "onscreen": [
+        "CARTE REFUSÉE",
+        "189,99 €"
+      ],
+      "visual": "A fancy kitchen shop, Timéo, a 22-year-old guy with curly dark hair and a too-long white apron holding up a shiny Japanese knife dramatically, the cashier showing a red declined card terminal, then handing a cheap peeler, comedic despair, bright shop light",
+      "overlay": {
+        "kind": "stamp",
+        "text": "CARTE REFUSÉE",
+        "beat": 2
+      }
+    },
+    {
+      "type": "day",
+      "day": 8,
+      "level": 21,
+      "title": "Jour 8 : la blanquette",
+      "narration": "Jour huit. Tu attaques la recette la plus célèbre du carnet : la blanquette de papi. Celle que les habitués réclament depuis des années. Tu suis les indications à la lettre. Le beurre chante. Enfin, il fredonne. La viande mijote. La sauce épaissit. Papi goûte, ferme les yeux et reste silencieux un long moment. Puis il dit : c'est pas encore la mienne. Mais c'est plus une omelette. Venant de lui, c'est presque une médaille.",
+      "onscreen": [
+        "Jour 8",
+        "Niveau : plus une omelette"
+      ],
+      "visual": "Timéo, a 22-year-old guy with curly dark hair and a too-long white apron stirring a steaming pot of creamy blanquette at the stove in a small bistro kitchen, Papi Lucien, an 81-year-old restaurateur with white hair, white moustache, thick glasses and a blue striped apron tasting with eyes closed and a faint smile, warm golden steam, tender mood"
+    },
+    {
+      "type": "narration",
+      "title": "Les comptes ne mentent pas",
+      "narration": "Le problème, c'est qu'une bonne blanquette ne suffit pas. Le soir, tu ouvres le cahier de comptes. Papi vend le menu complet à neuf euros. Le même prix depuis l'an deux mille dix. Il offre le café à tout le monde, le dessert à ceux qui sont tristes, et le repas entier à ceux qui n'ont pas de quoi payer. Tu fais le calcul. Chaque client lui coûte de l'argent. Papi n'a pas un restaurant. Papi a une association caritative avec une nappe à carreaux.",
+      "onscreen": [
+        "Menu : 9 €",
+        "Depuis 2010"
+      ],
+      "visual": "Timéo, a 22-year-old guy with curly dark hair and a too-long white apron at a small table at night with an open ledger and a calculator, little sad coins floating away, Papi Lucien, an 81-year-old restaurateur with white hair, white moustache, thick glasses and a blue striped apron in the background handing a free meal to a poor man, warm lamplight, worried mood"
+    },
+    {
+      "type": "vidal",
+      "line": "Votre tension est parfaite. C'est votre compte en banque qui fait de l'hypertension.",
+      "title": "Docteur Vidal, deuxième visite",
+      "narration": "Tu ne dors plus. Tu fais des tableaux à trois heures du matin. Alors tu retournes chez le Docteur Vidal, persuadé d'avoir un problème cardiaque. Il prend ta tension, écoute ton cœur, vérifie tes réflexes. Puis il range son stéthoscope et soupire. Votre tension est parfaite. C'est votre compte en banque qui fait de l'hypertension. Avant que tu partes, il ajoute, sans lever les yeux : au fait, le restaurant de Lucien, il fait toujours la blanquette le jeudi ?",
+      "onscreen": [
+        "Tension : parfaite",
+        "Compte : critique"
+      ],
+      "visual": "A doctor's office, Docteur Vidal, a deadpan grey-haired doctor with glasses, a white coat and a stethoscope measuring Timéo, a 22-year-old guy with curly dark hair and a too-long white apron's blood pressure with a deadpan face, Timéo, a 22-year-old guy with curly dark hair and a too-long white apron looking exhausted with dark circles and a notepad full of tables, soft clinical light, comedic mood"
+    },
+    {
+      "type": "day",
+      "day": 15,
+      "level": 46,
+      "title": "Jour 15 : le plan",
+      "narration": "Jour quinze. Tu as un plan. Tu ne changeras pas l'âme du restaurant. Tu vas juste lui donner une chance. Le menu passe à quatorze euros. Le café reste offert, papi y tient. Tu crées une ardoise avec un seul plat du jour, tiré du carnet. Et tu filmes papi en train de cuisiner, avec ses mains qui tremblent un peu mais qui savent tout. Tu publies la vidéo avec une seule phrase : mon grand-père cuisine ici depuis quarante ans, il lui reste trente jours.",
+      "onscreen": [
+        "Jour 15",
+        "Menu : 14 €"
+      ],
+      "visual": "Timéo, a 22-year-old guy with curly dark hair and a too-long white apron chalking a single daily special on a slate board outside a bistro, Papi Lucien, an 81-year-old restaurateur with white hair, white moustache, thick glasses and a blue striped apron cooking behind the window filmed by a phone on a tripod, sunny street, hopeful mood"
+    },
+    {
+      "type": "gag",
+      "caption": "Papi découvre les commentaires",
+      "title": "Papi devient célèbre",
+      "narration": "Le lendemain matin, la vidéo a été vue quatre-vingt mille fois. Papi ne sait pas ce que ça veut dire. Tu lui montres les commentaires. Il met ses lunettes, puis ses deuxièmes lunettes par-dessus les premières. Il lit à voix haute, très lentement : trop mignon le papi. Il fronce les sourcils. Il n'a jamais été mignon de sa vie, dit-il. Il a fait son service militaire. Puis il lit le suivant, et il rougit jusqu'aux oreilles.",
+      "onscreen": [
+        "80 000 vues",
+        "« Trop mignon le papi »"
+      ],
+      "visual": "Papi Lucien, an 81-year-old restaurateur with white hair, white moustache, thick glasses and a blue striped apron putting on two pairs of glasses and squinting at a phone held by Timéo, a 22-year-old guy with curly dark hair and a too-long white apron, small floating hearts and phone notifications around, the bistro counter, comedy and joy, warm light",
+      "overlay": {
+        "kind": "chip",
+        "text": "80 000 VUES",
+        "beat": 0
+      }
+    },
+    {
+      "type": "card_refused",
+      "item": "Quarante kilos de veau pour le rush",
+      "price": "612,40 €",
+      "title": "Le rush, sans viande",
+      "narration": "Le samedi, une file d'attente se forme devant Chez Lucien. Une vraie file, jusqu'à la boulangerie. Tu cours chez le boucher commander quarante kilos de veau pour la blanquette. Six cent douze euros quarante. Tu tends ta carte. Bip. Refusée. Encore. Derrière toi, le boucher, qui connaît papi depuis l'école primaire, déchire le ticket. Il dit : tu me paieras lundi, et tu me gardes une assiette. C'est là que tu comprends que papi n'avait pas une association caritative. Il avait un quartier entier.",
+      "onscreen": [
+        "CARTE REFUSÉE",
+        "612,40 €"
+      ],
+      "visual": "A big queue outside the bistro down the street, Timéo, a 22-year-old guy with curly dark hair and a too-long white apron in the butcher shop holding a declined card while a big friendly butcher with a grey moustache and a red apron smiles and tears up the receipt, warm light, touching community mood",
+      "overlay": {
+        "kind": "stamp",
+        "text": "CARTE REFUSÉE",
+        "beat": 0
+      }
+    },
+    {
+      "type": "day",
+      "day": 24,
+      "level": 74,
+      "title": "Jour 24 : salle comble",
+      "narration": "Jour vingt-quatre. Salle comble tous les midis. Tu cours entre les tables, papi trône derrière les fourneaux, et la dame au caniche fait désormais la plonge en échange de desserts. Le monsieur de mille neuf cent quatre-vingt-six a ramené toute sa famille. Tu as appris à faire chanter le beurre. Pas fredonner, chanter. Le compteur sur le frigo indique huit mille deux cents euros remboursés. Il en manque encore deux mille huit cents. Et il ne reste que six jours.",
+      "onscreen": [
+        "Jour 24",
+        "8 200 € / 11 000 €"
+      ],
+      "visual": "A crowded packed bistro at lunchtime, Timéo, a 22-year-old guy with curly dark hair and a too-long white apron running between tables with plates, Papi Lucien, an 81-year-old restaurateur with white hair, white moustache, thick glasses and a blue striped apron proud at the stove, an old lady with lavender hair and a small white poodle washing dishes cheerfully, an elderly regular customer with a flat cap and a grey cardigan with family at a long table, warm lively atmosphere",
+      "overlay": {
+        "kind": "chip",
+        "text": "8 200 € REMBOURSÉS",
+        "beat": 0
+      }
+    },
+    {
+      "type": "vidal",
+      "line": "Mon diagnostic est sans appel : vous êtes guéri de la cuisine surgelée.",
+      "title": "Docteur Vidal, troisième visite",
+      "narration": "Jour vingt-six. Le Docteur Vidal pousse la porte du restaurant. Pas en consultation, cette fois. Il commande la blanquette, la mange en silence, sauce comprise, jusqu'à la dernière goutte avec un morceau de pain. Puis il t'appelle à sa table, très sérieux, comme s'il allait t'annoncer une mauvaise nouvelle. Mon diagnostic est sans appel : vous êtes guéri de la cuisine surgelée. Et il laisse sur la table un chèque bien plus gros que l'addition, avec un petit mot : pour le carnet.",
+      "onscreen": [
+        "Diagnostic :",
+        "guéri"
+      ],
+      "visual": "Docteur Vidal, a deadpan grey-haired doctor with glasses, a white coat and a stethoscope sitting alone at a bistro table finishing a plate of blanquette and wiping the sauce with bread, Timéo, a 22-year-old guy with curly dark hair and a too-long white apron standing before him nervously, a check lying on the table, warm light, comedic and moving"
+    },
+    {
+      "type": "day",
+      "day": 30,
+      "level": 100,
+      "title": "Jour 30 : le dernier compte",
+      "narration": "Jour trente. Dernier service avant l'échéance. Tu comptes la caisse trois fois. Onze mille quarante euros. Tu poses la dernière liasse sur le comptoir, à côté de la lettre recommandée. Papi ne dit rien. Il retire son tablier, celui qui t'arrivait aux genoux il y a un mois, et il te le tend. Cette fois, il est à ta taille. Tu ne sais pas si c'est le tablier qui a rétréci, ou si c'est toi qui as grandi.",
+      "onscreen": [
+        "Jour 30",
+        "11 040 €",
+        "SAUVÉ"
+      ],
+      "visual": "The bistro at closing time, Timéo, a 22-year-old guy with curly dark hair and a too-long white apron placing a last stack of banknotes on the counter beside the registered letter, Papi Lucien, an 81-year-old restaurateur with white hair, white moustache, thick glasses and a blue striped apron handing over his apron to Timéo, a 22-year-old guy with curly dark hair and a too-long white apron, soft golden evening light, emotional mood"
+    },
+    {
+      "type": "outro",
+      "title": "Jusqu'à ce que ça chante",
+      "narration": "Chez Lucien est toujours ouvert. Le menu coûte quatorze euros, le café est toujours offert, et ceux qui n'ont pas de quoi payer mangent toujours gratuitement le jeudi. Papi vient tous les matins goûter la sauce et te dire qu'elle n'est pas encore comme la sienne. C'est votre rituel. Ce que tu as appris en trente jours, ce n'est pas seulement à cuisiner. C'est que certaines choses ne se mesurent pas en grammes, ni en minutes. On ne sauve pas un restaurant tout seul. On le sauve avec tous ceux qu'il a nourris. Et toi, quel lieu de ton enfance tu aimerais sauver ?",
+      "onscreen": [
+        "On ne sauve rien",
+        "tout seul"
+      ],
+      "visual": "Papi Lucien, an 81-year-old restaurateur with white hair, white moustache, thick glasses and a blue striped apron and Timéo, a 22-year-old guy with curly dark hair and a too-long white apron in the bistro kitchen at morning, Papi Lucien, an 81-year-old restaurateur with white hair, white moustache, thick glasses and a blue striped apron tasting the sauce with a smile, steam rising, a stack of plates in the window, the sign on the door glowing warmly, cozy happy mood"
+    }
+  ],
+  "short": {
+    "hook_text": "30 JOURS POUR SAUVER PAPI",
+    "narration": "Il te reste trente jours pour sauver le restaurant de ton grand-père. Onze mille euros de dettes. Une lettre recommandée sur le comptoir. Et toi, tu n'as jamais cuisiné autre chose qu'un bol de céréales. Premier jour, ton omelette ressemble à une carte de France après un tremblement de terre. Deuxième jour, les pompiers débarquent à cause de tes frites. Le plus jeune en goûte une, ne dit rien, et remet son casque. Ton médecin, le Docteur Vidal, regarde tes mains brûlées et déclare : vous avez les mains d'un pianiste, malheureusement c'est un piano qui a pris feu. Et ta carte bancaire refuse tout. Mais au jour quinze, tu as une idée. Une idée qui va tout changer. Le film complet est sur la chaîne.",
+    "cta": "Le film complet est sur la chaîne",
+    "visuals": [
+      {
+        "p": "A small French bistro counter with a registered letter lying on it, Papi Lucien, an 81-year-old restaurateur with white hair, white moustache, thick glasses and a blue striped apron looking worried, Timéo, a 22-year-old guy with curly dark hair and a too-long white apron beside him with a cereal bowl, morning light, comedy mood"
+      },
+      {
+        "p": "Timéo, a 22-year-old guy with curly dark hair and a too-long white apron in a too-long apron holding a cereal bowl in a messy bistro kitchen, dry bewildered look, Papi Lucien, an 81-year-old restaurateur with white hair, white moustache, thick glasses and a blue striped apron watching with crossed arms, comedic mood",
+        "at": "Et toi, tu n'as jamais",
+        "overlay": {
+          "kind": "chip",
+          "text": "11 000 € DE DETTES"
+        }
+      },
+      {
+        "p": "Timéo, a 22-year-old guy with curly dark hair and a too-long white apron serving a lopsided omelette that looks like a map to an elderly regular customer with a flat cap and a grey cardigan, stunned reaction, bistro warm light, comedy",
+        "at": "Premier jour"
+      },
+      {
+        "p": "Bistro kitchen full of smoke, an overflowing fryer, Timéo, a 22-year-old guy with curly dark hair and a too-long white apron panicking, alarm flashing red, a young French firefighter with a helmet and a yellow jacket entering, comedic mood",
+        "at": "Deuxième jour"
+      },
+      {
+        "p": "a young French firefighter with a helmet and a yellow jacket tasting a fry with a straight face and putting his helmet back on, Timéo, a 22-year-old guy with curly dark hair and a too-long white apron and Papi Lucien, an 81-year-old restaurateur with white hair, white moustache, thick glasses and a blue striped apron watching anxiously, smoky kitchen, comedic mood",
+        "at": "Le plus jeune en goûte"
+      },
+      {
+        "p": "Docteur Vidal, a deadpan grey-haired doctor with glasses, a white coat and a stethoscope deadpan examining Timéo, a 22-year-old guy with curly dark hair and a too-long white apron's bandaged hands, burns and plasters, a cookbook on the desk, clinic light, comedic mood",
+        "at": "Ton médecin, le Docteur Vidal"
+      },
+      {
+        "p": "Timéo, a 22-year-old guy with curly dark hair and a too-long white apron holding out a bank card at a kitchen shop counter, a red terminal flashing declined, cashier shrugging, comedic despair",
+        "at": "Et ta carte bancaire",
+        "overlay": {
+          "kind": "stamp",
+          "text": "CARTE REFUSÉE"
+        }
+      },
+      {
+        "p": "Timéo, a 22-year-old guy with curly dark hair and a too-long white apron chalking a daily special sign outside the bistro, a phone on a tripod filming Papi Lucien, an 81-year-old restaurateur with white hair, white moustache, thick glasses and a blue striped apron cooking inside, sunny morning, hopeful mood",
+        "at": "Mais au jour quinze"
+      },
+      {
+        "p": "Papi Lucien, an 81-year-old restaurateur with white hair, white moustache, thick glasses and a blue striped apron and Timéo, a 22-year-old guy with curly dark hair and a too-long white apron standing proudly in front of the glowing bistro door, a long queue of happy people outside, warm sunset light, inviting mood",
+        "at": "Le film complet est"
+      }
+    ]
+  },
+  "visual_bible": {
+    "hero": "Timéo, a 22-year-old guy with curly dark hair and a too-long white apron",
+    "papi": "Papi Lucien, an 81-year-old restaurateur with white hair, white moustache, thick glasses and a blue striped apron",
+    "vidal": "Docteur Vidal, a deadpan grey-haired doctor with glasses, a white coat and a stethoscope",
+    "regular": "an elderly regular customer with a flat cap and a grey cardigan",
+    "lady": "an old lady with lavender hair and a small white poodle",
+    "fireman": "a young French firefighter with a helmet and a yellow jacket",
+    "butcher": "a big friendly butcher with a grey moustache and a red apron"
+  }
+}

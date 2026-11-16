@@ -1,0 +1,287 @@
+{
+  "id": 20,
+  "slug": "et-si-le-monde-arretait-de-vieillir-sauf-toi",
+  "formula": "etsilab",
+  "title": "Et si le monde entier arrêtait de vieillir… sauf toi ?",
+  "thumbnail": {
+    "line1": "8 MILLIARDS FIGÉS",
+    "line2": "sauf toi",
+    "accent": "#00E5FF",
+    "visual": "Maxime, a 25-year-old French man with short wavy dark-blond hair, a green bomber jacket and white sneakers in extreme close-up with a shocked face while behind him a frozen crowd of people and a huge glowing clock, his reflection aging, cyan and blue light, subject on the right"
+  },
+  "youtube": {
+    "title": "Et si le monde entier arrêtait de vieillir… sauf toi ?",
+    "description": "Un matin, à minuit pile, le monde entier arrête de vieillir. Huit milliards de personnes figées à leur âge exact. Pas une ride de plus, pas un anniversaire qui compte. Sauf pour toi. Ton corps continue d'avancer, une année après l'autre.\n\nAu début, c'est presque drôle. Puis tu deviens plus vieux que tes parents. Puis plus vieux que tes professeurs. On fait les calculs, année par année, jusqu'à la notification qui change toutes les règles.\n\nRegarde jusqu'au bout, et dis-moi en commentaire si tu accepterais d'être le seul à vieillir.",
+    "tags": [
+      "et si",
+      "expérience de pensée",
+      "vieillir",
+      "immortalité",
+      "temps",
+      "scénario",
+      "calculs",
+      "science fiction",
+      "philosophie",
+      "hypothèse",
+      "monde figé",
+      "histoire en français",
+      "réflexion",
+      "vie",
+      "etsilab"
+    ],
+    "pinned_comment": "Tu accepterais d'être le seul à vieillir si tout le monde autour de toi restait jeune pour toujours ? Oui ou non, et pourquoi ?"
+  },
+  "counter": {
+    "label": "TON ÂGE",
+    "start": 25,
+    "rate": 0.12,
+    "unit": " ans",
+    "decimals": 0
+  },
+  "scenes": [
+    {
+      "type": "hook",
+      "title": "Minuit pile",
+      "narration": "Imagine. Ce soir, à minuit pile, le monde entier arrête de vieillir. Huit milliards de personnes se figent à leur âge exact. Ta petite sœur aura neuf ans pour toujours. Ta mère, cinquante-deux. Ton meilleur ami, vingt-cinq, comme toi. Plus aucune ride ne se creuse, plus aucun cheveu ne blanchit. Sauf les tiens. Toi, et toi seul, tu continues à vieillir normalement. Un an par an. Regarde le compteur en haut de l'écran. C'est ton âge. Il ne s'arrêtera pas. Et on va calculer, ensemble, jusqu'où ça te mène.",
+      "onscreen": [
+        "8 milliards figés",
+        "Sauf toi"
+      ],
+      "visual": "Midnight on a Paris rooftop, Maxime, a 25-year-old French man with short wavy dark-blond hair, a green bomber jacket and white sneakers standing alone and looking at a giant glowing clock striking twelve while the city lights freeze in place, glowing frozen sparkles in the air, cyan and deep blue magical light"
+    },
+    {
+      "type": "narration",
+      "title": "Le premier matin",
+      "narration": "Le premier matin, personne ne remarque rien. Évidemment. Un jour de vieillissement, ça ne se voit pas. Tu prends ton café, tu vas travailler, tu rentres. Mais au bout de quelques semaines, les scientifiques commencent à s'inquiéter. Les cellules des gens ne se renouvellent plus de la même façon. Les plaies guérissent toujours, mais personne ne grandit. Les enfants ne prennent plus un centimètre. Les femmes enceintes restent enceintes, sans que le bébé évolue. Le monde n'est pas mort. Il est en pause. Et toi, tu es le seul bouton lecture encore enfoncé.",
+      "onscreen": [
+        "Le monde en pause"
+      ],
+      "visual": "Bright morning in a Paris kitchen, Maxime, a 25-year-old French man with short wavy dark-blond hair, a green bomber jacket and white sneakers drinking coffee while Lila, a 9-year-old girl with two black pigtails and a yellow raincoat eats cereal and Hélène, a 52-year-old French woman with a shoulder-length auburn bob and a teal cardigan reads, everyone looks perfectly normal, a faint cyan frozen glow around the family, sunny comedy mood"
+    },
+    {
+      "type": "counter_focus",
+      "title": "Un an : le premier test",
+      "narration": "Un an passe. Tu as vingt-six ans. Les médecins finissent par te trouver, parce que tu es le seul humain dont les analyses changent. Tes cheveux poussent plus vite que ceux des autres. Tes ongles aussi. Tu deviens un cas d'étude mondial. On te fait passer des scanners, des prises de sang, des tests de mémoire. Et la question que tout le monde se pose, en boucle, sur toutes les chaînes d'info, c'est : pourquoi lui ? Toi, tu te poses une autre question. Combien de temps est-ce que ça va durer ?",
+      "onscreen": [
+        "26 ans",
+        "Cas unique au monde"
+      ],
+      "visual": "Maxime, a 25-year-old French man with short wavy dark-blond hair, a green bomber jacket and white sneakers older with a light stubble sitting on a hospital exam bed surrounded by scanners and a scientist in a white coat with silver glasses, glowing holographic charts floating in cyan light, wry stunned expression, sci-fi comedy mood",
+      "overlay": {
+        "kind": "chip",
+        "text": "+1 AN",
+        "beat": 0
+      }
+    },
+    {
+      "type": "math",
+      "title": "Les battements du cœur",
+      "equation": "70 × 60 × 24 × 365",
+      "result": "≈ 36,8 millions de battements par an",
+      "narration": "Faisons un premier calcul. Ton cœur bat environ soixante-dix fois par minute. Soixante-dix fois soixante minutes, fois vingt-quatre heures, fois trois cent soixante-cinq jours. Ça donne environ trente-six millions huit cent mille battements par an. Pendant ce temps, le cœur des huit milliards d'autres humains bat lui aussi, des milliards et des milliards de fois. Mais leurs battements ne les usent plus. Les tiens, si. Chaque battement de ton cœur est désormais le seul battement sur Terre qui compte vraiment le temps.",
+      "onscreen": [
+        "≈ 36,8 millions",
+        "de battements / an"
+      ],
+      "visual": "Maxime, a 25-year-old French man with short wavy dark-blond hair, a green bomber jacket and white sneakers in a night kitchen with a glowing holographic heart and tiny pulses floating around him, the beats multiplying into a river of cyan sparkles, wide-eyed amazement, sci-fi mood"
+    },
+    {
+      "type": "narration",
+      "title": "Les avantages",
+      "narration": "Soyons honnêtes, au début, il y a des avantages. Tu es la personne la plus célèbre du monde. On t'invite partout. Les entreprises veulent ton image. Et surtout, tu deviens la seule personne capable d'accumuler de l'expérience réelle. Les autres apprennent encore, bien sûr, mais leur corps ne change pas, leur cerveau reste celui de leur âge. Toi, tu mûris. Au bout de quelques années, tu deviens un peu le grand frère de l'humanité. Mais il y a un détail auquel tu n'avais pas pensé. Ta famille.",
+      "onscreen": [
+        "Le plus célèbre",
+        "du monde"
+      ],
+      "visual": "Maxime, a 25-year-old French man with short wavy dark-blond hair, a green bomber jacket and white sneakers with slightly greying temples on a TV talk show stage waving to an audience, camera flashes, big posters of his face behind, glowing cyan light, comedic smug but lonely mood"
+    },
+    {
+      "type": "counter_focus",
+      "title": "Quinze ans : plus vieux que tes profs",
+      "narration": "Quinze ans plus tard, tu as quarante ans. Ta petite sœur a toujours neuf ans. Elle te demande toujours de lui lire la même histoire avant de dormir, sauf que maintenant, tu as l'âge d'être son père. Tu croises ton ancien professeur de mathématiques, celui qui te terrifiait au collège. Il a trente-huit ans. Il est plus jeune que toi. Il t'appelle monsieur. Tu ne sais pas si tu dois rire ou pleurer. Alors tu fais les deux, un peu, dans la voiture.",
+      "onscreen": [
+        "40 ans",
+        "Ta sœur : 9 ans"
+      ],
+      "visual": "Maxime, a 25-year-old French man with short wavy dark-blond hair, a green bomber jacket and white sneakers, now 40 with greying temples, reading a bedtime book to Lila, a 9-year-old girl with two black pigtails and a yellow raincoat who is still a 9-year-old, a soft bedroom, then a 38-year-old math teacher with a short beard and a brown corduroy jacket bowing politely in a doorway, warm cyan light, bittersweet comedy mood",
+      "overlay": {
+        "kind": "chip",
+        "text": "40 ANS",
+        "beat": 0
+      }
+    },
+    {
+      "type": "math",
+      "title": "Le jour où tu dépasses ta mère",
+      "equation": "25 + x = 52",
+      "result": "x = 27 ans",
+      "narration": "Deuxième calcul, beaucoup plus dur. Ta mère est figée à cinquante-deux ans. Toi, tu avais vingt-cinq ans au moment du gel. Combien d'années avant d'avoir le même âge qu'elle ? Vingt-cinq plus x égale cinquante-deux. Donc x égale vingt-sept. Dans vingt-sept ans, tu auras exactement l'âge de ta mère. Et l'année d'après, tu seras plus vieux qu'elle. Pour toujours. Elle te verra devenir plus âgé qu'elle ne le sera jamais. Elle te dira encore de mettre une écharpe. Et tu la mettras.",
+      "onscreen": [
+        "25 + x = 52",
+        "x = 27"
+      ],
+      "visual": "Maxime, a 25-year-old French man with short wavy dark-blond hair, a green bomber jacket and white sneakers at a chalkboard in a night kitchen scribbling glowing cyan equations with chalk, Hélène, a 52-year-old French woman with a shoulder-length auburn bob and a teal cardigan frozen in the doorway with a mug, floating glowing numbers and clock gears around, sci-fi comedy mood"
+    },
+    {
+      "type": "counter_focus",
+      "title": "Cinquante-deux ans : le même âge",
+      "narration": "Le compteur affiche cinquante-deux. Le jour de ton anniversaire, ta mère prépare un gâteau. Vous soufflez les bougies ensemble, parce que pour la première fois, vous avez exactement le même âge. Vous vous regardez dans le miroir de l'entrée, côte à côte. Mêmes rides au coin des yeux. Même façon de froncer le nez. Pendant un an, vous êtes jumeaux. Elle te prend la main et elle dit : je n'aurais jamais cru voir mon enfant à mon âge. Tu ne réponds rien. Tu gardes sa main un peu plus longtemps que d'habitude.",
+      "onscreen": [
+        "52 ans",
+        "Même âge que maman"
+      ],
+      "visual": "Maxime, a 25-year-old French man with short wavy dark-blond hair, a green bomber jacket and white sneakers, now 52 with grey streaks and wrinkles, and Hélène, a 52-year-old French woman with a shoulder-length auburn bob and a teal cardigan blowing candles on a cake together in the entrance hall mirror, twins reflection, warm tender light",
+      "overlay": {
+        "kind": "chip",
+        "text": "MÊME ÂGE",
+        "beat": 0
+      }
+    },
+    {
+      "type": "narration",
+      "title": "Le monde s'adapte",
+      "narration": "Pendant ce temps, le monde s'est organisé autour de son étrange pause. Plus personne ne naît, alors plus personne ne meurt de vieillesse. Les écoles se vident, puisque les enfants restent au même niveau pour toujours. Les maternités ferment. Les maisons de retraite deviennent des résidences éternelles. L'humanité s'est habituée à cette immobilité, comme on s'habitue à un bruit de fond. Les gens ont arrêté de compter les années. Les anniversaires n'existent plus. Il n'y a plus qu'un seul anniversaire qui passe à la télévision chaque année. Le tien.",
+      "onscreen": [
+        "0 naissance",
+        "0 anniversaire",
+        "Sauf le tien"
+      ],
+      "visual": "A strange quiet Paris street where children frozen at school age play, empty maternity doors closed, retirement home garden with elderly in rocking chairs, cyan dusk light, thoughtful sci-fi mood"
+    },
+    {
+      "type": "math",
+      "title": "Ce qu'il reste",
+      "equation": "82 − 70",
+      "result": "≈ 12 ans",
+      "narration": "Troisième calcul. Le plus froid. En France, l'espérance de vie tourne autour de quatre-vingt-deux ans en moyenne. Tu viens d'avoir soixante-dix ans. Quatre-vingt-deux moins soixante-dix, il te reste en moyenne une douzaine d'années. Pour les huit milliards d'autres, il reste l'éternité. Tu réalises que tu vas être la seule personne sur Terre à mourir de vieillesse. Les journaux préparent déjà ta biographie. Ta sœur de neuf ans te demande si tu vas partir. Tu lui dis non. Tu mens pour la première fois.",
+      "onscreen": [
+        "82 − 70",
+        "≈ 12 ans"
+      ],
+      "visual": "Maxime, a 25-year-old French man with short wavy dark-blond hair, a green bomber jacket and white sneakers as an old man of 70 with white hair and a cane, sitting on a park bench near a giant glowing hourglass whose sand falls only for him, cyan golden dusk light, melancholic mood"
+    },
+    {
+      "type": "counter_focus",
+      "title": "Soixante-quinze ans : le doyen",
+      "narration": "Le compteur affiche soixante-quinze. Tu marches avec une canne maintenant. Les gens s'arrêtent dans la rue pour te regarder, avec un mélange de respect et de peur. Pour eux, tu es une curiosité. Le seul humain qui montre encore à quoi ressemble le temps. Des enfants de sept ans, qui ont sept ans depuis cinquante ans, viennent toucher tes rides pour voir si c'est vrai. Tu te sens plus seul que jamais. Tu es entouré de huit milliards de personnes. Mais tu es le seul à vivre dans le même temps que toi-même.",
+      "onscreen": [
+        "75 ans",
+        "Le seul à vieillir"
+      ],
+      "visual": "Maxime, a 25-year-old French man with short wavy dark-blond hair, a green bomber jacket and white sneakers as an old man of 75 with white hair and a cane walking through a city street, children Lila, a 9-year-old girl with two black pigtails and a yellow raincoat-like pigtailed kids touching his wrinkled hands curiously, wonder and fear in the crowd, cyan evening light",
+      "overlay": {
+        "kind": "chip",
+        "text": "75 ANS",
+        "beat": 0
+      }
+    },
+    {
+      "type": "narration",
+      "title": "La lettre",
+      "narration": "Un soir, tu écris une lettre au monde entier. Elle est lue sur toutes les chaînes. Tu y écris que tu ne regrettes pas d'avoir vécu tout ce temps. Mais que tu as compris quelque chose. Vieillir, ce n'est pas le problème. Vieillir seul, c'est ça le problème. Ce qui rend les années supportables, ce n'est pas qu'elles passent lentement. C'est qu'on les traverse ensemble. Tu poses ton stylo. Il est minuit moins une. Et à minuit pile, ton téléphone vibre. Celui de tout le monde aussi.",
+      "onscreen": [
+        "Vieillir seul",
+        "voilà le problème"
+      ],
+      "visual": "Maxime, a 25-year-old French man with short wavy dark-blond hair, a green bomber jacket and white sneakers, old with white hair, writing a letter at a wooden desk under a warm lamp while a TV across the room shows a worried news presenter, golden cyan glow, emotional mood"
+    },
+    {
+      "type": "phase2",
+      "alert": "PHASE 2 — Anomalie corrigée. Le monde rattrape son retard : 55 ans en 55 secondes.",
+      "title": "Phase 2 : le rattrapage",
+      "narration": "Une notification s'affiche sur tous les écrans de la planète. Anomalie corrigée. Le monde rattrape son retard. Cinquante-cinq ans en cinquante-cinq secondes. Tu lèves les yeux. Autour de toi, tout s'accélère. Ta mère, à côté de toi, blanchit en quelques instants. Ses mains se creusent. Ta petite sœur grandit sous tes yeux, comme un film en accéléré. Neuf ans, quinze ans, trente ans, soixante ans. Les rues se remplissent de cris, puis de silence. Et quand les cinquante-cinq secondes s'achèvent, le monde entier a enfin rattrapé ton âge.",
+      "onscreen": [
+        "55 ans",
+        "en 55 secondes"
+      ],
+      "visual": "Everyone on the planet staring up at their screens as glowing notification windows fill the night sky of Paris, Hélène, a 52-year-old French woman with a shoulder-length auburn bob and a teal cardigan aging in fast motion beside old Maxime, a 25-year-old French man with short wavy dark-blond hair, a green bomber jacket and white sneakers, spinning clock hands, dramatic cyan flash",
+      "overlay": {
+        "kind": "phase2",
+        "text": "PHASE 2",
+        "beat": 0
+      }
+    },
+    {
+      "type": "narration",
+      "title": "Enfin le même temps",
+      "narration": "Ta sœur est devant toi. Elle a soixante-quatre ans. Les cheveux gris. Les mêmes yeux que quand elle en avait neuf. Elle te regarde comme si elle te voyait pour la première fois, et elle dit : alors c'est ça, ce que tu ressentais. Vous éclatez de rire, tous les deux, de ce rire qui ressemble à des larmes. Pour la première fois depuis cinquante ans, tu n'es plus le seul. Tout le monde vieillit à nouveau. Ensemble. Et étrangement, c'est la meilleure nouvelle de ta vie.",
+      "onscreen": [
+        "Ta sœur : 64 ans",
+        "Enfin ensemble"
+      ],
+      "visual": "Lila, a 9-year-old girl with two black pigtails and a yellow raincoat now a 64-year-old woman with grey pigtails in a yellow raincoat, and old Maxime, a 25-year-old French man with short wavy dark-blond hair, a green bomber jacket and white sneakers laughing and crying together in a warm living room, golden light, joyful emotional mood"
+    },
+    {
+      "type": "outro",
+      "title": "La leçon",
+      "narration": "On passe beaucoup de temps à avoir peur de vieillir. On compte les rides, on cache les cheveux blancs. Mais cette histoire nous dit autre chose. Le temps ne fait pas peur parce qu'il passe. Il fait peur quand on le vit seul. Les années qui s'additionnent ont un sens parce que d'autres les vivent à côté de nous. Les anniversaires, les rides, les souvenirs partagés. Alors la prochaine fois que tu souffles une bougie de plus, pense que quelqu'un, quelque part, en souffle une aussi. Et toi, tu accepterais d'être le seul à vieillir ? Dis-le-moi en commentaire.",
+      "onscreen": [
+        "Vieillir ensemble",
+        "C'est un cadeau"
+      ],
+      "visual": "Soft warm sunrise over a Paris rooftop, an old hand and a younger hand on a balcony railing facing the glowing sun, a gentle golden hourglass fading in the sky, serene hopeful mood"
+    }
+  ],
+  "short": {
+    "hook_text": "TOUT LE MONDE FIGÉ SAUF TOI",
+    "narration": "Ce soir, à minuit, le monde entier arrête de vieillir. Huit milliards de personnes figées à leur âge exact. Sauf toi. Ta petite sœur aura neuf ans pour toujours. Ta mère, cinquante-deux. Et toi, tu continues à prendre un an par an. Quinze ans plus tard, tu croises ton ancien prof de maths. Il est plus jeune que toi. Il t'appelle monsieur. Fais le calcul : vingt-cinq plus x égale cinquante-deux. Dans vingt-sept ans, tu auras l'âge de ta mère. Et l'année d'après, tu seras plus vieux qu'elle, pour toujours. Mais le pire, ce n'est pas ça. Le pire, c'est la notification qui arrive sur tous les téléphones de la planète à minuit pile. Le film complet est sur la chaîne.",
+    "cta": "Le film complet est sur la chaîne",
+    "visuals": [
+      {
+        "p": "Maxime, a 25-year-old French man with short wavy dark-blond hair, a green bomber jacket and white sneakers on a Paris rooftop at midnight looking at a huge glowing clock striking twelve, the city freezing under a cyan glow, magical mood"
+      },
+      {
+        "p": "Aerial view of a frozen Paris with eight billion tiny glowing figures frozen in motion, sparkling cyan dust in the air, magical stillness, deep blue night",
+        "at": "Huit milliards de personnes"
+      },
+      {
+        "p": "Maxime, a 25-year-old French man with short wavy dark-blond hair, a green bomber jacket and white sneakers alone in a cyan spotlight while everyone around is frozen like statues, one clock ticking on his wrist, dramatic mood",
+        "at": "Sauf toi",
+        "overlay": {
+          "kind": "chip",
+          "text": "SEUL"
+        }
+      },
+      {
+        "p": "Lila, a 9-year-old girl with two black pigtails and a yellow raincoat frozen forever in a yellow raincoat holding a balloon, Hélène, a 52-year-old French woman with a shoulder-length auburn bob and a teal cardigan frozen beside her laughing, warm sunset light, bittersweet mood",
+        "at": "Ta petite sœur aura neuf ans"
+      },
+      {
+        "p": "Maxime, a 25-year-old French man with short wavy dark-blond hair, a green bomber jacket and white sneakers blowing a candle on a growing birthday cake while his reflection in a mirror shows him a little older, warm light, comedy mood",
+        "at": "Et toi, tu continues"
+      },
+      {
+        "p": "Maxime, a 25-year-old French man with short wavy dark-blond hair, a green bomber jacket and white sneakers at 40 with greying temples shaking hands with a 38-year-old math teacher with a short beard and a brown corduroy jacket who looks younger, a school corridor behind, comic awkward mood",
+        "at": "Quinze ans plus tard",
+        "overlay": {
+          "kind": "chip",
+          "text": "MONSIEUR"
+        }
+      },
+      {
+        "p": "Maxime, a 25-year-old French man with short wavy dark-blond hair, a green bomber jacket and white sneakers at a chalkboard scribbling a glowing equation, cyan numbers floating around, thinking face, night kitchen, sci-fi mood",
+        "at": "Fais le calcul"
+      },
+      {
+        "p": "Maxime, a 25-year-old French man with short wavy dark-blond hair, a green bomber jacket and white sneakers aged 52 and Hélène, a 52-year-old French woman with a shoulder-length auburn bob and a teal cardigan side by side in a hallway mirror, same wrinkles, same nose scrunch, warm tender light",
+        "at": "Dans vingt-sept ans"
+      },
+      {
+        "p": "Old Maxime, a 25-year-old French man with short wavy dark-blond hair, a green bomber jacket and white sneakers with white hair on a bridge in Paris at night, phones glowing in everyone's hands all showing a dark notification light, ominous cyan mood",
+        "at": "Le pire, c'est la notification"
+      },
+      {
+        "p": "Maxime, a 25-year-old French man with short wavy dark-blond hair, a green bomber jacket and white sneakers in the middle of Paris at midnight holding a glowing clock, the whole sky glowing cyan and a giant countdown circle, cinematic",
+        "at": "Le film complet"
+      }
+    ],
+    "counter_speed": 8
+  },
+  "visual_bible": {
+    "hero": "Maxime, a 25-year-old French man with short wavy dark-blond hair, a green bomber jacket and white sneakers",
+    "sister": "Lila, a 9-year-old girl with two black pigtails and a yellow raincoat",
+    "mother": "Hélène, a 52-year-old French woman with a shoulder-length auburn bob and a teal cardigan",
+    "teacher": "a 38-year-old math teacher with a short beard and a brown corduroy jacket",
+    "doctor": "a scientist in a white coat with silver glasses"
+  }
+}

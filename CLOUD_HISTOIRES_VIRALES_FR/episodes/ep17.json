@@ -1,0 +1,324 @@
+{
+  "id": 17,
+  "slug": "3-regles-elites-enfants",
+  "formula": "homodeus",
+  "title": "Les 3 règles que les élites apprennent à leurs enfants (et pas l'école)",
+  "thumbnail": {
+    "line1": "CE QUE L'ÉCOLE TAIT",
+    "line2": "3 règles des élites",
+    "accent": "#FFD400",
+    "visual": "Thibault, a 12-year-old French boy with curly blond hair, round glasses and a striped navy sweater in extreme close-up with an astonished face pointing at a glowing golden key, three floating golden icons around him, rich navy and gold lighting, subject on the right"
+  },
+  "youtube": {
+    "title": "Les 3 règles que les élites apprennent à leurs enfants (et pas l'école)",
+    "description": "Dans certaines familles, on n'apprend pas seulement à réciter ses leçons. On apprend à demander, à douter de soi au bon moment, et à donner avant de recevoir. Trois règles invisibles, transmises à table, qui ouvrent des portes toute une vie.\n\nDans cet essai, on les décortique une par une, avec deux études réelles de psychologie : l'expérience de la photocopieuse de Harvard et l'étude de Kruger et Dunning à Cornell. Avec les chiffres exacts, et surtout avec leurs limites.\n\nCe ne sont pas des secrets de riches. Ce sont des outils. Et maintenant, ils sont à toi.",
+    "tags": [
+      "psychologie",
+      "élites",
+      "éducation",
+      "règles de vie",
+      "persuasion",
+      "effet Dunning-Kruger",
+      "Ellen Langer",
+      "réciprocité",
+      "développement personnel",
+      "confiance en soi",
+      "pouvoir",
+      "influence",
+      "études scientifiques",
+      "sociologie",
+      "homo deus"
+    ],
+    "pinned_comment": "Laquelle de ces trois règles on t'a apprise à la maison ? Et laquelle tu as dû découvrir tout seul ?"
+  },
+  "scenes": [
+    {
+      "type": "hook",
+      "title": "Deux enfants, une même classe",
+      "narration": "Deux enfants sont assis dans la même classe. Même âge, mêmes notes, même prof. Vingt ans plus tard, l'un négocie des contrats à plusieurs millions. L'autre n'ose toujours pas demander une augmentation. Ce n'est pas l'école qui a fait la différence. C'est ce qu'on leur a dit à table, le soir, sans jamais l'écrire nulle part. Dans certaines familles, on transmet trois règles très simples. On ne les enseigne dans aucun programme. Et pourtant, la science montre qu'elles fonctionnent. Aujourd'hui, je te les donne.",
+      "onscreen": [
+        "Même classe",
+        "Même notes",
+        "Destins opposés"
+      ],
+      "visual": "Two children sitting at neighboring desks in the same bright French classroom, Margaux, a 14-year-old French girl with a long chestnut braid, a denim jacket and a yellow scarf and Thibault, a 12-year-old French boy with curly blond hair, round glasses and a striped navy sweater, same age, same notebooks; a split of warm golden light on one side and cooler blue light on the other, the teacher blurred behind, thoughtful mood"
+    },
+    {
+      "type": "narration",
+      "title": "Le programme caché",
+      "narration": "Les sociologues ont un nom pour ça : le programme caché. Ce sont toutes les choses qu'un enfant apprend sans qu'on les lui enseigne officiellement. Comment parler à un adulte. Comment se comporter face à quelqu'un d'important. Comment obtenir ce qu'on veut sans rien exiger. Certains enfants baignent dedans depuis la naissance. D'autres le découvrent à trente ans, souvent à leurs dépens. Le but de cette vidéo, ce n'est pas de te faire envier qui que ce soit. C'est de rendre visible ce qui était invisible. Parce qu'une règle que tu connais, tu peux enfin la choisir.",
+      "onscreen": [
+        "Le programme caché"
+      ],
+      "visual": "A refined family dinner in a Paris apartment at night, Thibault, a 12-year-old French boy with curly blond hair, round glasses and a striped navy sweater listening wide-eyed to the adults talking, faint glowing golden icons and keys floating up from the table like invisible lessons, warm candlelight"
+    },
+    {
+      "type": "rule",
+      "number": 1,
+      "rule": "Ne demande jamais sans donner une raison",
+      "title": "Règle 1 : toujours un parce que",
+      "narration": "Règle numéro un. Ne demande jamais sans donner une raison. Ça paraît banal. Ça ne l'est pas du tout. Un enfant ordinaire dit : je peux sortir ? Un enfant à qui on a appris cette règle dit : je peux sortir, parce que Léo m'attend pour finir notre exposé. Dans la deuxième phrase, il y a un mot magique. Parce que. Et ce petit mot, tu vas voir, a un pouvoir presque absurde sur le cerveau humain.",
+      "onscreen": [
+        "RÈGLE 1",
+        "Toujours un « parce que »"
+      ],
+      "visual": "Margaux, a 14-year-old French girl with a long chestnut braid, a denim jacket and a yellow scarf at a hallway asking her father something politely, a glowing lightbulb floating above her head, friendly parent smiling with raised eyebrows, warm home interior, soft evening light"
+    },
+    {
+      "type": "narration",
+      "title": "Margaux et le directeur",
+      "narration": "Imagine Margaux, quatorze ans. Elle veut un stage dans un cabinet d'architectes, mais elle n'a aucun contact. Son père lui a donné un seul conseil : quand tu demandes, explique toujours pourquoi. Alors elle écrit au directeur. Pas un simple « est-ce que je peux faire un stage ». Elle écrit : je voudrais faire un stage chez vous parce que j'ai vu votre médiathèque en ville, et je veux comprendre comment on dessine un bâtiment où les gens ont envie de rester. Le directeur répond le soir même. Oui. Pourquoi ça a marché ? La science a une réponse étonnante.",
+      "onscreen": [
+        "Margaux, 14 ans",
+        "Une demande + une raison"
+      ],
+      "visual": "Margaux, a 14-year-old French girl with a long chestnut braid, a denim jacket and a yellow scarf typing an email at her bedroom desk with a laptop, a dreamy thought bubble above showing a modern glass library building and architect blueprints, hopeful smile, warm desk lamp light"
+    },
+    {
+      "type": "study",
+      "title": "L'expérience de la photocopieuse",
+      "institution": "Université Harvard",
+      "year": 1978,
+      "authors": "Ellen Langer, Arthur Blank, Benzion Chanowitz",
+      "finding": "Ajouter une raison, même vide, fait bondir le taux d'acceptation d'une demande.",
+      "stat": {
+        "label": "% de personnes qui laissent passer devant à la photocopieuse",
+        "values": [
+          {
+            "name": "Sans raison",
+            "value": 60
+          },
+          {
+            "name": "Vraie raison",
+            "value": 94
+          },
+          {
+            "name": "Fausse raison",
+            "value": 93
+          }
+        ]
+      },
+      "caveat": "L'effet concernait une petite demande. Pour une grosse demande, la qualité de la raison redevenait importante.",
+      "narration": "En 1978, à l'université Harvard, Ellen Langer et ses collègues envoient quelqu'un couper la file d'une photocopieuse. Première version : est-ce que je peux passer devant ? Soixante pour cent des gens acceptent. Deuxième version, avec une vraie raison : parce que je suis pressé. Quatre-vingt-quatorze pour cent. Et la troisième, la plus folle : parce que je dois faire des copies. Une raison totalement vide. Quatre-vingt-treize pour cent acceptent quand même. Mais attention, nuance honnête : c'était pour une petite demande, quelques pages. Quand la demande devenait plus grosse, la fausse raison ne suffisait plus. Le parce que ouvre la porte. Mais il faut quand même quelque chose derrière.",
+      "onscreen": [
+        "Harvard, 1978",
+        "60 % → 94 %"
+      ],
+      "visual": "1978 university campus corridor, a 40-year-old woman researcher with short auburn hair, tortoiseshell glasses and a beige blazer watching a polite young man asking to cut in line at a big old photocopier, a queue of students with papers, retro colors, warm amber light, curious mood",
+      "overlay": {
+        "kind": "chip",
+        "text": "94 % DISENT OUI",
+        "beat": 2
+      }
+    },
+    {
+      "type": "narration",
+      "title": "Pourquoi les élites l'apprennent",
+      "narration": "Voilà pourquoi cette règle se transmet dans les familles qui fréquentent le pouvoir. Ceux qui dirigent passent leur vie à demander. Du temps, de l'argent, de la confiance. Et ils ont compris une chose : les gens n'aiment pas dire oui à une demande. Ils aiment dire oui à une histoire qui a du sens. La raison transforme une exigence en invitation. Tu ne forces personne. Tu donnes simplement à l'autre une bonne excuse pour accepter. Essaie dès demain. Ajoute un parce que sincère à chacune de tes demandes, et observe.",
+      "onscreen": [
+        "Une demande = une histoire"
+      ],
+      "visual": "A glass-walled boardroom at dusk with powerful executives in suits listening and nodding warmly to a speaker, glowing golden speech bubbles turning into open doors, elegant atmosphere, warm city lights behind"
+    },
+    {
+      "type": "rule",
+      "number": 2,
+      "rule": "Sache mesurer ce que tu ne sais pas encore",
+      "title": "Règle 2 : connais tes angles morts",
+      "narration": "Règle numéro deux. Sache mesurer ce que tu ne sais pas encore. Dans beaucoup de familles, on dit à l'enfant : tu es le meilleur, tu es génial. C'est gentil. Mais dans les milieux qui forment des dirigeants, on pose plutôt une question, à chaque fois : qu'est-ce que tu n'as pas encore compris ? Pas pour humilier. Pour entraîner un réflexe rare : savoir où s'arrête sa propre compétence.",
+      "onscreen": [
+        "RÈGLE 2",
+        "Tes angles morts"
+      ],
+      "visual": "A mother kneeling to talk gently with a child at a kitchen table, a thought bubble with a magnifying glass over a question mark, warm light, introspective mood, cozy home interior"
+    },
+    {
+      "type": "narration",
+      "title": "Thibault, champion d'échecs",
+      "narration": "Imagine Thibault, douze ans. Il vient d'apprendre les échecs et il bat tous ses cousins. Il est persuadé d'être un prodige. Il s'inscrit à un tournoi de club. Il perd ses cinq parties. Toutes. Le soir, sa grand-mère ne le console pas. Elle sort un carnet et lui demande d'écrire ce qu'il ignorait la veille et qu'il sait maintenant. Il remplit une page entière. Ce jour-là, Thibault découvre un piège dans lequel tombent des millions d'adultes : quand on débute, on ne voit même pas ce qui nous manque.",
+      "onscreen": [
+        "Thibault, 12 ans",
+        "0 victoire sur 5"
+      ],
+      "visual": "Thibault, a 12-year-old French boy with curly blond hair, round glasses and a striped navy sweater sitting alone at a chess tournament table in a club hall, big chessboard with scattered pieces, five empty score slips in front of him, shocked deflated face, cold fluorescent light"
+    },
+    {
+      "type": "study",
+      "title": "L'effet Dunning-Kruger",
+      "institution": "Université Cornell",
+      "year": 1999,
+      "authors": "Justin Kruger, David Dunning",
+      "finding": "Les participants les moins performants surestiment massivement leur niveau.",
+      "stat": {
+        "label": "Percentile du quart le moins performant",
+        "values": [
+          {
+            "name": "Score réel",
+            "value": 12
+          },
+          {
+            "name": "Score estimé",
+            "value": 62
+          }
+        ]
+      },
+      "caveat": "L'ampleur exacte de l'effet est discutée : une partie s'explique par des biais statistiques, et tout le monde a tendance à se croire un peu au-dessus de la moyenne.",
+      "narration": "En 1999, à l'université Cornell, Justin Kruger et David Dunning font passer des tests de logique, de grammaire et d'humour. Puis ils demandent aux participants d'estimer leur classement. Résultat : le quart le moins performant a obtenu un score situé au douzième percentile. Mais ces mêmes personnes pensaient être au soixante-deuxième. Ils se croyaient au-dessus de la moyenne alors qu'ils étaient tout en bas. Nuance importante : des chercheurs ont depuis montré qu'une partie de cet effet vient de la façon dont on mesure les choses. Et en réalité, presque tout le monde se surestime un peu. Mais le message tient : pour voir ses erreurs, il faut déjà un minimum de compétence.",
+      "onscreen": [
+        "Cornell, 1999",
+        "12e → se croit 62e"
+      ],
+      "visual": "University lab at Cornell, a 40-year-old woman researcher with short auburn hair, tortoiseshell glasses and a beige blazer with a clipboard watching volunteers taking tests at desks, a big floating bar chart of colorful bars behind, confident smug faces versus lower bars, bright clinical light",
+      "overlay": {
+        "kind": "chip",
+        "text": "EFFET DUNNING-KRUGER",
+        "beat": 2
+      }
+    },
+    {
+      "type": "narration",
+      "title": "L'arme secrète : douter juste",
+      "narration": "Les familles qui transmettent cette règle n'apprennent pas à leurs enfants à manquer de confiance. Au contraire. Elles leur apprennent une confiance plus solide, celle qui ne s'effondre pas au premier échec. Quand tu sais exactement ce que tu ne sais pas, tu poses les bonnes questions. Tu t'entoures des bonnes personnes. Et surtout, tu n'as plus peur d'avoir l'air bête, parce que tu sais que ne pas savoir est une étape normale. Les gens puissants que tu admires ne sont pas ceux qui savent tout. Ce sont ceux qui savent très précisément ce qu'ils ignorent.",
+      "onscreen": [
+        "Confiance solide",
+        "≠ arrogance"
+      ],
+      "visual": "the grandmother, an 80-year-old French woman with a white bun, reading glasses on a chain and a lavender cardigan sitting beside Thibault, a 12-year-old French boy with curly blond hair, round glasses and a striped navy sweater in a warm living room, handing him a small notebook and pen, he writes eagerly, a heartfelt gentle mood, lamp light and bookshelves"
+    },
+    {
+      "type": "rule",
+      "number": 3,
+      "rule": "Donne toujours en premier",
+      "title": "Règle 3 : donne avant de demander",
+      "narration": "Règle numéro trois. La plus ancienne, et peut-être la plus puissante. Donne toujours en premier. Avant de demander un service, rends-en un. Avant de solliciter quelqu'un, offre-lui quelque chose : un contact, un conseil, un peu de ton temps. Dans certains milieux, on l'apprend aux enfants dès qu'ils savent parler : quand tu arrives chez quelqu'un, tu n'arrives jamais les mains vides.",
+      "onscreen": [
+        "RÈGLE 3",
+        "Donne en premier"
+      ],
+      "visual": "A cheerful child ringing a neighbor's door, holding a bouquet of flowers and a small cake box, neighbor smiling at the open door, warm sunset light, welcoming mood, quiet suburban street"
+    },
+    {
+      "type": "narration",
+      "title": "La canette de Coca",
+      "narration": "En 1971, à l'université Cornell, le psychologue Dennis Regan imagine une expérience très simple. Un complice participe à un test avec un vrai participant. Pendant une pause, le complice sort et revient avec deux canettes de Coca. Une pour lui, une offerte au participant, sans rien demander. Plus tard, ce même complice essaie de vendre des billets de tombola. Ceux qui avaient reçu la canette en ont acheté environ deux fois plus. Une simple boisson avait créé une dette invisible. C'est ce qu'on appelle la réciprocité, et elle traverse toutes les cultures humaines.",
+      "onscreen": [
+        "Cornell, 1971",
+        "≈ 2 fois plus de billets"
+      ],
+      "visual": "A 1971 psychology lab, a 40-year-old woman researcher with short auburn hair, tortoiseshell glasses and a beige blazer with a clipboard watching a volunteer being handed a cold soda can by a friendly confederate, two soda cans on a table, raffle tickets nearby, retro warm light",
+      "overlay": {
+        "kind": "chip",
+        "text": "2× PLUS DE BILLETS",
+        "beat": 3
+      }
+    },
+    {
+      "type": "narration",
+      "title": "Inès et le carnet d'adresses",
+      "narration": "Imagine Inès, dix-sept ans. Elle veut devenir journaliste. Sa mère lui a appris une chose : avant de demander de l'aide, trouve comment aider. Alors quand elle contacte une reporter qu'elle admire, elle ne demande pas de stage. Elle lui envoie un lien vers une archive rare qu'elle a trouvée sur le sujet que la reporter traite en ce moment. Trois semaines plus tard, c'est la reporter qui lui propose de venir voir comment se fabrique un journal. Inès n'a rien exigé. Elle a simplement donné en premier.",
+      "onscreen": [
+        "Inès, 17 ans",
+        "Elle donne d'abord"
+      ],
+      "visual": "Inès, a 17-year-old French girl with a short black bob, a green parka and a canvas shoulder bag at a library desk with a laptop sending a rare archive link, a shimmering digital letter flying to a female reporter's silhouette in a newsroom, hopeful excited face, warm light"
+    },
+    {
+      "type": "quote",
+      "title": "Ce que disait la grand-mère",
+      "quote": "Ceux qui comptent ce qu'ils donnent finissent toujours par compter seuls.",
+      "author": "La grand-mère de Thibault, personnage de cette histoire",
+      "narration": "La grand-mère de Thibault, celle du carnet, avait une phrase qu'elle répétait à chaque repas de famille. Ceux qui comptent ce qu'ils donnent finissent toujours par compter seuls. Attention quand même : la réciprocité peut aussi servir à manipuler. Un cadeau calculé pour obtenir quelque chose, ce n'est plus de la générosité, c'est un hameçon. Les familles qui transmettent bien cette règle insistent sur ce point : on donne sincèrement, et on accepte de ne rien recevoir en retour. C'est exactement ce qui rend le geste puissant.",
+      "onscreen": [
+        "Donner ≠ manipuler"
+      ],
+      "visual": "the grandmother, an 80-year-old French woman with a white bun, reading glasses on a chain and a lavender cardigan raising a finger wisely at a long family dinner table with relatives laughing, glowing coins turning to little hearts above the table, warm intimate candlelight"
+    },
+    {
+      "type": "narration",
+      "title": "Les trois règles ensemble",
+      "narration": "Mets maintenant les trois règles ensemble. Tu donnes en premier, sincèrement. Tu connais tes limites, donc tu sais exactement de quoi tu as besoin. Et quand tu demandes, tu donnes une raison claire. C'est presque une recette. La personne en face reçoit d'abord quelque chose de toi. Elle voit quelqu'un de lucide, qui ne se prend pas pour un autre. Et elle entend une demande qui a du sens. Dire non devient presque difficile. Rien de tout ça n'exige d'être né riche. Ça exige seulement de connaître les règles.",
+      "onscreen": [
+        "Donner",
+        "Douter juste",
+        "Expliquer"
+      ],
+      "visual": "Three glowing golden keys floating above an open wooden door that reveals golden light, Margaux, a 14-year-old French girl with a long chestnut braid, a denim jacket and a yellow scarf reaching toward them confidently, dark soft background, hopeful empowering mood"
+    },
+    {
+      "type": "outro",
+      "title": "À toi de les transmettre",
+      "narration": "L'école t'apprend à répondre aux questions. Ces trois règles t'apprennent à poser les tiennes. Elles ne sont pas réservées à une élite. Elles ont simplement été gardées dans certaines familles plus longtemps que dans d'autres. Maintenant, tu les connais. Toujours une raison. Toujours mesurer ce qui te manque. Toujours donner en premier. Et peut-être qu'un jour, à table, c'est toi qui les transmettras à quelqu'un. Dis-moi en commentaire laquelle de ces règles tu as apprise à la maison, et laquelle tu découvres aujourd'hui.",
+      "onscreen": [
+        "Raison",
+        "Lucidité",
+        "Générosité"
+      ],
+      "visual": "A warm evening family dinner, the grandmother, an 80-year-old French woman with a white bun, reading glasses on a chain and a lavender cardigan smiling and passing a glowing golden key to Thibault, a 12-year-old French boy with curly blond hair, round glasses and a striped navy sweater and Margaux, a 14-year-old French girl with a long chestnut braid, a denim jacket and a yellow scarf across the table, soft golden light, legacy and warmth"
+    }
+  ],
+  "short": {
+    "hook_text": "CE QUE L'ÉCOLE NE DIT PAS",
+    "narration": "Il existe un mot qui fait accepter presque n'importe quelle demande. Et l'école ne te l'a jamais appris. En 1978, à Harvard, des chercheurs envoient quelqu'un couper la file d'une photocopieuse. Sans raison, soixante pour cent des gens le laissent passer. Avec une vraie raison, quatre-vingt-quatorze pour cent. Et avec une raison complètement vide, parce que je dois faire des copies, quatre-vingt-treize pour cent acceptent quand même. Le mot magique, c'est parce que. Dans certaines familles, on apprend ça aux enfants dès le plus jeune âge. Mais ce n'est que la première règle. Les deux suivantes sont encore plus puissantes, et l'une d'elles tient dans une simple canette de Coca. Le film complet t'attend sur la chaîne.",
+    "cta": "Le film complet est sur la chaîne",
+    "visuals": [
+      {
+        "p": "Margaux, a 14-year-old French girl with a long chestnut braid, a denim jacket and a yellow scarf sitting in a classroom raising her hand with a glowing floating word-shaped golden orb above her head, curious classmates, warm light"
+      },
+      {
+        "p": "1978 Harvard campus, a 40-year-old woman researcher with short auburn hair, tortoiseshell glasses and a beige blazer behind a young man in line at a vintage photocopier, students waiting, retro colors, warm light, curious mood",
+        "at": "En 1978, à Harvard"
+      },
+      {
+        "p": "A young man asking to cut in line at a photocopier with an empty hand gesture, only part of the queue agreeing, grumpy frowning students, retro light, subject low in the frame with empty space above, dramatic cinematic depth and rich color contrast",
+        "at": "Sans raison, soixante pour cent",
+        "overlay": {
+          "kind": "chip",
+          "text": "60 %"
+        }
+      },
+      {
+        "p": "A young man at a photocopier politely explaining he is in a hurry, queue of students smiling and stepping aside, retro warm light, subject low in the frame with empty space above, dramatic cinematic depth and rich color contrast",
+        "at": "Avec une vraie raison",
+        "overlay": {
+          "kind": "chip",
+          "text": "94 %"
+        }
+      },
+      {
+        "p": "A young man holding papers with a cheeky grin pointing at the photocopier, students nodding and letting him pass, light bulb above them, retro warm light",
+        "at": "Et avec une raison complètement vide",
+        "overlay": {
+          "kind": "chip",
+          "text": "93 %"
+        }
+      },
+      {
+        "p": "A giant glowing golden orb floating above a university campus like a magic word, rays of light, students looking up in awe, dramatic warm sunset sky, subject low in the frame with empty space above, dramatic cinematic depth and rich color contrast",
+        "at": "Le mot magique, c'est parce que"
+      },
+      {
+        "p": "A family dinner where a small child asks politely with a glowing bubble above her, parents smiling proudly, warm candlelight, subject low in the frame with empty space above, dramatic cinematic depth and rich color contrast",
+        "at": "Dans certaines familles"
+      },
+      {
+        "p": "Margaux, a 14-year-old French girl with a long chestnut braid, a denim jacket and a yellow scarf walking toward a door marked with a single glowing golden key, two more locked doors behind in the shadows, mysterious cinematic lighting",
+        "at": "Mais ce n'est que la première règle"
+      },
+      {
+        "p": "a 40-year-old woman researcher with short auburn hair, tortoiseshell glasses and a beige blazer handing a cold soda can to a volunteer in a retro university lab, warm light, friendly mood, dramatic spotlight on the can",
+        "at": "et l'une d'elles tient dans une simple canette"
+      },
+      {
+        "p": "Thibault, a 12-year-old French boy with curly blond hair, round glasses and a striped navy sweater and Margaux, a 14-year-old French girl with a long chestnut braid, a denim jacket and a yellow scarf standing at the entrance of a big old library with a glowing door, inviting light, asking viewers to come in, warm cinematic mood",
+        "at": "Le film complet"
+      }
+    ]
+  },
+  "visual_bible": {
+    "margaux": "Margaux, a 14-year-old French girl with a long chestnut braid, a denim jacket and a yellow scarf",
+    "thibault": "Thibault, a 12-year-old French boy with curly blond hair, round glasses and a striped navy sweater",
+    "ines": "Inès, a 17-year-old French girl with a short black bob, a green parka and a canvas shoulder bag",
+    "grandma": "the grandmother, an 80-year-old French woman with a white bun, reading glasses on a chain and a lavender cardigan",
+    "researcher": "a 40-year-old woman researcher with short auburn hair, tortoiseshell glasses and a beige blazer"
+  }
+}

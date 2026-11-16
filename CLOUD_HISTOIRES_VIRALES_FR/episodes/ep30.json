@@ -1,0 +1,309 @@
+{
+  "id": 30,
+  "slug": "cle-hotel-chambre-217-7-regles",
+  "formula": "izranoff",
+  "title": "Si ta clé d'hôtel ouvre la chambre 217 alors qu'elle n'existe pas... suis ces 7 règles",
+  "thumbnail": {
+    "line1": "CHAMBRE 217",
+    "line2": "elle n'existe pas",
+    "accent": "#B00020",
+    "visual": "a 32-year-old French traveler with messy brown hair, stubble and a grey wool sweater, terrified close-up face on the right, a glowing keycard in his trembling hand, behind him a dark hotel corridor with red carpet and a mysterious extra door glowing, red and black lighting"
+  },
+  "youtube": {
+    "title": "Si ta clé d'hôtel ouvre la chambre 217 alors qu'elle n'existe pas... suis ces 7 règles",
+    "description": "Un vieil hôtel de montagne, une nuit de neige, la chambre 216. Le veilleur te prévient : il n'y a pas de 217 ici, on passe directement à la 218. Pourtant, à deux heures du matin, ta clé ouvre une porte qui porte ce numéro. Et sur la table, une carte t'attend.\n\nSept règles pour tenir jusqu'à six heures. Chacune a une raison. La dernière, tu ne la comprendras qu'à l'accueil.\n\nTu aurais respecté quelle règle, et laquelle tu aurais brisée ? Dis-le en commentaire.",
+    "tags": [
+      "7 règles",
+      "histoire horreur",
+      "hôtel",
+      "chambre 217",
+      "creepypasta",
+      "suspense",
+      "histoire effrayante",
+      "nuit",
+      "règles",
+      "frisson",
+      "mystère",
+      "montagne",
+      "plot twist",
+      "histoire virale",
+      "français"
+    ],
+    "pinned_comment": "Si ta clé ouvrait une chambre qui n'existe pas, tu entrerais juste pour voir ? Sois honnête."
+  },
+  "scenes": [
+    {
+      "type": "hook",
+      "title": "La porte en trop",
+      "narration": "Il est deux heures du matin. Tu marches pieds nus dans le couloir d'un vieil hôtel de montagne, un seau à glace vide à la main. La moquette est rouge, épaisse, elle étouffe tes pas. Deux cent quatorze. Deux cent quinze. Deux cent seize, ta chambre. Et juste à côté, une porte que tu n'avais pas remarquée en arrivant. Deux cent dix-sept. Le veilleur t'a pourtant prévenu, avec un petit rire. Ici, il n'y a pas de deux cent dix-sept. Par curiosité, tu approches ta clé de la serrure. Le voyant passe au vert.",
+      "onscreen": [
+        "2:00",
+        "chambre 217"
+      ],
+      "visual": "a 32-year-old French traveler with messy brown hair, stubble, a grey wool sweater and bare feet, holding an empty ice bucket, standing in a dim hotel corridor with thick red carpet and wooden doors, one extra door glowing faintly, staring at an extra door in the wall between two rooms, cold amber light, eerie silence, empty space above"
+    },
+    {
+      "type": "narration",
+      "title": "L'arrivée",
+      "narration": "Tu es arrivé la veille au soir, sous une neige épaisse, après que la route du col a été fermée. L'hôtel était le seul encore éclairé. Un bâtiment en bois sombre, avec des balcons sculptés et un panneau à moitié effacé. À l'accueil, un veilleur âgé, en gilet bordeaux, t'a tendu une carte magnétique avec le numéro deux cent seize. Il a dit : deuxième étage, au fond. Puis il a ajouté, sans que tu demandes rien : on n'a pas de deux cent dix-sept, on passe directement à la deux cent dix-huit. Les clients sont superstitieux. Tu avais trouvé ça charmant.",
+      "onscreen": [
+        "route du col fermée",
+        "pas de 217"
+      ],
+      "visual": "Snowy mountain night with a dark wooden hotel with carved balconies and one lit window, inside the lobby the old night porter, a 70-year-old man with thin white hair, a burgundy vest and a gentle smile handing a keycard to a 32-year-old French traveler with messy brown hair, stubble and a grey wool sweater who is dusted with snow, warm yellow light vs cold blue snow, uneasy mood"
+    },
+    {
+      "type": "narration",
+      "title": "La carte sur la table",
+      "narration": "La porte de la deux cent dix-sept s'entrouvre d'elle-même, de quelques centimètres. Une odeur de feu de bois éteint s'en échappe. Tu ne vois presque rien. Une lampe de chevet allumée, un lit fait au carré, et sur la petite table juste derrière la porte, à portée de main, une carte de l'hôtel. Tu la prends sans franchir le seuil. Au dos, une écriture fine, à l'encre bleue. Si ta clé ouvre la chambre deux cent dix-sept, suis ces sept règles jusqu'à six heures. Signé : le veilleur.",
+      "onscreen": [
+        "7 règles",
+        "jusqu'à 6 h"
+      ],
+      "visual": "a 32-year-old French traveler with messy brown hair, stubble and a grey wool sweater, in a dim corridor peeking at a slightly open door, a bedside lamp, a made bed and a small table with a printed hotel card just behind the door, smell of smoke in the air, creepy amber light"
+    },
+    {
+      "type": "rule",
+      "title": "Règle 1",
+      "number": 1,
+      "rule": "N'entre pas dans la 217. Referme la porte doucement.",
+      "narration": "Règle numéro un. N'entre pas dans la deux cent dix-sept. Referme la porte doucement, sans la claquer. Cette chambre a toujours un occupant. Si quelqu'un entre, quelqu'un d'autre doit en sortir.",
+      "onscreen": [
+        "RÈGLE 1",
+        "n'entre pas"
+      ],
+      "visual": "a 32-year-old French traveler with messy brown hair, stubble and a grey wool sweater, gently closing a bedroom door in a dim corridor, one hand on the handle, a sheet of paper in the other hand, tense calm expression, cold light, red carpet",
+      "overlay": {
+        "kind": "banner",
+        "text": "RÈGLE 1",
+        "beat": 1
+      }
+    },
+    {
+      "type": "tension",
+      "title": "Le lit défait",
+      "narration": "Tu tires la poignée vers toi, lentement. Juste avant que la porte se referme, tu jettes un dernier regard. Le lit n'est plus fait au carré. Les draps sont froissés, la couverture repoussée, comme si quelqu'un venait de se lever. Il y a deux secondes, il était impeccable. Le pêne se loge dans la serrure avec un déclic minuscule. Le voyant redevient rouge. Tu restes immobile dans le couloir, le cœur battant, la carte serrée dans ta main. De l'autre côté de la porte, un sommier grince. Une fois.",
+      "onscreen": [
+        "les draps froissés",
+        "un sommier grince"
+      ],
+      "visual": "A hotel room seen through a door crack, the bed that was made perfectly now with rumpled sheets and the blanket thrown back, a lamp glowing, a 32-year-old French traveler with messy brown hair, stubble and a grey wool sweater's fearful eyes in the corner of frame, cold amber light"
+    },
+    {
+      "type": "rule",
+      "title": "Règle 2",
+      "number": 2,
+      "rule": "Si le téléphone de ta chambre sonne depuis la 217, ne décroche pas.",
+      "narration": "Règle numéro deux. Retourne dans ta chambre. Si le téléphone de la chambre sonne et que l'écran affiche deux cent dix-sept, ne décroche pas. Il sonnera longtemps. Il a de la patience. Pas toi.",
+      "onscreen": [
+        "RÈGLE 2",
+        "ne décroche pas"
+      ],
+      "visual": "a 32-year-old French traveler with messy brown hair, stubble and a grey wool sweater, sitting on a hotel bed with the door locked and chain on, a beige vintage phone on the nightstand with a small glowing display, terrified frozen pose, soft yellow lamp"
+    },
+    {
+      "type": "tension",
+      "title": "La sonnerie",
+      "narration": "Tu verrouilles ta porte, tu mets la chaîne, tu t'assois sur le lit. Le vieux téléphone beige sur la table de nuit sonne à deux heures douze. Un son aigrelet, d'un autre temps. Le petit écran affiche trois chiffres. Deux, un, sept. Tu ne bouges pas. Il sonne vingt fois. Trente fois. Puis il s'arrête. Le silence qui suit est pire. Parce que dans ce silence, à travers le mur qui sépare ta chambre de la deux cent dix-sept, tu entends quelqu'un raccrocher un combiné.",
+      "onscreen": [
+        "2:12",
+        "appel : 217"
+      ],
+      "visual": "An old beige hotel phone ringing on a nightstand with ripples of sound around it, a small glowing display showing glowing digits without legible shapes, a 32-year-old French traveler with messy brown hair, stubble and a grey wool sweater sitting on the bed watching with wide eyes, midnight blue room",
+      "overlay": {
+        "kind": "chip",
+        "text": "02:12",
+        "beat": 1
+      }
+    },
+    {
+      "type": "rule",
+      "title": "Règle 3",
+      "number": 3,
+      "rule": "Si le service d'étage frappe, demande-lui ton numéro de chambre.",
+      "narration": "Règle numéro trois. Si quelqu'un frappe en disant être du service d'étage, demande-lui de te donner ton numéro de chambre. S'il répond deux cent seize, tu peux ouvrir. S'il répond autre chose, éteins la lumière et ne parle plus.",
+      "onscreen": [
+        "RÈGLE 3",
+        "quel numéro ?"
+      ],
+      "visual": "a 32-year-old French traveler with messy brown hair, stubble and a grey wool sweater, standing behind a closed hotel room door with a hand over his mouth, listening to a polite voice outside, a thin strip of corridor light under the door, tense atmosphere, dim light"
+    },
+    {
+      "type": "tension",
+      "title": "Service d'étage",
+      "narration": "Trois coups secs, à deux heures quarante. Une voix polie, un peu étouffée. Service d'étage. Je vous apporte votre glace. Tu regardes le seau vide, posé sur la commode. Tu n'as rien commandé. Ta voix tremble. Quel est mon numéro de chambre ? Un temps. Trop long. Puis la voix répond, toujours aussi polie. Vous êtes en deux cent dix-sept, monsieur. Tu éteins la lampe. Tu retiens ton souffle. Derrière la porte, quelqu'un pose quelque chose sur la moquette. Puis des pas s'éloignent. Ils ne vont pas vers l'ascenseur. Ils vont à côté.",
+      "onscreen": [
+        "2:40",
+        "vous êtes en 217"
+      ],
+      "visual": "a 32-year-old French traveler with messy brown hair, stubble and a grey wool sweater, in a dark hotel room facing the door, an empty ice bucket on the dresser, a dark silhouette visible through the gap under the door, a polite knocking, cold moonlight from the window"
+    },
+    {
+      "type": "rule",
+      "title": "Règle 4",
+      "number": 4,
+      "rule": "Après trois heures, ne regarde pas par le judas.",
+      "narration": "Règle numéro quatre. Après trois heures, ne regarde plus par le judas. Peu importe ce que tu entends dans le couloir. Ce qui se tient devant ta porte à cette heure-là ne veut pas entrer. Il veut seulement être vu.",
+      "onscreen": [
+        "RÈGLE 4",
+        "pas de judas"
+      ],
+      "visual": "a 32-year-old French traveler with messy brown hair, stubble and a grey wool sweater, backing away from a hotel room door with a peephole, his hand covering his eyes, a faint glowing circle of light from the peephole, deep shadow, red carpet glimpsed under the door"
+    },
+    {
+      "type": "tension",
+      "title": "Devant la porte",
+      "narration": "À trois heures cinq, la lumière du couloir filtre sous ta porte. Puis elle est coupée en deux par deux ombres. Des pieds. Immobiles. Juste devant ta chambre. Personne ne frappe. Personne ne parle. Tu entends seulement une respiration lente, très proche, comme si quelqu'un avait le front collé contre le bois. Le judas brille faiblement dans le noir, à hauteur de tes yeux. Il suffirait de te lever. Un seul coup d'œil. Tu enfouis ton visage dans l'oreiller et tu comptes jusqu'à mille. Quand tu relèves la tête, les ombres ont disparu.",
+      "onscreen": [
+        "3:05",
+        "deux ombres sous la porte"
+      ],
+      "visual": "Under a hotel room door, a strip of corridor light cut in two by two motionless shadows of feet, a 32-year-old French traveler with messy brown hair, stubble and a grey wool sweater lying on the floor in the dark of the room staring at it, held breath, cold blue light",
+      "overlay": {
+        "kind": "banner",
+        "text": "3H05",
+        "beat": 1
+      }
+    },
+    {
+      "type": "rule",
+      "title": "Règle 5",
+      "number": 5,
+      "rule": "Si tu entends ta propre voix à travers le mur, ne frappe pas.",
+      "narration": "Règle numéro cinq. Si tu entends ta propre voix à travers le mur, ne frappe pas. Ne réponds pas. Elle apprend en écoutant. Chaque mot que tu prononces maintenant, elle saura le dire demain.",
+      "onscreen": [
+        "RÈGLE 5",
+        "ta propre voix"
+      ],
+      "visual": "a 32-year-old French traveler with messy brown hair, stubble and a grey wool sweater, sitting on the bed with his back against the headboard, a wall behind him with a glowing translucent shape of a mouth whispering, eyes wide with dread, dim yellow lamp"
+    },
+    {
+      "type": "tension",
+      "title": "La voix dans le mur",
+      "narration": "Vers quatre heures, ça commence. D'abord des murmures, de l'autre côté du mur, derrière la tête de lit. Puis des mots. Puis des phrases. Tu reconnais l'intonation, les hésitations, ce petit rire nerveux que tu fais quand tu as peur. C'est ta voix. Elle répète ce que tu as dit plus tôt. Quel est mon numéro de chambre ? Encore et encore, en changeant légèrement le ton, comme quelqu'un qui s'entraîne. Tu serres les mâchoires si fort que tu as mal. Puis la voix dit ton prénom. Elle le prononce parfaitement.",
+      "onscreen": [
+        "4:00",
+        "elle s'entraîne"
+      ],
+      "visual": "a 32-year-old French traveler with messy brown hair, stubble and a grey wool sweater, sitting against a headboard holding his hands over his ears, a faint blue ghostly outline of himself on the other side of the wall, wallpaper cracked, deep night, cold light"
+    },
+    {
+      "type": "rule",
+      "title": "Règle 6",
+      "number": 6,
+      "rule": "Ne change pas de chambre, même si la réception te le propose.",
+      "narration": "Règle numéro six. Ne change pas de chambre, même si la réception t'appelle pour te le proposer. Même si on te parle d'une fuite, d'une erreur, d'un surclassement gratuit. La réception ne dort pas la nuit. Mais elle n'appelle jamais.",
+      "onscreen": [
+        "RÈGLE 6",
+        "reste où tu es"
+      ],
+      "visual": "a 32-year-old French traveler with messy brown hair, stubble and a grey wool sweater, refusing with a firm head shake, a phone receiver set down, a suitcase left closed, lamp light, the door behind him with the chain on, resolute fear, deep night, dim yellow light"
+    },
+    {
+      "type": "tension",
+      "title": "L'appel de la réception",
+      "narration": "À quatre heures cinquante, le téléphone sonne encore. Cette fois, l'écran affiche Réception. Tu hésites, puis tu décroches, sans un mot. La voix du vieux veilleur, chaleureuse, rassurante. Monsieur, toutes mes excuses, il y a eu une erreur. Votre chambre a un problème de chauffage. Je vous ai préparé une chambre plus confortable, juste à côté. La porte est ouverte. Vous n'avez qu'à entrer. Tu ne réponds pas. La voix attend. Puis elle ajoute, plus bas : vous ne pourrez pas rester là-bas éternellement. Tu raccroches.",
+      "onscreen": [
+        "4:50",
+        "une chambre juste à côté"
+      ],
+      "visual": "a 32-year-old French traveler with messy brown hair, stubble and a grey wool sweater, holding the vintage phone receiver to his ear in a dark hotel room, a warm reassuring voice from it visualized as golden waves that turn dark at the edges, suspicious look, a packed suitcase on the bed"
+    },
+    {
+      "type": "rule",
+      "title": "Règle 7",
+      "number": 7,
+      "rule": "Avant six heures, glisse ta clé sous la porte de la 217.",
+      "narration": "Règle numéro sept. Avant six heures, glisse ta clé sous la porte de la deux cent dix-sept. Ne la garde pas. Ne la rends pas à l'accueil. Elle vient de là-bas. Elle doit y retourner, sinon elle reviendra te chercher.",
+      "onscreen": [
+        "RÈGLE 7",
+        "rends-lui sa clé"
+      ],
+      "visual": "a 32-year-old French traveler with messy brown hair, stubble and a grey wool sweater, kneeling in the corridor in front of a door and sliding a magnetic keycard under it, a bucket of ice that has not melted on the carpet beside him, an unseen hand pulling the card from the other side, pale dawn light"
+    },
+    {
+      "type": "tension",
+      "title": "Cinq heures cinquante-huit",
+      "narration": "À cinq heures cinquante-cinq, tu ouvres ta porte. Le couloir est vide. Sur la moquette, devant ta chambre, un seau rempli de glace qui n'a pas fondu. Tu l'enjambes. Tu t'agenouilles devant la deux cent dix-sept. Tu glisses la carte magnétique sous la porte. De l'autre côté, quelque chose la tire doucement. Puis plus rien. Tu ramasses ton sac, tu descends les escaliers sans te retourner. Dehors, le ciel pâlit au-dessus des sapins. Tu as tenu. Il est six heures.",
+      "onscreen": [
+        "5:58",
+        "la clé glisse"
+      ],
+      "visual": "An empty hotel corridor at dawn with thick red carpet, a bucket full of ice that has not melted in front of a door, a faint pale light from a window at the end, eerie calm, no people, cold blue light"
+    },
+    {
+      "type": "twist",
+      "title": "Le deuxième étage",
+      "narration": "À l'accueil, une jeune réceptionniste en pull de laine te sourit. Tu dis que tu pars, chambre deux cent seize, et que tu as laissé ta clé là-haut. Elle te regarde sans comprendre. Deux cent seize ? Monsieur, le deuxième étage est condamné depuis l'incendie de mille neuf cent quatre-vingt-sept. Il n'y a plus de chambres là-haut. Et nous n'avons pas de veilleur de nuit. Tu ris nerveusement. Tu fouilles ta poche pour lui prouver. Tes doigts rencontrent une carte magnétique, tiède, comme si quelqu'un venait de la tenir. Celle que tu as glissée sous la porte. Tu la sors. Le numéro imprimé dessus n'est plus deux cent seize. C'est deux cent dix-sept. Tu y as dormi toute la nuit.",
+      "onscreen": [
+        "2e étage condamné",
+        "217"
+      ],
+      "visual": "a 32-year-old French traveler with messy brown hair, stubble and a grey wool sweater, at the hotel reception desk in a bright morning lobby, pale and exhausted, a young receptionist with a blond bun and a cream wool sweater frowning in confusion, a dusty old key hook board behind, snowy mountains through windows, flat daylight",
+      "overlay": {
+        "kind": "stamp",
+        "text": "ÉTAGE CONDAMNÉ",
+        "beat": 1
+      }
+    }
+  ],
+  "short": {
+    "hook_text": "LA CHAMBRE 217 N'EXISTE PAS",
+    "narration": "Le veilleur de l'hôtel t'a prévenu en riant : ici, il n'y a pas de chambre deux cent dix-sept. Pourtant, à deux heures du matin, dans le couloir, il y a une porte avec ce numéro. Et ta clé l'ouvre. Sur la table, juste derrière la porte, une carte. Si ta clé ouvre la chambre deux cent dix-sept, suis ces sept règles jusqu'à six heures. Règle numéro un : n'entre pas, cette chambre a toujours un occupant. Règle numéro deux : si ton téléphone sonne depuis la deux cent dix-sept, ne décroche pas. Il sonne à deux heures douze. Et à travers le mur, quelqu'un commence à parler avec ta voix. La dernière règle va tout retourner. Le film complet est sur la chaîne.",
+    "cta": "Le film complet est sur la chaîne",
+    "visuals": [
+      {
+        "p": "a 32-year-old French traveler with messy brown hair, stubble, a grey wool sweater and bare feet, holding an empty ice bucket, in a dim hotel corridor with thick red carpet and wooden doors, one extra door glowing faintly, staring at an extra door with a glowing 217 shape that has no digits just a faint gold glow, red carpet, eerie light"
+      },
+      {
+        "p": "the old night porter, a 70-year-old man with thin white hair, a burgundy vest and a gentle smile, laughing gently at a reception desk in a mountain hotel lobby, a keycard in his hand, snow behind the windows, warm yellow light, unsettling cheer",
+        "at": "Le veilleur de l'hôtel"
+      },
+      {
+        "p": "a 32-year-old French traveler with messy brown hair, stubble and a grey wool sweater, in a dim corridor with an extra door slightly open, a bedside lamp, a small table with a printed card behind the door, cold amber light",
+        "at": "Pourtant, à deux heures"
+      },
+      {
+        "p": "a 32-year-old French traveler with messy brown hair, stubble and a grey wool sweater, holding a magnetic keycard to a door lock that glows green, a hint of panic, a dim corridor with red carpet, cold amber light",
+        "at": "Et ta clé l'ouvre"
+      },
+      {
+        "p": "a 32-year-old French traveler with messy brown hair, stubble and a grey wool sweater, gently closing a bedroom door, a printed sheet of paper in one hand, calm fear, cold light, red carpet",
+        "at": "Règle numéro un",
+        "overlay": {
+          "kind": "banner",
+          "text": "RÈGLE 1"
+        }
+      },
+      {
+        "p": "A beige vintage hotel phone ringing on a nightstand with ripples of sound, a small glowing display, a 32-year-old French traveler with messy brown hair, stubble and a grey wool sweater sitting on the bed frozen, midnight blue room",
+        "at": "Règle numéro deux",
+        "overlay": {
+          "kind": "banner",
+          "text": "RÈGLE 2"
+        }
+      },
+      {
+        "p": "An old beige hotel phone ringing at night with sound ripples, a small clock on the nightstand glowing, a 32-year-old French traveler with messy brown hair, stubble and a grey wool sweater watching wide-eyed on the bed, dim light",
+        "at": "Il sonne à deux heures",
+        "overlay": {
+          "kind": "chip",
+          "text": "02:12"
+        }
+      },
+      {
+        "p": "a 32-year-old French traveler with messy brown hair, stubble and a grey wool sweater, sitting on a bed with his back to a wall, a glowing translucent mouth shape on the wall whispering, dread, dim yellow lamp",
+        "at": "Et à travers le mur"
+      },
+      {
+        "p": "a 32-year-old French traveler with messy brown hair, stubble and a grey wool sweater, with wide terrified eyes staring toward the camera, an old brass keycard in his hand glowing faintly, cold light, a dark corridor behind",
+        "at": "La dernière règle"
+      }
+    ]
+  },
+  "visual_bible": {
+    "traveler": "a 32-year-old French traveler with messy brown hair, stubble and a grey wool sweater",
+    "porter": "the old night porter, a 70-year-old man with thin white hair, a burgundy vest and a gentle smile",
+    "receptionist": "a young receptionist with a blond bun and a cream wool sweater"
+  }
+}
