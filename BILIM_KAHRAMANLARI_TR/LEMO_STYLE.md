@@ -38,3 +38,29 @@ Kütüphanenin `.md` belgeleri CC BY-NC 4.0 olduğundan **kopyalanmadı**; aşa�
 
 ## Atıf
 "Lemo-Opuscar by Lemomo (LemoLab)", https://github.com/lemomo-ai/lemo-opuscar — kod MIT; biz stil gramerini ve kodu uyarladık, değişiklik yaptık. Hiçbir karakter, çizim, yazı biçimi ya da müzik demo filmlerinden alınmadı.
+
+---
+## 10 prosedürel stil modülü (kalıcı) — `film/styles/index.js`
+Sıfır dış API/GPU: yalnızca Canvas 2D + tipli-dizi post geçişleri (headless Chrome'da çalışır). Her stil `{bg, post, noReg}`; kukla fiziği ve kamera (bobbing, %2-3 eğilme, nefes, yürüyerek giriş, şok/öfke sarsıntısı, konuşana dönme, yavaş itme) **tüm stillerde aynı kodla** çalışır — stil yalnızca sahneyi ve son görüntüyü yeniden boyar.
+
+| # | Stil (`EP.style`) | Teknik |
+|---|---|---|
+| 1 | `pixel` | 320×180'e indirgeme + en yakın komşu büyütme, 6 seviye/kanal palet, Bayer 4×4 dithering, paralaks piksel tepeler |
+| 2 | `chalkboard` | Arduvaz zemin + Sobel kenarları → tozlu, kırık beyaz/renkli tebeşir çizgileri, soluk dolgu |
+| 3 | `lineart` | Sobel → mürekkep çizgisi, kâğıt dokusu, soldan sağa "çizilerek belirme" (ilk 2,6 sn) |
+| 4 | `ps2` | 480×270 + 5-bit renk, satır-bloğu vertex jitter, sinüs "affine texture swim", sis, faset dağlar |
+| 5 | `comic` | Kenarlı mürekkep, Ben-Day yarı-ton noktalar (kademeli ızgara), eğik panel çerçevesi |
+| 6 | `flatvector` | Gradyanlı katmanlı tepeler/yıldızlar, ofset kapalı (temiz vektör) |
+| 7 | `goldline` | Gece mavisi kadife + Sobel → `#D4AF37→#FFD700` gradyan çizgi + blur-glow |
+| 8 | `cgi` | Derinlik netliği (arka plan blur), hacimsel ışık hüzmeleri, bloom, yumuşak vinyet |
+| 9 | `lego` | 16 px hücre → 17 renkli Lego paleti, her hücrede stud + gölge, sıcak ışık |
+| 10 | `neon` | İzometrik kesit oda, pencereden şehir ışıkları, mor/mavi neon şeritler, çok katmanlı bloom |
+
+3D stiller (ps2, cgi, lego) **2.5D emülasyondur** (Three.js/WebGL kullanılmıyor: CI'da GPU yok, kare-doğruluk için 2D hattı seçildi).
+
+### Otomatik stil seçimi
+`series/build_episodes.py` her bölüme `style` (ana anlatım) ve `info` (bilgi sahnesi) atar:
+- Tarih/belgesel → `goldline` veya `flatvector`; oyun/teknoloji → `pixel`, `ps2`, `lego`, `neon`; bilim/tıp → `cgi`, `comic`, `lineart`.
+- Harita, sayı, yıldız, kronoloji anları (merkez ikon + etiket + yıl madalyonu) ayrı bir katmanda `info` stiline (`chalkboard` veya `goldline`) çevrilir; stil zaten bu ikisiyse tekrar uygulanmaz.
+- Önizleme için `?style=<id>` sorgusu stili geçersiz kılar: `node core/render/still.mjs film 14 --q 'ep=ep01&style=lego'`.
+Önizleme: `masterpiece_showcase.jpg`.

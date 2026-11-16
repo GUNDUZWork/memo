@@ -1,6 +1,7 @@
 // One episode = two puppets, one colour-block stage, one icon, one year medallion, burned-in caption cards.
 // Style: Lemo-Opuscar mid-century-toon (print / palette / type / camera) + rubber-hose puppet physics. See LEMO_STYLE.md.
-import { PAL, shape, plane, ink, ellipse, rect, rrect, spline, starPts, star, sparkle, rays, atom, boomerang, kidney, text, fit, measure, setClock, twos, reg, rng, clamp, lerp, seg, ss, eo, back, TAU, hash, paperFinish, move } from './engine/toon.js';
+import { STYLES, infoLayer } from './styles/index.js';
+import { REG, PAL, shape, plane, ink, ellipse, rect, rrect, spline, starPts, star, sparkle, rays, atom, boomerang, kidney, text, fit, measure, setClock, twos, reg, rng, clamp, lerp, seg, ss, eo, back, TAU, hash, paperFinish, move } from './engine/toon.js';
 import { icon } from './engine/icons.js';
 import { drawPuppet } from './puppet.js';
 
@@ -117,12 +118,13 @@ function medallion(ctx, set, t, big = 1) {
   ctx.restore();
 }
 
+let INFO_MODE = false;
 function centerpiece(ctx, set, t, vis = 1, cy = 470, sz = 300) {
   if (vis <= 0) return;
   const k = back(seg(t, 0.45, 1.0)) * vis;
   ctx.save(); ctx.globalAlpha *= clamp(vis); ctx.translate(960, cy);
   ctx.save(); ctx.beginPath(); ctx.rect(-1100, -cy - 100, 2200, 792 + 100); ctx.clip();   // rays stay on the wall
-  rays(ctx, 0, 0, 30, 560 * k, PAL.white, { rot: t * 0.04, k: 0.55, alpha: 0.28 });
+  if (!INFO_MODE) rays(ctx, 0, 0, 30, 560 * k, PAL.white, { rot: t * 0.04, k: 0.55, alpha: 0.28 });
   ctx.restore();
   ctx.scale(k * (1 + 0.012 * Math.sin(t * 2.1)), k * (1 + 0.012 * Math.sin(t * 2.1)));
   shape(ctx, ellipse(0, 0, sz * 0.62, sz * 0.62, 40), { fill: PAL.paper, line: 5, seed: 12, grain: 0.3 });
@@ -173,31 +175,31 @@ function endCard(ctx, set, t) {
 // ------------------------------------------------------------------ frame
 export function renderFilm(ctx, t, Q) {
   const thumb = Q.get('thumb') === '1';
-  const n = EP.n, set = SETS[EP.pal % SETS.length], tt = twos(t);
-  setClock(t);
+  const n = EP.n, set = SETS[EP.pal % SETS.length], tt = twos(t), st = STYLES[Q.get('style') || EP.style || 'midcentury'], info = EP.info || null;
+  setClock(t); REG.on = !st.noReg;
   ctx.setTransform(1, 0, 0, 1, 0, 0);
-  if (thumb) return thumbnail(ctx, set);
+  if (thumb) return thumbnail(ctx, set, st);
   // the stand: a slow push (on ones), then dead still for the end card
   const z = 1 + 0.032 * ss(seg(t, 0.5, lastT1() + 0.6));
   ctx.save(); ctx.translate(W / 2, H * 0.55); ctx.scale(z, z); ctx.translate(-W / 2, -H * 0.55);
-  stage(ctx, set, t, n);
+  (st.bg ? st.bg(ctx, t, set, n) : stage(ctx, set, t, n));
   const endVis = 1 - ss(seg(t, lastT1() + 0.9, lastT1() + 1.25));
-  centerpiece(ctx, set, t, endVis);
-  tagline(ctx, set, t, endVis);
+  const infoScene = g => { centerpiece(g, set, t, endVis); tagline(g, set, t, endVis); medallion(g, set, t); };
+  INFO_MODE = !!info; if (info) infoLayer(ctx, info, t, infoScene); else infoScene(ctx); INFO_MODE = false;
   const pa = pose('A', t, tt), pb = pose('B', t, tt);
   shadow(ctx, pa); shadow(ctx, pb);
-  const order = [['B', pb], ['A', pa]];
-  for (const [who, p] of order) drawPuppet(ctx, who, p);
-  header(ctx, t); medallion(ctx, set, t);
+  for (const [who, p] of [['B', pb], ['A', pa]]) drawPuppet(ctx, who, p);
   ctx.restore();
+  if (st.post) st.post(ctx, t);
+  header(ctx, t);
   endCard(ctx, set, t);
   caption(ctx, t);
-  paperFinish(ctx, W, H, 1);
+  if (!st.post) paperFinish(ctx, W, H, st === STYLES.midcentury ? 1 : 0.3);
 }
 
-function thumbnail(ctx, set) {
+function thumbnail(ctx, set, st) {
   ctx.save();
-  stage(ctx, set, 5, EP.n);
+  st.bg ? st.bg(ctx, 5, set, EP.n) : stage(ctx, set, 5, EP.n);
   centerpiece(ctx, set, 9, 1, 610, 380);
   const pa = pose('A', 9, 9), pb = pose('B', 9, 9);
   pa.expr = 'shock'; pb.expr = 'joy'; pa.fxT = pb.fxT = 1; pa.tl = pb.tl = 0.6; pa.mouth = 0.5; pb.mouth = 0.7;
@@ -213,5 +215,5 @@ function thumbnail(ctx, set) {
   const fy = fit(ctx, ys, '{px}px Slab', 78, 150, 1, 30);
   text(ctx, ys, 960, 955, { font: fy.font, fill: PAL.ink, plate: set.acc, align: 'center' });
   ctx.restore();
-  paperFinish(ctx, W, H, 1);
+  if (st.post) st.post(ctx, 5); else paperFinish(ctx, W, H, 1);
 }

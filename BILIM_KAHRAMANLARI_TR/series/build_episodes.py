@@ -279,6 +279,15 @@ ep("Radyodan Gelen Ritim", "1967", "Jocelyn Bell", "spark", "wind", 3, [
  (B, "Peki Bell'e ne oldu?", "anger"),
  (A, "Bell ödül almadı ama bilim camiası emeğini tanıyor.")])
 
+# --- stil seçimi: konunun duygusuna göre ana stil + bilgi sahnesi (harita/matematik/kronoloji) stili ---
+STYLE = {1: "pixel", 2: "neon", 3: "comic", 4: "goldline", 5: "goldline", 6: "goldline", 7: "flatvector", 8: "cgi", 9: "flatvector",
+         10: "goldline", 11: "lineart", 12: "lego", 13: "flatvector", 14: "comic", 15: "goldline", 16: "goldline", 17: "goldline", 18: "goldline",
+         19: "ps2", 20: "goldline", 21: "lineart", 22: "cgi", 23: "chalkboard", 24: "flatvector", 25: "goldline", 26: "cgi", 27: "chalkboard",
+         28: "lego", 29: "flatvector", 30: "neon"}
+INFO_CHALK = {1, 13, 17, 18, 22, 26, 29, 30, 15, 16, 7, 2}   # harita / sayı / yıldız / kronoloji anları: tebeşir tahtası şeması
+for e in E:
+    e["style"] = STYLE[e["n"]]
+    e["info"] = None if e["style"] in ("chalkboard", "goldline") else ("chalkboard" if e["n"] in INFO_CHALK else "goldline")
 out = pathlib.Path(__file__).with_name("episodes.json")
 out.write_text(json.dumps(dict(series="Bilimin Unutulan Kahramanları", lang="tr", episodes=E), ensure_ascii=False, indent=1), encoding="utf-8")
 print(len(E), "episodes ->", out)

@@ -51,7 +51,9 @@
      "text": "Bilgisayarı bir asır önceden hayal etmiş!",
      "fx": ""
     }
-   ]
+   ],
+   "style": "pixel",
+   "info": "chalkboard"
   },
   {
    "n": 2,
@@ -102,7 +104,9 @@
      "text": "Demek ki fikirler zamanını bekliyor!",
      "fx": ""
     }
-   ]
+   ],
+   "style": "neon",
+   "info": "chalkboard"
   },
   {
    "n": 3,
@@ -153,7 +157,9 @@
      "text": "Ne yazık ki hayır. Meslektaşları fikrini yıllarca reddetti.",
      "fx": "anger"
     }
-   ]
+   ],
+   "style": "comic",
+   "info": "goldline"
   },
   {
    "n": 4,
@@ -204,7 +210,9 @@
      "text": "Bir fikir tüm dünyayı aydınlattı!",
      "fx": ""
     }
-   ]
+   ],
+   "style": "goldline",
+   "info": null
   },
   {
    "n": 5,
@@ -255,7 +263,9 @@
      "text": "Modern sismografın atası bir ejderha!",
      "fx": ""
     }
-   ]
+   ],
+   "style": "goldline",
+   "info": null
   },
   {
    "n": 6,
@@ -306,7 +316,9 @@
      "text": "Demek ki mühendislik çok eski bir sanat!",
      "fx": ""
     }
-   ]
+   ],
+   "style": "goldline",
+   "info": null
   },
   {
    "n": 7,
@@ -357,7 +369,9 @@
      "text": "Bazen insan aklı en güvenilir bilgisayar!",
      "fx": ""
     }
-   ]
+   ],
+   "style": "flatvector",
+   "info": "chalkboard"
   },
   {
    "n": 8,
@@ -408,7 +422,9 @@
      "text": "Bilim, merakla başlar.",
      "fx": ""
     }
-   ]
+   ],
+   "style": "cgi",
+   "info": "goldline"
   },
   {
    "n": 9,
@@ -459,7 +475,9 @@
      "text": "Doğru. Merak ve cesaret, birlikte yürür.",
      "fx": ""
     }
-   ]
+   ],
+   "style": "flatvector",
+   "info": "goldline"
   },
   {
    "n": 10,
@@ -510,7 +528,9 @@
      "text": "Yani fotoğraf makinesinin dedesi!",
      "fx": ""
     }
-   ]
+   ],
+   "style": "goldline",
+   "info": null
   },
   {
    "n": 11,
@@ -561,7 +581,9 @@
      "text": "Bugün onun emeği bilim tarihinde hak ettiği yeri alıyor.",
      "fx": ""
     }
-   ]
+   ],
+   "style": "lineart",
+   "info": "goldline"
   },
   {
    "n": 12,
@@ -612,7 +634,9 @@
      "text": "Bugün dünyanın en ünlü fosil avcılarından biri olarak anılıyor.",
      "fx": ""
     }
-   ]
+   ],
+   "style": "lego",
+   "info": "goldline"
   },
   {
    "n": 13,
@@ -663,7 +687,9 @@
      "text": "Bu işin Nobel'i ona gitmeliydi!",
      "fx": ""
     }
-   ]
+   ],
+   "style": "flatvector",
+   "info": "chalkboard"
   },
   {
    "n": 14,
@@ -714,7 +740,9 @@
      "text": "Çiçek hastalığı 1980'de resmen yok edildi. İnsanlığın en büyük başarılarından biri.",
      "fx": ""
     }
-   ]
+   ],
+   "style": "comic",
+   "info": "goldline"
   },
   {
    "n": 15,
@@ -765,7 +793,9 @@
      "text": "Hiçlik bile büyük iş görmüş!",
      "fx": ""
     }
-   ]
+   ],
+   "style": "goldline",
+   "info": null
   },
   {
    "n": 16,
@@ -816,7 +846,9 @@
      "text": "Her program, onun fikrinin torunu.",
      "fx": ""
     }
-   ]
+   ],
+   "style": "goldline",
+   "info": null
   },
   {
    "n": 17,
@@ -867,7 +899,9 @@
      "text": "Bu eser, denizcilik tarihinin en değerli belgelerinden biri.",
      "fx": ""
     }
-   ]
+   ],
+   "style": "goldline",
+   "info": null
   },
   {
    "n": 18,
@@ -918,7 +952,9 @@
      "text": "Yıldızları saymak sultanlara yakışır!",
      "fx": ""
     }
-   ]
+   ],
+   "style": "goldline",
+   "info": null
   },
   {
    "n": 19,
@@ -969,7 +1005,9 @@
      "text": "Turing aynı zamanda bilgisayar biliminin kurucularından biri sayılır.",
      "fx": ""
     }
-   ]
+   ],
+   "style": "ps2",
+   "info": "goldline"
   },
   {
    "n": 20,
@@ -1020,7 +1058,9 @@
      "text": "Bilgi artık herkese ulaşabilirdi.",
      "fx": ""
     }
-   ]
+   ],
+   "style": "goldline",
+   "info": null
   },
   {
    "n": 21,
@@ -1071,7 +1111,9 @@
      "text": "Doğru. Kendi gözlemine inanmak bazen yıllar sürer.",
      "fx": ""
     }
-   ]
+   ],
+   "style": "lineart",
+   "info": "goldline"
   },
   {
    "n": 22,
@@ -1122,7 +1164,9 @@
      "text": "Mikroplara karşı büyük bir kahraman!",
      "fx": ""
     }
-   ]
+   ],
+   "style": "cgi",
+   "info": "chalkboard"
   },
   {
    "n": 23,
@@ -1173,7 +1217,9 @@
      "text": "Matematik de ülkeyi gururlandırıyor!",
      "fx": ""
     }
-   ]
+   ],
+   "style": "chalkboard",
+   "info": null
   },
   {
    "n": 24,
@@ -1224,7 +1270,9 @@
      "text": "Merak ve emek, sınır tanımaz.",
      "fx": ""
     }
-   ]
+   ],
+   "style": "flatvector",
+   "info": "goldline"
   },
   {
    "n": 25,
@@ -1275,7 +1323,9 @@
      "text": "Bilgi, kuşaktan kuşağa taşınır.",
      "fx": ""
     }
-   ]
+   ],
+   "style": "goldline",
+   "info": null
   },
   {
    "n": 26,
@@ -1326,7 +1376,9 @@
      "text": "Bir teleskop, bir devrim!",
      "fx": ""
     }
-   ]
+   ],
+   "style": "cgi",
+   "info": "chalkboard"
   },
   {
    "n": 27,
@@ -1377,7 +1429,9 @@
      "text": "Sonuç gerçeğe şaşırtıcı derecede yakındı.",
      "fx": ""
     }
-   ]
+   ],
+   "style": "chalkboard",
+   "info": null
   },
   {
    "n": 28,
@@ -1428,7 +1482,9 @@
      "text": "Bilim, deneme yanılmayı disipline eder.",
      "fx": ""
     }
-   ]
+   ],
+   "style": "lego",
+   "info": "goldline"
   },
   {
    "n": 29,
@@ -1479,7 +1535,9 @@
      "text": "2015'te Tıp Nobel Ödülü'nü aldı.",
      "fx": ""
     }
-   ]
+   ],
+   "style": "flatvector",
+   "info": "chalkboard"
   },
   {
    "n": 30,
@@ -1530,7 +1588,9 @@
      "text": "Bell ödül almadı ama bilim camiası emeğini tanıyor.",
      "fx": ""
     }
-   ]
+   ],
+   "style": "neon",
+   "info": "chalkboard"
   }
  ]
 }
