@@ -1,0 +1,90 @@
+name: render
+# Année 1970: 30 episodes (ep01..ep30) rendered in parallel on GitHub's own ubuntu-latest runners.
+# Run: Actions > render > Run workflow   (episodes: "all" or e.g. "ep01,ep02")
+on:
+  workflow_dispatch:
+    inputs:
+      episodes:
+        description: 'all, or a comma list like ep01,ep02'
+        default: 'all'
+      max_parallel:
+        description: 'parallel jobs (private repo: keep <= 10)'
+        default: '10'
+
+permissions:
+  contents: write
+
+jobs:
+  prep:
+    runs-on: ubuntu-latest
+    timeout-minutes: 15
+    outputs:
+      matrix: ${{ steps.m.outputs.matrix }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - id: m
+        env:
+          SEL: ${{ github.event.inputs.episodes }}
+        run: |
+          python3 - <<'PY' >> "$GITHUB_OUTPUT"
+          import json, os
+          sel = os.environ.get("SEL", "all").strip() or "all"
+          eps = [f"ep{i:02d}" for i in range(1, 31)]
+          if sel != "all":
+              want = [x.strip() for x in sel.split(",")]
+              eps = [e for e in eps if e in want]
+          print("matrix=" + json.dumps({"ep": eps}))
+          PY
+      - name: Wikimedia Commons CC0 instrumental catalogue (one job, rate-limit friendly)
+        run: |
+          mkdir -p series/build
+          python3 scripts/music.py catalog series/build/music_catalog.json || echo '[]' > series/build/music_catalog.json
+      - uses: actions/upload-artifact@v4
+        with:
+          name: music-catalog
+          path: series/build/music_catalog.json
+
+  render:
+    needs: prep
+    runs-on: ubuntu-latest
+    timeout-minutes: 60
+    strategy:
+      fail-fast: false
+      max-parallel: ${{ fromJSON(github.event.inputs.max_parallel || '10') }}
+      matrix: ${{ fromJSON(needs.prep.outputs.matrix) }}
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with: { node-version: '22', cache: npm }
+      - uses: actions/setup-python@v5
+        with: { python-version: '3.12' }
+      - name: Tools (ffmpeg 7 static, edge-tts, headless Chromium)
+        run: |
+          npm ci
+          pip install edge-tts
+          curl -sSL https://johnvansickle.com/ffmpeg/releases/ffmpeg-release-amd64-static.tar.xz | tar -xJ
+          sudo cp ffmpeg-*-static/ffmpeg ffmpeg-*-static/ffprobe /usr/local/bin/
+          ffmpeg -version | head -1
+          npx playwright-core install --with-deps chromium-headless-shell
+      - uses: actions/download-artifact@v4
+        with:
+          name: music-catalog
+          path: series/build
+      - name: Build ${{ matrix.ep }} (voice, music, ambience, render, mux, 14 languages)
+        run: sh scripts/build_episode.sh ${{ matrix.ep }}
+      - name: Publish GitHub Release ${{ matrix.ep }}
+        env:
+          GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: |
+          EP=${{ matrix.ep }}; TAG="annee1970-$EP"
+          TITLE=$(python3 -c "import json;m=json.load(open('dist/$EP/$EP.metadata.json'));print('Année 1970 · Épisode %02d/30 · %s' % (m['episode'], m['title']))")
+          gh release delete "$TAG" --yes --cleanup-tag 2>/dev/null || true
+          gh release create "$TAG" dist/$EP/* --title "$TITLE" --notes-file dist/$EP/notes.md --target "${{ github.sha }}"
+      - uses: actions/upload-artifact@v4
+        if: always()
+        with:
+          name: ${{ matrix.ep }}-dist
+          path: dist/${{ matrix.ep }}
+          retention-days: 3

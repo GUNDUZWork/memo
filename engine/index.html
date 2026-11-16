@@ -1,0 +1,724 @@
+<!doctype html>
+<html lang="fr">
+<head>
+<meta charset="utf-8">
+<title>Année 1970</title>
+<link rel="stylesheet" href="fonts.css">
+<style>
+  html, body { margin: 0; overflow: hidden; background: #F4ECDD; }
+  #root { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; transform-origin: 0 0; }
+  svg, canvas { position: absolute; left: 0; top: 0; width: 1920px; height: 1080px; }
+  #paper { mix-blend-mode: multiply; pointer-events: none; }
+  #fx { pointer-events: none; }
+  .mul { mix-blend-mode: multiply; }
+</style>
+</head>
+<body>
+<div id="root">
+<svg id="stage" viewBox="0 0 1920 1080" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <!-- line boil (new seed every 0.1 s), used on the puppets only -->
+    <filter id="boil" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence id="boilT" type="fractalNoise" baseFrequency="0.022" numOctaves="2" seed="1" result="w"/>
+      <feDisplacementMap in="SourceGraphic" in2="w" scale="5" xChannelSelector="R" yChannelSelector="G"/>
+    </filter>
+    <filter id="stampInk" x="-10%" y="-10%" width="120%" height="120%">
+      <feTurbulence type="fractalNoise" baseFrequency="0.04" numOctaves="3" seed="11" result="w"/>
+      <feDisplacementMap in="SourceGraphic" in2="w" scale="7" xChannelSelector="R" yChannelSelector="G" result="d"/>
+      <feTurbulence type="fractalNoise" baseFrequency="0.55" numOctaves="3" seed="21" result="g"/>
+      <feColorMatrix in="g" type="matrix" values="0 0 0 0 0  0 0 0 0 0  0 0 0 0 0  0 0 0 -9 5.9" result="gm"/>
+      <feComposite in="d" in2="gm" operator="in"/>
+    </filter>
+    <clipPath id="frameClip"><rect width="1920" height="1080"/></clipPath>
+  </defs>
+  <g clip-path="url(#frameClip)">
+    <g id="cam"><g id="world"></g></g>
+    <g id="hud"></g>
+    <g id="wipe"></g>
+    <rect id="flash" width="1920" height="1080" fill="#FFFFFF" opacity="0"/>
+    <rect id="fade" width="1920" height="1080" fill="#1D2340" opacity="0"/>
+  </g>
+</svg>
+<canvas id="paper" width="1920" height="1080"></canvas>
+<canvas id="fx" width="1920" height="1080"></canvas>
+</div>
+
+<script>
+// ============================================================================
+// Année 1970: one page, one episode. Look = Lemo-Opuscar "Halftone Dossier" and
+// "Mid-century Cartoon" (see LEMO_STYLE.md). Code-drawn, no images, no AI art.
+// Reads  ../series/build/<ep>.timeline.json  (made by scripts/timeline.py)
+// Page contract: window.READY, window.DUR, window.render(t)  (core/README.md)
+// Engine helpers adapted from the Lemo-Opuscar halftone-dossier demo (MIT).
+// ============================================================================
+const NS = 'http://www.w3.org/2000/svg';
+const FPS = 24;
+const clamp = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x));
+const seg = (t, a, b) => clamp((t - a) / (b - a));
+const lerp = (a, b, p) => a + (b - a) * p;
+const E = {
+  out: p => 1 - Math.pow(1 - p, 3),
+  in: p => p * p * p,
+  io: p => p < .5 ? 4 * p * p * p : 1 - Math.pow(-2 * p + 2, 3) / 2,
+  back: p => { const c = 1.9; return 1 + (c + 1) * Math.pow(p - 1, 3) + c * Math.pow(p - 1, 2); },
+};
+function rng(seed) { return () => { seed |= 0; seed = seed + 0x6D2B79F5 | 0; let t = Math.imul(seed ^ seed >>> 15, 1 | seed); t = t + Math.imul(t ^ t >>> 7, 61 | t) ^ t; return ((t ^ t >>> 14) >>> 0) / 4294967296; }; }
+function el(tag, attrs = {}, parent) {
+  const e = document.createElementNS(NS, tag);
+  for (const k in attrs) e.setAttribute(k, attrs[k]);
+  if (parent) parent.appendChild(e);
+  return e;
+}
+const txt = (parent, str, attrs) => { const e = el('text', attrs, parent); e.textContent = str; return e; };
+const tf = (e, x = 0, y = 0, s = 1, r = 0, sy) => e.setAttribute('transform', `translate(${x.toFixed(2)} ${y.toFixed(2)}) rotate(${r.toFixed(3)}) scale(${s.toFixed(4)} ${(sy ?? s).toFixed(4)})`);
+const op = (e, o) => e.setAttribute('opacity', clamp(o).toFixed(3));
+const show = (e, v) => { e.style.display = v ? '' : 'none'; };
+const mctx = document.createElement('canvas').getContext('2d');
+const measure = (s, size, fam, w = 900) => { mctx.font = `${w} ${size}px ${fam}`; return mctx.measureText(s).width; };
+
+// ---------------------------------------------------------------- themes
+const THEMES = {
+  halftone: { // Halftone Dossier: cream archive paper, Ben-Day dots, rubber stamps
+    paper: '#F4ECDD', ink: '#1D2340', a: '#2E55D6', b: '#FF5A87', c: '#FFC628', d: '#F58A34',
+    red: '#E8384F', cream: '#FFF4E2', mint: '#56C29E', night: '#18203F', skin: '#F7C9A1',
+    fields: ['#F4ECDD', '#FFE3A3', '#CFE0F7', '#FFD3DC', '#DDEFD9'],
+    lw: 7, cel: false, wipe: 'dots',
+  },
+  midcentury: { // Mid-century Cartoon: flat cels printed off-register, teal/coral/mustard
+    paper: '#F2E8D0', ink: '#2B2A33', a: '#1F8A8A', b: '#E4572E', c: '#F3B83D', d: '#7A9E3B',
+    red: '#D8452B', cream: '#FBF3DF', mint: '#6DB9A5', night: '#23303B', skin: '#F2C9A2',
+    fields: ['#F2E8D0', '#BFE0D8', '#F8D9A0', '#F4C3B0', '#CFE1A8'],
+    lw: 5, cel: true, wipe: 'slide',
+  },
+};
+const FONT = { head: "'Alfa Slab One', 'Rockwell', 'DejaVu Serif', serif", sans: "'DM Sans', 'Helvetica Neue', 'DejaVu Sans', sans-serif", mono: "'Courier Prime', 'DejaVu Sans Mono', monospace" };
+
+let TH, TL, SEED = 1;
+const cels = []; // [{fill: element, seed}] for off-register jitter (midcentury)
+
+// shape helper: ink outline always; fill printed off-register in the mid-century theme
+function shape(parent, tag, attrs, fill, sw) {
+  const w = sw ?? TH.lw;
+  if (TH.cel && fill && fill !== 'none') {
+    const f = el(tag, { ...attrs, fill, stroke: 'none' }, parent);
+    cels.push({ f });
+    return el(tag, { ...attrs, fill: 'none', stroke: TH.ink, 'stroke-width': w, 'stroke-linejoin': 'round', 'stroke-linecap': 'round' }, parent);
+  }
+  return el(tag, { ...attrs, fill: fill ?? 'none', stroke: TH.ink, 'stroke-width': w, 'stroke-linejoin': 'round', 'stroke-linecap': 'round' }, parent);
+}
+const path = (p, d, fill, sw) => shape(p, 'path', { d }, fill, sw);
+const circ = (p, cx, cy, r, fill, sw) => shape(p, 'circle', { cx, cy, r }, fill, sw);
+const ell = (p, cx, cy, rx, ry, fill, sw) => shape(p, 'ellipse', { cx, cy, rx, ry }, fill, sw);
+const rect = (p, x, y, w, h, rx, fill, sw) => shape(p, 'rect', { x, y, width: w, height: h, rx }, fill, sw);
+
+// halftone dots: f(x,y) -> 0..1 dot size
+function halftone(parent, { x0, y0, w, h, step = 26, angle = 15, color, f, maxK = 0.62 }) {
+  const a = angle * Math.PI / 180, ca = Math.cos(a), sa = Math.sin(a);
+  const n = Math.ceil(Math.hypot(w, h) / step / 2) + 2;
+  let d = '';
+  for (let i = -n; i <= n; i++) for (let j = -n; j <= n; j++) {
+    const u = i * step, v = j * step;
+    const x = x0 + w / 2 + u * ca - v * sa, y = y0 + h / 2 + u * sa + v * ca;
+    if (x < x0 || x > x0 + w || y < y0 || y > y0 + h) continue;
+    const s = clamp(f(x, y)); if (s < 0.06) continue;
+    const r = s * step * maxK;
+    d += `M${(x - r).toFixed(1)} ${y.toFixed(1)}a${r.toFixed(1)} ${r.toFixed(1)} 0 1 0 ${(2 * r).toFixed(1)} 0a${r.toFixed(1)} ${r.toFixed(1)} 0 1 0 ${(-2 * r).toFixed(1)} 0`;
+  }
+  return el('path', { d, fill: color }, parent);
+}
+const radial = (cx, cy, R, pw = 1.2) => (x, y) => Math.pow(clamp(1 - Math.hypot(x - cx, y - cy) / R), pw);
+
+// ---------------------------------------------------------------- motifs (code-drawn, ~420 px box, centred on 0,0)
+const MOTIFS = {
+  rocket(g) {
+    path(g, 'M-50 70 L-125 175 L-45 140Z M50 70 L125 175 L45 140Z', TH.red);
+    path(g, 'M0 -215 C85 -140 85 40 50 135 L-50 135 C-85 40 -85 -140 0 -215Z', TH.cream);
+    path(g, 'M0 -215 C45 -175 62 -145 66 -118 L-66 -118 C-62 -145 -45 -175 0 -215Z', TH.red);
+    circ(g, 0, -40, 34, TH.a); circ(g, -8, -50, 9, TH.cream, 0);
+    path(g, 'M-34 142 Q0 270 34 142Z', TH.c);
+  },
+  jet(g) {
+    path(g, 'M-40 -10 L-150 -150 L-95 -150 L40 -10Z', TH.a);
+    path(g, 'M-40 20 L-150 160 L-95 160 L40 20Z', TH.a);
+    path(g, 'M-230 0 C-230 -34 -170 -44 -60 -44 L150 -44 C215 -44 250 -14 258 6 C250 28 215 40 150 40 L-60 40 C-170 40 -230 34 -230 0Z', TH.cream);
+    path(g, 'M-230 -6 L-290 -110 L-235 -110 L-165 -40Z', TH.red);
+    for (let i = 0; i < 7; i++) circ(g, -90 + i * 36, -10, 9, TH.a, 3);
+    path(g, 'M170 -24 Q215 -20 240 4 L170 6Z', TH.a);
+  },
+  sub(g) {
+    path(g, 'M-40 -70 L-40 -125 L25 -125 L25 -70Z', TH.d);
+    path(g, 'M25 -110 L70 -110 M-10 -125 L-10 -165 L25 -165', 'none');
+    ell(g, 0, 0, 250, 78, TH.c);
+    circ(g, -110, 4, 24, TH.cream); circ(g, -40, 4, 24, TH.cream); circ(g, 30, 4, 24, TH.cream);
+    path(g, 'M-250 0 L-300 -42 L-300 42Z', TH.c);
+    path(g, 'M-262 -30 Q-310 0 -262 30', 'none');
+    path(g, 'M-330 120 q20 -22 40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0', 'none', 8);
+  },
+  ship(g) {
+    path(g, 'M-250 30 L250 30 L190 130 L-190 130Z', TH.red);
+    rect(g, -120, -60, 220, 90, 8, TH.cream);
+    rect(g, -60, -130, 100, 70, 8, TH.cream);
+    rect(g, 30, -190, 44, 62, 6, TH.c); rect(g, 30, -190, 44, 18, 4, TH.ink);
+    for (let i = 0; i < 5; i++) circ(g, -90 + i * 44, -20, 10, TH.a, 3);
+    path(g, 'M-290 160 q20 -22 40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0 t40 0', 'none', 8);
+  },
+  ball(g) {
+    circ(g, 0, 0, 200, TH.cream);
+    path(g, 'M0 -62 L59 -19 L36 50 L-36 50 L-59 -19Z', TH.ink);
+    path(g, 'M0 -62 L0 -198 M59 -19 L190 -62 M36 50 L112 164 M-36 50 L-112 164 M-59 -19 L-190 -62', 'none', 6);
+    path(g, 'M0 -198 L70 -150 L112 -150 L190 -62 M-190 -62 L-112 -150 L-70 -150 L0 -198', 'none', 0);
+  },
+  bike(g) {
+    circ(g, -150, 60, 105, 'none'); circ(g, 150, 60, 105, 'none');
+    circ(g, -150, 60, 10, TH.ink, 0); circ(g, 150, 60, 10, TH.ink, 0);
+    path(g, 'M-150 60 L-40 60 L-70 -70 L100 -70 L150 60 M-40 60 L100 -70 M-70 -70 L-90 -110 M100 -70 L90 -140 L140 -150', 'none', 10);
+    path(g, 'M-115 -112 L-62 -112', 'none', 12);
+    path(g, 'M-40 60 L-26 100', 'none', 10);
+    circ(g, -40, 60, 24, TH.c);
+  },
+  guitar(g) {
+    g.setAttribute('transform', 'rotate(-35)');
+    path(g, 'M-10 -250 L10 -250 L10 -60 L-10 -60Z', TH.d);
+    rect(g, -22, -295, 44, 55, 8, TH.ink);
+    path(g, 'M0 -70 C70 -70 80 -10 60 20 C110 50 100 170 0 175 C-100 170 -110 50 -60 20 C-80 -10 -70 -70 0 -70Z', TH.d);
+    circ(g, 0, 70, 30, TH.ink, 4);
+    path(g, 'M-40 140 L40 140', 'none', 12);
+    path(g, 'M-4 -240 L-4 140 M4 -240 L4 140', 'none', 2);
+  },
+  globe(g) {
+    circ(g, 0, 0, 200, TH.a);
+    path(g, 'M-60 -150 C-120 -90 -100 -30 -40 -20 C-10 -10 10 -60 40 -80 C60 -120 20 -170 -60 -150Z', TH.mint);
+    path(g, 'M50 20 C120 10 160 60 120 110 C80 170 30 120 50 20Z', TH.mint);
+    path(g, 'M-200 0 L200 0 M0 -200 C-80 -100 -80 100 0 200 C80 100 80 -100 0 -200Z', 'none', 3);
+  },
+  flame(g) {
+    path(g, 'M0 -230 C40 -150 160 -110 150 40 C145 130 80 190 0 190 C-90 190 -150 120 -140 30 C-135 -30 -90 -50 -60 -110 C-30 -60 -20 -130 0 -230Z', TH.d);
+    path(g, 'M0 -90 C30 -40 100 -10 90 60 C85 120 40 150 0 150 C-60 150 -95 100 -85 50 C-80 10 -40 0 -20 -50 C-5 -20 -5 -60 0 -90Z', TH.c);
+    path(g, 'M0 20 C20 50 50 70 45 100 C40 130 0 140 -20 125 C-50 105 -35 60 0 20Z', TH.cream);
+  },
+  wave(g) {
+    path(g, 'M-260 40 C-200 -140 -60 -190 40 -110 C100 -60 70 -10 20 -20 C80 20 130 -10 200 30 L260 130 L-260 130Z', TH.a);
+    path(g, 'M-260 100 q30 -26 60 0 t60 0 t60 0 t60 0 t60 0 t60 0 t60 0 t60 0 t60 0', 'none', 7);
+    path(g, 'M40 -110 Q70 -150 120 -140 Q90 -130 100 -100', 'none', 7);
+  },
+  satellite(g) {
+    g.setAttribute('transform', 'rotate(-25)');
+    rect(g, -60, -50, 120, 100, 14, TH.c);
+    rect(g, -250, -34, 170, 68, 4, TH.a); rect(g, 80, -34, 170, 68, 4, TH.a);
+    path(g, 'M-165 -34 L-165 34 M-208 -34 L-208 34 M-122 -34 L-122 34 M123 -34 L123 34 M165 -34 L165 34 M208 -34 L208 34', 'none', 4);
+    path(g, 'M-80 0 L-60 0 M60 0 L80 0 M0 -50 L0 -110 M-22 -118 Q0 -150 22 -118', 'none', 7);
+    circ(g, 0, 0, 22, TH.cream);
+  },
+  clapper(g) {
+    rect(g, -230, -70, 460, 240, 14, TH.cream);
+    path(g, 'M-230 -70 L-150 -170 L-70 -70 L10 -170 L90 -70 L170 -170 L230 -100 L230 -70Z', TH.ink);
+    path(g, 'M-150 -170 L-190 -70 M10 -170 L-30 -70 M170 -170 L130 -70', 'none', 10);
+    path(g, 'M-190 20 L190 20 M-190 80 L110 80', 'none', 8);
+  },
+  mic(g) {
+    rect(g, -60, -210, 120, 190, 60, TH.cream);
+    path(g, 'M-60 -150 L60 -150 M-60 -110 L60 -110 M-60 -70 L60 -70 M-60 -30 L60 -30', 'none', 4);
+    path(g, 'M-110 -90 C-110 40 110 40 110 -90', 'none', 12);
+    path(g, 'M0 38 L0 150 M-80 150 L80 150', 'none', 14);
+  },
+  tree(g) {
+    path(g, 'M-24 40 L-30 190 L30 190 L24 40Z', TH.d);
+    circ(g, 0, -80, 130, TH.mint); circ(g, -100, 10, 90, TH.mint); circ(g, 100, 10, 90, TH.mint);
+    circ(g, -40, -110, 14, TH.cream, 0); circ(g, 70, -30, 12, TH.cream, 0);
+  },
+  record(g) {
+    circ(g, 0, 0, 210, TH.ink);
+    for (const r of [170, 140, 110]) circ(g, 0, 0, r, 'none', 2);
+    circ(g, 0, 0, 70, TH.b); circ(g, 0, 0, 10, TH.cream, 0);
+  },
+  candle(g) {
+    rect(g, -45, -40, 90, 220, 10, TH.cream);
+    path(g, 'M0 -50 L0 -80', 'none', 8);
+    path(g, 'M0 -230 C40 -170 55 -130 25 -90 C10 -75 -10 -75 -25 -90 C-55 -130 -30 -170 0 -230Z', TH.c);
+    path(g, 'M-40 60 Q-30 90 -40 110', 'none', 6);
+  },
+  coin(g) {
+    circ(g, 0, 0, 200, TH.c);
+    circ(g, 0, 0, 160, 'none', 4);
+    txt(g, '€', { x: 0, y: 55, 'font-size': 190, 'font-family': FONT.head, 'text-anchor': 'middle', fill: TH.ink });
+  },
+  crowd(g) {
+    for (const [x, y, c] of [[-170, 40, TH.b], [170, 40, TH.a], [-60, 0, TH.c], [60, 0, TH.d], [0, -60, TH.red]]) {
+      path(g, `M${x - 56} ${y + 150} C${x - 56} ${y + 60} ${x + 56} ${y + 60} ${x + 56} ${y + 150}Z`, c);
+      circ(g, x, y + 20, 38, TH.skin);
+    }
+  },
+  ballot(g) {
+    rect(g, -160, -20, 320, 190, 16, TH.a);
+    path(g, 'M-90 -20 L90 -20', 'none', 3);
+    rect(g, -80, -35, 160, 20, 4, TH.ink, 4);
+    path(g, 'M-70 -70 L70 -70 L70 -120 L-70 -120Z', TH.cream);
+    path(g, 'M-40 -95 L-15 -75 L40 -135', 'none', 9);
+  },
+  bolt(g) {
+    path(g, 'M30 -230 L-110 30 L-10 30 L-50 220 L130 -50 L20 -50 L80 -230Z', TH.c);
+  },
+  cyclone(g) {
+    path(g, 'M0 0 m-20 0 a20 20 0 0 1 40 0 a50 50 0 0 1 -100 0 a90 90 0 0 1 180 0 a130 130 0 0 1 -260 0 a170 170 0 0 1 340 0', 'none', 14);
+    circ(g, 0, 0, 12, TH.ink, 0);
+  },
+  dove(g) {
+    path(g, 'M-190 40 C-130 -20 -60 -20 -20 10 C-40 -60 20 -120 100 -110 C60 -90 70 -60 90 -40 C130 -20 200 -20 220 -60 C210 20 150 70 60 70 L-10 120 L-20 70 C-90 90 -150 80 -190 40Z', TH.cream);
+    circ(g, 140, -50, 8, TH.ink, 0);
+    path(g, 'M215 -62 L250 -50 L215 -42', TH.c, 4);
+  },
+  paper(g) {
+    rect(g, -190, -200, 380, 400, 8, TH.cream);
+    rect(g, -150, -165, 300, 70, 4, TH.ink, 0);
+    for (let i = 0; i < 5; i++) path(g, `M-150 ${-60 + i * 38} L${i % 2 ? 90 : 150} ${-60 + i * 38}`, 'none', 7);
+    rect(g, 40, 70, 110, 90, 4, TH.b, 4);
+  },
+  tower(g) {
+    path(g, 'M-110 200 L-26 -150 L26 -150 L110 200Z', TH.d);
+    path(g, 'M-26 -150 L0 -230 L26 -150', TH.d);
+    path(g, 'M-86 110 L86 110 M-58 20 L58 20 M-40 -60 L40 -60', 'none', 7);
+    path(g, 'M-60 200 Q0 90 60 200', 'none', 7);
+  },
+  mountain(g) {
+    path(g, 'M-280 150 L-110 -120 L-40 -30 L70 -210 L280 150Z', TH.d);
+    path(g, 'M70 -210 L20 -120 L50 -100 L75 -130 L100 -95 L130 -120Z', TH.cream);
+    path(g, 'M-110 -120 L-150 -50 L-110 -60 L-70 -50Z', TH.cream);
+    path(g, 'M-280 150 Q0 100 280 150', 'none', 6);
+  },
+
+};
+
+// ---------------------------------------------------------------- puppets
+// Puppet = code-drawn character. Physics: breathing, hop + 2-3% lean while talking, walk-in with steps,
+// shock / anger shake, turning to face whoever speaks.
+function makePuppet(look) {
+  const P = { look };
+  const lw = TH.lw;
+  P.root = el('g', {});
+  P.shadow = el('ellipse', { cx: 0, cy: 6, rx: 110, ry: 16, fill: TH.ink, opacity: 0.22 }, P.root);
+  P.lean = el('g', {}, P.root);
+  P.body = el('g', {}, P.lean);
+  const b = P.body;
+  P.legL = el('g', {}, b); P.legR = el('g', {}, b);
+  for (const [g, sx] of [[P.legL, -1], [P.legR, 1]]) {
+    rect(g, -22 + sx * 0, -90, 44, 86, 14, look.pants);
+    ell(g, 6, -6, 40, 17, look.shoe);
+  }
+  tf(P.legL, -40, 0); tf(P.legR, 40, 0);
+  P.armB = el('g', {}, b); // back arm
+  P.torso = el('g', {}, b);
+  path(P.torso, 'M-95 -90 C-105 -190 -100 -250 -70 -285 L70 -285 C100 -250 105 -190 95 -90Z', look.coat);
+  if (look.tie) { path(P.torso, 'M-14 -285 L14 -285 L22 -160 L0 -140 L-22 -160Z', look.tie, 4); }
+  if (look.scarf) { path(P.torso, 'M-78 -292 Q0 -250 78 -292 L72 -262 Q0 -228 -72 -262Z', look.scarf, 4); }
+  path(P.torso, 'M-40 -285 L0 -230 L40 -285', 'none', 4);
+  P.armF = el('g', {}, b); // front arm
+  for (const [g, c] of [[P.armB, look.coat], [P.armF, look.coat]]) {
+    rect(g, -17, -10, 34, 150, 17, c);
+    circ(g, 0, 150, 22, look.skin);
+  }
+  if (look.mic) { const m = el('g', { transform: 'translate(0 150)' }, P.armF); rect(m, -9, -44, 18, 60, 6, TH.ink, 3); circ(m, 0, -56, 18, TH.cream, 4); }
+  tf(P.armB, -92, -270); tf(P.armF, 92, -270);
+  P.neck = rect(b, -22, -322, 44, 44, 10, look.skin, 5);
+  P.head = el('g', {}, b);
+  const h = P.head;
+  // hair back
+  if (look.hair === 'bob') path(h, 'M-86 -20 C-96 -120 -60 -140 0 -140 C60 -140 96 -120 86 -20 L90 50 L-90 50Z', look.hairC);
+  ell(h, 0, 0, 78, 88, look.skin);
+  P.face = el('g', {}, h); // features slide with 'turn'
+  P.eyes = [];
+  for (const sx of [-1, 1]) {
+    const e = el('g', { transform: `translate(${sx * 30} -8)` }, P.face);
+    ell(e, 0, 0, 17, 20, TH.cream, 4);
+    const pupil = el('g', {}, e);
+    circ(pupil, 0, 2, 8, TH.ink, 0);
+    const lid = el('rect', { x: -19, y: -23, width: 38, height: 0, fill: look.skin }, e);
+    const brow = el('path', { d: 'M-18 -30 L18 -30', stroke: TH.ink, 'stroke-width': 7, 'stroke-linecap': 'round', fill: 'none' }, e);
+    P.eyes.push({ e, pupil, lid, brow, sx });
+  }
+  path(P.face, 'M-8 14 Q0 26 8 14', 'none', 4);
+  P.mouthC = el('path', { d: 'M-22 44 Q0 54 22 44', stroke: TH.ink, 'stroke-width': 6, 'stroke-linecap': 'round', fill: 'none' }, P.face);
+  P.mouthO = el('ellipse', { cx: 0, cy: 46, rx: 17, ry: 4, fill: TH.ink }, P.face);
+  el('ellipse', { cx: -52, cy: 28, rx: 14, ry: 8, fill: TH.b, opacity: 0.55 }, P.face);
+  el('ellipse', { cx: 52, cy: 28, rx: 14, ry: 8, fill: TH.b, opacity: 0.55 }, P.face);
+  P.flush = el('ellipse', { cx: 0, cy: 10, rx: 70, ry: 80, fill: TH.red, opacity: 0 }, P.face);
+  if (look.glasses) { circ(P.face, -30, -8, 26, 'none', 5); circ(P.face, 30, -8, 26, 'none', 5); path(P.face, 'M-4 -8 L4 -8', 'none', 5); }
+  // hair front
+  if (look.hair === 'bob') path(h, 'M-84 -10 C-100 -110 -50 -128 0 -128 C60 -128 100 -110 84 -10 C60 -60 20 -78 -10 -78 C-40 -78 -70 -50 -84 -10Z', look.hairC);
+  else if (look.hair === 'bald') path(h, 'M-80 -30 C-70 -92 70 -92 80 -30 C70 -64 -70 -64 -80 -30Z', look.hairC, 4);
+  else path(h, 'M-80 -20 C-90 -110 -40 -118 0 -112 C50 -118 90 -110 80 -20 C60 -60 30 -66 0 -62 C-30 -66 -60 -60 -80 -20Z', look.hairC);
+  if (look.hat) { path(h, 'M-100 -66 L100 -66 L90 -80 L-90 -80Z', look.hat); path(h, 'M-62 -80 C-62 -150 62 -150 62 -80Z', look.hat); }
+  P.hx = 0;
+  return P;
+}
+const WALK_SPEED = 2.3;
+// state: {x, floor, speak(0..1), turn(-1..1), dir(+1/-1 side to lean toward), mood, moodT, walk(0..1 amount), t, phase}
+function poseRoot(P, S) {
+  const t = S.t, ph = P.look.phase;
+  const breath = 1 + 0.018 * Math.sin(2 * Math.PI * 0.32 * t + ph) * (S.mood === 'sad' ? 0.6 : 1);
+  const talking = S.speak;
+  const hopFreq = 2.6;
+  const hop = (Math.abs(Math.sin(Math.PI * hopFreq * t + ph)) * 15 + 3) * talking;
+  // steps while walking
+  const step = Math.abs(Math.sin(Math.PI * WALK_SPEED * t + ph)) * 16 * S.walk;
+  // shake: shock = short damped, anger = sustained jitter
+  let sx = 0, sy = 0, pop = 1;
+  const tau = S.moodT;
+  if (S.mood === 'shock' && tau >= 0 && tau < 0.7) { sx = 14 * Math.exp(-5 * tau) * Math.sin(70 * tau); sy = -22 * Math.exp(-7 * tau) * Math.abs(Math.cos(18 * tau)); pop = 1 + 0.07 * Math.exp(-6 * tau); }
+  if (S.mood === 'anger' && tau >= 0) { const k = Math.min(1, tau * 6) * (S.speak > 0.1 ? 1 : 0.5); sx = 5 * k * Math.sin(95 * t + ph); sy = -3 * k * Math.sin(83 * t); }
+  if (S.mood === 'joy' && tau >= 0 && tau < 1.2) sy -= 18 * Math.abs(Math.sin(tau * 9)) * Math.exp(-1.5 * tau);
+  const lean = (2.6 * talking + 0.6 * Math.sin(2 * Math.PI * 0.27 * t + ph)) * S.dir + (S.mood === 'sad' ? -1.5 * S.dir : 0) - S.walk * 3 * S.dir;
+  const squash = 1 + 0.012 * talking * Math.sin(Math.PI * hopFreq * 2 * t);
+  P.root.setAttribute('transform', `translate(${(S.x + sx).toFixed(2)} ${(S.floor + sy).toFixed(2)}) scale(${S.scale * pop})`);
+  P.shadow.setAttribute('rx', (112 - hop * 1.2 - step).toFixed(1));
+  P.shadow.setAttribute('opacity', (0.24 - (hop + step) * 0.004).toFixed(3));
+  P.lean.setAttribute('transform', `translate(0 ${(-hop - step).toFixed(2)}) rotate(${lean.toFixed(3)})`);
+  P.body.setAttribute('transform', `scale(${(1 / breath * squash).toFixed(4)} ${(breath).toFixed(4)})`);
+  // legs
+  const sw = Math.sin(Math.PI * WALK_SPEED * t + ph) * 22 * S.walk;
+  P.legL.setAttribute('transform', `translate(-40 ${-Math.max(0, sw) * 0.5}) rotate(${sw})`);
+  P.legR.setAttribute('transform', `translate(40 ${-Math.max(0, -sw) * 0.5}) rotate(${-sw})`);
+  // arms
+  const gest = talking * (0.5 + 0.5 * Math.sin(2 * Math.PI * 1.35 * t + ph));
+  const angryRaise = S.mood === 'anger' && S.speak > 0.1 ? 40 : 0;
+  const shockUp = S.mood === 'shock' && tau >= 0 && tau < 1.0 ? 150 * Math.exp(-2 * tau) : 0;
+  const swing = Math.sin(Math.PI * WALK_SPEED * t + ph) * 26 * S.walk;
+  const rise = S.wave * (140 + 25 * Math.sin(2 * Math.PI * 2.2 * t));
+  P.armF.setAttribute('transform', `translate(92 -270) rotate(${(-swing - gest * 70 - angryRaise - shockUp * 0.5 - rise * S.wave).toFixed(2)})`);
+  P.armB.setAttribute('transform', `translate(-92 -270) rotate(${(swing + 4 + (S.mood === 'shock' ? shockUp : 0) * 0.8).toFixed(2)})`);
+  // head
+  const nod = talking * 3 * Math.sin(Math.PI * hopFreq * t + ph + 1) + (S.mood === 'sad' ? 5 : 0);
+  P.head.setAttribute('transform', `translate(${(S.turn * 12).toFixed(2)} -394) rotate(${(nod + S.turn * 3).toFixed(2)})`);
+  P.face.setAttribute('transform', `translate(${(S.turn * 26).toFixed(2)} 0) scale(${(1 - Math.abs(S.turn) * 0.1).toFixed(3)} 1)`);
+  // eyes: blink, look, mood
+  const blinkT = (t + ph * 2) % 3.4; const blink = blinkT < 0.14 ? Math.sin(blinkT / 0.14 * Math.PI) : 0;
+  const wide = S.mood === 'shock' && tau >= 0 && tau < 1.0 ? 1 : 0;
+  for (const e of P.eyes) {
+    e.lid.setAttribute('height', (blink * 42).toFixed(1));
+    e.pupil.setAttribute('transform', `translate(${(S.turn * 6 + S.lookX).toFixed(1)} 0) scale(${wide ? 0.7 : 1})`);
+    e.e.setAttribute('transform', `translate(${e.sx * 30} -8) scale(1 ${wide ? 1.2 : 1})`);
+    const ang = S.mood === 'anger' ? -e.sx * 16 : S.mood === 'sad' ? e.sx * 12 : 0;
+    const by = (S.mood === 'shock' ? -8 : 0) + (S.mood === 'anger' ? 6 : 0);
+    e.brow.setAttribute('transform', `translate(0 ${by}) rotate(${ang})`);
+  }
+  // mouth
+  const open = S.mouth;
+  show(P.mouthO, open > 0.12); show(P.mouthC, open <= 0.12);
+  P.mouthO.setAttribute('ry', (5 + open * 20).toFixed(1));
+  P.mouthO.setAttribute('rx', (13 + open * 8).toFixed(1));
+  op(P.flush, S.mood === 'anger' && tau >= 0 ? 0.35 : 0);
+}
+
+// ---------------------------------------------------------------- stage building
+const world = document.getElementById('world');
+const cam = document.getElementById('cam');
+const hud = document.getElementById('hud');
+const wipeG = document.getElementById('wipe');
+const flash = document.getElementById('flash');
+const fade = document.getElementById('fade');
+const boilT = document.getElementById('boilT');
+let puppets = [], scenes = [], captions = [], shakes = [], dur = 30;
+
+function chars(parent, str, { x, y, size, family, fill, shadow, anchor = 'start' }) {
+  const g = el('g', {}, parent);
+  const arr = [...str];
+  const widths = arr.map(c => measure(c, size, family, 400));
+  const total = widths.reduce((a, b) => a + b, 0);
+  let cx = anchor === 'middle' ? x - total / 2 : x;
+  const items = arr.map((ch, i) => {
+    const cg = el('g', {}, g);
+    const base = { x: 0, y: 0, 'font-size': size, 'font-family': family, 'text-anchor': 'middle' };
+    if (shadow) txt(cg, ch, { ...base, x: shadow.dx, y: shadow.dy, fill: shadow.fill, class: 'mul' });
+    txt(cg, ch, { ...base, fill });
+    const it = { g: cg, x: cx + widths[i] / 2, y, size };
+    cx += widths[i]; tf(cg, it.x, it.y);
+    return it;
+  });
+  return { g, items, total };
+}
+function charsPop(c, t, t0, stagger = 0.035, d = 0.34, from = 50) {
+  c.items.forEach((it, i) => {
+    const s = t0 + i * stagger, p = seg(t, s, s + d);
+    if (t < s) { op(it.g, 0); return; }
+    op(it.g, 1);
+    const sc = E.back(p), h = it.size * 0.35, sq = 1 + 0.25 * Math.sin(p * Math.PI) * (1 - p);
+    it.g.setAttribute('transform', `translate(${it.x} ${it.y + from * (1 - E.out(p))}) translate(0 ${-h}) scale(${(sc / sq).toFixed(3)} ${(sc * sq).toFixed(3)}) translate(0 ${h})`);
+  });
+}
+function fitText(str, size, maxW, fam) { while (size > 40 && measure(str, size, fam, 400) > maxW) size -= 4; return size; }
+function wrap(str, size, maxW, fam, wgt = 700) {
+  const words = str.split(' '), lines = []; let cur = '';
+  for (const w of words) {
+    const test = cur ? cur + ' ' + w : w;
+    if (measure(test, size, fam, wgt) > maxW && cur) { lines.push(cur); cur = w; } else cur = test;
+  }
+  if (cur) lines.push(cur);
+  return lines;
+}
+function stampEl(parent, str, { size = 120, color }) {
+  const g = el('g', {}, parent);
+  const inner = el('g', { filter: 'url(#stampInk)' }, g);
+  const w = measure(str, size, FONT.head, 400) + 90, h = size * 1.1 + 40;
+  el('rect', { x: -w / 2, y: -h / 2, width: w, height: h, rx: 20, fill: 'none', stroke: color, 'stroke-width': 11 }, inner);
+  el('rect', { x: -w / 2 + 20, y: -h / 2 + 20, width: w - 40, height: h - 40, rx: 10, fill: 'none', stroke: color, 'stroke-width': 4 }, inner);
+  txt(inner, str, { x: 0, y: size * 0.36, 'font-size': size, 'font-family': FONT.head, fill: color, 'text-anchor': 'middle' });
+  return { g, w, h };
+}
+function stampAnim(s, t, t0, x, y, rot) {
+  if (t < t0 - 0.09) { op(s.g, 0); return; }
+  const p = seg(t, t0 - 0.09, t0), after = Math.max(0, t - t0);
+  const bounce = 1 + 0.05 * Math.sin(after * 30) * Math.exp(-after * 9);
+  op(s.g, p < 1 ? 0.3 + 0.7 * p : 0.93);
+  tf(s.g, x, y, lerp(2.6, 1, E.in(p)) * bounce, rot);
+}
+
+const MOTIF_SIZE = 1;
+function buildScene(kind, i, t0, t1, ln) {
+  const g = el('g', {}, world); show(g, false);
+  const sc = { g, t0, t1, kind };
+  const rr = rng(SEED * 31 + i * 7);
+  const fieldC = TH.fields[(i + SEED) % TH.fields.length];
+  el('rect', { width: 1920, height: 1080, fill: kind === 'outro' ? TH.night : fieldC }, g);
+  const dark = kind === 'outro';
+  const ink = dark ? TH.cream : TH.ink;
+  // background pattern
+  const cx = 1010, cy = 500;
+  if (TH.cel) {
+    // mid-century: big flat shapes
+    const cols = [TH.a, TH.c, TH.b];
+    for (let k = 0; k < 3; k++) {
+      const c = cols[(i + k) % 3];
+      const cel = el('circle', { cx: 300 + rr() * 1300, cy: 200 + rr() * 500, r: 160 + rr() * 220, fill: c, opacity: dark ? 0.25 : 0.32 }, g);
+      cels.push({ f: cel });
+    }
+  } else {
+    halftone(g, { x0: 0, y0: 0, w: 1920, h: 1080, step: 28, angle: 15, color: dark ? '#3C4A8C' : '#E9B7A0', f: (x, y) => Math.pow(clamp(Math.hypot(x - 960, y - 540) / 1000 - 0.3), 1.4) * 1.2, maxK: 0.55 });
+    halftone(g, { x0: cx - 420, y0: cy - 380, w: 840, h: 760, step: 26, angle: 45, color: dark ? '#2E55D6' : TH.a, f: radial(cx, cy, 420, 1.3), maxK: 0.5 }).setAttribute('opacity', 0.28);
+  }
+  // headline + number + motif
+  sc.parts = {};
+  if (kind === 'line') {
+    const h = (ln.h || '').toUpperCase();
+    const hs = fitText(h, 128, 1150, FONT.head);
+    sc.head = chars(g, h, { x: 90, y: 215, size: hs, family: FONT.head, fill: TH.ink, shadow: { dx: 7, dy: 7, fill: TH.b } });
+    if (ln.n) {
+      const ns = fitText(ln.n, 330, 780, FONT.head);
+      sc.num = el('g', {}, g);
+      txt(sc.num, ln.n, { x: 9, y: 9, 'font-size': ns, 'font-family': FONT.head, 'text-anchor': 'middle', fill: TH.b, class: 'mul' });
+      txt(sc.num, ln.n, { x: 0, y: 0, 'font-size': ns, 'font-family': FONT.head, 'text-anchor': 'middle', fill: TH.a });
+      if (ln.nl) txt(sc.num, ln.nl.toUpperCase(), { x: 0, y: ns * 0.46, 'font-size': 46, 'font-family': FONT.mono, 'font-weight': 700, 'text-anchor': 'middle', fill: TH.ink });
+      sc.numPos = { x: 960, y: ln.m ? 420 : 520 };
+    }
+    const mk = ln.m || TL.motif;
+    if (MOTIFS[mk] && (!ln.n || ln.m)) {
+      sc.motifBox = el('g', {}, g);
+      const mg = el('g', {}, sc.motifBox);
+      MOTIFS[mk](mg);
+      sc.motifPos = { x: 1010, y: ln.n ? 480 : 540, s: ln.n ? 0.78 : 1.05 };
+    }
+    if (ln.stamp) { sc.stamp = stampEl(g, ln.stamp.toUpperCase(), { size: 92, color: TH.red }); sc.stampAt = ln.stampAt ?? (t0 + 1.3); }
+    sc.sub = null;
+    if (ln.sub) { sc.subEl = txt(g, ln.sub, { x: 96, y: 275, 'font-size': 40, 'font-family': FONT.mono, 'font-weight': 700, fill: TH.ink }); }
+  } else if (kind === 'intro') {
+    sc.title = chars(g, 'ANNÉE 1970', { x: 960, y: 250, size: 190, family: FONT.head, fill: TH.ink, shadow: { dx: 9, dy: 9, fill: TH.b }, anchor: 'middle' });
+    const ts = fitText(TL.title.toUpperCase(), 92, 1500, FONT.head);
+    sc.sub1 = chars(g, TL.title.toUpperCase(), { x: 960, y: 372, size: ts, family: FONT.head, fill: TH.a, anchor: 'middle' });
+    sc.sub2 = txt(g, `${TL.dateLabel} · ÉPISODE ${String(TL.n).padStart(2, '0')}/30`, { x: 960, y: 440, 'font-size': 38, 'font-family': FONT.mono, 'font-weight': 700, 'text-anchor': 'middle', fill: TH.ink });
+    sc.stamp = stampEl(g, 'DOSSIER OUVERT', { size: 76, color: TH.red }); sc.stampAt = 2.2;
+  } else {
+    sc.title = chars(g, 'DOSSIER CLASSÉ', { x: 960, y: 260, size: 150, family: FONT.head, fill: TH.cream, shadow: { dx: 8, dy: 8, fill: TH.b }, anchor: 'middle' });
+    const nxt = TL.next ? `À SUIVRE · ÉPISODE ${String(TL.n + 1).padStart(2, '0')} : ${TL.next.toUpperCase()}` : 'FIN DE LA SÉRIE · MERCI D\'AVOIR REGARDÉ';
+    sc.sub2 = txt(g, nxt, { x: 960, y: 350, 'font-size': 38, 'font-family': FONT.mono, 'font-weight': 700, 'text-anchor': 'middle', fill: TH.cream });
+    sc.stamp = stampEl(g, 'ARCHIVÉ', { size: 100, color: TH.red }); sc.stampAt = t0 + 0.6;
+  }
+  // HUD
+  const hg = el('g', {}, g);
+  const chip = (x, s, anchor = 'start', col = ink) => txt(hg, s, { x, y: 62, 'font-size': 26, 'font-family': FONT.mono, 'font-weight': 700, fill: col, 'text-anchor': anchor });
+  chip(60, `DOSSIER N° 1970-${String(TL.n).padStart(2, '0')}`);
+  chip(1860, TL.dateLabel.toUpperCase(), 'end');
+  if (kind === 'line') { /* keep clean */ }
+  return sc;
+}
+function updateScene(sc, t, ln) {
+  const lt = t - sc.t0;
+  if (sc.kind === 'line') {
+    charsPop(sc.head, t, sc.t0 + 0.05);
+    if (sc.num) { const p = seg(t, sc.t0 + 0.1, sc.t0 + 0.55); const s = E.back(p); tf(sc.num, sc.numPos.x, sc.numPos.y, Math.max(0.001, s), -2 * (1 - p)); op(sc.num, seg(t, sc.t0, sc.t0 + 0.1)); }
+    if (sc.motifBox) { const p = seg(t, sc.t0 + 0.12, sc.t0 + 0.6); const s = Math.max(0.001, E.back(p)) * sc.motifPos.s; const wob = Math.sin(t * 2.2) * 1.8; tf(sc.motifBox, sc.motifPos.x, sc.motifPos.y + Math.sin(t * 1.6) * 6, s, wob + (1 - p) * -12); }
+    if (sc.subEl) op(sc.subEl, seg(t, sc.t0 + 0.3, sc.t0 + 0.6));
+    if (sc.stamp) stampAnim(sc.stamp, t, sc.stampAt, 1450, 235, -8);
+  } else if (sc.kind === 'intro') {
+    charsPop(sc.title, t, 0.5, 0.05, 0.4, 70);
+    charsPop(sc.sub1, t, 1.2, 0.025, 0.3, 40);
+    op(sc.sub2, seg(t, 1.8, 2.1));
+    stampAnim(sc.stamp, t, sc.stampAt, 960, 640, -7);
+  } else {
+    charsPop(sc.title, t, sc.t0 + 0.2, 0.04, 0.35, 60);
+    op(sc.sub2, seg(t, sc.t0 + 0.9, sc.t0 + 1.2));
+    stampAnim(sc.stamp, t, sc.stampAt, 960, 560, -9);
+  }
+}
+function buildCaption(ln, i) {
+  const g = el('g', {}, hud); show(g, false);
+  const size = 44, maxW = 1540;
+  const lines = wrap(ln.text, size, maxW, FONT.sans, 700).slice(0, 3);
+  const w = Math.max(...lines.map(s => measure(s, size, FONT.sans, 700)));
+  const hgt = lines.length * size * 1.32 + 36;
+  const y = 1052 - hgt;
+  el('rect', { x: 960 - w / 2 - 34 + 8, y: y + 8, width: w + 68, height: hgt, rx: 14, fill: TH.b, class: 'mul' }, g);
+  el('rect', { x: 960 - w / 2 - 34, y, width: w + 68, height: hgt, rx: 14, fill: TH.ink }, g);
+  lines.forEach((s, k) => txt(g, s, { x: 960, y: y + 18 + (k + 1) * size * 1.32 - 10, 'font-size': size, 'font-family': FONT.sans, 'font-weight': 700, 'text-anchor': 'middle', fill: TH.cream }));
+  return { g, y };
+}
+
+// ---------------------------------------------------------------- paper + grain + dot wipe
+function buildPaper() {
+  const cv = document.getElementById('paper'), ctx = cv.getContext('2d');
+  const r = rng(3);
+  const small = document.createElement('canvas'); small.width = 96; small.height = 54;
+  const sctx = small.getContext('2d'); const sim = sctx.createImageData(96, 54);
+  for (let i = 0; i < sim.data.length; i += 4) { const v = 238 + r() * 17; sim.data[i] = sim.data[i + 1] = sim.data[i + 2] = v; sim.data[i + 3] = 255; }
+  sctx.putImageData(sim, 0, 0);
+  ctx.imageSmoothingEnabled = true; ctx.drawImage(small, 0, 0, 1920, 1080);
+  const base = ctx.getImageData(0, 0, 1920, 1080);
+  for (let i = 0; i < base.data.length; i += 4) {
+    const n = (r() - 0.5) * 24;
+    base.data[i] = clamp(base.data[i] + n, 0, 255); base.data[i + 1] = clamp(base.data[i + 1] + n, 0, 255); base.data[i + 2] = clamp(base.data[i + 2] + n - 5, 0, 255);
+  }
+  ctx.putImageData(base, 0, 0);
+  const gr = ctx.createRadialGradient(960, 540, 420, 960, 540, 1150);
+  gr.addColorStop(0, 'rgba(255,255,255,0)'); gr.addColorStop(1, 'rgba(120,100,80,0.38)');
+  ctx.fillStyle = gr; ctx.fillRect(0, 0, 1920, 1080);
+  ctx.strokeStyle = 'rgba(140,120,100,0.16)'; ctx.lineWidth = 3;
+  ctx.beginPath(); ctx.moveTo(960, 0); ctx.lineTo(962, 1080); ctx.stroke();
+}
+function drawFx(frame) {
+  const cv = document.getElementById('fx'), ctx = cv.getContext('2d');
+  ctx.clearRect(0, 0, 1920, 1080);
+  const r = rng(1000 + Math.floor(frame / 2));
+  ctx.fillStyle = 'rgba(255,248,235,0.75)';
+  for (let i = 0; i < 260; i++) { ctx.beginPath(); ctx.arc(r() * 1920, r() * 1080, 0.6 + r() * 1.6, 0, 7); ctx.fill(); }
+  ctx.fillStyle = 'rgba(29,35,64,0.25)';
+  for (let i = 0; i < 50; i++) { ctx.beginPath(); ctx.arc(r() * 1920, r() * 1080, 0.6 + r() * 1.2, 0, 7); ctx.fill(); }
+}
+let wipeDots = [], wipeBar = null;
+function buildWipe() {
+  if (TH.wipe === 'dots') {
+    const cols = 16, rows = 9, g = el('g', {}, wipeG);
+    for (let r = 0; r < rows; r++) for (let c = 0; c < cols; c++) wipeDots.push({ e: el('circle', { cx: 60 + c * 120, cy: 60 + r * 120, r: 0, fill: TH.ink }, g), c, r });
+  } else {
+    wipeBar = el('rect', { x: 0, y: 0, width: 1920, height: 1080, fill: TH.b }, wipeG);
+  }
+}
+function wipeUpdate(t) {
+  let p = 0, dir = 0;
+  for (const b of TL.bounds) { const d = t - b; if (d > -0.14 && d < 0.2) { p = d < 0 ? seg(d, -0.14, 0) : 1 - seg(d, 0, 0.2); break; } }
+  if (TH.wipe === 'dots') for (const w of wipeDots) w.e.setAttribute('r', (p * 86 * (1 - 0.15 * Math.sin(w.c * 0.8 + w.r))).toFixed(1));
+  else { show(wipeBar, p > 0.001); wipeBar.setAttribute('x', ((1 - E.io(p)) * -1920).toFixed(1)); wipeBar.setAttribute('width', 1920); wipeBar.setAttribute('transform', `translate(${(E.io(p) * 1920 * 0)} 0)`); }
+}
+
+// ---------------------------------------------------------------- build all
+function buildAll() {
+  const lines = TL.lines;
+  // scenes
+  scenes.push(buildScene('intro', 0, 0, lines[0].t0 - 0.1, null));
+  lines.forEach((ln, i) => scenes.push(buildScene('line', i + 1, i === 0 ? lines[0].t0 - 0.1 : ln.t0 - 0.1, i + 1 < lines.length ? lines[i + 1].t0 - 0.1 : ln.t1 + 0.45, ln)));
+  scenes.push(buildScene('outro', lines.length + 1, lines[lines.length - 1].t1 + 0.45, dur, null));
+  scenes.forEach((s, i) => { s.ln = i >= 1 && i <= lines.length ? lines[i - 1] : null; });
+  TL.bounds = scenes.slice(1).map(s => s.t0);
+  captions = lines.map(buildCaption);
+  buildWipe();
+  // puppets (above scenes)
+  const sg = el('g', { filter: 'url(#boil)' }, world);
+  const lA = { pants: TH.ink, shoe: '#4A3B33', coat: TL.look?.A?.coat || '#6A6F7C', hairC: '#C9C9CF', skin: TH.skin, hair: 'cap', glasses: true, tie: TH.b, phase: 0.4 };
+  const lR = { pants: '#3D3A4A', shoe: '#8A3B2A', coat: TL.look?.R?.coat || TH.red, hairC: '#5A3A24', skin: '#F4C7A5', hair: 'bob', scarf: TH.c, mic: true, phase: 2.1 };
+  puppets = [makePuppet(lA), makePuppet(lR)];
+  puppets.forEach(p => sg.appendChild(p.root));
+  // shake events
+  TL.lines.forEach(ln => { if (ln.mood === 'shock') shakes.push([ln.t0, 14, 0.35]); if (ln.mood === 'anger') shakes.push([ln.t0, 9, 0.5]); });
+  shakes.push([lines[lines.length - 1].t1 + 0.6, 10, 0.3]);
+}
+
+function envAt(ln, t) {
+  if (!ln || t < ln.t0 || t > ln.t1) return 0;
+  const k = (t - ln.t0) * ln.envHz, i = Math.floor(k), f = k - i;
+  const a = ln.env[i] ?? 0, b = ln.env[i + 1] ?? 0;
+  return clamp(lerp(a, b, f));
+}
+function lineAt(t) { for (const ln of TL.lines) if (t >= ln.t0 - 0.05 && t <= ln.t1 + 0.12) return ln; return null; }
+
+const POS = { A: 400, R: 1520 };
+function render(t) {
+  const frame = Math.round(t * FPS);
+  boilT.setAttribute('seed', 1 + (Math.floor(t * 8) % 40));
+  // off-register cel jitter on twos (mid-century)
+  if (TH.cel) { const rr = rng(Math.floor(t * 12) + 77); for (const c of cels) c.f.setAttribute('transform', `translate(${(2.5 + (rr() - .5) * 3).toFixed(2)} ${(2.5 + (rr() - .5) * 3).toFixed(2)})`); }
+  let act = null;
+  scenes.forEach(s => { const on = t >= s.t0 && t < s.t1 + (s === scenes[scenes.length - 1] ? 1 : 0); show(s.g, on); if (on) { act = s; updateScene(s, t, s.ln); } });
+  // captions
+  TL.lines.forEach((ln, i) => {
+    const on = t >= ln.t0 - 0.02 && t < ln.t1 + 0.3; show(captions[i].g, on);
+    if (on) { const p = seg(t, ln.t0, ln.t0 + 0.25); op(captions[i].g, p); captions[i].g.setAttribute('transform', `translate(0 ${(24 * (1 - E.out(p))).toFixed(1)})`); }
+  });
+  // puppets
+  const ln = lineAt(t);
+  const who = ln ? ln.who : null;
+  puppets.forEach((p, idx) => {
+    const id = idx === 0 ? 'A' : 'R', other = idx === 0 ? 'R' : 'A';
+    const side = idx === 0 ? 1 : -1; // toward the other puppet
+    // walk-in
+    const w0 = 0.15, w1 = 2.0 + idx * 0.25;
+    const wp = seg(t, w0, w1), startX = idx === 0 ? -260 : 2180;
+    let x = lerp(startX, POS[id], E.out(wp));
+    const walking = wp > 0 && wp < 1 ? 1 : 0;
+    // walk out at the end? (wave instead)
+    const endT = TL.lines[TL.lines.length - 1].t1 + 0.45;
+    const wave = t > endT ? seg(t, endT, endT + 0.3) * (idx === 1 ? 1 : 0) : 0;
+    let turn = 0;
+    if (walking) turn = side * 0.9;
+    else if (who && who !== id) turn = side * 0.85 * E.out(seg(t, ln.t0, ln.t0 + 0.25)); // face the speaker
+    else if (who === id) turn = side * 0.35;
+    else turn = 0;
+    const speak = who === id ? envAt(ln, t) : 0;
+    const speakAmt = who === id ? E.out(seg(t, ln.t0, ln.t0 + 0.12)) * (1 - seg(t, ln.t1, ln.t1 + 0.12)) : 0;
+    let mood = null, moodT = -1;
+    if (ln && ln.mood) { mood = ln.mood; moodT = t - ln.t0; if (who !== id && (mood === 'anger')) mood = 'shock'; }
+    const S = { t, x, floor: 930, scale: 1.12, speak: speakAmt, mouth: speak, turn, dir: side, mood, moodT, walk: walking, wave, lookX: side * 2 * (who && who !== id ? 1 : 0) };
+    poseRoot(p, S);
+  });
+  // camera
+  let dx = 0, dy = 0;
+  for (const [t0, a, d] of shakes) if (t >= t0 && t < t0 + d) { const k = 1 - (t - t0) / d; dx += a * k * k * Math.sin(t * 91 + t0); dy += a * k * k * Math.cos(t * 77 + t0 * 3); }
+  const push = act && act.kind === 'line' ? 1 + 0.025 * seg(t, act.t0, act.t1) : 1;
+  cam.setAttribute('transform', `translate(${(dx + 960 * (1 - push)).toFixed(2)} ${(dy + 540 * (1 - push)).toFixed(2)}) scale(${push.toFixed(4)})`);
+  // flash on shock
+  let fl = 0;
+  TL.lines.forEach(l => { if (l.mood === 'shock' && t >= l.t0 && t < l.t0 + 0.2) fl = Math.max(fl, 0.5 * (1 - (t - l.t0) / 0.2)); });
+  op(flash, fl);
+  op(fade, Math.max(seg(t, dur - 0.5, dur), 1 - seg(t, 0, 0.25)));
+  wipeUpdate(t);
+  drawFx(frame);
+}
+
+async function init() {
+  const q = new URLSearchParams(location.search);
+  const ep = q.get('ep') || 'ep01';
+  const W = parseInt(q.get('w') || String(window.innerWidth || 1920), 10) || 1920;
+  document.getElementById('root').style.transform = `scale(${W / 1920})`;
+  TL = await (await fetch(`../series/build/${ep}.timeline.json`)).json();
+  SEED = TL.n || 1; dur = TL.total; window.DUR = dur;
+  TH = THEMES[TL.style] || THEMES.halftone;
+  document.body.style.background = TH.paper;
+  document.getElementById('fade').setAttribute('fill', TH.night);
+  const fams = ['400 60px "Alfa Slab One"', '700 40px "DM Sans"', '700 30px "Courier Prime"'];
+  const sample = JSON.stringify(TL) + ' ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyzÀÂÄÇÉÈÊËÎÏÔÖÙÛÜŸàâäçéèêëîïôöùûüÿœŒ0123456789 °€\'’«»—–·:';
+  try { await Promise.all(fams.map(f => document.fonts.load(f, sample))); await document.fonts.ready; } catch (e) { console.warn('fonts', e); }
+  buildPaper();
+  buildAll();
+  render(parseFloat(q.get('t') || '0'));
+  window.READY = true;
+}
+window.render = render;
+init();
+</script>
+</body>
+</html>

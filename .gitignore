@@ -1,0 +1,4 @@
+node_modules/
+series/build/
+dist/
+*.part.*
