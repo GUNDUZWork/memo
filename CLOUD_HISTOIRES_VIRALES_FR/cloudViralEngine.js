@@ -24,6 +24,7 @@ const { spawn, spawnSync } = require('child_process');
 const { createCanvas, loadImage } = require('canvas');
 const AI = require('./aiScenes');
 const LEMO_TOON = require('./lemo/cast'); // secours : épisode sans aucune image IA -> style « scifi-toon » (Lemo-Opuscar, code adapté)
+const STY = require('./lemo/styles'); // 10 styles procéduraux (pixel, craie, line art, PS2, comic, flat vector, gold, CGI, lego, néon)
 const LEMO_INFO = require('./lemo/info'); // scènes d'info (cartes, chiffres, courbes) -> style « dataviz »
 const frame = { stamps: 0, safeY: 1e9 }; // état par image : 1 seul tampon, zone sous-titres interdite
 
@@ -516,6 +517,7 @@ function drawBeatImage(ctx, L, img, b, t, f) {
   const shake = fs < 0.28 ? (1 - fs / 0.28) * 16 * u : 0;           // tremblement de coupe
   const ox = -((dw - W) / 2) * 0.6 * px + (hash(f * 3) - 0.5) * 2 * shake;
   const oy = -((dh - H) / 2) * 0.6 * py + (hash(f * 5 + 1) - 0.5) * 2 * shake;
+  ctx.imageSmoothingEnabled = !(STY.current && STY.current.crisp && img.__toon); // pixel art / lego : pas de lissage
   ctx.drawImage(img, (W - dw) / 2 + ox, (H - dh) / 2 + oy, dw, dh);
   if (fs < 0.16) { ctx.fillStyle = `rgba(255,255,255,${0.5 * (1 - fs / 0.16)})`; ctx.fillRect(0, 0, W, H); } // flash
 }
@@ -532,6 +534,7 @@ const assetsRoot = () => path.resolve(process.env.AI_ASSETS_DIR || path.join(ROO
 // Image d'un beat : fichier IA (ou réutilisé) -> Image ; scène d'info -> {info:true} (dessinée en direct) ;
 // épisode entièrement sans image IA -> {toon:[3 canvases]} (3 dessins qui « bouillonnent » à 12 i/s).
 async function loadBeatImage(ep, b) {
+  STY.use(STY.styleFor(ep));
   const [w, h] = AI.SIZE[b.mode === 'short' ? 'short' : 'main'];
   if (b.live === 'info') { b.source = 'lemo:dataviz'; return { info: true, w, h }; }
   if (b.file) { try { return await loadImage(b.file); } catch (e) { b.file = null; b.source = 'lemo:scifi-toon'; } }
@@ -543,8 +546,11 @@ async function loadBeatImage(ep, b) {
 
 // Décor (3 dessins mis en cache) + acteurs animés (marionnette) dessinés à chaque image -> canvas de travail.
 function toonFrame(ep, b, im, st, drawing) {
-  const t = im.toon; const wc = t.work.getContext('2d'); wc.setTransform(1, 0, 0, 1, 0, 0); wc.drawImage(t.backs[drawing], 0, 0);
-  LEMO_TOON.drawToonActors(wc, t.w, t.h, ep, b, drawing, st); return t.work;
+  const t = im.toon; const wc = t.work.getContext('2d'); const sty = STY.current; wc.setTransform(1, 0, 0, 1, 0, 0); wc.globalCompositeOperation = 'source-over'; wc.globalAlpha = 1;
+  if (sty && sty.base) sty.base(wc, t.w, t.h, st, drawing);                                  // fond du style (parallaxe, ardoise, velours, ville…)
+  wc.drawImage(t.backs[drawing], 0, 0); LEMO_TOON.drawToonActors(wc, t.w, t.h, ep, b, drawing, st);
+  if (sty && sty.post) sty.post(wc, t.w, t.h, { ...st, drawing, beatI: b.i, emo: LEMO_TOON.emoOf(b) }); // post-traitement du style (tramage, craie, bloom, briques…)
+  t.work.__toon = true; return t.work;
 }
 const STILL_ST = (b) => ({ t: (b.start || 0) + 1, tb: 1, voice: 0.3, enter: 1, speaker: (b.i || 0) % 2 });
 
@@ -560,8 +566,8 @@ function voiceEnvelope(file, fps) {
 }
 
 function infoThumb(ep, b, tl) {
-  const ts = tl.scenes.find((x) => x.index === b.scene); const sc = ts ? ep.scenes[ts.index] : { type: b.type }; const c = createCanvas(1344, 768);
-  LEMO_INFO.drawInfo(c.getContext('2d'), 1344, 768, ep, sc, { el: 9, tAbs: ts ? ts.start + 9 : 60, tsStart: ts ? ts.start : 0, tsEnd: ts ? ts.end : 10, days: [] }); return c;
+  const ts = tl.scenes.find((x) => x.index === b.scene); const sc = ts ? ep.scenes[ts.index] : { type: b.type }; const c = createCanvas(1344, 768); const is = STY.infoStyleFor(ep); LEMO_INFO.setTheme(is && is.info);
+  LEMO_INFO.drawInfo(c.getContext('2d'), 1344, 768, ep, sc, { el: 9, tAbs: ts ? ts.start + 9 : 60, tsStart: ts ? ts.start : 0, tsEnd: ts ? ts.end : 10, days: [] }); if (is && is.infoPost) is.infoPost(c.getContext('2d'), 1344, 768); return c;
 }
 let _infoC = null; const infoCanvas = (w, h) => (_infoC && _infoC.width === w && _infoC.height === h ? _infoC : (_infoC = createCanvas(w, h)));
 
@@ -598,7 +604,8 @@ function makeFrameRenderer(ep, tl, mode, beats, store) {
     if (img.info) {
       const ts0 = mode === 'main' ? tl.scenes.find((x) => x.index === b.scene) : null; const sc0 = ts0 ? ep.scenes[ts0.index] : { type: b.type };
       const days = (ep.scenes || []).map((s, i) => ({ s, tl: tl.scenes.find((x) => x.index === i) })).filter((d) => d.s.type === 'day' && d.tl).map((d) => ({ day: d.s.day, level: d.s.level || 0 }));
-      const tmp = infoCanvas(W, H); LEMO_INFO.drawInfo(tmp.getContext('2d'), W, H, ep, sc0, { el: t - (ts0 ? ts0.start : b.start), tAbs: t, tsStart: ts0 ? ts0.start : b.start, tsEnd: ts0 ? ts0.end : b.end, days });
+      const is = STY.infoStyleFor(ep); LEMO_INFO.setTheme(is && is.info); const tmp = infoCanvas(W, H); LEMO_INFO.drawInfo(tmp.getContext('2d'), W, H, ep, sc0, { el: t - (ts0 ? ts0.start : b.start), tAbs: t, tsStart: ts0 ? ts0.start : b.start, tsEnd: ts0 ? ts0.end : b.end, days });
+      if (is && is.infoPost) is.infoPost(tmp.getContext('2d'), W, H);
       ctx.drawImage(tmp, 0, 0, W, H);
       const fs0 = t - b.start; if (fs0 < 0.16) { ctx.fillStyle = `rgba(255,255,255,${0.5 * (1 - fs0 / 0.16)})`; ctx.fillRect(0, 0, W, H); }
     } else if (img.toon) {

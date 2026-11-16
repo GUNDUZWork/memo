@@ -165,7 +165,8 @@ const REACT = { shock: 'shocked', scream: 'angry', worried: 'sad' }; // reaction
 function drawToonBackdrop(ctx, W, H, ep, beat, drawing) {
   T.init(ctx, W, H); T.frame(drawing);
   const worlds = WORLDS[ep.formula] || WORLDS['30jours']; const pal = worlds[(beat.scene || 0) % worlds.length];
-  ctx.setTransform(1, 0, 0, 1, 0, 0); ctx.fillStyle = INK; ctx.fillRect(0, 0, W, H);
+  const sty = require('./styles').current; ctx.setTransform(1, 0, 0, 1, 0, 0);
+  if (sty && sty.base) ctx.clearRect(0, 0, W, H); else { ctx.fillStyle = INK; ctx.fillRect(0, 0, W, H); } // un style qui a son propre fond (base) : décor transparent
   backdrop(W, H, ep, beat.type, pal, settingKind(ep, beat.type));
   ctx.setTransform(1, 0, 0, 1, 0, 0);
 }
@@ -196,7 +197,7 @@ function drawToonActors(ctx, W, H, ep, beat, drawing, st) {
     const shk = react ? Math.sin(st.tb * 70) * 7 * punchK * s : 0;
     let flip = face; if (cast.length > 1 && isSp && st.tb < 0.22 && beat.i > 0) flip = face * (-1 + 2 * eo(st.tb / 0.22)); // turn towards the other
     push(); translate(px + shk, y + bob);
-    fillOnly(ell(0, 4, 96 * s, 17 * s, 24), 'rgba(0,0,0,0.28)', { boil: 0 });  // hard-edged floor shadow
+    if (!(T.S.skin && T.S.skin.noShadow)) fillOnly(ell(0, 4, 96 * s, 17 * s, 24), 'rgba(0,0,0,0.28)', { boil: 0 });  // hard-edged floor shadow
     rotate(tilt); scale(s * flip * punch, s * breathe * punch);
     const ex = extra.expr || (k === 0 ? emo : (k % 2 ? 'deadpan' : 'worried'));
     person(CHARS[m.c], { expr: walking ? 'deadpan' : ex, pose: { ...(extra.pose || { a: [0.2, k === 0 ? 1.0 : 0.3], prop: k === 0 && ep.formula !== 'izranoff' ? 'phone' : null }), voice: isSp && !walking ? v : null }, t });
@@ -219,4 +220,5 @@ function drawToonBeat(ctx, W, H, ep, beat, drawing) {
   drawToonActors(ctx, W, H, ep, beat, drawing, { t: (beat.i || 0) * 0.7 + drawing * 0.08, tb: 2, voice: 0.4, enter: 1, speaker: (beat.i || 0) % 2 });
 }
 
-module.exports = { CHARS, EXPR, WORLDS, person, drawToonBeat, drawToonBackdrop, drawToonActors, castFor, settingKind };
+const emoOf = (beat) => EMO[beat.type] || (beat.i % 2 ? 'worried' : 'talk');
+module.exports = { emoOf, CHARS, EXPR, WORLDS, person, drawToonBeat, drawToonBackdrop, drawToonActors, castFor, settingKind };

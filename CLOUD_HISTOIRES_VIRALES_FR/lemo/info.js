@@ -19,7 +19,13 @@ for (const [f, fam, w] of [['Caveat-VF.ttf', 'Caveat'], ['Newsreader-VF.ttf', 'N
 const HAND = (px) => `${Math.round(px)}px "Caveat","DejaVu Sans"`;
 const SERIF = (px, w = 'bold') => `${w} ${Math.round(px)}px "Newsreader","DejaVu Serif"`;
 const MONO = (px) => `${Math.round(px)}px "IBM Plex Mono","DejaVu Sans Mono"`;
-const INK = '#2b2118'; const PAPER = '#f6efe0'; const GRID = '#d9cfba'; const BLUE = '#2f5fb3'; const RED = '#c43a2f';
+let INK = '#2b2118'; let PAPER = '#f6efe0'; let GRID = '#d9cfba'; let BLUE = '#2f5fb3'; let RED = '#c43a2f'; let SUB1 = '#6e604b'; let SUB2 = '#7a6b55';
+let THEME = { id: 'dataviz', bg: null };
+/** Thème de la scène d'information : {id, ink, grid, blue, red, sub1, sub2, bg(ctx,W,H)}. setTheme(null) = dataviz (papier crème). */
+function setTheme(t) {
+  const d = { id: 'dataviz', ink: '#2b2118', grid: '#d9cfba', blue: '#2f5fb3', red: '#c43a2f', sub1: '#6e604b', sub2: '#7a6b55', bg: null };
+  THEME = { ...d, ...(t || {}) }; INK = THEME.ink; GRID = THEME.grid; BLUE = THEME.blue; RED = THEME.red; SUB1 = THEME.sub1; SUB2 = THEME.sub2;
+}
 const clamp = (x, a = 0, b = 1) => Math.max(a, Math.min(b, x));
 const eo = (t) => 1 - Math.pow(1 - clamp(t), 3);
 const hash = (n) => { n = Math.sin(n * 127.1 + 311.7) * 43758.5453; return n - Math.floor(n); };
@@ -35,6 +41,7 @@ function ramp(v) {
 
 let paperCache = null;
 function paper(ctx, W, H) {
+  if (THEME.bg) { THEME.bg(ctx, W, H); return; }
   if (!paperCache || paperCache.width !== W) {
     const c = createCanvas(W, H); const g = c.getContext('2d'); g.fillStyle = PAPER; g.fillRect(0, 0, W, H);
     for (let i = 0; i < 2400; i++) { g.strokeStyle = `rgba(120,90,50,${0.03 + hash(i) * 0.05})`; g.lineWidth = 1; const x = hash(i + 1) * W; const y = hash(i + 2) * H; const a = hash(i + 3) * 6.28; g.beginPath(); g.moveTo(x, y); g.lineTo(x + Math.cos(a) * 14, y + Math.sin(a) * 14); g.stroke(); }
@@ -62,15 +69,15 @@ function note(ctx, str, x, y, px, col, k, align = 'left') {
 }
 function title(ctx, str, sub) {
   ctx.fillStyle = INK; ctx.font = SERIF(52); ctx.textAlign = 'left'; ctx.textBaseline = 'alphabetic'; ctx.fillText(str, 130, 112);
-  if (sub) { ctx.fillStyle = '#6e604b'; ctx.font = SERIF(30, 'normal'); ctx.fillText(sub, 130, 156); }
+  if (sub) { ctx.fillStyle = SUB1; ctx.font = SERIF(30, 'normal'); ctx.fillText(sub, 130, 156); }
 }
 function axes(ctx, x0, y0, x1, y1, xt, yt, xlab, ylab) {
-  ctx.strokeStyle = GRID; ctx.lineWidth = 2; ctx.fillStyle = '#7a6b55'; ctx.font = MONO(22);
+  ctx.strokeStyle = GRID; ctx.lineWidth = 2; ctx.fillStyle = SUB2; ctx.font = MONO(22);
   ctx.textAlign = 'right'; yt.forEach(([v, lab]) => { const y = y1 - v * (y1 - y0); ctx.beginPath(); ctx.moveTo(x0, y); ctx.lineTo(x1, y); ctx.stroke(); ctx.fillText(lab, x0 - 14, y + 7); });
   ctx.textAlign = 'center'; xt.forEach(([v, lab]) => { const x = x0 + v * (x1 - x0); ctx.fillText(lab, x, y1 + 36); });
   ctx.strokeStyle = INK; ctx.lineWidth = 3; ctx.beginPath(); ctx.moveTo(x0, y0); ctx.lineTo(x0, y1); ctx.lineTo(x1, y1); ctx.stroke();
-  if (xlab) { ctx.textAlign = 'right'; ctx.fillStyle = '#6e604b'; ctx.fillText(xlab, x1, y1 + 70); }
-  if (ylab) { ctx.textAlign = 'left'; ctx.fillStyle = '#6e604b'; ctx.fillText(ylab, x0 - 60, y0 - 22); }
+  if (xlab) { ctx.textAlign = 'right'; ctx.fillStyle = SUB1; ctx.fillText(xlab, x1, y1 + 70); }
+  if (ylab) { ctx.textAlign = 'left'; ctx.fillStyle = SUB1; ctx.fillText(ylab, x0 - 60, y0 - 22); }
 }
 
 const counterAt = (c, t) => (c.mode === 'exp' ? (c.start || 0.01) * Math.pow(c.base || 2, t / (c.period || 18)) : (c.start || 0) + (c.rate || 1) * t);
@@ -110,7 +117,7 @@ function drawInfo(ctx, W, H, ep, sc, d) {
       const kk = eo((prog - i * 0.18) * 2.4); const val = clamp(Number(v.value) / 100); const bh = (Y1 - (Y0 + 40)) * val * kk; const bx = X0 + slot * i + (slot - bw) / 2;
       ctx.fillStyle = ramp(0.5 + (val - 0.5) * 0.9); ctx.fillRect(bx, Y1 - bh, bw, bh); ctx.strokeStyle = INK; ctx.lineWidth = 4; ctx.strokeRect(bx, Y1 - bh, bw, bh);
       ctx.fillStyle = INK; ctx.font = MONO(40); ctx.textAlign = 'center'; ctx.fillText(nf(Math.round(Number(v.value) * kk)), bx + bw / 2, Y1 - bh - 18);
-      ctx.font = MONO(22); ctx.fillStyle = '#6e604b'; (String(v.name || '').match(/.{1,22}(\s|$)/g) || []).slice(0, 2).forEach((l, j) => ctx.fillText(l.trim(), bx + bw / 2, Y1 + 34 + j * 26)); tipX = bx + bw / 2; tipY = Y1 - bh;
+      ctx.font = MONO(22); ctx.fillStyle = SUB1; (String(v.name || '').match(/.{1,22}(\s|$)/g) || []).slice(0, 2).forEach((l, j) => ctx.fillText(l.trim(), bx + bw / 2, Y1 + 34 + j * 26)); tipX = bx + bw / 2; tipY = Y1 - bh;
     });
     if (sc.finding) note(ctx, sc.finding.length > 70 ? `${sc.finding.slice(0, 67)}…` : sc.finding, X0, H - 250, 40, RED, eo((prog - 0.5) * 2));
     if (sc.caveat) note(ctx, `Nuance : ${sc.caveat.length > 60 ? `${sc.caveat.slice(0, 57)}…` : sc.caveat}`, X0, H - 200, 36, BLUE, eo((prog - 0.75) * 3));
@@ -129,4 +136,4 @@ function drawInfo(ctx, W, H, ep, sc, d) {
 }
 const INFO_TYPES = new Set(['counter_focus', 'math', 'study', 'day']);
 
-module.exports = { drawInfo, INFO_TYPES };
+module.exports = { drawInfo, INFO_TYPES, setTheme };

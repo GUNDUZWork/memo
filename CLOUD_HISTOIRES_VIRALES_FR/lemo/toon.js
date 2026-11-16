@@ -16,7 +16,8 @@ const vnoise = (x) => { const i = Math.floor(x); const f = x - i; const u = f * 
 
 const INK = '#1b1422';
 const state = { g: null, W: 1920, H: 1080 };
-const S = { boil: 0, amp: 1.7, sid: 0, lw: 7, lwScale: 1 };
+const S = { boil: 0, amp: 1.7, sid: 0, lw: 7, lwScale: 1, skin: null };
+// S.skin (lemo/styles) : { fill(col,g,screenPts)->col|gradient|null, line(col,g)->col|gradient|null, lwMul, boil, step, noShade, glow, shadow }
 let M = [1, 0, 0, 1, 0, 0]; const ST = [];
 
 function init(ctx, W, H) { state.g = ctx; state.W = W; state.H = H; }
@@ -79,9 +80,9 @@ function noodle(a, b, bend, w0, w1 = w0) {
 }
 
 // ── transform + resample + boil ──
-function toScreen(pts, closed) {
+function toScreen(pts, closed, step = 7) {
   const s = pts.map((p) => tx(p[0], p[1]));
-  const out = []; const step = 7; let acc = 0; const n = closed ? s.length : s.length - 1;
+  const out = []; let acc = 0; const n = closed ? s.length : s.length - 1;
   out.push(s[0]);
   for (let i = 0; i < n; i++) {
     const a = s[i]; const b = s[(i + 1) % s.length]; const d = Math.hypot(b[0] - a[0], b[1] - a[1]);
@@ -111,25 +112,30 @@ function trace(g, s, closed) { g.beginPath(); g.moveTo(s[0][0], s[0][1]); for (l
 
 /** Main draw: fill -> shade (clipped hard-edged shadow shapes) -> outline. Returns the screen points. */
 function shape(pts, o = {}) {
-  const g = state.g; const closed = o.closed !== false; const id = S.sid++;
+  const g = state.g; const closed = o.closed !== false; const id = S.sid++; const sk = S.skin;
   const seed = hash(id * 1.37 + 3) * 90 + S.boil * 23.7;
-  let s = toScreen(pts, closed);
-  s = boilPts(s, closed, (o.boil ?? 1) * S.amp, seed);
+  let s = toScreen(pts, closed, (sk && sk.step) || 7);
+  s = boilPts(s, closed, (o.boil ?? 1) * S.amp * (sk && sk.boil != null ? sk.boil : 1), seed);
   g.setTransform(1, 0, 0, 1, 0, 0);
   if (o.alpha != null) g.globalAlpha = o.alpha;
-  if (o.fill && closed) { trace(g, s, true); g.fillStyle = o.fill; g.fill(); }
-  if (o.shade) { g.save(); trace(g, s, true); g.clip(); o.shade(); g.restore(); }
+  let fill = o.fill; if (fill && sk && sk.fill) fill = sk.fill(fill, g, s);
+  if (fill && closed) { trace(g, s, true); g.fillStyle = fill; if (sk && sk.shadow) { g.shadowColor = 'rgba(0,0,0,0.35)'; g.shadowBlur = sk.shadow; g.shadowOffsetY = sk.shadow * 0.4; } g.fill(); g.shadowBlur = 0; g.shadowOffsetY = 0; }
+  if (o.shade && !(sk && sk.noShade)) { g.save(); trace(g, s, true); g.clip(); o.shade(); g.restore(); }
   if (o.stroke !== false && o.line !== null) outline(s, closed, o.lw ?? S.lw, o.line ?? INK);
   if (o.alpha != null) g.globalAlpha = 1;
   return s;
 }
 function outline(s, closed = true, lw = S.lw, col = INK) {
-  const g = state.g; g.setTransform(1, 0, 0, 1, 0, 0); trace(g, s, closed);
-  g.lineWidth = lw * S.lwScale; g.lineJoin = 'round'; g.lineCap = 'round'; g.strokeStyle = col; g.stroke();
+  const g = state.g; const sk = S.skin; g.setTransform(1, 0, 0, 1, 0, 0);
+  if (sk) { if (sk.line) { col = sk.line(col, g); if (!col) return; } if (sk.lwMul != null) lw *= sk.lwMul; if (lw <= 0) return; }
+  trace(g, s, closed);
+  g.lineWidth = lw * S.lwScale; g.lineJoin = 'round'; g.lineCap = 'round'; g.strokeStyle = col;
+  if (sk && sk.glow) { g.shadowColor = typeof col === 'string' ? col : '#ffd34d'; g.shadowBlur = sk.glow; }
+  g.stroke(); g.shadowBlur = 0;
 }
 const fillOnly = (pts, fill, o = {}) => shape(pts, { ...o, fill, stroke: false });
 const stroke = (pts, lw = S.lw, o = {}) => shape(pts, { ...o, closed: false, lw });
-const dot = (x, y, r, col = INK) => { const g = state.g; const [a, b] = tx(x, y); g.setTransform(1, 0, 0, 1, 0, 0); g.fillStyle = col; g.beginPath(); g.arc(a, b, Math.max(1.5, r * zoom()), 0, TAU); g.fill(); };
+const dot = (x, y, r, col = INK) => { const g = state.g; const [a, b] = tx(x, y); g.setTransform(1, 0, 0, 1, 0, 0); if (S.skin && S.skin.fill) { col = S.skin.fill(col, g, null); if (!col) return; } g.fillStyle = col; g.beginPath(); g.arc(a, b, Math.max(1.5, r * zoom()), 0, TAU); g.fill(); };
 function text(str, x, y, { font = '800 40px "DejaVu Sans"', fill = INK, align = 'center', base = 'middle', rot = 0, outlineW = 0, outlineCol = INK } = {}) {
   const g = state.g; g.save(); g.setTransform(M[0], M[1], M[2], M[3], M[4], M[5]);
   g.translate(x, y); if (rot) g.rotate(rot); if (mirrored()) g.scale(-1, 1);

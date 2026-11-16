@@ -28,3 +28,13 @@ Toujours actifs dans `lemo/cast.js` + `cloudViralEngine.js` : rebond vertical se
 ## 5. Protocole autonome
 - Ne jamais demander d'approbation ni « dois-je continuer ? » : produire `masterpiece_showcase.jpg` (planche de personnages + image de scène d'information) puis rendre et empaqueter les épisodes 1 à 30 dans l'ordre.
 - Ne jamais enregistrer de clé/jeton dans le code, les fichiers ou les logs.
+
+## 6. Les 10 styles procéduraux « Claude » (module permanent, 0 API / 0 GPU)
+Code dans `lemo/styles/` (un seul fichier `index.js` + `util.js`), basé sur Canvas 2D / node-canvas. Chaque style est un modèle de rendu : `skin` (trait, remplissage, lueur, ombre du moteur `lemo/toon.js`), `base` (fond animé), `post` (traitement d'image), `info` (thème des scènes d'information).
+Styles : `pixel_art`, `chalkboard`, `line_art`, `ps2_3d`, `comic_book`, `flat_vector`, `gold_line_art`, `cgi_3d`, `lego`, `neon_cyber` (voir LEMO_STYLE.md pour le détail).
+- Style principal par chaîne (surchargeable par `ep.style` dans le JSON d'épisode ou la variable `LEMO_STYLE`) : etsilab → `flat_vector`, homodeus → `cgi_3d`, izranoff → `neon_cyber`, 30jours → `comic_book`.
+- Scènes d'information (cartes, courbes, frises, statistiques, maths) : automatiquement `chalkboard` (etsilab, homodeus, 30jours) ou `gold_line_art` (izranoff) ; surchargeable par `ep.info_style` / `LEMO_INFO_STYLE`.
+- Dans TOUS les styles : même marionnette (rebond selon la voix, inclinaison ±2,5 %, respiration, entrée en marchant, secousse de réaction, retournement vers celui qui parle) et même caméra (Ken Burns, flash + tremblement à la coupe, zoom/pan).
+- Aucune API externe, aucun quota : interdit d'ajouter une dépendance réseau ou GPU dans `lemo/styles/`.
+- Les styles 3D (`ps2_3d`, `cgi_3d`, `lego`) sont des SIMULATIONS 2D du langage visuel (polygones, jitter, brouillard, profondeur de champ, rayons, briques à tenons) — pas un vrai moteur 3D.
+- Image de contrôle : `node lemo/showcase_styles.js masterpiece_showcase.jpg`.

@@ -27,3 +27,19 @@ Contour encre épais constant en espace écran, 3 dessins en rotation à 12 i/s,
 - Ambiance (profondeur, atmosphère) obtenue sans casser les aplats du style : ombre portée dure sous chaque personnage, LUT 3D commune `lemo/grade.cube`, vignette de bord et grain de film appliqués à l'encodage sur tous les plans.
 - Marionnette : rebond et ouverture de bouche pilotés par l'enveloppe de la voix, inclinaison ~2,5 %, respiration, entrée en marchant, secousse/pulsation sur `shocked` / `angry` / `sad`, retournement vers celui qui prend la parole.
 - Image de contrôle : `masterpiece_showcase.jpg` (générée par `node lemo/showcase.js`).
+
+## Les 10 styles procéduraux « Claude » (module `lemo/styles/`)
+| # | id | Ce que fait le code |
+|---|---|---|
+| 1 | `pixel_art` | rendu réduit (~280 px de large) + palette 32 couleurs + tramage de Bayer, agrandissement sans lissage, fond à 3 plans de parallaxe qui défilent |
+| 2 | `chalkboard` | ardoise avec traces d'éponge et cadre bois ; traits tremblants (bruit renforcé), remplissages en craie translucide, poussière de craie par bruit ; thème d'information « tableau noir » |
+| 3 | `line_art` | papier grainé, contours d'encre fins, aplats blancs/noirs, pas d'ombres ; le dessin « s'écrit » de gauche à droite au début de chaque plan |
+| 4 | `ps2_3d` | polygones grossiers (pas de contour, pas de boil), couleur 15 bits, définition ~420 px, bandes qui tremblent à 12 i/s (jitter), brouillard |
+| 5 | `comic_book` | contours noirs épais, couleurs saturées, points Ben-Day dans les ombres, gouttière diagonale de case, bulle d'effet (« HEIN ?! », « PAF ! », « GLUP… ») sur les réactions |
+| 6 | `flat_vector` | aplats en dégradé doux, sans contour, ombres douces en couches, vignette légère |
+| 7 | `gold_line_art` | velours nuit avec étincelles, traits en dégradé or `#D4AF37`→`#FFD700` avec lueur et bloom ; thème d'information « lignes d'or » |
+| 8 | `cgi_3d` | dégradés volumétriques, ombres douces, profondeur de champ (bords flous), rayons de lumière (god rays), bloom léger |
+| 9 | `lego` | palette de briques, mosaïque de 96 colonnes avec tenons (studs) en relief, éclairage chaud |
+| 10 | `neon_cyber` | ville de nuit vue par la fenêtre, coupe de pièce isométrique en néon violet/bleu/rose, traits néon et bloom, lignes de balayage |
+
+Règles : style principal par chaîne et style d'information automatique (voir CLAUDE.md §6) ; même marionnette et même caméra dans tous les styles ; les styles 3D sont des simulations 2D ; aucune API, aucun GPU.
