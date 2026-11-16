@@ -19,10 +19,10 @@ Tout visuel et toute scène sont produits par le moteur Lemo-Opuscar adapté (`l
 ## 3. Marionnette dynamique et caméra
 Toujours actifs dans `lemo/cast.js` + `cloudViralEngine.js` : rebond vertical selon l'enveloppe de la voix, inclinaison rythmique (~2,5 %), respiration, entrée en marchant au début d'une scène, réaction (secousse + pulsation d'échelle) sur `shocked` / `angry` / `sad`, retournement automatique vers celui qui parle, caméra Ken Burns + flash/tremblement à chaque coupe.
 
-## 4. Son, 14 langues, publication
+## 4. Son, langue unique, publication
 - Tous les textes à l'écran, HUD et plaques de nom sont en français et ne débordent pas des cadres.
 - Voix `edge-tts` fr-FR-RemyMultilingualNeural au premier plan ; musique libre de droits générée + ambiances FFmpeg à 12 % ; sortie normalisée **-14 LUFS** (loudnorm 2 passes).
-- Traduction en 14 langues (en, es, de, pt, it, nl, pl, ru, tr, ar, hi, id, ja, ko) via MyMemory, puis Pollinations Text en secours, sans bloquer le rendu ; titres YouTube coupés à 100 caractères (`scripts/translate.py`).
+- **Aucune traduction** : un seul `fr` (sous-titres, titre, description, métadonnées, miniature). Le pas « Traductions » est supprimé ; ne jamais le réintroduire. Titres YouTube coupés à 100 caractères.
 - Chaque épisode terminé est rangé dans `YAYIN/epXX/` (`scripts/package.py`) et les fichiers temporaires (`build/`, `dist/`) sont supprimés.
 
 ## 5. Protocole autonome

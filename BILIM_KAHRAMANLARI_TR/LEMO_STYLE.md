@@ -34,7 +34,7 @@ Kütüphanenin `.md` belgeleri CC BY-NC 4.0 olduğundan **kopyalanmadı**; aşa�
 | Veda | Final: ağız kapalı gülümseme, uzak kol sallama |
 
 ## Üretim hattı
-`scripts/tts.py` (edge-tts) → `music.py` (Commons CC0) → `mix.py` (FFmpeg `anoisesrc`) → `core/render/video.mjs` → `mux.py` (−14 LUFS) → `translate.py` (14 dil) → `package.py` → `gh release`.
+`scripts/tts.py` (edge-tts) → `music.py` (Commons CC0) → `mix.py` (FFmpeg `anoisesrc`) → `core/render/video.mjs` → `mux.py` (−14 LUFS) → `package.py` → `gh release`.
 
 ## Atıf
 "Lemo-Opuscar by Lemomo (LemoLab)", https://github.com/lemomo-ai/lemo-opuscar — kod MIT; biz stil gramerini ve kodu uyarladık, değişiklik yaptık. Hiçbir karakter, çizim, yazı biçimi ya da müzik demo filmlerinden alınmadı.

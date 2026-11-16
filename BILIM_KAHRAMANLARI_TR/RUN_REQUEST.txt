@@ -1,2 +1,1 @@
-episodes=1
-# retry 2
+episodes=2-30

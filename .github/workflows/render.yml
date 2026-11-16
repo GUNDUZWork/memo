@@ -2,8 +2,9 @@ name: Render — Bilimin Unutulan Kahramanları
 
 # 30 bölüm (ep01-ep30) GitHub'ın ubuntu-latest sunucularında paralel matris olarak render edilir.
 # Görüntü: yalnızca kodla çizim (Lemo-Opuscar mid-century-toon + rubber-hose fiziği). Harici görsel AI / GPU yok.
+# Çeviri adımı kaldırıldı (kalıcı kural, CLAUDE.md).
 # Ses: edge-tts seslendirme · Wikimedia Commons CC0 enstrümantal müzik · ambiyans FFmpeg anoisesrc · -14 LUFS.
-# Çıktı: her bölüm için ayrı GitHub Release (bilim-epNN): mp4 + 15 srt (tr + 14 dil) + thumbnail + metadata.json.
+# Çıktı: her bölüm için ayrı GitHub Release (bilim-epNN): mp4 + tr.srt + thumbnail + metadata.json. ÇEVİRİ YOK, tek dil (tr).
 #
 # Tetikleme: Actions > "Render — Bilimin Unutulan Kahramanları" > Run workflow  (episodes: all | 1,4,12 | 1-10)
 #            veya BILIM_KAHRAMANLARI_TR/RUN_REQUEST.txt dosyasını değiştirip bu dala push'lamak (ör. "episodes=all").
@@ -24,7 +25,7 @@ permissions:
   contents: write   # Release oluşturma + dosya yükleme
 
 concurrency:
-  group: bilim-render-${{ github.ref }}
+  group: bilim-render-${{ github.run_id }}   # koşular birbirini beklemez
   cancel-in-progress: false
 
 defaults:
@@ -80,7 +81,7 @@ jobs:
     timeout-minutes: 60
     strategy:
       fail-fast: false
-      max-parallel: 10
+      max-parallel: 20
       matrix:
         ep: ${{ fromJSON(needs.plan.outputs.eps) }}
     steps:
@@ -112,8 +113,6 @@ jobs:
         run: |
           python3 scripts/mux.py ${{ matrix.ep }} out/${{ matrix.ep }}/video.mp4
           node core/render/still.mjs film 0 --q 'ep=${{ matrix.ep }}&thumb=1' --out out/${{ matrix.ep }} --prefix thumb_
-      - name: 14 dil çeviri + SRT
-        run: python3 scripts/translate.py ${{ matrix.ep }}
       - name: Paketle
         run: python3 scripts/package.py ${{ matrix.ep }}
       - name: GitHub Release (mp4 + srt + thumbnail + metadata)
